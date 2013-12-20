@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bfquiztrialTitle {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;	
+	text-align: left;
+}
+
+.bfquiztrialIntro {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;	
+	text-align: left;
+}
+
+.bfquiztrialCustomerQuestion {
+	padding:10px;
+	background-color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.bfquiztrialCustomerOptions {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: left;
+}
+
+.bfquiztrialQuestion {
+	padding:5px;
+	background-color: #abc;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.bfquiztrialOptions {
+	padding:10px;
+	background-color: #eee;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: left;
+}
+
+.bfquiztrialQuestionFooter {
+	display: block; 
+	height: 2px; 
+	line-height: 2px; 
+	background-color: lightgrey; 
+	color: #000; 
+	width: 100%; 
+	margin: 10px auto 10px auto; 
+	padding: 0;  
+	text-align: left;
+}
+
+.bfradiohorizontal {
+       padding:60px;
+}
+
+.polls_color_1{ background-color: #8D1B1B; border: 2px ridge #B22222; }
+
+.polls_color_2{ background-color: #6740E1; border: 2px ridge #4169E1; }
+
+.polls_color_3{ background-color: #8D8D8D; border: 2px ridge #D2D2D2; }
+
+.polls_color_4{ background-color: #CC8500; border: 2px ridge #FFA500; }
+
+.polls_color_5{ background-color: #5B781E; border: 2px ridge #6B8E23; }
+
+.progressbar_color_1{ background-color: #009966; border: 2px ridge #009933; }
+
+/***** FOR TIMED QUIZ *****/
+#txt {
+   border:2px solid red;
+   font-family:verdana;
+   font-size:16pt;
+   font-weight:bold;
+   background: #FECFC7;
+   width:70px;
+   text-align:center;
+   color:#000000;
+}
+
+.timeremaining{
+   font-family:verdana;
+   font-size:16pt;
+   font-weight:bold;
+   background: #FECFC7;
+   color:#000000;
+   width:280px;
+   padding: 3px;
+}
+/*************************/
+
+
+.bfquiztrialSuppressQuestion {
+/* the following will make question look like name, email & company fields */
+	padding:3px;
+	width: 70px;
+	float: left;
+	font-weight:bold;
+	text-align:left;
+	
+/* the following will make question look like other question fields */
+	/*float: left;
+	padding:10px;
+	background-color: #eee;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: left;*/
+}
+
+.bfquiztrialSuppressOptions {
+/* the following will make question look like name, email & company fields */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	float: left;	
+	font-weight: normal;
+	text-align: left;
+	
+/* the following will make question look like other question fields */	
+	/*padding:10px;
+	background-color: #eee;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: left;*/
+}

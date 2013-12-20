@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource>
+	<!-- v. 2.8.0 -->
+	<item id="Validator.Name" group="Validators">
+		<message>Укажите имя</message>
+		<description>Укажите имя</description>
+	</item>
+	<item id="Validator.Email" group="Validators">
+		<message>Укажите адрес электронной почты</message>
+		<description>Укажите адрес электронной почты</description>
+	</item>
+	<item id="Validator.EmailFormat" group="Validators">
+		<message>Вы ввели неверный адрес электронной почты</message>
+		<description>Вы ввели неверный адрес электронной почты</description>
+	</item>
+	<item id="Label.ShowCorrectAnswer" group="Labels">
+		<message>Показать верный ответ</message>
+		<description>Показать верный ответ</description>
+	</item>
+	<item id="Label.Name" group="Labels">
+		<message>Имя</message>
+		<description>Имя</description>
+	</item>
+	<item id="Label.Information" group="Labels">
+		<message>Информация</message>
+		<description>Информация</description>
+	</item>
+	<!--  -->
+	<item id="Label.QuizStopped" group="Labels">
+		<message>Ваш тест был сохранён и остановлен. Вы можете продолжить его сдачу позже.</message>
+		<description>Ваш тест был сохранён и остановлен. Вы можете продолжить его сдачу позже.</description>
+	</item>
+	<item id="Label.QuizSaveExit" group="Labels">
+		<message>Сохранить и Выйти</message>
+		<description>Сохранить и Выйти</description>
+	</item>
+	<item id="Label.SelectAnswer" group="Labels">
+		<message>- Пожалуйста, выберите ответ -</message>
+		<description>Пожалуйста, выберите ответ</description>
+	</item>
+	<item id="Label.QuestionNote" group="Labels">
+		<message>Примечание</message>
+		<description>Примечание</description>
+	</item>
+	<item id="Label.TextboxWatermarkText" group="Labels">
+		<message>Введите свой ответ</message>
+		<description>Введите свой ответ</description>
+	</item>
+	<item id="Label.CorrectCorrelation" group="Labels">
+		<message>Правильное соответствие</message>
+		<description>Правильное соответствие</description>
+	</item>
+	<item id="Label.UserCorrelation" group="Labels">
+		<message>Соответствие указанное пользователем</message>
+		<description>Соответствие указанное пользователем</description>
+	</item>
+	<item id="Label.QuestionCategory" group="Labels">
+		<message>Категория вопросов</message>
+		<description>Категория вопросов</description>
+	</item>
+	<item id="Label.QuestionType" group="Labels">
+		<message>Тип вопроса</message>
+		<description>Тип вопроса</description>
+	</item>
+	<item id="Label.TotalTime" group="Labels">
+		<message>Общее время</message>
+		<description>Общее время</description>
+	</item>
+	<item id="Label.TextCI" group="Labels">
+		<message>Регистронезависимый</message>
+		<description>Регистронезависимый</description>
+	</item>
+	<item id="Label.QuizStatistics" group="Labels">
+		<message>Статистика теста</message>
+		<description>Статистика теста</description>
+	</item>
+	<item id="Label.Answer" group="Labels">
+		<message>Ответ</message>
+		<description>Ответ</description>
+	</item>
+	<item id="Label.User" group="Labels">
+		<message>Пользователь</message>
+		<description>Пользователь</description>
+	</item>
+
+	<item group="Labels" id="Label.Correct">
+		<message>Верно</message>
+		<description>Верно</description>
+	</item>
+	<item group="Labels" id="Label.Incorrect">
+		<message>Неверно</message>
+		<description>Неверно</description>
+	</item>
+	<item group="Labels" id="Category.Uncategory">
+		<message>Общие тесты</message>
+		<description>Имя для анонимной категории</description>
+	</item>
+	<item group="Labels" id="Label.RemainingTime">
+		<message>Оставшееся время</message>
+		<description>Оставшееся время</description>
+	</item>
+	<item group="Labels" id="Label.Completed">
+		<message>Выполнено</message>
+		<description>Выполнено</description>
+	</item>
+	<item group="Labels" id="Label.Print">
+		<message>Печать</message>
+		<description>Вывести на печать</description>
+	</item>
+	<item group="Labels" id="Label.Continue">
+		<message>Продолжить</message>
+		<description>Продолжить</description>
+	</item>
+	<item group="Labels" id="Label.Email">
+		<message>Послать по почте</message>
+		<description>Послать по почте</description>
+	</item>
+	<item group="Labels" id="Title.QuizResultList">
+		<message>Список результатов сдачи тестов</message>
+		<description>Список результатов сдачи тестов</description>
+	</item>
+	<item group="Labels" id="Label.Quiz">
+		<message>Тест</message>
+		<description>Тест</description>
+	</item>
+	<item group="Labels" id="Label.NumberPos">
+		<message>#</message>
+		<description>Порядковый номер</description>
+	</item>
+	<item group="Labels" id="Label.StartDate">
+		<message>Нач. дата</message>
+		<description>Дата начала</description>
+	</item>
+	<item group="Labels" id="Label.EndDate">
+		<message>Кон. дата</message>
+		<description>Дата завершения</description>
+	</item>
+	<item group="Labels" id="Label.Score">
+		<message>Кол-во очков</message>
+		<description>Кол-во очков</description>
+	</item>
+	<item group="Labels" id="Label.Details">
+		<message>Подробнее</message>
+		<description>Подробнее</description>
+	</item>
+	<item group="Labels" id="Label.Passed">
+		<message>Сдан</message>
+		<description>Сдал</description>
+	</item>
+	<item group="Labels" id="Label.NoPassed">
+		<message>Не сдан</message>
+		<description>Не сдал</description>
+	</item>
+	<item group="Labels" id="Label.View">
+		<message>Просмотр</message>
+		<description>Просмотр</description>
+	</item>
+	<item group="Labels" id="Label.Question">
+		<message>Вопрос</message>
+		<description>Вопрос</description>
+	</item>
+	<item group="Labels" id="Label.Choice">
+		<message>Вариант</message>
+		<description>Вариант ответа</description>
+	</item>
+	<item group="Labels" id="Label.Save">
+		<message>Сохранить</message>
+		<description>Сохранить</description>
+	</item>
+	<item group="Labels" id="Label.Skip">
+		<message>Пропустить</message>
+		<description>Skip label</description>
+	</item>
+	<item group="Labels" id="Label.Calculator">
+		<message>Калькулятор</message>
+		<description>Calculator label</description>
+	</item>
+	<item group="Labels" id="Label.Guest">
+		<message>Гость</message>
+		<description>Пропустить</description>
+	</item>
+	<item group="Labels" id="Label.EmailQuizResult">
+		<message>Результат сдачи теста</message>
+		<description>Заголовок письма с результатами сдачи теста</description>
+	</item>
+	<item group="Labels" id="Label.EmailSend">
+		<message>Письма отправлено</message>
+		<description>Письма отправлено</description>
+	</item>
+	<item group="Labels" id="Label.EmailNotSend">
+		<message>Письмо не удалось отправить</message>
+		<description>Письмо не удалось отправить</description>
+	</item>
+	<item group="Labels" id="Label.NotItemsFound">
+		<message>Нету данных для отображения</message>
+		<description>Нету данных для отображения</description>
+	</item>
+	<item group="Labels" id="Date.DayShort">
+		<message>д</message>
+		<description>Короткое значения для дней</description>
+	</item>
+	<item group="Labels" id="Date.HourShort">
+		<message>ч</message>
+		<description>Короткое значения для часов</description>
+	</item>
+	<item group="Labels" id="Date.MinuteShort">
+		<message>мин</message>
+		<description>Короткое значения для минут</description>
+	</item>
+	<item group="Labels" id="Date.SecondShort">
+		<message>сек</message>
+		<description>Короткое значения для секунд</description>
+	</item>
+	<item group="Labels" id="Label.QuestionInfo">
+		<message>Вопрос %d из %d</message>
+		<description>Вопрос 1 из 5</description>
+	</item>
+	<item group="Labels" id="Label.JSQuestionInfo">
+		<message>Вопрос #{qIndex} из #{qCount}</message>
+		<description>Вопрос 1 из 5</description>
+	</item>
+	<item group="Labels" id="Label.YouChoose">
+		<message>Ваш выбор</message>
+		<description>Ваш выбор</description>
+	</item>
+	<item group="Labels" id="Label.CorrectAnswerIs">
+		<message>Верный ответ</message>
+		<description>Верный вариант ответа</description>
+	</item>
+	<item id="Error.QuizAttemptCount" group="Message">
+		<message>Вы не можете сдавать выбранный тест, потому что кол-во попыток исчерпано</message>
+		<description>Предупредительное сообщение</description>
+	</item>
+	<item id="Error.QuizLagTime" group="Message">
+		<message>Вы не можете сдавать выбранный тест, так как время ожидания ещё не истекло</message>
+		<description>Предупредительное сообщение</description>
+	</item>
+	<item id="Error.QuizNotRegistered" group="Message">
+		<message>Только зарегистрированные пользователи могут сдавать этот тест</message>
+		<description>Предупредительное сообщение</description>
+	</item>
+	<item id="Error.QuizNotHavePermissions" group="Message">
+		<message>У вас недостаточно прав, чтобы сдавать этот тест</message>
+		<description>Предупредительное сообщение</description>
+	</item>
+	<item id="Error.QuizNotHaveQuestions" group="Message">
+		<message>Вы не можете сдавать выбранный тест, потому что он не содержит вопросов</message>
+		<description>Предупредительное сообщение</description>
+	</item>
+	<item group="Message" id="FrontEnd.QuizNotAvailable">
+		<message>Выбранный Вами тест недоступен</message>
+		<description>Сообщение, которое показывается пользователю, если тест недоступен</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionEmptyAnswer">
+		<message>Пожалуйста, введите ваш ответ</message>
+		<description>Сообщение, которое показывается пользователю, если он не ввёл ответ для FreeText вопроса</description>
+	</item>
+	<item group="Validators" id="Validator.HotspotNotSelected">
+		<message>Пожалуйста, укажите ответ</message>
+		<description>Сообщение, которое показывается пользователю, если он не выбрал вариант ответа для HotSpot вопроса</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionNotSelected">
+		<message>Пожалуйста, выберите ответ</message>
+		<description>Сообщение, которое показывается пользователю, если он не выбрал вариант ответа</description>
+	</item>
+	<item group="AJAX" id="Ajax.Loading">
+		<message>Идёт загрузка данных, пожалуйста подождите</message>
+		<description>Сообщение во время загрузки данных</description>
+	</item>
+	<item group="AJAX" id="Ajax.ServerError">
+		<message>Невозможно соединиться с сервером. Пожалуйста, попробуйте ещё раз, если проблема останется, то свяжитесь с администратором.</message>
+		<description>Сообщение при сбое во время загрузки данных</description>
+	</item>
+	<!-- Controls -->
+	<item id="Controls.DTFirstPage" group="Controls">
+		<message>&lt;&lt; начало</message>
+		<description>Таблица данных: метка для ссылки перехода на первую страницу</description>
+	</item>
+	<item id="Controls.DTLastPage" group="Controls">
+		<message>конец &gt;&gt;</message>
+		<description>Таблица данных: метка для ссылки перехода на последнюю страницу</description>
+	</item>
+	<item id="Controls.DTNextPage" group="Controls">
+		<message>след. &gt;</message>
+		<description>Таблица данных: метка для ссылки перехода на следующую страницу</description>
+	</item>
+	<item id="Controls.DTPrevPage" group="Controls">
+		<message>&lt;&lt; пред.</message>
+		<description>Таблица данных: метка для ссылки перехода на предыдущую страницу</description>
+	</item>
+	<item id="Controls.DTPageReportTemplate" group="Controls">
+		<message>({currentPage} из {totalPages})</message>
+		<description>Таблица данных: метка для отображения кол-ва страниц</description>
+	</item>
+	<item id="Controls.DTTemplate" group="Controls">
+		<message>Показать#: {RowsPerPageDropdown} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {CurrentPageReport}</message>
+		<description>Таблица данных: шаблон</description>
+	</item>
+	<item id="Controls.DTNoRecords" group="Controls">
+		<message>Записи не найдены.</message>
+		<description>Таблица данных: записи не найдены</description>
+	</item>
+</resource>

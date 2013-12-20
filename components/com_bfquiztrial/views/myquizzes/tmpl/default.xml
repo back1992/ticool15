@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="My Quizzes">
+		<message>
+			<![CDATA[This view shows the myquizzes for a category]]>
+		</message>
+	</layout>
+	<state>
+		<name>My Quizzes</name>
+		<description>This view shows all the quizzes an individual has completed.</description>
+	</state>
+</metadata>

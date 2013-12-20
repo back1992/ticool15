@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Quiz Category Layout">
+		<message>
+			<![CDATA[QUIZ CATEGORY LAYOUT DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>Quiz Category Layout</name>
+		<description>QUIZ CATEGORY LAYOUT DESC</description>
+		<url addpath="/administrator/components/com_ariquiz/elements">
+			<param name="categoryId" type="category" default="0" label="SELECT CATEGORY" description="QUIZ CATEGORY" />
+			<param name="task" type="hidden" default="cat_quiz_list" label="" description="" />
+		</url>
+		<params>
+		</params>
+	</state>
+</metadata>

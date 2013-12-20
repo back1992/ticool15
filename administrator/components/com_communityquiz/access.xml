@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- $Id: access.xml 32 2009-11-14 21:24:02Z chdemko $ -->
+<access component="com_communityquiz">
+	<section name="component">
+		<action name="quiz.access" title="COM_COMMUNITYQUIZ_JACTION_BROWSE" description="COM_COMMUNITYQUIZ_JACTION_BROWSE_DESC" />
+		<action name="quiz.manage" title="COM_COMMUNITYQUIZ_JACTION_MANAGE" description="COM_COMMUNITYQUIZ_JACTION_MANAGE_DESC" />
+		<action name="quiz.create" title="COM_COMMUNITYQUIZ_JACTION_CREATE" description="COM_COMMUNITYQUIZ_JACTION_CREATE_DESC" />
+		<action name="quiz.respond" title="COM_COMMUNITYQUIZ_JACTION_RESPOND" description="COM_COMMUNITYQUIZ_JACTION_RESPOND_DESC" />
+		<action name="quiz.edit" title="COM_COMMUNITYQUIZ_JACTION_EDIT" description="COM_COMMUNITYQUIZ_JACTION_EDIT_DESC" />
+		<action name="quiz.wysiwyg" title="COM_COMMUNITYQUIZ_JACTION_WYSIWYG" description="COM_COMMUNITYQUIZ_JACTION_WYSIWYG_DESC" />
+	</section>
+</access>
+

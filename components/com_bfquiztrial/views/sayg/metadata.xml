@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<view title="Save as you go">
+		<message>Save as you go multi page view. This view can have conditional branching, and integrates with Bigo CAPTCHA.</message>
+	</view>
+</metadata>

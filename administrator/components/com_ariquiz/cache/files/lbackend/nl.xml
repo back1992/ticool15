@@ -1,0 +1,1321 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resource>
+	<item id="Label.ExportQuestionsNote" group="Labels">
+		<message>Als dit tabblad geselectterd is, zal de gehele verzameling vragen geexporteerd worden</message>
+		<description>Label exporteer gehele verzameling vragen</description>
+	</item>
+	<item id="Label.UploadExportFile" group="Labels">
+		<message>Bestand uploaden</message>
+		<description>Label upload export bestand</description>
+	</item>
+	<item id="Label.ImportExportFileFromDir" group="Labels">
+		<message>Importeren vanuit directory</message>
+		<description>Label installeren vanuit directory export bestand</description>
+	</item>
+	<item id="Label.ExportResults" group="Labels">
+		<message>Exporteer resultaten</message>
+		<description>Label exporteer resultaten</description>
+	</item>
+	<item id="Label.Login" group="Labels">
+		<message>Inloggen</message>
+		<description>Label Login</description>
+	</item>
+	<item id="Label.ID" group="Labels">
+		<message>ID</message>
+		<description>Label ID</description>
+	</item>
+	<item id="Label.LoadUsedQuestions" group="Labels">
+		<message>Laden gebruikte vragen</message>
+		<description>Label laden gebruikte vragen</description>
+	</item>
+	<item id="Label.ImportFromBank" group="Labels">
+		<message>Importeer vragen uit verzameling</message>
+		<description>Label importeer vragen uit verzameling</description>
+	</item>
+	<item id="Label.QuizCanStop" group="Labels">
+		<message>Stoppen</message>
+		<description>Label Stoppen</description>
+	</item>
+	<item id="Label.ExportAllQue" group="Labels">
+		<message>Exporteer alle vragen</message>
+		<description>Label Exporteer alle vragen</description>
+	</item>
+	<item id="Label.ExportSpecQue" group="Labels">
+		<message>Exporteer specifieke vragen</message>
+		<description>Label Exporteer specifieke vragen</description>
+	</item>
+	<item id="Label.ExportAllQuiz" group="Labels">
+		<message>Exporteer alle toetsen</message>
+		<description>Label Exporteer alle toetsen</description>
+	</item>
+	<item id="Label.ExportSpecQuiz" group="Labels">
+		<message>Exporteer specifieke toetsen</message>
+		<description>Label Exporteer specifieke toetsen</description>
+	</item>
+	<item id="Title.ImportData" group="Labels">
+		<message>Importeer Data</message>
+		<description>Label Importeer data</description>
+	</item>
+	<item id="Title.ExportData" group="Labels">
+		<message>Exporteer data</message>
+		<description>Label Exporteer data</description>
+	</item>
+	<item id="Label.Yes" group="Labels">
+		<message>Ja</message>
+		<description>Label Ja</description>
+	</item>
+	<item id="Label.No" group="Labels">
+		<message>Nee</message>
+		<description>Label Nee</description>
+	</item>
+	<item id="Label.ActionFailure" group="Labels">
+		<message>Actie is niet uitgevoerd</message>
+		<description>Label De gevraagde actie uitvoeren is niet gelukt</description>
+	</item>
+	<item id="Label.Loading" group="Labels">
+		<message>Aan het laden... een ogenblik geduld</message>
+		<description>Label Aan het laden</description>
+	</item>
+	<item id="Label.Note" group="Labels">
+		<message>Opmerking</message>
+		<description>Label Opmerking</description>
+	</item>
+	<item id="Label.RandomOrder" group="Labels">
+		<message>Willekeurige volgorde</message>
+		<description>Label Willekeurige volgorde</description>
+	</item>
+	<item id="Label.ViewType.Radio" group="Labels">
+		<message>Lijst radio knoppen</message>
+		<description>Label Radio knoppen</description>
+	</item>
+	<item id="Label.ViewType.DropDown" group="Labels">
+		<message>Uitklaplijst</message>
+		<description>Label Uitklaplijst</description>
+	</item>
+	<item id="Label.ViewType" group="Labels">
+		<message>Bekijk type</message>
+		<description>Label Bekijk type</description>
+	</item>
+	<item id="Label.PercentScore" group="Labels">
+		<message>% Score</message>
+		<description>Label Score (percentage)</description>
+	</item>
+	<item id="Label.QuestionCategory" group="Labels">
+		<message>Categorie vragen</message>
+		<description>Label Categorie vragen</description>
+	</item>
+	<item id="Label.ParsePluginTag" group="Labels">
+		<message>Ontleden Plugin</message>
+		<description>Label Ontleden plugin</description>
+	</item>
+	<item id="Label.StartPoint" group="Labels">
+		<message>Startpunt</message>
+		<description>Label Startpunt</description>
+	</item>
+	<item id="Label.EndPoint" group="Labels">
+		<message>Eindpunt</message>
+		<description>Label Eindpunt</description>
+	</item>
+	<item id="Label.ChooseScale" group="Labels">
+		<message>- Kies juiste beoordelingsschaal -</message>
+		<description>Label Beoordelingsschaal</description>
+	</item>
+	<item id="Label.TextTemplate" group="Labels">
+		<message>Tekst sjabloon</message>
+		<description>Label Sjabloon tekst</description>
+	</item>
+	<item id="Label.PrintTemplate" group="Labels">
+		<message>Afdruk-sjabloon</message>
+		<description>Label Afdruk-sjabloon</description>
+	</item>
+	<item id="Label.Percent" group="Labels">
+		<message>%</message>
+		<description>Label Percentage</description>
+	</item>
+	<item id="Title.ResultScale" group="Labels">
+		<message>Resultaten</message>
+		<description>Label Resultaten</description>
+	</item>
+	<item id="Title.ResultScaleList" group="Labels">
+		<message>Lijst resultaten</message>
+		<description>Label Lijst resultaten</description>
+	</item>
+	<item id="Label.MailTemplates" group="Labels">
+		<message>Verzend sjabloon</message>
+		<description>Label Verzend sjabloon</description>
+	</item>
+	<item id="Label.MailTemplate" group="Labels">
+		<message>Verzend sjabloon</message>
+		<description>Label Verzend sjabloon</description>
+	</item>
+	<item id="Label.FromName" group="Labels">
+		<message>Afzender(Naam)</message>
+		<description>Label Afzender</description>
+	</item>
+	<item id="Label.From" group="Labels">
+		<message>van (Email)</message>
+		<description>Label Van</description>
+	</item>
+	<item id="Label.Subject" group="Labels">
+		<message>Onderwerp</message>
+		<description>Label Onderwerp</description>
+	</item>
+	<item id="Label.QuestionNote" group="Labels">
+		<message>Opmerking</message>
+		<description>Label Opmerking</description>
+	</item>
+	<item id="Ajax.Loading" group="Labels">
+		<message>Aan het laden... even geduld</message>
+		<description>Boodschap Aan het laden</description>
+	</item>
+	<item id="Category.Uncategory" group="Labels">
+		<message>- Algemeen -</message>
+		<description>Label Naam voor algemene categorie</description>
+	</item>
+	<item id="Label.Change" group="Labels">
+		<message>Wijzigen</message>
+		<description>Label voor wijzigen</description>
+	</item>
+	<item id="Label.BankCategory" group="Labels">
+		<message>Categorie verzameling</message>
+		<description>Label voor verzamelingscategorie</description>
+	</item>
+	<item id="Title.BankCategoryList" group="Labels">
+		<message>Lijst verschillende categorieen</message>
+		<description>Label voor lijst verschillende categorieen</description>
+	</item>
+	<item id="Label.QuizStatistics" group="Labels">
+		<message>Toets statistieken</message>
+		<description>Label Toets statistieken</description>
+	</item>
+	<item id="Label.Override" group="Labels">
+		<message>Aanpassen (override)</message>
+		<description>Label Aanpassen</description>
+	</item>
+	<item id="Label.QuestionReference" group="Labels">
+		<message>Gebaseerd op verzameling vragen</message>
+		<description>Label Gebaseerd op verzameling vragen</description>
+	</item>
+	<item id="Title.Bank" group="Labels">
+		<message>Verzameling vragen</message>
+		<description>Label Verzameling vragen</description>
+	</item>
+	<item id="Title.BLangResource" group="Labels">
+		<message>Backend taalbronnen</message>
+		<description>label Titel voor backend taal aanpassingspagina</description>
+	</item>
+	<item id="Title.FLangResource" group="Labels">
+		<message>Frontend taalbronnen</message>
+		<description>Label Titel voor frontend taal aanpassingspagina</description>
+	</item>
+	<item id="Label.MainSettings" group="Labels">
+		<message>Hoofdinstellingen</message>
+		<description>Label Hoofdinstellingen</description>
+	</item>
+	<item id="Label.Name" group="Labels">
+		<message>Naam</message>
+		<description>Label Naam</description>
+	</item>
+	<item id="Label.CorrectCorrelation" group="Labels">
+		<message>Goede verbinding (correlatie)</message>
+		<description>Label Correcte correlatie</description>
+	</item>
+	<item id="Label.UserCorrelation" group="Labels">
+		<message>Gebruiker verbinding (correlatie)</message>
+		<description>Label Gebruikers correlatie</description>
+	</item>
+	<item id="Label.Email" group="Labels">
+		<message>E-mail</message>
+		<description>Label E-mail</description>
+	</item>
+	<item id="Label.Category" group="Labels">
+		<message>Categorie</message>
+		<description>Label Categorie</description>
+	</item>
+	<item id="Label.Description" group="Labels">
+		<message>Beschrijving</message>
+		<description>Label Beschrijving</description>
+	</item>
+	<item id="Title.CategoryList" group="Labels">
+		<message>Lijst toets categorien</message>
+		<description>Label Titel voor pagina van de toets categorielijst</description>
+	</item>
+	<item id="Title.FAQ" group="Labels">
+		<message>Veel gestelde vragen</message>
+		<description>Label F.A.Q.</description>
+	</item>
+	<item id="Title.Help" group="Labels">
+		<message>Help</message>
+		<description>Label Help</description>
+	</item>
+	<item id="Title.TemplateList" group="Labels">
+		<message>Sjabloon lijst</message>
+		<description>Label Sjabloonlijst</description>
+	</item>
+	<item id="Title.License" group="Labels">
+		<message>Licentie</message>
+		<description>Label Licentie</description>
+	</item>
+	<item id="Label.NewLicense" group="Labels">
+		<message>Nieuwe Licentie</message>
+		<description>Label Nieuwe licentie</description>
+	</item>
+	<item id="Label.Domain" group="Labels">
+		<message>Domein</message>
+		<description>Label Domein</description>
+	</item>
+	<item id="Label.LicenseKey" group="Labels">
+		<message>Licentiesleutel</message>
+		<description>Label Licentiesleutel</description>
+	</item>
+	<item id="Label.StartDate" group="Labels">
+		<message>Startdatum</message>
+		<description>Label Startdatum</description>
+	</item>
+	<item id="Label.EndDate" group="Labels">
+		<message>Einddatum</message>
+		<description>Label Einddatum</description>
+	</item>
+	<item id="Label.Expired" group="Labels">
+		<message>Verlopen</message>
+		<description>Label Verlopen</description>
+	</item>
+	<item id="Label.NotExpired" group="Labels">
+		<message>Niet verlopen</message>
+		<description>Label Niet verlopen</description>
+	</item>
+	<item id="Label.NotItemsFound" group="Labels">
+		<message>Geen onderdelen gevonden.</message>
+		<description>Label Geen onderdelen gevonden</description>
+	</item>
+	<item id="Label.NumberPos" group="Labels">
+		<message>#</message>
+		<description>Label Positienummer</description>
+	</item>
+	<item id="Label.Apply" group="Labels">
+		<message>Toepassen</message>
+		<description>Label Toepassen</description>
+	</item>
+	<item id="Title.QuestionTemplate" group="Labels">
+		<message>Vragensjabloon</message>
+		<description>Label Vragen sjabloon</description>
+	</item>
+	<item id="Label.QuestionType" group="Labels">
+		<message>Type vraag</message>
+		<description>Label Type vraag</description>
+	</item>
+	<item id="Label.DisableQueValidation" group="Labels">
+		<message>Uitzetten goedkeuren vraag</message>
+		<description>Label Uitzetten goedkeuring vraag</description>
+	</item>
+	<item id="Label.Question" group="Labels">
+		<message>Vraag</message>
+		<description>Label Vraag</description>
+	</item>
+	<item id="Label.Quiz" group="Labels">
+		<message>Toets</message>
+		<description>Label Toets</description>
+	</item>
+	<item id="Label.Score" group="Labels">
+		<message>Score</message>
+		<description>Label Score</description>
+	</item>
+	<item id="Label.AdditionalSettings" group="Labels">
+		<message>Aanvullende instellingen</message>
+		<description>Label Aanvullende instellingen</description>
+	</item>
+	<item id="Label.AdditionalProperties" group="Labels">
+		<message>Extra eigenschappen</message>
+		<description>Label Extra eigenschappen</description>
+	</item>
+	<item id="Title.QuestionList" group="Labels">
+		<message>Lijst met vragen</message>
+		<description>Label Lijst met vragen</description>
+	</item>
+	<item id="Label.Reorder" group="Labels">
+		<message>Volgorde opnieuw instellen</message>
+		<description>Label Volgorde opnieuw instellen</description>
+	</item>
+	<item id="Title.QuestionResultView" group="Labels">
+		<message>Bekijk resultaat vragen</message>
+		<description>Label Bekijk resultaat vragen</description>
+	</item>
+	<item id="Title.QuestionCategory" group="Labels">
+		<message>Categorie vragen</message>
+		<description>Label Categorie vragen</description>
+	</item>
+	<item id="Label.QuestionCount" group="Labels">
+		<message>Tel vragen</message>
+		<description>Label Vragen tellen</description>
+	</item>
+	<item id="Label.QuestionTime" group="Labels">
+		<message>Tijd voor vraag</message>
+		<description>label Tijd voor vraag</description>
+	</item>
+	<item id="Label.UseCalculator" group="Labels">
+		<message>Gebruik rekenmachiner</message>
+		<description>Label Gebruik rekenmachine</description>
+	</item>
+	<item id="Title.QuestionCategoryList" group="Labels">
+		<message>Lijst vragen categorie</message>
+		<description>Label Vragen categorie lijst</description>
+	</item>
+	<item id="Label.TextTemplates" group="Labels">
+		<message>Tekst-sjablonen</message>
+		<description>Label Tekst-sjablonen</description>
+	</item>
+	<item id="Label.SucEmailTemplate" group="Labels">
+		<message>Succesvolle e-mail sjabloon</message>
+		<description>Label Succesvolle e-mail sjabloon</description>
+	</item>
+	<item id="Label.FailedEmailTemplate" group="Labels">
+		<message>Onjuiste e-mail sjabloon</message>
+		<description>Label Onjuiste e-mail sjabloon</description>
+	</item>
+	<item id="Label.SucPrintTemplate" group="Labels">
+		<message>Succesvolle afdruk sjabloon</message>
+		<description>Label Succesvolle afdruk sjabloon</description>
+	</item>
+	<item id="Label.FailedPrintTemplate" group="Labels">
+		<message>Onjuiste afdruk sjabloon</message>
+		<description>Label Onjuiste afdruk sjabloon</description>
+	</item>
+	<item id="Label.SucTemplate" group="Labels">
+		<message>Succesvolle sjabloon</message>
+		<description>Label Succesvolle sjabloon</description>
+	</item>
+	<item id="Label.FailedTemplate" group="Labels">
+		<message>Onjuiste sjabloon</message>
+		<description>Label Onjuiste sjabloon</description>
+	</item>
+	<item id="Title.QuizList" group="Labels">
+		<message>Lijst toetsen</message>
+		<description>Label Lijst toetsen</description>
+	</item>
+	<item id="Title.Result" group="Labels">
+		<message>Resultaat</message>
+		<description>Label Resultaat</description>
+	</item>
+	<item id="Label.Details" group="Labels">
+		<message>Details</message>
+		<description>Label Details</description>
+	</item>
+	<item id="Label.PreviewTemplate" group="Labels">
+		<message>Bekijk sjabloon</message>
+		<description>Label Bekijk sjabloon</description>
+	</item>
+	<item id="Label.User" group="Labels">
+		<message>Gebruiker</message>
+		<description>Label Gebruiker</description>
+	</item>
+	<item id="Label.Passed" group="Labels">
+		<message>Geslaagd</message>
+		<description>Label Geslaagd</description>
+	</item>
+	<item id="Label.NoPassed" group="Labels">
+		<message>Onvoldoende gescoord</message>
+		<description>Label Onvoldoende gescoord</description>
+	</item>
+	<item id="Title.QuizResultList" group="Labels">
+		<message>Lijst toetsresulaten</message>
+		<description>Label Lijst toetsresulaten</description>
+	</item>
+	<item id="Title.CSSTemplate" group="Labels">
+		<message>CSS sjabloon</message>
+		<description>Label CSS sjabloon</description>
+	</item>
+	<item id="Label.Params" group="Labels">
+		<message>Parameters</message>
+		<description>label Parameters</description>
+	</item>
+	<item id="Label.Actions" group="Labels">
+		<message>Actie</message>
+		<description>Label Actie</description>
+	</item>
+	<item id="Label.CorrectAnswers" group="Labels">
+		<message>Correcte antwoorden</message>
+		<description>Label Correcte antwoorden</description>
+	</item>
+	<item id="Label.Correct" group="Labels">
+		<message>Correct</message>
+		<description>Label Correct</description>
+	</item>
+	<item id="Label.TextCI" group="Labels">
+		<message>Hoofdletter ongevoelig</message>
+		<description>Label Hoofdletter ongevoelig</description>
+	</item>
+	<item id="Label.Image" group="Labels">
+		<message>Afbeelding</message>
+		<description>Label Afbeelding</description>
+	</item>
+	<item id="Label.Clear" group="Labels">
+		<message>Leegmaken</message>
+		<description>Label Leegmaken</description>
+	</item>
+	<item id="Label.Answer" group="Labels">
+		<message>Antwoord</message>
+		<description>Label Antwoord</description>
+	</item>
+	<item id="Label.Access" group="Labels">
+		<message>Toegang (gebruikersgroep)</message>
+		<description>Label Toegang groep</description>
+	</item>
+	<item id="Label.Active" group="Labels">
+		<message>Actief</message>
+		<description>Label Actief</description>
+	</item>
+	<item id="Label.Inactive" group="Labels">
+		<message>Niet actief</message>
+		<description>Label Niet actief</description>
+	</item>
+	<item id="Label.TotalTime" group="Labels">
+		<message>Totale tijd</message>
+		<description>Label Totale tijd</description>
+	</item>
+	<item id="Label.PassedScore" group="Labels">
+		<message>Score geslaagd</message>
+		<description>Label Score geslaagd</description>
+	</item>
+	<item id="Label.Skip" group="Labels">
+		<message>Overslaan</message>
+		<description>Label Overslaan</description>
+	</item>
+	<item id="Label.RandomQuestion" group="Labels">
+		<message>Willekeurige vraag</message>
+		<description>Label Willekeurige vraag</description>
+	</item>
+	<item id="Label.Questions" group="Labels">
+		<message>Vragen</message>
+		<description>Label Vragen</description>
+	</item>
+	<item id="Label.Results" group="Labels">
+		<message>Resultaten</message>
+		<description>Label Resulaten</description>
+	</item>
+	<item id="Label.NotSelectedItem" group="Labels">
+		<message>geen</message>
+		<description>Label Geen geselecteerd onderdeel</description>
+	</item>
+	<item id="Label.Template" group="Labels">
+		<message>Sjabloon</message>
+		<description>Label Sjabloon</description>
+	</item>
+	<item id="Label.Tooltip" group="Labels">
+		<message>Tooltip</message>
+		<description>Label Tooltip</description>
+	</item>
+	<item id="Label.Filter" group="Labels">
+		<message>Filter</message>
+		<description>Label Filter</description>
+	</item>
+	<item id="Label.View" group="Labels">
+		<message>Bekijk</message>
+		<description>Label Bekijken</description>
+	</item>
+	<item id="Label.Status" group="Labels">
+		<message>Status</message>
+		<description>Label Status</description>
+	</item>
+	<item id="Label.QCategories" group="Labels">
+		<message>Vragen categorieen</message>
+		<description>Label Vragen categorieen</description>
+	</item>
+	<item id="Text.EmptyAnswerIgnored" group="Labels">
+		<message>Lege antwoord wordt genegeerd</message>
+		<description>Label Het lege antwoord wordt genegeerd</description>
+	</item>
+	<item id="Label.SendResultTo" group="Labels">
+		<message>Stuur de resultaten naar</message>
+		<description>Label Resultaten sturen naar</description>
+	</item>
+	<item id="Label.AddItem" group="Labels">
+		<message>Toevoegen</message>
+		<description>Label Toevoegen</description>
+	</item>
+	<item id="Label.UpdateItem" group="Labels">
+		<message>Update</message>
+		<description>Label Update</description>
+	</item>
+	<item id="Label.Text" group="Labels">
+		<message>Tekst</message>
+		<description>Label Tekst</description>
+	</item>
+	<item id="Label.LagTime" group="Labels">
+		<message>Nablijftijd</message>
+		<description>Label Nablijven</description>
+	</item>
+	<item id="Label.AttemptCount" group="Labels">
+		<message>Pogingen tellen</message>
+		<description>Label Tellen van pogingen</description>
+	</item>
+	<item id="Label.Guest" group="Labels">
+		<message>Gast</message>
+		<description>Label Gast</description>
+	</item>
+	<item id="Label.Default" group="Labels">
+		<message>Standaard</message>
+		<description>Label Standaard</description>
+	</item>
+	<item id="Label.Message" group="Labels">
+		<message>Boodschap</message>
+		<description>Label Boodschap</description>
+	</item>
+	<item id="Label.File" group="Labels">
+		<message>Bestand</message>
+		<description>Label Bestand</description>
+	</item>
+	<item id="Title.LangList" group="Labels">
+		<message>Lijst talen</message>
+		<description>Label Lijst talen</description>
+	</item>
+	<item id="Label.AllCategory" group="Labels">
+		<message>- Alle Categorieen -</message>
+		<description>Label Alle categorieen</description>
+	</item>
+	<item id="Label.AllStatus" group="Labels">
+		<message>- Alle situaties -</message>
+		<description>Label Alle situaties</description>
+	</item>
+	<item id="Label.AllQuiz" group="Labels">
+		<message>- Alle toetsen -</message>
+		<description>Label Alle toetsen</description>
+	</item>
+	<item id="Label.AllUser" group="Labels">
+		<message>- Alle gebruikers -</message>
+		<description>Label Alle gebruikers</description>
+	</item>
+	<item id="Date.DayShort" group="Labels">
+		<message>d</message>
+		<description>Label Afkorting dag</description>
+	</item>
+	<item id="Date.HourShort" group="Labels">
+		<message>u</message>
+		<description>Label Afkorting uren</description>
+	</item>
+	<item id="Date.MinuteShort" group="Labels">
+		<message>min</message>
+		<description>Label Afkorting minuten</description>
+	</item>
+	<item id="Date.SecondShort" group="Labels">
+		<message>sec</message>
+		<description>Label Afkorting seconden</description>
+	</item>
+
+	<!--  Validators -->
+	<item id="Validator.ImportFileRequired" group="Validators">
+		<message>Selecteerimporteren vraag</message>
+		<description>Label Selecteer importeren vraag</description>
+	</item>
+	<item id="Validator.ImportDirRequired" group="Validators">
+		<message>Selecteer de importmap (directory) aan</message>
+		<description>Label Selecteer de juiste import directory</description>
+	</item>
+	<item id="Validator.ExportRemove" group="Validators">
+		<message>Selecteer onderdelen die verwijderd moeten worden.</message>
+		<description>Label Selecteer onderdelen die verwijderd moeten worden</description>
+	</item>
+	<item id="Validator.Export" group="Validators">
+		<message>Selecteer onderdelen om te exporteren.</message>
+		<description>Label Selecteer onderdelen om te exporteren</description>
+	</item>
+	<item id="Validator.BankImport" group="Validators">
+		<message>Selecteer vragen om te importeren.</message>
+		<description>Label Selecteer vragen om te importeren</description>
+	</item>
+	<item id="Validator.QuestionNoSetPercentScore" group="Validators">
+		<message>Waarde moet zich tussen 0 to 100 bevinden. (gehele getallen)</message>
+		<description>Label Goedkeuring waarde</description>
+	</item>
+	<item id="Validator.RSOverlapPoint" group="Validators">
+		<message>Sommige scores hebben overlap. Corrigeer dit.</message>
+		<description>Label Goedkeuring schaal</description>
+	</item>
+	<item id="Validator.RSNotCoveredPoint" group="Validators">
+		<message>Gedeelte bereik score is niet ingevuld</message>
+		<description>Label Goedkeuring totale bereik score</description>
+	</item>
+	<item id="Validator.RSEmptySection" group="Validators">
+		<message>Sectie niet gspecificeerd </message>
+		<description>Label Goedkeuring secties bereik</description>
+	</item>
+	<item id="Validator.RSRangePoint" group="Validators">
+		<message>Resultaten mgen alleen hele getallen zijn tussen o en 100</message>
+		<description>Label Goedkeuring gehel getallen</description>
+	</item>
+	<item id="Validator.EmailIncorrect" group="Validators">
+		<message>E-mail heeft onjuiste indeling</message>
+		<description>Label Goedkeuring opmaak e-mail</description>
+	</item>
+	<item id="Validator.InvalidLicense" group="Validators">
+		<message>Geef een geldige code in.</message>
+		<description>Label Ongeldige code</description>
+	</item>
+	<item id="Validator.NameRequired" group="Validators">
+		<message>Naam is vereist veld</message>
+		<description>Label Naam vereist</description>
+	</item>
+	<item id="Validator.NameNotUnique" group="Validators">
+		<message>Naam is niet uniek</message>
+		<description>Label Naam niet uniek</description>
+	</item>
+	<item id="Validator.ConfirmNameNotUnique" group="Validators">
+		<message>Naam is niet uniek. Wil je doorgaan met opslaan?</message>
+		<description>Label Niet uniek, opslaan?</description>
+	</item>
+	<item id="Validator.NotSelectImage" group="Validators">
+		<message>Selecteer afbeelding</message>
+		<description>Label Selecteer afbeelding</description>
+	</item>
+	<item id="Validator.NotSelectArea" group="Validators">
+		<message>Selecteer gebied</message>
+		<description>Label Selecteer gebied</description>
+	</item>
+	<item id="Validator.TotalTime" group="Validators">
+		<message>Totale tijd begint op 0</message>
+		<description>Label Tijd begint met</description>
+	</item>
+	<item id="Validator.QuestionTime" group="Validators">
+		<message>Tijd vraag begint op 0</message>
+		<description>Label Tijd vraag</description>
+	</item>
+	<item id="Validator.QuestionScore" group="Validators">
+		<message>Score vraag begint op 0</message>
+		<description>Label Score vraag</description>
+	</item>
+	<item id="Validator.QuestionScoreRequired" group="Validators">
+		<message>Score vraag is vereist</message>
+		<description>Label Vereist</description>
+	</item>
+	<item id="Validator.PassedScore" group="Validators">
+		<message>Score geslaagd (0 to 100) </message>
+		<description>Label Score geslaagd</description>
+	</item>
+	<item id="Validator.QuestionCount" group="Validators">
+		<message>Telling vraag begint op 0</message>
+		<description>Label Validatie</description>
+	</item>
+	<item id="Validator.QuestionRequired" group="Validators">
+		<message>Vraag is vereist</message>
+		<description>Label Validatie</description>
+	</item>
+	<item id="Validator.QuestionNotAnswer" group="Validators">
+		<message>Kies een of meer antwoorden</message>
+		<description>Label Validatie</description>
+	</item>
+	<item id="Validator.QuestionNotCorrect" group="Validators">
+		<message>Kies het juiste antwoord(en)</message>
+		<description>Label Validatie</description>
+	</item>
+	<item id="Validator.LagTime" group="Validators">
+		<message>Nablijftijd moet groter of gelijk zijn dan 0</message>
+		<description>Label Validatie</description>
+	</item>
+	<item id="Validator.AttemptCount" group="Validators">
+		<message>Aantal pogingen moet groetr of gelijk zijn dan 0</message>
+		<description>Label Validatie</description>
+	</item>
+	<item id="Validator.TextRequired" group="Validators">
+		<message>Tekst is vereist</message>
+		<description>Label Validatie</description>
+	</item>
+	<item id="Validator.TemplateRequired" group="Validators">
+		<message>Sjabloon is vereist</message>
+		<description>Label Validatie</description>
+	</item>
+	<item id="Validator.FileRequired" group="Validators">
+		<message>Bestand is vereist</message>
+		<description>Label Validatie</description>
+	</item>
+	<item id="Validator.FileIncorrectFormat" group="Validators">
+		<message>Bestand heeft een onjuiste opmaak</message>
+		<description>Label Validatie</description>
+	</item>
+
+	<!-- Completed messages -->
+	<item id="Complete.DataImportFailed" group="Complete">
+		<message>Importeren is niet geslaagd</message>
+		<description>Label Import data niet geslaagd</description>
+	</item>
+	<item id="Complete.DataImport" group="Complete">
+		<message>Data importeren is gelukt</message>
+		<description>Label Data imported succesvol</description>
+	</item>
+	<item id="Complete.ExportSettings" group="Complete">
+		<message>Exporteer instellingen succesvol opgeslagen</message>
+		<description>Label Export instellingen opgeslagen</description>
+	</item>
+	<item id="Complete.QueAddToQueue" group="Complete">
+		<message>Een of meer vragen succesvol opgeslagen in export wachtrij</message>
+		<description>Label Vragen succes in wachtrij gezet</description>
+	</item>
+	<item id="Complete.QuizAddToQueue" group="Complete">
+		<message>Toetsen succesvol in export wachtrij gezet</message>
+		<description>Label Toetsen succesvol in export wachrij gezet</description>
+	</item>
+	<item id="Complete.QueRemoveFromQueue" group="Complete">
+		<message>Een of meer vragen succesvol uit wachtrij gehaald</message>
+		<description>Label Een of meer vragen succesvol uit wachrij gehaald</description>
+	</item>
+	<item id="Complete.QuizRemoveFromQueue" group="Complete">
+		<message>Toets(en) succesvol uit export wachrij gehaald</message>
+		<description>Label Toets(en) succesvol uit export wachtrij gehaald</description>
+	</item>
+	<item id="Complete.QuestionImported" group="Complete">
+		<message>Vragen succesvol geimporteerd</message>
+		<description>Label Vragen succesvol geimporteerd</description>
+	</item>
+	<item id="Complete.ScaleSave" group="Complete">
+		<message>Resultaten indeling opgeslagen</message>
+		<description>Label Resultaten indeling opgeslagen</description>
+	</item>
+	<item id="Complete.ScaleDelete" group="Complete">
+		<message>Resultaten indeling verwijderd</message>
+		<description>Label Resultaten indeling verwijderd</description>
+	</item>
+	<item id="Complete.TemplateDelete" group="Complete">
+		<message>Sjabloon verwijderd</message>
+		<description>Label Sjabloon verwijderd</description>
+	</item>
+	<item id="Complete.QuizSave" group="Complete">
+		<message>Toets opgeslagen</message>
+		<description>Label Toets opgeslagen</description>
+	</item>
+	<item id="Complete.QuestionSave" group="Complete">
+		<message>Vraag opgeslagen</message>
+		<description>Label Vraag opgeslagen</description>
+	</item>
+	<item id="Complete.CategorySave" group="Complete">
+		<message>Categorie opgeslagen</message>
+		<description>Label Categorie opgeslagen</description>
+	</item>
+	<item id="Complete.QCategorySave" group="Complete">
+		<message>categorie vragen opgeslagen</message>
+		<description>Label Categorie vragen opgeslagen</description>
+	</item>
+	<item id="Complete.QuestionDelete" group="Complete">
+		<message>Vraag verwijderd</message>
+		<description>Label Vraag verwijderd</description>
+	</item>
+	<item id="Complete.QuestionCategoryDelete" group="Complete">
+		<message>Categorie vragen verwijderd</message>
+		<description>Label categorie vragen verwijderd</description>
+	</item>
+	<item id="Complete.QuizDelete" group="Complete">
+		<message>Toets verwijderd</message>
+		<description>Label Toets verwijderd</description>
+	</item>
+	<item id="Complete.ResultDelete" group="Complete">
+		<message>Resultaat verwijderd</message>
+		<description>Resultaat verwijderd</description>
+	</item>
+	<item id="Complete.QuizActivate" group="Complete">
+		<message>Toets geactiveerd</message>
+		<description>Label Toets geactiveerd</description>
+	</item>
+	<item id="Complete.QuizDeactivate" group="Complete">
+		<message>Toets gedeactiveerd</message>
+		<description>Label Toets gedeactiveerd</description>
+	</item>
+	<item id="Complete.ChangeQuestionOrder" group="Complete">
+		<message>Volgorde vragen gewijzigd</message>
+		<description>Label Volgorde vragen gewijzigd</description>
+	</item>
+	<item id="Complete.CategoryDelete" group="Complete">
+		<message>Categorie verwijderd</message>
+		<description>Label Categorie verwijderd</description>
+	</item>
+	<item id="Complete.QTemplateSave" group="Complete">
+		<message>Sjabloon vragen opgeslagen</message>
+		<description>Label Sjabloon vragen opgeslagen</description>
+	</item>
+	<item id="Complete.DeleteQTemplate" group="Complete">
+		<message>Sjablonen verwijderd</message>
+		<description>Label Sjablonen verwijderd</description>
+	</item>
+	<item id="Complete.TemplateSave" group="Complete">
+		<message>Sjabloon opgeslagen</message>
+		<description>Label Sjabloon opgeslagen</description>
+	</item>
+	<item id="License.AddLicense" group="Complete">
+		<message>Licentie sleutel teogevoed</message>
+		<description>Label Licentie sleutel toegeveogd</description>
+	</item>
+	<item id="License.BeforeUseSpecifyKey" group="Complete">
+		<message>Geef licentie sleutel in voor met deze component te beginnen</message>
+		<description>Label Licentie sleutel nodig</description>
+	</item>
+	<item id="License.IncorrectLicense" group="Complete">
+		<message>Verkeerde licentie sleutel ingegeven</message>
+		<description>Label Verkeerde licentie sleutel</description>
+	</item>
+	<item id="License.SpecifyKey" group="Complete">
+		<message>Specificer licentie sleutel</message>
+		<description>Label Licentie sleutel</description>
+	</item>
+	<item id="License.LicenseExists" group="Complete">
+		<message>Deze licentie sleutel bestaat al</message>
+		<description>Label Licentie sleutel bestaat al</description>
+	</item>
+	<item id="Complete.LangSave" group="Complete">
+		<message>Taal thema opgeslagen</message>
+		<description>Label Taal thema opgeslagen</description>
+	</item>
+	<item id="Complete.SetLangDefault" group="Complete">
+		<message>Geselecteerde taalthema is als standaard ingesteld</message>
+		<description>Label Taalthema standaard</description>
+	</item>
+	<item id="Complete.LangDelete" group="Complete">
+		<message>Taal thema verwijderd</message>
+		<description>Label Taal thema verwijderd</description>
+	</item>
+	<item id="Complete.FileImport" group="Complete">
+		<message>Importeren bestand succesvol</message>
+		<description>Label Importeren bestand succesvol</description>
+	</item>
+
+	<!-- Toolbar -->
+	<item id="Toolbar.FromBank" group="Toolbar">
+		<message>Uit verzameling</message>
+		<description>Knop Uit verzameling</description>
+	</item>
+	<item id="Button.Back" group="Toolbar">
+		<message>Terug</message>
+		<description>Knop Terug</description>
+	</item>
+	<item id="Button.Add" group="Toolbar">
+		<message>Toevoegen</message>
+		<description>Knop Toevoegen</description>
+	</item>
+	<item id="Button.Edit" group="Toolbar">
+		<message>Wijzigen</message>
+		<description>Knop Wijzigen</description>
+	</item>
+	<item id="Button.Remove" group="Toolbar">
+		<message>Verwijderen</message>
+		<description>Knop Verwijderen</description>
+	</item>
+	<item id="Button.Activate" group="Toolbar">
+		<message>Activeren</message>
+		<description>Knop Activeren</description>
+	</item>
+	<item id="Button.Deactivate" group="Toolbar">
+		<message>Deactiveren</message>
+		<description>Knop Deactiveren</description>
+	</item>
+	<item id="Toolbar.Import" group="Toolbar">
+		<message>Importeren</message>
+		<description>Knop Importeren</description>
+	</item>
+	<item id="Toolbar.Export" group="Toolbar">
+		<message>Exporteren</message>
+		<description>Knop Exporteren</description>
+	</item>
+	<item id="Toolbar.ExportToCSV" group="Toolbar">
+		<message>Naar CSV</message>
+		<description>Knop naar CSV</description>
+	</item>
+	<item id="Toolbar.ExportToExcel" group="Toolbar">
+		<message>Naar Excel</message>
+		<description>Knop Naar Excel</description>
+	</item>
+	<item id="Toolbar.ExportToWord" group="Toolbar">
+		<message>Naar Word</message>
+		<description>Knop Naar Word</description>
+	</item>
+	<item id="Toolbar.ExportToHTML" group="Toolbar">
+		<message>Naar HTML</message>
+		<description>Knop NaarHTML</description>
+	</item>
+	<item id="Toolbar.Filters" group="Toolbar">
+		<message>Filters</message>
+		<description>Knop Filters</description>
+	</item>
+	<item id="Toolbar.Apply" group="Toolbar">
+		<message>Toepassen</message>
+		<description>Knop Toepassen</description>
+	</item>
+	<item id="Toolbar.Cancel" group="Toolbar">
+		<message>Annuleren</message>
+		<description>Knop Annuleren</description>
+	</item>
+	<item id="Toolbar.Save" group="Toolbar">
+		<message>Opslaan</message>
+		<description>Knop Opslaan</description>
+	</item>
+	<item id="Toolbar.QuizList" group="Toolbar">
+		<message>Lijst toetsen</message>
+		<description>Knop Lijst toetsen</description>
+	</item>
+	<item id="Toolbar.ResultList" group="Toolbar">
+		<message>Lijst resulaten</message>
+		<description>Knop Lijst resultaten</description>
+	</item>
+	<item id="Toolbar.Results" group="Toolbar">
+		<message>Resultaten</message>
+		<description>Knop Resultaten</description>
+	</item>
+	<item id="Toolbar.Default" group="Toolbar">
+		<message>Standaard</message>
+		<description>Knop Standaard</description>
+	</item>
+	<item id="Toolbar.Preview" group="Toolbar">
+		<message>Vooraf bekijken</message>
+		<description>Knop Bekijken</description>
+	</item>
+
+	<!-- Warning messages -->
+	<item id="Warning.QuestionNoSetScore" group="Warning">
+		<message>Score niet gespecificeerd. Weet je zeker dat je wilt opslaan?</message>
+		<description>Bevestiging Niet gespecificeerd</description>
+	</item>
+	<item id="Warning.RSNotCoveredPoint" group="Warning">
+		<message>Range is maar gedeeltelijk ingevuld. Weet je zeker dat je wilt opslaan?</message>
+		<description>Bevestiging Range niet volledig</description>
+	</item>
+	<item id="Warning.ResultScaleRemove" group="Warning">
+		<message>Wil je de geselecteerde schaal echt verwijderen?</message>
+		<description>Bevestiging Verwijderen schaal</description>
+	</item>
+	<item id="Warning.ResultRemove" group="Warning">
+		<message>Geselecteerde resulaten verwijderen?</message>
+		<description>Bevestiging Verwijderen resultaten</description>
+	</item>
+	<item id="Warning.QuizRemove" group="Warning">
+		<message>Geselecteerde toetsen verwijderen?</message>
+		<description>Bevestiging Verwijderen toetsen</description>
+	</item>
+	<item id="Warning.CategoryRemove" group="Warning">
+		<message>Geselecteerde categorieen verwijderen?</message>
+		<description>Bevestiging Verwijderen categorieen</description>
+	</item>
+	<item id="Warning.QTemplateRemove" group="Warning">
+		<message>Geselecteerde sjablonen verwijderen?</message>
+		<description>Bevestiging Sjablonen verwijderen</description>
+	</item>
+	<item id="Warning.QuestionAnswerRemove" group="Warning">
+		<message>Weet je het zeker?</message>
+		<description>Bevestiging Verwijderen</description>
+	</item>
+	<item id="Warning.BankQuestionRemove" group="Warning">
+		<message>Wil je de geselecteerde vragen verwijderen?\r\n (Opm: Vragen uit de verzameling zullen niet verwijderd worden als ze gebruikt worden als basis voor toetsen.)</message>
+		<description>Bevestiging Vragen verwijderen</description>
+	</item>
+	<item id="Warning.QuestionRemove" group="Warning">
+		<message>Wil je de geselecteerde vragen echt verwijderen?</message>
+		<description>Bevestiging vragen verwijderen</description>
+	</item>
+	<item id="Warning.QCategoryRemove" group="Warning">
+		<message>Wil je de geselecteerde categorieen verwijderen?</message>
+		<description>Bevestiging Verwijderen categorieen</description>
+	</item>
+	<item id="Warning.DeleteQueFromQCategory" group="Warning">
+		<message>Wil je vragen uit deze categorieen verwijderen?</message>
+		<description>Bevestiging Verijderen vragen uit categorieen</description>
+	</item>
+	<item id="Warning.QCategoryCreateQuiz" group="Warning">
+		<message>Vooraf eerst toets aanmaken</message>
+		<description>Label Eerst toets maken</description>
+	</item>
+
+	<!-- Text messages -->
+	<item id="Text.ImportWarning" group="Text">
+		<message>Eerst data importeren en een back up van de database maken. Het importeer proces kan niet ongedaan gemaakt worden, behalve door handmatig data te verwijderenn.</message>
+		<description>Opmerking Importeren</description>
+	</item>
+	<item id="Text.SQNote" group="Text">
+		<message>Geef meerdere keuzes aan. Als je verschillende scores per item wil aangeven, geeft dan het percentage per item aan in het % veld (waarde tussen 0..100. Als hier geen waarde is ingesteld, dan krijgt de gebruiker ook bij een goed antwoord GEEN punten).</message>
+		<description>Opmerking Enkele vraag</description>
+	</item>
+	<item id="Text.MQNote" group="Text">
+		<message>Geef antwoord keuzes aan en corrigeer het aantal. Als je verschillende scores per items wil aangeven, geef dan de juiste combinatie. Gebruik evetueel de '[+]' link Als hier geen waarde is ingesteld, dan krijgt de gebruiker ook bij een goed antwoord GEEN punten).</message>
+		<description>Opmerking Vragen</description>
+	</item>
+	<item id="Text.FTQNote" group="Text">
+		<message>Geef antwoord keuzes aan. Als je verschillende scores per item wil aangeven, geeft dan het percentage per item aan (Als hier geen waarde is ingesteld, dan krijgt de gebruiker ook bij een goed antwoord GEEN punten).</message>
+		<description>Opmerking Vrije tekst</description>
+	</item>
+	<item id="Tooltip.ParsePluginTag" group="Text">
+		<message>Als deze plug in �an" staat,, dan zullen mambot plug ins in de tekst van de vragen geanalyseerd worden.</message>
+		<description>Opmerking Plug in</description>
+	</item>
+	<item id="Tooltip.QuestionNote" group="Text">
+		<message>Hier kan aanvullende informatie gegeven worden. Deze informatie zal aan de gebruiker getoond worden bij het belijken van de resultaten. Je kunt bijvoorbeeld aangeven waarom bepaalde antwoorden goed of fout zijn.</message>
+		<description>Opmerking Extra veld</description>
+	</item>
+	<item id="Tooltip.QuizCanSkip" group="Text">
+		<message>Als deze optie geactiveerd is, dan kan de gebruiker een vraag overslaan en later teruggaan naar deze vraag</message>
+		<description>Label Tijdelijk Vraag tijdelijk overslaan</description>
+	</item>
+	<item id="Tooltip.QuizCanStop" group="Text">
+		<message>Als deze optie geactiveerd is, dan kan de gebruiker stoppen (en opslaan) en later verdergaan met de toets</message>
+		<description>Label Toets tijdelijk stoppen</description>
+	</item>
+	<item id="Tooltip.QuizRandomQuestion" group="Text">
+		<message>Als deze optie geactiveerd is, dan bestaat (dit gedeelte van) de toets uit vragen in willekeurige volgorde</message>
+		<description>label Willekeurige volgorde</description>
+	</item>
+	<item id="Tooltip.QuizCalculator" group="Text">
+		<message>Als deze optie geactiveerd is, kan de gebruiker de rekenmachine gedurende de test gebruiken</message>
+		<description>Label gebruik rekenmachine</description>
+	</item>
+
+	<!-- F.A.Q. -->
+	<item id="RichText.FAQ" group="F.A.Q." type="WYSIWYG">
+		<message>
+			<![CDATA[
+				<ol>
+					<li><b>How can I install update for the component?</b><br/>
+					At first, uninstall of the component. This will remove all the files related to the component, but all the data will remain in the database. After this, install the new version of the component. That's it, the component is ready.
+					<br /><br />
+					<li><b>While creating quizzes, can I use another language different from English?</b><br/>
+					Yes, ARI Quiz supports unicode.
+					<br /><br />
+					<li><b>How can I add the point of the menu leading to the list of quizzes?</b><br/>
+					Use Joomla Menu Manager:<br />
+					- Click "New" Button.<br />
+					- Select "Component" from the "Components" section.<br />
+					- Choose ARI Quiz component.<br />
+					- Click "Save" Button.
+					<br /><br />
+					<li><b>How can I recognize Quiz ID?</b><br/>
+					You can see it at the page with the list of quizzes, otherwise while updating a test.
+					<br /><br />
+					<li><b>How I can I add the point of the menu leading to a definite quiz?</b><br/>
+					The link will look the following way: index.php?option=com_ariquiz&quiz_id=&amp;lt;Quiz ID&amp;gt;
+					<br /><br />
+					<li><b>Can users look through the statistics of the quizzes they passed?</b><br/>
+					Yes, it is available to the registered users by the link index.php?option=com_ariquiz&task=quiz_stat. For your convenience you can add appropriate menu item with this link.
+					<br /><br />
+					<li><b>I added mambot text in question but it does not work. What's the reason?</b><br/>
+					Processing question content with mambots (plugins) is experimental feature and we cannot guarantee that it will work with all mambots. If you experiense difficulties please send us a letter (please indicate the mambot you are using and the code you are adding to question)
+				</ol>
+			]]>
+		</message>
+		<description>F.A.Q. tekst</description>
+	</item>
+	<!-- Help  -->
+	<item id="RichText.Help" group="Help" type="WYSIWYG">
+		<message>
+			<![CDATA[
+				<ol>
+					<li><b>Quiz Categories</b><br/>
+					Categories for quizzes are used to divide the quizzes according to the themes.<br/><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Add / Update Category</b><br/>
+						To add a category click "Add" button at the page with the list of categories. For updating click the name of the category in the list of categories. While adding/updating you can define the following properties:<br/>
+						- Category name;<br/>
+						- Category description;<br/>
+						<li><b>Category List</b><br/>
+						At this page the list of categories is shown and there is a possibility to delete the selected categories.<br/>
+					</ol>
+					<br /><br />
+					<li><b>Question Bank Categories</b><br/>
+                     Categories for questions are used to divide the questions by themes.<br/><br/>
+                     <ol style="list-style: lower-alpha;">
+                         <li><b>Add / Update Category</b><br/>
+                          To add a category click "Add" button at the page with the list of categories. For updating click the name of the category in the list of categories. While adding/updating you can define the following properties:<br/>
+                          - Category name;<br/>
+                          - Category description;<br/>
+                          <li><b>Category List</b><br/>
+                          At this page the list of categories is shown and there is a possibility to delete the selected categories.<br/>
+                     </ol>
+                     <br /><br />
+
+					<li><b>Question Categories</b><br/>
+					Is used if you want to create a review quiz on different themes. In this case, you add question category for the themes you need and give the appropriate question categories to the question created.
+					<br/><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Add / Update Question Category</b><br/>
+						To add question category click "Add" button at the page with the list of question categories, to update it click the name of the question category in the list of categories. While adding / updating, you can define the following properties:<br/>
+						- You can choose a quiz it refers to.(If you are adding a new question category);<br/>
+						- Category name;<br/>
+						- Define the quantity of questions selected from category question pool while passing a quiz. If meaning "0" or empty is defined, all questions from the given category will be selected;<br/>
+						- Define the amount of time given to think of the answer to the question from the given category. When the given time runs out, you pass to the next question. At this case the previous question is not counted. If meaning "0" or empty is defined, then an unlimited amount of time will be given to think of the answer;<br/>
+						- Category description;<br/>
+						<li><b>Question Category List</b><br/>
+						At this page the list of question category is shown. You have a possibility to delete the selected categories. While deleting you will be requested: to delete the questions connected with the category or to make them not refering to any question category.<br/>
+					</ol>
+					<br /><br />
+					
+					<li><b>Question Templates</b><br/>
+					In this section you can add question templates for creating new questions on the basis of basic type of questions (See section 10.c). It is used for the more convenient creation of frequently repeating options, for example: "Yes/No", "True/False".<br/><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Add / Update Question Template</b><br/>
+						To create a question template click "Add" button at the page with the list of question templates. For updating click the name question template in the template list. While adding / updating you can define the following properties:<br/>
+						- Template name;<br/>
+						- Type of question (See section 10.c);<br/>
+						- Activate / Deactivate validating question parameters while saving the template;<br/>
+						- Define the parameters for the type of question selected;<br/>
+						<li><b>Question Template List</b><br/>
+						At this page the list of question templates is shown and you have a possibility to delete the selected templates.<br/>
+					</ol>
+					<br /><br />
+					
+					<li><b>Text Templates</b><br/>
+					In this section you can manage text templates which can be used to release the results of the quiz.<br/><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Add / Update Text Template</b><br/>
+						To add / update text template click "Add" button at the page with the of text templates. To update it click the name text template in the template list. While adding / updating you can add the following properties:<br/>
+						- Text template name;<br/>
+						- Template text;<br/>
+						<li><b>Text Template List</b><br/>
+						At this page the list of tex templates is shown and you can delete the templates selected.<br/>
+					</ol>
+					<br /><br />
+					
+					<li><b>Result Scales</b><br/>
+					In this section you can manage result scales templates that can be used to show different variants of final page, mail templates depending on points user has got while passing test.<br /><br />
+					<ol style="list-style: lower-alpha;">
+						<li><b>Add / Update Result Scale</b><br/>
+						To add / update result scale click "Add" button at the page with the list of result scale. To update it click the name of result scale in the scale list. While adding / updating you can add the following properties:<br/>
+      					- Result scale name;<br/>
+      					- Set templates and point ranges for which these templates will be used (point ranges are in);<br/>
+      					<li><b>Result Scale List</b><br/>
+      					At this page the list of result scales is shown and you can delete the selected scales.<br/>
+					</ol>
+					<br /><br />
+					
+					<li><b>Mail Templates</b><br/>
+                    In this section you can manage mail templates that can be used in email containing the quiz results.<br/><br/>
+                    <ol style="list-style: lower-alpha;">
+                         <li><b>Add / Update Text Template</b><br/>
+                         To add / update text template click "Add" button at the page with the list of text templates. To update it click the name of text template in the template list. While adding / updating you can add the following properties:<br/>
+                         - Text template name;<br/>
+                         - Template text;<br/>
+                         - From (sender email);<br/>
+                         - Sender (sender name);<br/>
+                         - Subject (email subject);<br/>
+                         <li><b>Mail Template List</b><br/>
+                         At this page the list of mail templates is shown and you can delete the selected templates.<br/>
+                    </ol>
+                    <br /><br />
+
+					<li><b>Quiz Results</b><br/>
+					In this section you can look through the results of quizzes passed by users. For convevient search of the quizzes you need you can use a filter which allows to select the results of a particilar quiz or user. Besides the possibility to export the results you have chosen in the following formats: CSV, HTML, MS Word, MS Excel. Results in CSV and MS Excel will be introduced in simple way, in HTML and MS Word in the extended way.
+					<br /><br /><br />
+					
+					<li><b> Language (Backend / Frontend)</b><br/>
+					In this section a possibility to choose the existing language resourses is foreseen. Besides you can add the new ones; a separate interface for backend and frontend is foreseen. You can also export language settings to XML file or import them from XML file.
+					<br /><br /><br />
+					
+					<li><b>Templates</b><br/>
+					In this section the management of CSS templates is carried out. They can by used while showing quizzes to users.<br/><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Add / Update CSS Template</b><br/>
+						To add CSS template click "Add" button at the page with CSS template list, to update click the name CSS template in the template list. While adding / updating you can define the following properties:<br/>
+						- Template name;<br/>
+						- Template text;<br/>
+						<li><b>CSS Template List</b><br/>
+						At this page the list of CSS template is shown and there is a possibility to delete selected templates.<br/>
+					</ol>
+					<br /><br />
+					
+					<li><b>License</b><br/>
+					In this section you can manage component licenses. If your license is expired you can use the component but you can't receive update and support. To prolong a license visit ari-soft.com, acquire license for the period you need. Introduce it in the section "New License", in domain field introduce the domain for which the following license will be used. In "License Key" field introduce the key you have acquired.
+					<br /><br /><br />
+					
+					<li><b>Quiz List</b><br/>
+					In this section you can manage quizzes.<br/><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Add / Update Quiz</b><br/>
+						To create a quiz click "Add" button at the page with the list of quizzes. To update it click quiz name in the list of quizzes. While adding / updating you can define the following properties:<br/>
+						- Quiz name;<br/>
+						- Category refers to the quiz.(See section 1);<br/>
+						- The group of users which have access to the quiz. If "Guest" group is selected all users will have access to the quiz. This option is hierarchical: once you've chosen the "Author" group, than "Author", "Editor" and "Publisher" will have access to the quiz;<br/>
+						- Activate or deactivate quiz;<br/>
+						- Set the time given to pass a quiz . If meaning "0" or empty is set, the whole time to pass a quiz is not limited but the time for answering questions can be limited;<br/>
+						- Set the quantity of scores needed to pass a quiz (in percent);<br/>
+						- Set the maximal amount of questions in the quiz, if meaning "0" or empty is set, all questions will be added to quiz question pool;<br/>
+						- Set the time given to think of the answer to the question. If meaning "0" or empty is defined the whole time for passing a test is unlimited but it can be redefined on the category of the question level or question level;<br/>
+						- Quiz description;<br/>
+						- Define a text template to show a user after successful completion of  quiz. If not defined, nothing will be shown to the user after the completion;<br/>
+						- Define a text template to show a user if user failed a quiz. If not defined, nothing will be shown to the user after the failure;<br/>
+						- Define a text template for printing after the successful completion of a quiz. If not defined, a user will not be able to print the results;<br/>
+						- Define a text template for printing  after quiz failure. If not defined, a user will not be able to print the results;<br/>
+						- Define a mail template for sending to e-mail after successful completion of the quiz. If not defined users will not be able to send the results to their e-mail after successful completion of the quiz;<br/>
+						- Define a mail template for sending to e-mail after quiz failure. If not defined users will not be able to send the results on their e-mail in the case of failure;<br/>
+						- Define CSS Template for showing a quiz to the user;<br/>
+						- Allow a user to skip questions and back to them later;<br/>
+						- Show questions in occasional order;<br/>
+						- Allow a user to use a calculator (can be useful in quizzes connected with calculation, when this option activated a calculator will be available to a user);<br/>
+						- Define a period of time which must pass after the completion of the quiz to make it available to a user again. If meaning "0" or empty is defined the quantity is unlimited.(Doesn't refer to unregistered users).<br/>
+						
+						<li><b>Quiz List</b><br/>
+						At this page the list of quizzes is shown and there is a possibility to delete selected quizzes or to activate / inactivate them.<br/>
+					</ol>
+					<br /><br />
+					
+					<li><b>Questions Management</b><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Add / Update Question</b><br/>
+						To add a question click "Add" button at the page with the list of questions. To update it click the text of the question in the list of questions. While adding / updating you can add the following properties:<br/>
+						- Define a question category.(See section 2);<br/>
+						- Add a question on the basis of question templates.(See section 3);<br/>
+						- Select a type of questions on the basis of which a question will be created. (See section 10.c)<br/>
+						- Define quantity of scores for the right answer;<br/>
+						- Define the text of question (WYSIWYG editor is used);<br/>
+						- Define the note of question (This field is intended to enter additional information about question. This information will be shown to user while displaying test results. For example, you can indicate the reason why some answers are correct and others are not);<br/> 
+						- Define the parameters for the type of question selected.<br/>
+
+						<li><b>Question List</b><br/>
+						To go to the page with the list of quiz questions click view of quiz questions at page Quiz List (See section 9.b). At this page there is a possibility to delete the selected questions or to make a reorder, the order of questions will be taken into consideration if showing questions in order is used in the quiz.<br/>
+						
+						<li><b>Question Type</b><br/>
+						- Single Question: is used for question with two or more answer options, only one of which is true;<br/>
+						- Multiple Question: is used for questions with two or more options from which several options must be choosed;<br/>
+						- FreeText Question: is used for questions in which the answer must be introduced in the text field. While creating this type of question the user produces correct variants;<br/>
+						- HotSpot Question: is used for questions where user must click a definite part of the image.<br/>
+						- Correlation Question: lets create a question where user has to set the correspondence between items.<br/>
+					</ol>
+					<br /><br />
+					
+					<li><b>Question Bank</b><br/>
+					It containts questions that can be added to quizzes. If you change question in question bank all the changes are applied to quizzes that are created on basis of these question.
+					<br /><br /><br />
+				</ol>
+			]]>
+		</message>
+		<description>Help tekst</description>
+	</item>
+
+	<!-- Controls -->
+	<item id="Controls.DTFirstPage" group="Controls">
+		<message>&lt;&lt; eerste</message>
+		<description>Data Grid: first page link label</description>
+	</item>
+	<item id="Controls.DTLastPage" group="Controls">
+		<message>last &gt;&gt;</message>
+		<description>Data Grid: last page link label</description>
+	</item>
+	<item id="Controls.DTNextPage" group="Controls">
+		<message>next &gt;</message>
+		<description>Data Grid: next page link label</description>
+	</item>
+	<item id="Controls.DTPrevPage" group="Controls">
+		<message>&lt;&lt; vorige</message>
+		<description>Data Grid: previous page link label</description>
+	</item>
+	<item id="Controls.DTPageReportTemplate" group="Controls">
+		<message>({currentPage} van {totalPages})</message>
+		<description>Data Grid: page report template</description>
+	</item>
+	<item id="Controls.DTTemplate" group="Controls">
+		<message>Display#: {RowsPerPageDropdown} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {CurrentPageReport}</message>
+		<description>Data Grid: template</description>
+	</item>
+
+	<!--  Extra Properties -->
+	<item id="Quiz.ShowFullStatistics" group="Properties">
+		<message>Laat volledige statistieken zien</message>
+		<description>Label Volledige statistieken</description>
+	</item>
+	<!--item id="Quiz.QuestionColsCount" group="Properties">
+		<message>Tel kolommen</message>
+		<description>Label Tel kolommen</description>
+	</item>
+	<item id="Quiz.HistoryText" group="Properties">
+		<message>Geschiedenis</message>
+		<description>Label Geschiedenis</description>
+	</item-->
+</resource>

@@ -1,0 +1,82 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#block-header { background: #121212 url(../images/header_bg.jpg) 50% 100%; }
+
+#block-header > div { background: url(../images/header.jpg) 50% 100% no-repeat; }
+
+.notop #block-header > div {
+	border-bottom: 1px solid #000;
+	background-position: 50% -505px;
+}
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 {
+	color: #fff;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.menu-dropdown li.active .level1 { background-image: url(../images/menu_dropdown_active.png); }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+#top-a .mod-line {
+	color: #fff;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	background-image: url(../images/module_line_v_topa.png);
+}
+
+#top-a .grid-h .mod-line { background-image: url(../images/module_line_h_topa.png); }
+
+#top-a .mod-line h3.module-title,
+#top-a .mod-line a:hover,
+#top-a .mod-blank a:hover { color: #fff; }
+
+#top-a .mod-line code { text-shadow: 0 1px 0 rgba(255,255,255,0.2); }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Extensions
+----------------------------------------------------------------------------------------------------*/
+
+#top-a .wk-slideset-default .text span { 
+	color: #c1c1c1;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.8);
+}
+
+#top-a .wk-slideset-default .text .active span { color: #fff; }
+
+#top-a .wk-slideset-default .nav.icon span,
+#top-a .wk-slideshow-default .nav span { background-image: url(../images/widgetkit/slideset/nav.png); }
+
+
+/* Custom
+----------------------------------------------------------------------------------------------------*/
+
+#page .demoteaser h1 {
+	color: #EEEEEE;
+	text-shadow: 0 -1px 0 #fff, 0 3px 2px rgba(0,0,0,0.3);
+}
+
+#page .demoteaser p { 
+	color: #E5E5E5;
+	text-shadow: 0 2px 1px rgba(0,0,0,0.3);
+}

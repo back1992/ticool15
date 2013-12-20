@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+	<name>Appwonder</name>
+	<creationDate>May 2011</creationDate>
+	<author>Shape5.com</author>
+	<copyright>Shape5</copyright>
+	<authorEmail>contact@shape5.com</authorEmail>
+	<authorUrl>http://www.shape5.com</authorUrl>
+	<version>1.0</version>
+	<description><![CDATA[
+	
+	<h1>Shape 5 - Appwonder okjoomla.com</h1>
+
+	<br/>
+	<img src="../templates/appwonder/template_thumbnail.png" align="left" hspace="10" style="padding-right:10px;"/>
+	This template is for members of the Shape 5 Joomla Template Club only, it is not free or open to the public domain.  <br /><br />
+	For tutorials pertaining to this template and additional information check out:<br /> <a href="http://www.shape5.com/demo/appwonder">blank Demo</a>.
+	<br />
+	<br /><a target="_blank" href="http://www.okjoomla.com">Click here</a> to visit Shape5.com]]></description>
+	<files>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>libs</folder>	
+	</files>
+	<positions>
+		<position>middle_menu</position>
+		<position>bottom_menu</position>
+		<position>logo</position>
+		<position>login</position>
+		<position>register</position>
+		<position>breadcrumb</position>
+		<position>search</position>
+		<position>top_row1_1</position>
+		<position>top_row1_2</position>
+		<position>top_row1_3</position>
+		<position>top_row1_4</position>
+		<position>top_row1_5</position>
+		<position>top_row1_6</position>
+		<position>top_row2_1</position>
+		<position>top_row2_2</position>
+		<position>top_row2_3</position>
+		<position>top_row2_4</position>
+		<position>top_row2_5</position>
+		<position>top_row2_6</position>
+		<position>top_row3_1</position>
+		<position>top_row3_2</position>
+		<position>top_row3_3</position>
+		<position>top_row3_4</position>
+		<position>top_row3_5</position>
+		<position>top_row3_6</position>
+		<position>above_columns_wrap_1</position>
+		<position>above_columns_wrap_2</position>
+		<position>above_columns_wrap_3</position>
+		<position>above_columns_wrap_4</position>
+		<position>above_columns_wrap_5</position>
+		<position>above_columns_wrap_6</position>
+		<position>left_top</position>
+		<position>left</position>
+		<position>left_inset</position>
+		<position>right_top</position>
+		<position>right</position>
+		<position>right_inset</position>
+		<position>middle_top_1</position>
+		<position>middle_top_2</position>
+		<position>middle_top_3</position>
+		<position>middle_top_4</position>
+		<position>middle_top_5</position>
+		<position>middle_top_6</position>
+		<position>above_body_1</position>
+		<position>above_body_2</position>
+		<position>above_body_3</position>
+		<position>above_body_4</position>
+		<position>above_body_5</position>
+		<position>above_body_6</position>
+		<position>left_bottom</position>
+		<position>right_bottom</position>
+		<position>middle_bottom_1</position>
+		<position>middle_bottom_2</position>
+		<position>middle_bottom_3</position>
+		<position>middle_bottom_4</position>
+		<position>middle_bottom_5</position>
+		<position>middle_bottom_6</position>
+		<position>below_body_1</position>
+		<position>below_body_2</position>
+		<position>below_body_3</position>
+		<position>below_body_4</position>
+		<position>below_body_5</position>
+		<position>below_body_6</position>
+		<position>below_columns_wrap_1</position>
+		<position>below_columns_wrap_2</position>
+		<position>below_columns_wrap_3</position>
+		<position>below_columns_wrap_4</position>
+		<position>below_columns_wrap_5</position>
+		<position>below_columns_wrap_6</position>			
+		<position>bottom_row1_1</position>
+		<position>bottom_row1_2</position>
+		<position>bottom_row1_3</position>
+		<position>bottom_row1_4</position>
+		<position>bottom_row1_5</position>
+		<position>bottom_row1_6</position>
+		<position>bottom_row2_1</position>
+		<position>bottom_row2_2</position>
+		<position>bottom_row2_3</position>
+		<position>bottom_row2_4</position>
+		<position>bottom_row2_5</position>
+		<position>bottom_row2_6</position>
+		<position>bottom_row3_1</position>
+		<position>bottom_row3_2</position>
+		<position>bottom_row3_3</position>
+		<position>bottom_row3_4</position>
+		<position>bottom_row3_5</position>
+		<position>bottom_row3_6</position>
+		<position>debug</position>	
+		<position>footer</position>	
+		<position>mobile_top_1</position>	
+		<position>mobile_top_2</position>	
+		<position>mobile_bottom_1</position>	
+		<position>mobile_bottom_2</position>	
+		<position>s5_tab1</position>
+		<position>s5_tab2</position>
+		<position>s5_tab3</position>
+		<position>s5_tab4</position>
+		<position>s5_tab5</position>
+		<position>s5_tab6</position>
+		<position>s5_tab7</position>
+		<position>s5_tab8</position>
+		<position>s5_tab9</position>
+		<position>s5_tab10</position>
+		<position>s5_box1</position>
+		<position>s5_box2</position>
+		<position>s5_box3</position>
+		<position>s5_box4</position>
+		<position>s5_box5</position>
+		<position>s5_box6</position>
+		<position>s5_tab7</position>
+		<position>s5_box8</position>
+		<position>s5_box9</position>
+		<position>s5_box10</position>
+	</positions>
+		<params>
+		<param name="directions" type="spacer" default="Make sure to hover your mouse over each title in this column for a full description of what each field does." />
+		<param name="template_specific_options_title" type="spacer" default="&lt;div style=&quot;color:f6f6f6;background:#f6f6f6;height:30px;line-height:29px;border:1px solid #e9e9e9;margin-top:-3px;margin-bottom:-3px;padding-left:10px;font-weight:bold;font-size:13px;&quot;&gt;Template Specific Options:&lt;/div&gt;" />
+			
+			
+			
+			<param name="xml_s5_facebook" type="text" default="javascript:;" label="Facebook Text" description="Enter the text you desire for the Register button." />
+			<param name="xml_s5_twitter" type="text" default="javascript:;" label="Twitter URL" description="Enter the url you desire for the twitter button." />
+			<param name="xml_s5_rss" type="text" default="javascript:;" label="RSS URL" description="Enter the url you desire for the rss button." />
+			<param name="xml_s5_youtube" type="text" default="javascript:;" label="YouTube URL" description="Enter the url you desire for the youtube button." />
+			
+		<param name="xml_s5_highlightfont" type="list" default="oswald" label="Highlight Site Font" description="Choose the font you desire. View previews here: http://code.google.com/webfonts">
+			<option value="Allan">Allan</option>
+			<option value="Allerta">Allerta</option>
+			<option value="Allerta Stencil">Allerta Stencil</option>
+			<option value="Anonymous Pro">Anonymous Pro</option>
+			<option value="Anton">Anton</option>
+			<option value="Arial">Arial</option>
+			<option value="Arimo">Arimo</option>
+			<option value="Arvo">Arvo</option>
+			<option value="Astloch">Astloch</option>
+			<option value="Bentham">Bentham</option>
+			<option value="Bevan">Bevan</option>
+			<option value="Buda">Buda</option>
+			<option value="Cabin">Cabin</option>
+			<option value="Calligraffitti">Calligraffitti</option>	
+			<option value="Cantarell">Cantarell</option>
+			<option value="Cardo">Cardo</option>	
+			<option value="Cherry Cream Soda">Cherry Cream Soda</option>
+			<option value="Chewy">Chewy</option>
+			<option value="Coda">Coda</option>	
+			<option value="Coming Soon">Coming Soon</option>
+			<option value="Copse">Copse</option>
+			<option value="Corben">Corben</option>
+			<option value="Cousine">Cousine</option>
+			<option value="Covered By Your Grace">Covered By Your Grace</option>
+			<option value="Crafty Girls">Crafty Girls</option>
+			<option value="Crimson Text">Crimson Text</option>
+			<option value="Crushed">Crushed</option>
+			<option value="Cuprum">Cuprum</option>	
+			<option value="Dancing Script">Dancing Script</option>
+			<option value="Droid Sans">Droid Sans</option>
+			<option value="Droid Sans Mono">Droid Sans Mono</option>
+			<option value="Droid Serif">Droid Serif</option>
+			<option value="Expletus Sans">Expletus Sans</option>
+			<option value="Fontdiner Swanky">Fontdiner Swanky</option>
+			<option value="Geo">Geo</option>
+			<option value="Goudy Bookletter 1911">Goudy Bookletter 1911</option>	
+			<option value="Gruppo">Gruppo</option>			
+			<option value="Homemade Apple">Homemade Apple</option>
+			<option value="Helvetica">Helvetica</option>
+			<option value="IM Fell">IM Fell</option>
+			<option value="Inconsolata">Inconsolata</option>
+			<option value="Irish Growler">Irish Growler</option>
+			<option value="Josefin Slab">Josefin Slab</option>
+			<option value="Josefin Sans">Josefin Sans</option>
+			<option value="Josefin Sans Std Light">Josefin Sans Std Light</option>
+			<option value="Just Another Hand">Just Another Hand</option>
+			<option value="Just Me Again Down Here">Just Me Again Down Here</option>	
+			<option value="Kenia">Kenia</option>
+			<option value="Kranky">Kranky</option>
+			<option value="Kreon">Kreon</option>
+			<option value="Kristi">Kristi</option>
+			<option value="Lato">Lato</option>
+			<option value="Lekton">Lekton</option>
+			<option value="Lobster">Lobster</option>
+			<option value="Luckiest Guy">Luckiest Guy</option>
+			<option value="Meddon">Meddon</option>
+			<option value="Merriweather">Merriweather</option>
+			<option value="Molengo">Molengo</option>
+			<option value="Mountains of Christmas">Mountains of Christmas</option>
+			<option value="Neucha">Neucha</option>
+			<option value="Neuton">Neuton</option>
+			<option value="Nobile">Nobile</option>
+			<option value="OFL Sorts Mill Goudy TT">OFL Sorts Mill Goudy TT</option>
+			<option value="Old Standard TT">Old Standard TT</option>
+			<option value="Orbitron">Orbitron</option>
+			<option value="Oswald">Oswald</option>
+			<option value="Permanent Marker">Permanent Marker</option>
+			<option value="Philosopher">Philosopher</option>
+			<option value="PT Sans">PT Sans</option>
+			<option value="PT Serif">PT Serif</option>
+			<option value="Puritan">Puritan</option>
+			<option value="Radley">Radley</option>	
+			<option value="Raleway">Raleway</option>
+			<option value="Reenie Beanie">Reenie Beanie</option>
+			<option value="Rock Salt">Rock Salt</option>
+			<option value="Sans-Serif">Sans-Serif</option>
+			<option value="Schoolbell">Schoolbell</option>
+			<option value="Slackey">Slackey</option>
+			<option value="Sniglet">Sniglet</option>
+			<option value="Sunshiney">Sunshiney</option>
+			<option value="Syncopate">Syncopate</option>
+			<option value="Tangerine">Tangerine</option>
+			<option value="Tinos">Tinos</option>
+			<option value="Ubuntu">Ubuntu</option>
+			<option value="UnifrakturCook">UnifrakturCook</option>
+			<option value="UnifrakturMaguntia">UnifrakturMaguntia</option>
+			<option value="Unkempt">Unkempt</option>
+			<option value="Vibur">Vibur</option>	
+			<option value="Vollkorn">Vollkorn</option>
+			<option value="VT323">VT323</option>
+			<option value="Walter Turncoat">Walter Turncoat</option>	
+			<option value="Yanone Kaffeesatz">Yanone Kaffeesatz</option>
+		</param>
+		<param name="xml_s5_background1" type="text" default="#28698e" label="#s5_top_row1_area1" description="Enter the background color for #s5_top_row1_area1" />
+		<param name="xml_s5_background2" type="text" default="#576A75" label="#s5_top_row2_area1" description="Enter the background color for #s5_top_row2_area1" />
+		<param name="xml_s5_background3" type="text" default="#28698e" label="#s5_center_area1" description="Enter the background color for #s5_center_area1" />
+		<param name="xml_s5_background4" type="text" default="#f3f3f3" label="#s5_bottom_row1_area1" description="Enter the background color for #s5_bottom_row1_area1" />
+		<param name="xml_s5_background5" type="text" default="#545454" label="#s5_bottom_row2_area1" description="Enter the background color for #s5_bottom_row2_area1" />
+		<param name="xml_s5_background6" type="text" default="#28698e" label="#s5_bottom_row3_area1" description="Enter the background color for #s5_bottom_row3_area1" />
+		
+		
+		<param name="appearance_options_title" type="spacer" default="&lt;div style=&quot;color:f6f6f6;background:#f6f6f6;height:30px;line-height:29px;border:1px solid #e9e9e9;margin-top:-3px;margin-bottom:-3px;padding-left:10px;font-weight:bold;font-size:13px;&quot;&gt;Layout, Fonts, and Appearance Options:&lt;/div&gt;" />
+		<param name="xml_s5_font_resizer" type="radio" default="yes" label="Enable Font Resizer?" description="Choose whether or not to show the font resizer.">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</param>	
+		<param name="xml_s5_fonts" type="list" default="Arial" label="Site Font" description="Choose the font you desire for your site. View previews here: http://code.google.com/webfonts">
+			<option value="Allan">Allan</option>
+			<option value="Allerta">Allerta</option>
+			<option value="Allerta Stencil">Allerta Stencil</option>
+			<option value="Anonymous Pro">Anonymous Pro</option>
+			<option value="Anton">Anton</option>
+			<option value="Arial">Arial</option>
+			<option value="Arimo">Arimo</option>
+			<option value="Arvo">Arvo</option>
+			<option value="Astloch">Astloch</option>
+			<option value="Bentham">Bentham</option>
+			<option value="Bevan">Bevan</option>
+			<option value="Buda">Buda</option>
+			<option value="Cabin">Cabin</option>
+			<option value="Calligraffitti">Calligraffitti</option>	
+			<option value="Cantarell">Cantarell</option>
+			<option value="Cardo">Cardo</option>	
+			<option value="Cherry Cream Soda">Cherry Cream Soda</option>
+			<option value="Chewy">Chewy</option>
+			<option value="Coda">Coda</option>	
+			<option value="Coming Soon">Coming Soon</option>
+			<option value="Copse">Copse</option>
+			<option value="Corben">Corben</option>
+			<option value="Cousine">Cousine</option>
+			<option value="Covered By Your Grace">Covered By Your Grace</option>
+			<option value="Crafty Girls">Crafty Girls</option>
+			<option value="Crimson Text">Crimson Text</option>
+			<option value="Crushed">Crushed</option>
+			<option value="Cuprum">Cuprum</option>	
+			<option value="Dancing Script">Dancing Script</option>
+			<option value="Droid Sans">Droid Sans</option>
+			<option value="Droid Sans Mono">Droid Sans Mono</option>
+			<option value="Droid Serif">Droid Serif</option>
+			<option value="Expletus Sans">Expletus Sans</option>
+			<option value="Fontdiner Swanky">Fontdiner Swanky</option>
+			<option value="Geo">Geo</option>
+			<option value="Goudy Bookletter 1911">Goudy Bookletter 1911</option>	
+			<option value="Gruppo">Gruppo</option>			
+			<option value="Homemade Apple">Homemade Apple</option>
+			<option value="Helvetica">Helvetica</option>
+			<option value="IM Fell">IM Fell</option>
+			<option value="Inconsolata">Inconsolata</option>
+			<option value="Irish Growler">Irish Growler</option>
+			<option value="Josefin Slab">Josefin Slab</option>
+			<option value="Josefin Sans">Josefin Sans</option>
+			<option value="Josefin Sans Std Light">Josefin Sans Std Light</option>
+			<option value="Just Another Hand">Just Another Hand</option>
+			<option value="Just Me Again Down Here">Just Me Again Down Here</option>	
+			<option value="Kenia">Kenia</option>
+			<option value="Kranky">Kranky</option>
+			<option value="Kreon">Kreon</option>
+			<option value="Kristi">Kristi</option>
+			<option value="Lato">Lato</option>
+			<option value="Lekton">Lekton</option>
+			<option value="Lobster">Lobster</option>
+			<option value="Luckiest Guy">Luckiest Guy</option>
+			<option value="Meddon">Meddon</option>
+			<option value="Merriweather">Merriweather</option>
+			<option value="Molengo">Molengo</option>
+			<option value="Mountains of Christmas">Mountains of Christmas</option>
+			<option value="Neucha">Neucha</option>
+			<option value="Neuton">Neuton</option>
+			<option value="Nobile">Nobile</option>
+			<option value="OFL Sorts Mill Goudy TT">OFL Sorts Mill Goudy TT</option>
+			<option value="Old Standard TT">Old Standard TT</option>
+			<option value="Orbitron">Orbitron</option>
+			<option value="Oswald">Oswald</option>
+			<option value="Permanent Marker">Permanent Marker</option>
+			<option value="Philosopher">Philosopher</option>
+			<option value="PT Sans">PT Sans</option>
+			<option value="PT Serif">PT Serif</option>
+			<option value="Puritan">Puritan</option>
+			<option value="Radley">Radley</option>	
+			<option value="Raleway">Raleway</option>
+			<option value="Reenie Beanie">Reenie Beanie</option>
+			<option value="Rock Salt">Rock Salt</option>
+			<option value="Sans-Serif">Sans-Serif</option>
+			<option value="Schoolbell">Schoolbell</option>
+			<option value="Slackey">Slackey</option>
+			<option value="Sniglet">Sniglet</option>
+			<option value="Sunshiney">Sunshiney</option>
+			<option value="Syncopate">Syncopate</option>
+			<option value="Tangerine">Tangerine</option>
+			<option value="Tinos">Tinos</option>
+			<option value="Ubuntu">Ubuntu</option>
+			<option value="UnifrakturCook">UnifrakturCook</option>
+			<option value="UnifrakturMaguntia">UnifrakturMaguntia</option>
+			<option value="Unkempt">Unkempt</option>
+			<option value="Vibur">Vibur</option>	
+			<option value="Vollkorn">Vollkorn</option>
+			<option value="VT323">VT323</option>
+			<option value="Walter Turncoat">Walter Turncoat</option>	
+			<option value="Yanone Kaffeesatz">Yanone Kaffeesatz</option>
+		</param>
+		<param name="xml_s5_fixed_fluid" type="list" default="fixed" label="Fixed or Fluid Layout?" description="Choose fixed or fluid layout. If choosing fixed you can set your body width below.">
+			<option value="px">Fixed</option>
+			<option value="%">Fluid</option>
+		</param>	
+		<param name="xml_s5_body_width" type="text" default="950" label="Body Width" description="Enter the width of the body." />
+		<param name="xml_s5_left_width" type="text" default="240" label="Left Width" description="Enter the width of the left column in pixels." />
+		<param name="xml_s5_left_inset_width" type="text" default="200" label="Left Inset Width" description="Enter the width of the left inset column in pixels." />
+		<param name="xml_s5_right_width" type="text" default="240" label="Right Width" description="Enter the width of the right column in pixels." />
+		<param name="xml_s5_right_inset_width" type="text" default="200" label="Right Inset Width" description="Enter the width of the right inset column in pixels." />
+		<param name="menu_options_title" type="spacer" default="&lt;div style=&quot;color:f6f6f6;background:#f6f6f6;height:30px;line-height:29px;border:1px solid #e9e9e9;margin-top:-3px;margin-bottom:-3px;padding-left:10px;font-weight:bold;font-size:13px;&quot;&gt;Menu Options:&lt;/div&gt;" />
+		<param name="xml_menuname" type="menu" default="mainmenu" label="Menu Name" description="What menu would you like to use for the default default menu?" />	
+		<param name="xml_s5_menu" type="list" default="4" label="Menu Type" description="Choose your desired menu effect from the dropdown list. To hide the menu choose No Menu.">
+			<option value="1">Drop In Menu</option>
+			<option value="3">Fading Menu</option>
+			<option value="4">Scroll Down Menu</option>
+			<option value="2">Suckerfish</option>
+			<option value="5">No Menu</option>
+		</param>
+	
+		<param name="xml_s5_jsmenu" type="list" default="jq" label="Effect Script" description="Choose which script you would like to power the drop down menu.">
+			<option value="jq">jQuery</option>
+			<option value="s5">S5 Effects</option>
+		</param>		
+		<param name="row_options_title" type="spacer" default="&lt;div style=&quot;color:f6f6f6;background:#f6f6f6;height:30px;line-height:29px;border:1px solid #e9e9e9;margin-top:-3px;margin-bottom:-3px;padding-left:10px;font-weight:bold;font-size:13px;&quot;&gt;Row Module Size Options:&lt;/div&gt;" />
+		<param name="row_instructions" type="spacer" default="Below you can adjust the width of the modules contained in any row of modules or set it to automatic. For example top_row1 contains 6 module positions, if you publish modules to only top_row1_1 and top_row1_2 the modules will each be set to 50% of the available space or you can choose to set them percentages manually. If you choose manual be sure to separate the widths by commas with no spaces. &lt;br&gt;&lt;br&gt;Note - Even if you are not using all the positions in a row your numbers must still total to 100%. For example if I use top_row2_2 and top_row2_4 and not the others in the row my calculations would like something like 0,30,0,70,0,0 be sure to enter 0 for positions  you are not using." />
+		<param name="xml_s5_top_row1_calculation" type="list" default="automatic" label="top_row1 Modules" description="Choose whether to have these module widths automatically calculated or manually set them. If you choose manual your totals must equal to 100% or an error message will appear on the frontend of your site.">
+			<option value="automatic">Automatic Widths</option>
+			<option value="manual">Manual Widths</option>
+		</param>	
+		<param name="xml_s5_top_row1_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="top_row1 Manual Widths" description="Enter the widths of each module in this row." />
+		<param name="xml_s5_top_row2_calculation" type="list" default="automatic" label="top_row2 Modules" description="Choose whether to have these module widths automatically calculated or manually set them. If you choose manual your totals must equal to 100% or an error message will appear on the frontend of your site.">
+			<option value="automatic">Automatic Widths</option>
+			<option value="manual">Manual Widths</option>
+		</param>	
+		<param name="xml_s5_top_row2_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="top_row2 Manual Widths" description="Enter the widths of each module in this row." />
+		<param name="xml_s5_top_row3_calculation" type="list" default="automatic" label="top_row3 Modules" description="Choose whether to have these module widths automatically calculated or manually set them. If you choose manual your totals must equal to 100% or an error message will appear on the frontend of your site.">
+			<option value="automatic">Automatic Widths</option>
+			<option value="manual">Manual Widths</option>
+		</param>	
+		<param name="xml_s5_top_row3_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="top_row3 Manual Widths" description="Enter the widths of each module in this row." />
+		<param name="xml_s5_above_columns_wrap_calculation" type="list" default="automatic" label="above_columns_wrap Modules" description="Choose whether to have these module widths automatically calculated or manually set them. If you choose manual your totals must equal to 100% or an error message will appear on the frontend of your site.">
+			<option value="automatic">Automatic Widths</option>
+			<option value="manual">Manual Widths</option>
+		</param>	
+		<param name="xml_above_columns_wrap_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="above_columns_wrap Manual Widths" description="Enter the widths of each module in this row." />	
+		<param name="xml_s5_middle_top_calculation" type="list" default="automatic" label="middle_top Modules" description="Choose whether to have these module widths automatically calculated or manually set them. If you choose manual your totals must equal to 100% or an error message will appear on the frontend of your site.">
+			<option value="automatic">Automatic Widths</option>
+			<option value="manual">Manual Widths</option>
+		</param>	
+		<param name="xml_s5_middle_top_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="middle_top Manual Widths" description="Enter the widths of each module in this row." />
+		<param name="xml_s5_above_body_calculation" type="list" default="automatic" label="above_body Modules" description="Choose whether to have these module widths automatically calculated or manually set them. If you choose manual your totals must equal to 100% or an error message will appear on the frontend of your site.">
+			<option value="automatic">Automatic Widths</option>
+			<option value="manual">Manual Widths</option>
+		</param>	
+		<param name="xml_s5_above_body_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="above_body Manual Widths" description="Enter the widths of each module in this row." />
+		<param name="xml_s5_middle_bottom_calculation" type="list" default="automatic" label="middle_bottom Modules" description="Choose whether to have these module widths automatically calculated or manually set them. If you choose manual your totals must equal to 100% or an error message will appear on the frontend of your site.">
+			<option value="automatic">Automatic Widths</option>
+			<option value="manual">Manual Widths</option>
+		</param>	
+		<param name="xml_s5_middle_bottom_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="middle_bottom Manual Widths" description="Enter the widths of each module in this row." />
+		<param name="xml_s5_below_body_calculation" type="list" default="automatic" label="below_body Modules" description="Choose whether to have these module widths automatically calculated or manually set them. If you choose manual your totals must equal to 100% or an error message will appear on the frontend of your site.">
+			<option value="automatic">Automatic Widths</option>
+			<option value="manual">Manual Widths</option>
+		</param>	
+		<param name="xml_s5_below_body_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="below_body Manual Widths" description="Enter the widths of each module in this row." />
+	
+		<param name="xml_s5_below_columns_wrap_calculation" type="list" default="automatic" label="below_columns_wrap Modules" description="Choose whether to have these module widths automatically calculated or manually set them. If you choose manual your totals must equal to 100% or an error message will appear on the frontend of your site.">
+			<option value="automatic">Automatic Widths</option>
+			<option value="manual">Manual Widths</option>
+		</param>	
+		<param name="xml_below_columns_wrap_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="below_columns_wrap Manual Widths" description="Enter the widths of each module in this row." />	
+		
+		<param name="xml_s5_bottom_row1_calculation" type="list" default="automatic" label="bottom_row1 Modules" description="Choose whether to have these module widths automatically calculated or manually set them. If you choose manual your totals must equal to 100% or an error message will appear on the frontend of your site.">
+			<option value="automatic">Automatic Widths</option>
+			<option value="manual">Manual Widths</option>
+		</param>
+		<param name="xml_s5_bottom_row1_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="bottom_row1 Manual Widths" description="Enter the widths of each module in this row." />
+		
+		<param name="xml_s5_bottom_row2_calculation" type="list" default="automatic" label="bottom_row2 Modules" description="Choose whether to have these module widths automatically calculated or manually set them. If you choose manual your totals must equal to 100% or an error message will appear on the frontend of your site.">
+			<option value="automatic">Automatic Widths</option>
+			<option value="manual">Manual Widths</option>
+		</param>	
+		<param name="xml_s5_bottom_row2_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="bottom_row2 Manual Widths" description="Enter the widths of each module in this row." />
+		<param name="xml_s5_bottom_row3_calculation" type="list" default="automatic" label="bottom_row3 Modules" description="Choose whether to have these module widths automatically calculated or manually set them. If you choose manual your totals must equal to 100% or an error message will appear on the frontend of your site.">
+			<option value="automatic">Automatic Widths</option>
+			<option value="manual">Manual Widths</option>
+		</param>	
+		<param name="xml_s5_bottom_row3_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="bottom_row3 Manual Widths" description="Enter the widths of each module in this row." />
+		<param name="mobile_device_options_title" type="spacer" default="&lt;div style=&quot;color:f6f6f6;background:#f6f6f6;height:30px;border:1px solid #e9e9e9;line-height:29px;margin-top:-3px;margin-bottom:-3px;padding-left:10px;font-weight:bold;font-size:13px;&quot;&gt;Mobile Device Settings:&lt;/div&gt;" />
+		<param name="mobile_instructions" type="spacer" default="Below you may setup mobile device support for your website. Your menu will be pulled from the same menu set in the Menu Options area. The mobile version contains the unique module positions mobile_top_1, mobile_top_2, mobile_bottom_1, and mobile_bottom_2, you may publish any module to these positions and they will only show on the mobile version. Module positions logo, search and breadcrumb are also present but are shared with the main PC version. Disabling the show frontpage article/component area in General Options will also disable the mobile version's frontpage area." />
+		<param name="xml_s5_mobile_device_enable_disable" type="radio" default="disabled" label="Enable or Disable Mobile Device Layout?" description="Choose whether or not to display a smaller version of your site for mobile devices.">
+			<option value="enabled">Enabled</option>
+			<option value="disabled">Disabled</option>
+		</param>
+		<param name="xml_s5_mobile_device_menu_subs" type="radio" default="first" label="Show first level menu links only or all links?" description="Choose whether or not to display all menu links or just the first level links. Sub menu items will not appear as subs within the drop down, they will all appear in collective list. All links will be listed alphabetically.">
+			<option value="first">First level links only</option>
+			<option value="all">All links</option>
+		</param>
+		<param name="xml_s5_mobile_device_menu_title" type="text" default="Select Menu" label="Text for default drop down menu item" description="This text will show as the first item in the mobile device drop down menu." />
+		<param name="xml_s5_mobile_device_login" type="radio" default="enabled" label="Show the login button?" description="Choose whether or not to display the login button.">
+			<option value="enabled">Enabled</option>
+			<option value="disabled">Disabled</option>
+		</param>
+		<param name="xml_s5_mobile_device_register" type="radio" default="enabled" label="Show the register button?" description="Choose whether or not to display the register button.">
+			<option value="enabled">Enabled</option>
+			<option value="disabled">Disabled</option>
+		</param>
+
+		<param name="xml_s5_mobile_device_pc_text" type="text" default="Show me the PC Version" label="PC Version Link text" description="Enter the text that will be used for the PC version link found in the footer." />
+		<param name="multibox_options_title" type="spacer" default="&lt;div style=&quot;color:f6f6f6;background:#f6f6f6;height:30px;line-height:29px;border:1px solid #e9e9e9;margin-top:-3px;margin-bottom:-3px;padding-left:10px;font-weight:bold;font-size:13px;&quot;&gt;Multibox and Tooltips:&lt;/div&gt;" />
+		<param name="xml_s5_multibox" type="list" default="yes" label="Enable Multibox?" description="Enable the multibox feature for your images  NOTE: it is highly recommened to disable if you are not planning to use">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>
+		<param name="xml_s5_multioverlay" type="list" default="yes" label="Enable Multibox Overlay?" description="Enable the multibox overlay feature.">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>
+		<param name="xml_s5_multicontrols" type="list" default="yes" label="Enable Multibox Controls?" description="Enable the multibox controls.">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>	
+		<param name="xml_s5_tooltips" type="radio" default="no" label="Enable Tooltips?" description="Would you like to enable tooltips? NOTE: It is highly recommened to disable this script if you are not planning to use it.">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>
+		<param name="general_options_title" type="spacer" default="&lt;div style=&quot;color:f6f6f6;background:#f6f6f6;height:30px;line-height:29px;border:1px solid #e9e9e9;margin-top:-3px;margin-bottom:-3px;padding-left:10px;font-weight:bold;font-size:13px;&quot;&gt;General Options:&lt;/div&gt;" />
+		<param name="xml_s5_moover" type="radio" default="moo112" label="Template Mootools Version - Choose 1.2.4 only if you have enabled the System Mootools Upgrade Plugin" description="Choose your mootools library version">
+			<option value="moo112">Mootools 1.12</option>
+			<option value="moo124">Mootools 1.2.4</option>
+		</param>
+		<param name="xml_s5_thirdparty" type="radio" default="enabled" label="Third Party Styles" description="Choose to enable or disable the third party stylings">
+			<option value="enabled">Enable</option>
+			<option value="disabled">Disable</option>
+		</param>
+		<param name="xml_s5_seourl" type="text" default="" label="Your Site URL if SEO enabled - Example: http://www.mysite.com" description="If you turn on SEO URLs and your site loses its CSS formatting and flat out doesn't work enter your full site url here.  Example: http://www.mysite.com" />
+		<param name="frontpage_instructions" type="spacer" default="Below you can choose whether or not show the content/component area on the frontpage. If you choose no you must have a module published in one of the following rows: middle_top, above_body, below_body, or middle_bottom, or the layout will not show correctly because no middle column will be present. If you choose no and disable all modules published to the main, middle area of the site, ie: left, right, left_inset, above_body, etc. then entire middle section will collapse." />
+		<param name="xml_s5_frontpage" type="radio" default="yes" label="Would You Like The Component and Article Area Shown On The Frontpage?" description="Choose whether or not to show the component and article section on the frontpage of the site.">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>
+		<param name="xml_s5_ie6plugin" type="radio" default="yes" label="Choose to enable IE6 upgrade warning." description="Choose whether or not to enable IE6 upgrade warning.">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>
+		<param name="xml_s5_scrolltotop" type="radio" default="yes" label="Choose to enable scroll to top arrow." description="Choose whether or not to enable the scroll to top arrow.  When clicked the screen will scroll to the top of the page">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>		
+		<param name="login_logout_text_title" type="spacer" default="&lt;div style=&quot;color:f6f6f6;background:#f6f6f6;height:30px;border:1px solid #e9e9e9;line-height:29px;margin-top:-3px;margin-bottom:-3px;padding-left:10px;font-weight:bold;font-size:13px;&quot;&gt;Login and Register Text:&lt;/div&gt;" />
+		<param name="login_logout_sub1" type="spacer" default="Note - In order for the login and register boxes to work you must have the S5 Box module published to all pages on your site. Publish it to a position towards the bottom of the page, it will not be visible on the page. This module can be downloaded the Club Extensions area." />
+		<param name="xml_s5_login" type="text" default="" label="Login Text" description="Enter the text you desire for the login button" />
+		<param name="xml_s5_loginout" type="text" default="" label="Logout Text" description="Enter the text you desire for the logout button once users are logged in." />
+		<param name="xml_s5_register" type="text" default="" label="Register Text" description="Enter the text you desire for the register button" />
+		<param name="tabs_options_title" type="spacer" default="&lt;div style=&quot;color:f6f6f6;background:#f6f6f6;height:30px;border:1px solid #e9e9e9;line-height:29px;margin-top:-3px;margin-bottom:-3px;padding-left:10px;font-weight:bold;font-size:13px;&quot;&gt;Fixed Tab Settings:&lt;/div&gt;" />
+		<param name="tabs_sub1" type="spacer" default="Note - To disable a fixed tab simply leave the text area blank." />
+		<param name="xml_s5_lr_tab_border" type="text" default="838383" label="Fixed Tab Border Color" description="Enter in Hex the color for the fixed tab borders." />
+		<param name="xml_s5_lr_tab_color" type="text" default="FFFFFF" label="Fixed Tab Background Color" description="Enter in Hex the color for the fixed tab backgrounds." />
+		<param name="xml_s5_lr_tab_font" type="text" default="323232" label="Fixed Tab Font Color" description="Enter in Hex the color for the fixed tab font color." />
+		<param name="tabs_sub2" type="spacer" default="Fixed Tab 1 Settings:" />
+		<param name="xml_s5_lr_tab1_text" type="text" default="" label="Fixed Tab 1 Text" description="Enter the text you desire for the first fixed tab button.  If no text is added it will auto disable." />
+		<param name="xml_s5_lr_tab1_vp" type="text" default="30" label="Fixed Tab 1 Vertical Position" description="Enter in a percentage example 40%, the vertical position on screen you desire for the first fixed tab." />
+		<param name="xml_s5_lr_tab1_height" type="text" default="100" label="Fixed Tab 1 Height" description="Enter the height of the first fixed tab button in px." />
+		<param name="xml_s5_lr_tab1_class" type="text" default="" label="Fixed Tab 1 Class" description="You can add a class name to the first fixed tab to enable a lightbox plugin, or perhaps the s5 box." />
+		<param name="xml_s5_lr_tab1_click" type="text" default="" label="Fixed Tab 1 On Click URL" description="Enter a URL if you want the first tab to go to a location on click" />
+		<param name="xml_s5_lr_tab1_left_right" type="radio" default="right" label="Left or Right of Screen" description="Choose to display the first fixed tab on the left or right side of your screen">
+			<option value="left">Left</option>
+			<option value="right">Right</option>
+		</param>
+		<param name="tabs_sub3" type="spacer" default="Fixed Tab 2 Settings:" />
+		<param name="xml_s5_lr_tab2_text" type="text" default="" label="Fixed Tab 2 Text" description="Enter the text you desire for the second fixed tab button. If no text is added it will auto disable." />
+		<param name="xml_s5_lr_tab2_vp" type="text" default="70" label="Fixed Tab 2 Vertical Position" description="Enter in a percentage example 40%, the vertical position on screen you desire for the second fixed tab." />
+		<param name="xml_s5_lr_tab2_height" type="text" default="100" label="Fixed Tab 2 Height" description="Enter the height of the first second tab button in px." />
+		<param name="xml_s5_lr_tab2_class" type="text" default="" label="Fixed Tab 2 Class" description="You can add a class name to the second fixed tab to enable a lightbox plugin, or perhaps the s5 box." />
+		<param name="xml_s5_lr_tab2_click" type="text" default="" label="Fixed Tab 2 On Click" description="Enter a URL if you want the second tab to go to a location on click" />
+		<param name="xml_s5_lr_tab2_left_right" type="radio" default="right" label="Left or Right of Screen" description="Choose to display the second fixed tab on the left or right side of your screen">
+			<option value="left">Left</option>
+			<option value="right">Right</option>
+		</param>
+	</params>
+</install>

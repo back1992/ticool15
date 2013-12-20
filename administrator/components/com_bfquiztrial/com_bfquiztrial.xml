@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5">
+    <name>bfquiztrial</name>
+    <creationDate>December 2009</creationDate>
+    <author>http://www.tamlyncreative.com.au/software/</author>
+    <authorEmail>tim@tamlyncreative.com.au</authorEmail>
+    <authorUrl>http://www.tamlyncreative.com.au/software/</authorUrl>
+    <copyright>Copyright (c) 2009 - Tamlyn Creative Pty Ltd</copyright>
+    <license>GNU GPL</license>
+    <version>1.3.0</version>
+    <description>BF Quiz is a Joomla 1.5.x component that allows you to add quiz or testing functionality to your site.</description>
+    <installfile>install.bfquiztrial.php</installfile>
+    <uninstallfile>uninstall.bfquiztrial.php</uninstallfile>
+
+    <files folder="component">
+        <filename>index.html</filename>
+        <filename>bfquiztrial.php</filename>
+        <filename>controller.php</filename>
+        <filename>excelexport.php</filename>
+        <filename>views/index.html</filename>
+
+        <filename>views/bfquiztrial/index.html</filename>
+        <filename>views/bfquiztrial/view.html.php</filename>
+        <filename>views/bfquiztrial/metadata.xml</filename>
+        <filename>views/bfquiztrial/tmpl/index.html</filename>
+        <filename>views/bfquiztrial/tmpl/default.php</filename>
+        <filename>views/bfquiztrial/tmpl/default.xml</filename>
+
+        <filename>views/onepage/index.html</filename>
+        <filename>views/onepage/view.html.php</filename>
+        <filename>views/onepage/metadata.xml</filename>
+        <filename>views/onepage/tmpl/index.html</filename>
+        <filename>views/onepage/tmpl/default.php</filename>
+        <filename>views/onepage/tmpl/default.xml</filename>
+
+	<filename>views/sayg/index.html</filename>
+        <filename>views/sayg/view.html.php</filename>
+        <filename>views/sayg/metadata.xml</filename>
+        <filename>views/sayg/tmpl/index.html</filename>
+        <filename>views/sayg/tmpl/default.php</filename>
+        <filename>views/sayg/tmpl/default.xml</filename>
+
+        <filename>views/stats/index.html</filename>
+	<filename>views/stats/view.html.php</filename>
+	<filename>views/stats/metadata.xml</filename>
+	<filename>views/stats/tmpl/index.html</filename>
+        <filename>views/stats/tmpl/default.php</filename>
+        <filename>views/stats/tmpl/default.xml</filename>
+
+        <filename>views/response/index.html</filename>
+	<filename>views/response/view.html.php</filename>
+	<filename>views/response/metadata.xml</filename>
+	<filename>views/response/tmpl/index.html</filename>
+        <filename>views/response/tmpl/default.php</filename>
+
+        <filename>views/results/index.html</filename>
+	<filename>views/results/view.html.php</filename>
+	<filename>views/results/metadata.xml</filename>
+	<filename>views/results/tmpl/index.html</filename>
+        <filename>views/results/tmpl/default.php</filename>
+        <filename>views/results/tmpl/default.xml</filename>
+
+        <filename>views/myquizzes/index.html</filename>
+	<filename>views/myquizzes/view.html.php</filename>
+	<filename>views/myquizzes/metadata.xml</filename>
+	<filename>views/myquizzes/tmpl/index.html</filename>
+        <filename>views/myquizzes/tmpl/default.php</filename>
+        <filename>views/myquizzes/tmpl/default.xml</filename>
+
+	<filename>models/index.html</filename>
+    	<filename>models/bfquiztrial.php</filename>
+	<filename>models/sayg.php</filename>
+	<filename>models/onepage.php</filename>
+
+        <filename>css/style.css</filename>
+        <filename>css/index.html</filename>
+
+        <filename>images/index.html</filename>
+        <filename>images/manualHandling.jpg</filename>
+        <filename>images/shoe1.jpg</filename>
+        <filename>images/shoe2.jpg</filename>
+        <filename>images/shoe3.jpg</filename>
+
+        <filename>images/Water.jpg</filename>
+        <filename>images/Foam.jpg</filename>
+        <filename>images/Dry-chem.jpg</filename>
+        <filename>images/Co2.jpg</filename>
+        <filename>images/bflogo.jpg</filename>
+
+	<filename>scopbin/911006.php</filename>
+        <filename>scopbin/index.html</filename>
+    </files>
+
+    <languages folder="languages">
+    	<language tag="en-GB">en-GB.com_bfquiztrial.ini</language>
+	<language tag="nl-NL">nl-NL.com_bfquiztrial.ini</language>
+	<language tag="el-GR">el-GR.com_bfquiztrial.ini</language>
+	<language tag="de-DE">de-DE.com_bfquiztrial.ini</language>
+	<language tag="nb-NO">nb-NO.com_bfquiztrial.ini</language>
+	<language tag="pt-PT">pt-PT.com_bfquiztrial.ini</language>
+	<language tag="fr-FR">fr-FR.com_bfquiztrial.ini</language>
+	<language tag="pl-PL">pl-PL.com_bfquiztrial.ini</language>
+	<language tag="pl-PL">sv-SE.com_bfquiztrial.ini</language>
+	<language tag="pl-PL">es-ES.com_bfquiztrial.ini</language>
+	<language tag="pt-BR">pt-BR.com_bfquiztrial.ini</language>
+	<language tag="it-IT">it-IT.com_bfquiztrial.ini</language>
+	<language tag="zh-CN">zh-CN.com_bfquiztrial.ini</language>
+	<language tag="zh-TW">zh-TW.com_bfquiztrial.ini</language>
+    </languages>
+
+    <administration>
+        <menu img="./components/com_bfquiztrial/images/bfquiztrial.png">BF Quiz Trial</menu>
+        <submenu>
+	   <menu link="option=com_bfquiztrial&amp;controller=controller" img="js/ThemeOffice/component.png">Questions</menu>
+	   <menu link="option=com_categories&amp;section=com_bfquiztrial" img="js/ThemeOffice/component.png">Categories</menu>
+	   <menu link="option=com_bfquiztrial&amp;task=category" img="js/ThemeOffice/component.png">Report</menu>
+	   <menu link="option=com_bfquiztrial&amp;task=stats" img="js/ThemeOffice/component.png">Stats</menu>
+	   <menu link="option=com_bfquiztrial&amp;controller=resultscategory&amp;task=resultscategory" img="js/ThemeOffice/component.png">Results</menu>
+	   <menu link="option=com_bfquiztrial&amp;controller=matrix&amp;task=matrix" img="js/ThemeOffice/component.png">ABCD Answer Matrix</menu>
+	   <menu link="option=com_bfquiztrial&amp;controller=scorerange&amp;task=scorerange" img="js/ThemeOffice/component.png">Score Range Matrix</menu>
+        </submenu>
+
+        <files folder="admin">
+            <filename>index.html</filename>
+            <filename>admin.bfquiztrial.php</filename>
+            <filename>controller.php</filename>
+            <filename>config.xml</filename>
+            <filename>excelexport.php</filename>
+
+            <filename>controllers/index.html</filename>
+            <filename>controllers/results.php</filename>
+            <filename>controllers/resultscategory.php</filename>
+            <filename>controllers/response.php</filename>
+            <filename>controllers/matrix.php</filename>
+            <filename>controllers/matrixanswer.php</filename>
+            <filename>controllers/scorerange.php</filename>
+            <filename>controllers/scorerangeanswer.php</filename>
+            <filename>css/bfquiztrial.css</filename>
+	    <filename>css/index.html</filename>
+
+	    <filename>elements/bfquiztrial.php</filename>
+	    <filename>elements/index.html</filename>
+
+            <filename>helpers/index.html</filename>
+            <filename>helpers/helper.php</filename>
+
+ 	    <filename>images/index.html</filename>
+ 	    <filename>images/bfquiztrial.png</filename>
+	    <filename>images/bflogo.jpg</filename>
+	    <filename>images/bftick.jpg</filename>
+	    <filename>images/con_info.png</filename>
+	    <filename>images/icon-16-default.png</filename>
+
+	    <filename>models/index.html</filename>
+	    <filename>models/bfquiztrial.php</filename>
+	    <filename>models/question.php</filename>
+	    <filename>models/results.php</filename>
+	    <filename>models/matrix.php</filename>
+	    <filename>models/matrixanswer.php</filename>
+	    <filename>models/scorerange.php</filename>
+	    <filename>models/scorerangeanswer.php</filename>
+
+	    <filename>tables/index.html</filename>
+	    <filename>tables/question.php</filename>
+	    <filename>tables/scorerangeanswer.php</filename>
+	    <filename>tables/matrixanswer.php</filename>
+
+	    <filename>views/index.html</filename>
+
+	    <filename>views/bfquiztrial/index.html</filename>
+	    <filename>views/bfquiztrial/view.html.php</filename>
+	    <filename>views/bfquiztrial/tmpl/index.html</filename>
+	    <filename>views/bfquiztrial/tmpl/default.php</filename>
+
+	    <filename>views/category/index.html</filename>
+	    <filename>views/category/view.html.php</filename>
+	    <filename>views/category/tmpl/index.html</filename>
+	    <filename>views/category/tmpl/default.php</filename>
+
+	    <filename>views/report/index.html</filename>
+            <filename>views/report/view.html.php</filename>
+            <filename>views/report/tmpl/index.html</filename>
+            <filename>views/report/tmpl/default.php</filename>
+
+	    <filename>views/question/index.html</filename>
+	    <filename>views/question/view.html.php</filename>
+	    <filename>views/question/tmpl/index.html</filename>
+	    <filename>views/question/tmpl/form.php</filename>
+
+	    <filename>views/stats/index.html</filename>
+	    <filename>views/stats/view.html.php</filename>
+	    <filename>views/stats/tmpl/index.html</filename>
+	    <filename>views/stats/tmpl/default.php</filename>
+
+	    <filename>views/statscategory/index.html</filename>
+	    <filename>views/statscategory/view.html.php</filename>
+	    <filename>views/statscategory/tmpl/index.html</filename>
+	    <filename>views/statscategory/tmpl/default.php</filename>
+
+	    <filename>views/results/index.html</filename>
+	    <filename>views/results/view.html.php</filename>
+	    <filename>views/results/tmpl/index.html</filename>
+            <filename>views/results/tmpl/default.php</filename>
+
+	    <filename>views/resultscategory/index.html</filename>
+	    <filename>views/resultscategory/view.html.php</filename>
+	    <filename>views/resultscategory/tmpl/index.html</filename>
+            <filename>views/resultscategory/tmpl/default.php</filename>
+
+	    <filename>views/response/index.html</filename>
+	    <filename>views/response/view.html.php</filename>
+	    <filename>views/response/tmpl/index.html</filename>
+            <filename>views/response/tmpl/response.php</filename>
+
+	    <filename>views/matrix/index.html</filename>
+	    <filename>views/matrix/view.html.php</filename>
+	    <filename>views/matrix/tmpl/index.html</filename>
+            <filename>views/matrix/tmpl/default.php</filename>
+
+	    <filename>views/matrixanswer/index.html</filename>
+	    <filename>views/matrixanswer/view.html.php</filename>
+	    <filename>views/matrixanswer/tmpl/index.html</filename>
+            <filename>views/matrixanswer/tmpl/default.php</filename>
+
+	    <filename>views/scorerange/index.html</filename>
+	    <filename>views/scorerange/view.html.php</filename>
+	    <filename>views/scorerange/tmpl/index.html</filename>
+            <filename>views/scorerange/tmpl/default.php</filename>
+
+	    <filename>views/scorerangeanswer/index.html</filename>
+	    <filename>views/scorerangeanswer/view.html.php</filename>
+	    <filename>views/scorerangeanswer/tmpl/index.html</filename>
+            <filename>views/scorerangeanswer/tmpl/default.php</filename>
+
+	    <filename>scopbin/911006.php</filename>
+            <filename>scopbin/index.html</filename>
+
+	    <filename>install.sql</filename>
+            <filename>uninstall.sql</filename>
+
+        </files>
+
+        <languages folder="languages">
+	   <language tag="en-GB">en-GB.com_bfquiztrial.ini</language>
+	   <language tag="nl-NL">nl-NL.com_bfquiztrial.ini</language>
+	   <language tag="el-GR">el-GR.com_bfquiztrial.ini</language>
+	   <language tag="de-DE">de-DE.com_bfquiztrial.ini</language>
+	   <language tag="nb-NO">nb-NO.com_bfquiztrial.ini</language>
+	   <language tag="pt-PT">pt-PT.com_bfquiztrial.ini</language>
+	   <language tag="fr-FR">fr-FR.com_bfquiztrial.ini</language>
+	   <language tag="pl-PL">pl-PL.com_bfquiztrial.ini</language>
+	   <language tag="pl-PL">sv-SE.com_bfquiztrial.ini</language>
+	   <language tag="pl-PL">es-ES.com_bfquiztrial.ini</language>
+	   <language tag="pt-BR">pt-BR.com_bfquiztrial.ini</language>
+	   <language tag="it-IT">it-IT.com_bfquiztrial.ini</language>
+	   <language tag="zh-CN">zh-CN.com_bfquiztrial.ini</language>
+	   <language tag="zh-CN">zh-CN.com_bfquiztrial.menu.ini</language>
+	   <language tag="zh-TW">zh-TW.com_bfquiztrial.ini</language>
+	   <language tag="zh-TW">zh-TW.com_bfquiztrial.menu.ini</language>
+        </languages>
+
+    </administration>
+
+    <install>
+        <sql><file driver="mysql" charset="utf8">install.sql</file></sql>
+    </install>
+
+    <uninstall>
+        <sql><file driver="mysql" charset="utf8">uninstall.sql</file></sql>
+    </uninstall>
+</install>

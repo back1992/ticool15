@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data version="1.0">
+	<entities>
+		<entity name="quiz" table="#__ariquiz">
+			<field name="QuizId" type="int" primaryKey="true" />
+			<field name="QuizName" type="varchar" size="255" required="true" />
+			<field name="CreatedBy" type="int" required="true" />
+			<field name="Created" type="date" required="true" />
+			<field name="ModifiedBy" type="int" />
+			<field name="Modified" type="date" />
+			<field name="AccessType" type="int" />
+			<field name="Status" type="int" required="true" />
+			<field name="TotalTime" type="int" />
+			<field name="PassedScore" type="int" required="true" default="0" />
+			<field name="QuestionCount" type="int" />
+			<field name="QuestionTime" type="int" />
+			<field name="Description" type="clob" />
+			<field name="CanSkip" type="tinyint" required="true" default="0" size="1" />
+			<field name="CanStop" type="tinyint" required="true" default="0" size="1" />
+			<field name="RandomQuestion" type="tinyint" required="true" default="0" size="1" />
+			<field name="UseCalculator" type="tinyint" required="true" default="0" size="1" />
+			<field name="LagTime" type="int" required="true" default="0" />
+			<field name="AttemptCount" type="int" required="true" default="0" />
+			<field name="CssTemplateId" type="int" required="true" default="0" />
+			<field name="AdminEmail" type="clob" />
+			<field name="ResultScaleId" type="int" />
+			<field name="ParsePluginTag" type="int" required="true" default="1" size="1" />
+			<field name="ShowCorrectAnswer" type="int" required="true" default="0" size="1" />
+			<field name="ShowExplanation" type="int" required="true" default="0" size="1" />
+			<field name="Anonymous" type="enum" required="true" default="Yes">
+				<item>Yes</item>
+				<item>No</item>
+				<item>ByUser</item>
+			</field>
+			<field name="FullStatistics" type="enum" required="true" default="Never">
+				<item>Never</item>
+				<item>Always</item>
+				<item>OnLastAttempt</item>
+			</field>
+
+			<foreignKey foreignEntity="file">
+      			<reference local="CssTemplateId" foreign="FileId" />
+    		</foreignKey>
+    		<foreignKey foreignEntity="resultscale">
+      			<reference local="ResultScaleId" foreign="ScaleId" />
+    		</foreignKey>
+		</entity>
+		<entity name="question" table="#__ariquizquestion">
+			<field name="QuestionId" type="int" primaryKey="true" />
+			<field name="QuizId" type="int" required="true" />
+			<field name="QuestionVersionId" type="int" />
+			<field name="CreatedBy" type="int" required="true" />
+			<field name="Created" type="date" required="true" />
+			<field name="ModifiedBy" type="int" />
+			<field name="Modified" type="date" />
+			<field name="Status" type="int" required="true" />
+			<field name="QuestionIndex" type="int" />
+			<field name="BankQuestionId" type="int" />
+			<field name="QuestionTypeId" type="int" required="true" />
+			<field name="QuestionCategoryId" type="int" />
+
+			<foreignKey foreignEntity="quiz">
+      			<reference local="QuizId" foreign="QuizId" />
+    		</foreignKey>
+			<foreignKey foreignEntity="questionversion">
+      			<reference local="QuestionVersionId" foreign="QuestionVersionId" />
+    		</foreignKey>
+    		<foreignKey foreignEntity="bankquestion">
+      			<reference local="BankQuestionId" foreign="QuestionId" />
+    		</foreignKey>
+    		<foreignKey foreignEntity="questioncategory">
+      			<reference local="QuestionCategoryId" foreign="QuestionCategoryId" />
+    		</foreignKey>
+		</entity>
+		<entity name="bankquestion" virtual="true" refEntity="question">
+			<foreignKey foreignEntity="bankcategory">
+      			<reference local="QuestionCategoryId" foreign="CategoryId" />
+    		</foreignKey>	
+		</entity>
+		<entity name="questionversion" table="#__ariquizquestionversion">
+			<field name="QuestionVersionId" type="int" primaryKey="true" />
+			<field name="QuestionId" type="int" required="true" />
+			<field name="QuestionCategoryId" type="int" />
+			<field name="QuestionTime" type="int" />
+			<field name="QuestionTypeId" type="int" required="true" />
+			<field name="Question" type="clob" required="true" />
+			<field name="HashCode" type="char" size="32" />
+			<field name="CreatedBy" type="int" required="true" />
+			<field name="Created" type="date" required="true" />
+			<field name="Data" type="clob" required="true" />
+			<field name="Score" type="int" required="true" />
+			<field name="BankQuestionId" type="int" />
+			<field name="Note" type="clob" />
+
+			<foreignKey foreignEntity="question">
+      			<reference local="QuestionId" foreign="QuestionId" />
+    		</foreignKey>
+    		<foreignKey foreignEntity="questioncategory">
+      			<reference local="QuestionCategoryId" foreign="QuestionCategoryId" />
+    		</foreignKey>
+    		<foreignKey foreignEntity="bankquestion">
+      			<reference local="BankQuestionId" foreign="QuestionId" />
+    		</foreignKey>
+		</entity>
+		<entity name="bankquestionversion" table="#__ariquizquestionversion" virtual="true" refEntity="questionversion">
+			<foreignKey foreignEntity="bankcategory">
+      			<reference local="QuestionCategoryId" foreign="CategoryId" />
+    		</foreignKey>
+		</entity>
+		<entity name="questionversionfiles" table="#__ariquiz_question_version_files">
+			<field name="FileId" type="int" required="true" />
+			<field name="QuestionVersionId" type="int" required="true" />
+			<field name="QuestionId" type="int" required="true" />
+			<field name="Alias" type="varchar" size="85" required="true" default="" />
+			
+			<foreignKey foreignEntity="question">
+      			<reference local="QuestionId" foreign="QuestionId" />
+    		</foreignKey>
+    		<foreignKey foreignEntity="questionversion">
+      			<reference local="QuestionVersionId" foreign="QuestionVersionId" />
+    		</foreignKey>
+    		<foreignKey foreignEntity="file">
+      			<reference local="FileId" foreign="FileId" />
+    		</foreignKey>
+		</entity>
+		<entity name="questioncategory" table="#__ariquizquestioncategory">
+			<field name="QuestionCategoryId" type="int" primaryKey="true" />
+			<field name="QuizId" type="int" required="true" />
+			<field name="CategoryName" type="varchar" size="255" required="true" />
+			<field name="Description" type="clob" />
+			<field name="CreatedBy" type="int" required="true" />
+			<field name="Created" type="date" required="true" />
+			<field name="ModifiedBy" type="int" />
+			<field name="Modified" type="date" />
+			<field name="QuestionCount" type="int" />
+			<field name="QuestionTime" type="int" />
+			<field name="RandomQuestion" type="tinyint" size="1" required="true" default="0" />
+			<field name="Status" type="int" size="11" required="true" default="1" />
+			
+			<foreignKey foreignEntity="quiz">
+      			<reference local="QuizId" foreign="QuizId" />
+    		</foreignKey>
+		</entity>
+		<entity name="bankcategory" table="#__ariquizbankcategory">
+			<field name="CategoryId" type="int" primaryKey="true" />
+			<field name="CategoryName" type="varchar" size="255" required="true" />
+			<field name="Description" type="clob" />
+			<field name="CreatedBy" type="int" required="true" />
+			<field name="Created" type="date" required="true" />
+			<field name="ModifiedBy" type="int" />
+			<field name="Modified" type="date" />
+		</entity>
+		<entity name="resultscale" table="#__ariquiz_result_scale">
+			<field name="ScaleId" type="int" primaryKey="true" />
+			<field name="ScaleName" type="varchar" size="255" required="true" />
+			<field name="CreatedBy" type="int" required="true" />
+			<field name="Created" type="date" required="true" />
+			<field name="ModifiedBy" type="int" />
+			<field name="Modified" type="date" />
+		</entity>
+		<entity name="resultscaleitem" table="#__ariquiz_result_scale_item">
+			<field name="ScaleItemId" type="int" primaryKey="true" />
+			<field name="ScaleId" type="int" required="true" />
+			<field name="BeginPoint" type="int" required="true" />
+			<field name="EndPoint" type="int" required="true" />
+			<field name="TextTemplateId" type="int" />
+			<field name="MailTemplateId" type="int" />
+			<field name="PrintTemplateId" type="int" />
+		
+			<foreignKey foreignEntity="resultscale">
+      			<reference local="ScaleId" foreign="ScaleId" />
+    		</foreignKey>
+    		<foreignKey foreignEntity="generictemplate">
+      			<reference local="TextTemplateId" foreign="TemplateId" />
+    		</foreignKey>
+    		<foreignKey foreignEntity="generictemplate">
+      			<reference local="PrintTemplateId" foreign="TemplateId" />
+    		</foreignKey>
+    		<foreignKey foreignEntity="generictemplate">
+      			<reference local="MailTemplateId" foreign="TemplateId" />
+    		</foreignKey>
+		</entity>
+		<entity name="file" table="#__ariquizfile">
+			<field name="FileId" type="int" primaryKey="true" />
+			<field name="Content" type="blob" required="true" />
+			<field name="FileName" type="varchar" size="255" required="true" />
+			<field name="Group" type="varchar" size="255" required="true" />
+			<field name="Size" type="int" required="true" />
+			<field name="Description" type="varchar" size="255" />
+			<field name="ShortDescription" type="varchar" size="255" />
+			<field name="CreatedBy" type="int" required="true" />
+			<field name="Created" type="date" required="true" />
+			<field name="ModifiedBy" type="int" />
+			<field name="Modified" type="date" />
+			<field name="Extension" type="varchar" size="255" required="true" />
+			<field name="Height" type="int" required="true" default="0" />
+			<field name="Width" type="int" required="true" default="0" />
+			<field name="Flags" type="int" required="true" default="0" />
+		</entity>
+		<entity name="quizstatisticsinfo" table="#__ariquizstatisticsinfo">
+			<field name="StatisticsInfoId" type="int" primaryKey="true" />
+			<field name="QuizId" type="int" required="true" />
+			<field name="UserId" type="int" />
+			<field name="Status" type="enum" required="true" default="Process">
+				<item>Prepare</item>
+				<item>Process</item>
+				<item>Finished</item>
+				<item>Pause</item>
+			</field>
+			<field name="TicketId" type="char" size="32" required="true" />
+			<field name="StartDate" type="date" />
+			<field name="EndDate" type="date" />
+			<field name="PassedScore" type="int" required="true" default="0" />
+			<field name="UserScore" type="int" required="true" default="0" />
+			<field name="MaxScore" type="int" required="true" default="0" />
+			<field name="Passed" type="tinyint" required="true" default="0" />
+			<field name="CreatedDate" type="date" required="true" />
+			<field name="QuestionCount" type="int" required="true" default="0" />
+			<field name="TotalTime" type="int" />
+			<field name="ResultEmailed" type="tinyint" size="1" required="true" default="0" />
+			<field name="ExtraData" type="clob" />
+			<field name="CurrentStatisticsId" type="int" />
+			<field name="UsedTime" type="int" required="true" default="0" />
+			<field name="ResumeDate" type="date" />
+			<field name="ModifiedDate" type="date" />
+			
+			<foreignKey foreignEntity="quiz">
+      			<reference local="QuizId" foreign="QuizId" />
+    		</foreignKey>
+		</entity>
+		<entity name="quizstatistics" table="#__ariquizstatistics">
+			<field name="StatisticsId" type="int" primaryKey="true" />
+			<field name="QuestionId" type="int" required="true" default="0" />
+			<field name="QuestionVersionId" type="int" required="true" />
+			<field name="StatisticsInfoId" type="int" required="true" />
+			<field name="Data" type="clob" />
+			<field name="StartDate" type="date" />
+			<field name="EndDate" type="date" />
+			<field name="SkipDate" type="date" />
+			<field name="SkipCount" type="int" required="true" default="0" />
+			<field name="UsedTime" type="int" required="true" default="0" />
+			<field name="QuestionIndex" type="int" required="true" />
+			<field name="Score" type="int" />
+			<field name="QuestionTime" type="int" />
+			<field name="QuestionCategoryId" type="int" required="true" />
+			<field name="IpAddress" type="int" />
+			<field name="BankVersionId" type="int" required="true" default="0" />
+			<field name="BankQuestionId" type="int" required="true" default="0" />
+			<field name="InitData" type="clob" />
+			<field name="AttemptCount" type="int" required="true" default="0" />
+			
+			<foreignKey foreignEntity="questionversion">
+      			<reference local="QuestionVersionId" foreign="QuestionVersionId" />
+    		</foreignKey>
+    		<foreignKey foreignEntity="quizstatisticsinfo">
+      			<reference local="StatisticsInfoId" foreign="StatisticsInfoId" />
+    		</foreignKey>
+    		<foreignKey foreignEntity="questioncategory">
+      			<reference local="QuestionCategoryId" foreign="QuestionCategoryId" />
+    		</foreignKey>
+    		<foreignKey foreignEntity="questionversion">
+      			<reference local="BankVersionId" foreign="QuestionVersionId" />
+    		</foreignKey>
+		</entity>
+		<entity name="quizstatisticsattempt" table="#__ariquizstatistics_attempt">
+			<field name="StatisticsId" type="int" required="true" />
+			<field name="Data" type="clob" />
+			<field name="CreatedDate" type="date" required="true" />
+			
+			<foreignKey foreignEntity="quizstatistics">
+      			<reference local="StatisticsId" foreign="StatisticsId" />
+    		</foreignKey>
+		</entity>
+		<entity name="quizaccess" table="#__ariquizaccess">
+			<field name="QuizId" type="int" required="true" />
+			<field name="GroupId" type="int" required="true" />
+		
+			<foreignKey foreignEntity="quiz">
+      			<reference local="QuizId" foreign="QuizId" />
+    		</foreignKey>
+		</entity>
+		<entity name="quizquizcategory" table="#__ariquizquizcategory">
+			<field name="QuizId" type="int" required="true" />
+			<field name="CategoryId" type="int" required="true" />
+		
+			<foreignKey foreignEntity="quizcategory">
+      			<reference local="CategoryId" foreign="CategoryId" />
+    		</foreignKey>
+    		<foreignKey foreignEntity="quiz">
+      			<reference local="QuizId" foreign="QuizId" />
+    		</foreignKey>
+		</entity>
+		<entity name="quizcategory" table="#__ariquizcategory">
+			<field name="CategoryId" type="int" primaryKey="true" />
+			<field name="CategoryName" type="varchar" size="255" required="true" />
+			<field name="Description" type="clob" required="true" />
+			<field name="CreatedBy" type="int" required="true" />
+			<field name="Created" type="date" required="true" />
+			<field name="ModifiedBy" type="int" />
+			<field name="Modified" type="date" />
+		</entity>
+		<entity name="quizpropertyvalue" table="#__ariquiz_property_value">
+			<field name="PropertyId" type="int" required="true" default="0" />
+			<field name="PropertyValue" type="clob" />
+			<field name="EntityKey" type="int" required="true" default="0" />
+
+			<foreignKey foreignEntity="quiz">
+      			<reference local="EntityKey" foreign="QuizId" />
+    		</foreignKey>
+		</entity>
+		<entity name="generictemplate" table="#__arigenerictemplate">
+			<field name="TemplateId" type="int" primaryKey="true" />
+			<field name="BaseTemplateId" type="int" required="true" />
+			<field name="TemplateName" type="varchar" size="255" required="true" />
+			<field name="Value" type="clob" />
+			<field name="CreatedBy" type="int" required="true" />
+			<field name="Created" type="date" required="true" />
+			<field name="ModifiedBy" type="int" />
+			<field name="Modified" type="date" />
+		</entity>
+		<entity name="generictemplateentitymap" table="#__arigenerictemplateentitymap">
+			<field name="TemplateId" type="int" required="true" />
+			<field name="EntityName" type="varchar" size="255" required="true" />
+			<field name="TemplateType" type="varchar" size="255" required="true" />
+			<field name="EntityId" type="int" required="true" />
+					
+			<foreignKey foreignEntity="quiz">
+      			<reference local="EntityId" foreign="QuizId" />
+    		</foreignKey>
+		</entity>
+		<entity name="mailtemplate" table="#__ariquizmailtemplate">
+			<field name="MailTemplateId" type="int" primaryKey="true" />
+			<field name="TextTemplateId" type="int" required="true" />
+			<field name="Subject" type="varchar" size="255" />
+			<field name="From" type="varchar" size="255" />
+			<field name="FromName" type="varchar" size="255" />
+			<field name="AllowHtml" type="tinyint" size="1" required="1" default="1" />
+		
+			<foreignKey foreignEntity="generictemplate">
+      			<reference local="TextTemplateId" foreign="TemplateId" />
+    		</foreignKey>
+		</entity>
+		<entity name="securitycategory" table="#__ariquiz_security_category">
+			<field name="CategoryId" type="int" primaryKey="true" />
+			<field name="CategoryName" type="varchar" size="255" required="true" />
+			<field name="Description" type="clob" />
+			<field name="CreatedBy" type="int" required="true" />
+			<field name="Created" type="date" required="true" />
+			<field name="ModifiedBy" type="int" />
+			<field name="Modified" type="date" />
+		</entity>
+	</entities>
+</data>

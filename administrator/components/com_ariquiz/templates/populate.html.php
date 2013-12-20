@@ -1,0 +1,2 @@
+<?php defined('ARI_FRAMEWORK_LOADED') or die('Direct Access to this location is not allowed.'); $totalTime = $processPage->getVar('TotalTime'); ?> <div> Total Time: <?php echo $totalTime; ?> sec </div> 
+<input type="button" value="Populate" onclick="submitbutton('populate$populate')" /> <input type="button" value="Clear" onclick="submitbutton('populate$clear')" />

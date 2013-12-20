@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resource>
+	<!-- v. 2.9.1 -->
+	<item id="Error.ResultPage" group="Message">
+		<message>You can not view this page because you have typed an incorrect link or you are not logged in.</message>
+		<description>Quiz error message</description>
+	</item>
+	<!-- v. 2.8.0 -->
+	<item id="Validator.Name" group="Validators">
+		<message>Name is required</message>
+		<description>Name validator</description>
+	</item>
+	<item id="Validator.Email" group="Validators">
+		<message>Email is required</message>
+		<description>Email validator</description>
+	</item>
+	<item id="Validator.EmailFormat" group="Validators">
+		<message>Email has incorrect format</message>
+		<description>Email format validator</description>
+	</item>
+	<item id="Label.ShowCorrectAnswer" group="Labels">
+		<message>Show Correct Answer</message>
+		<description>Show Correct Answer</description>
+	</item>
+	<item id="Label.Name" group="Labels">
+		<message>Name</message>
+		<description>Name</description>
+	</item>
+	<item id="Label.Information" group="Labels">
+		<message>Information</message>
+		<description>Information</description>
+	</item>
+	<!--   -->
+	<item id="Label.QuizStopped" group="Labels">
+		<message>Your quiz was saved and stopped. You can resume it later.</message>
+		<description>Your quiz was saved and stopped. You can resume it later.</description>
+	</item>
+	<item id="Label.QuizSaveExit" group="Labels">
+		<message>Save &amp; Exit</message>
+		<description>Save &amp; Exit label</description>
+	</item>
+	<item id="Label.SelectAnswer" group="Labels">
+		<message>- Select answer, please -</message>
+		<description>Select answer label</description>
+	</item>
+	<item id="Label.QuestionNote" group="Labels">
+		<message>Note</message>
+		<description>Question note label</description>
+	</item>
+	<item id="Label.TextboxWatermarkText" group="Labels">
+		<message>Enter your text here</message>
+		<description>Label for watermark text</description>
+	</item>
+	<item id="Label.CorrectCorrelation" group="Labels">
+		<message>Correct Correlation</message>
+		<description>Correct correlation Label</description>
+	</item>
+	<item id="Label.UserCorrelation" group="Labels">
+		<message>User Correlation</message>
+		<description>User correlation Label</description>
+	</item>
+	<item id="Label.QuestionCategory" group="Labels">
+		<message>Question Category</message>
+		<description>Question Category Label</description>
+	</item>
+	<item id="Label.QuestionType" group="Labels">
+		<message>Question Type</message>
+		<description>Question Type Label</description>
+	</item>
+	<item id="Label.TotalTime" group="Labels">
+		<message>Total Time</message>
+		<description>Total Time Label</description>
+	</item>
+	<item id="Label.TextCI" group="Labels">
+		<message>Case Insensitive</message>
+		<description>Case Insensitive</description>
+	</item>
+	<item id="Label.QuizStatistics" group="Labels">
+		<message>Quiz Statistics</message>
+		<description>Label for quiz statistics</description>
+	</item>
+	<item id="Label.Answer" group="Labels">
+		<message>Answer</message>
+		<description>Label for answer</description>
+	</item>
+	<item id="Label.User" group="Labels">
+		<message>User</message>
+		<description>Label for user</description>
+	</item>
+	<item id="Label.Correct" group="Labels">
+		<message>Correct</message>
+		<description>Label for correct</description>
+	</item>
+	<item id="Label.Incorrect" group="Labels">
+		<message>Incorrect</message>
+		<description>Label for incorrect</description>
+	</item>
+	<item id="Category.Uncategory" group="Labels">
+		<message>Common</message>
+		<description>Name for common category</description>
+	</item>
+	<item id="Label.RemainingTime" group="Labels">
+		<message>Remaining Time</message>
+		<description>Label for remaining time</description>
+	</item>
+	<item id="Label.Completed" group="Labels">
+		<message>Completed</message>
+		<description>Label completed</description>
+	</item>
+	<item id="Label.Print" group="Labels">
+		<message>Print</message>
+		<description>Label print</description>
+	</item>
+	<item id="Label.Continue" group="Labels">
+		<message>Continue</message>
+		<description>Label continue</description>
+	</item>
+	<item id="Label.Email" group="Labels">
+		<message>E-mail</message>
+		<description>Label e-mail</description>
+	</item>
+	<item id="Title.QuizResultList" group="Labels">
+		<message>Quiz Result List</message>
+		<description>Label quiz result list</description>
+	</item>
+	<item id="Label.Quiz" group="Labels">
+		<message>Quiz</message>
+		<description>Quiz</description>
+	</item>
+	<item id="Label.NumberPos" group="Labels">
+		<message>#</message>
+		<description>Position number label</description>
+	</item>
+	<item id="Label.StartDate" group="Labels">
+		<message>Start Date</message>
+		<description>Start Date label</description>
+	</item>
+	<item id="Label.EndDate" group="Labels">
+		<message>End Date</message>
+		<description>End Date label</description>
+	</item>
+	<item id="Label.Score" group="Labels">
+		<message>Score</message>
+		<description>Score</description>
+	</item>
+	<item id="Label.Details" group="Labels">
+		<message>Details</message>
+		<description>Details</description>
+	</item>
+	<item id="Label.Passed" group="Labels">
+		<message>Passed</message>
+		<description>Passed</description>
+	</item>
+	<item id="Label.NoPassed" group="Labels">
+		<message>Not Passed</message>
+		<description>Not Passed</description>
+	</item>
+	<item id="Label.View" group="Labels">
+		<message>View</message>
+		<description>View</description>
+	</item>
+	<item id="Label.Question" group="Labels">
+		<message>Question</message>
+		<description>Question label</description>
+	</item>
+	<item id="Label.Choice" group="Labels">
+		<message>Choice</message>
+		<description>Choice label</description>
+	</item>
+	<item id="Label.Save" group="Labels">
+		<message>Save</message>
+		<description>Save label</description>
+	</item>
+	<item id="Label.Skip" group="Labels">
+		<message>Skip</message>
+		<description>Skip label</description>
+	</item>
+	<item id="Label.Calculator" group="Labels">
+		<message>Calculator</message>
+		<description>Calculator label</description>
+	</item>
+	<item id="Label.Guest" group="Labels">
+		<message>Guest</message>
+		<description>Guest label</description>
+	</item>
+	<item id="Label.EmailQuizResult" group="Labels">
+		<message>Quiz Result</message>
+		<description>Quiz result email subject</description>
+	</item>
+	<item id="Label.EmailSend" group="Labels">
+		<message>Email has been sent</message>
+		<description>Email has been sent label</description>
+	</item>
+	<item id="Label.EmailNotSend" group="Labels">
+		<message>Email has not been sent</message>
+		<description>Email has not been sent label</description>
+	</item>
+	<item id="Label.NotItemsFound" group="Labels">
+		<message>No items to display</message>
+		<description>No items to display label</description>
+	</item>
+
+	<item id="Date.DayShort" group="Labels">
+		<message>d</message>
+		<description>Day short label</description>
+	</item>
+	<item id="Date.HourShort" group="Labels">
+		<message>h</message>
+		<description>Hour short label</description>
+	</item>
+	<item id="Date.MinuteShort" group="Labels">
+		<message>min</message>
+		<description>Minute short label</description>
+	</item>
+	<item id="Date.SecondShort" group="Labels">
+		<message>sec</message>
+		<description>Second short label</description>
+	</item>
+	<item id="Label.QuestionInfo" group="Labels">
+		<message>Question %d of %d</message>
+		<description>Question N of M label</description>
+	</item>
+	<item id="Label.JSQuestionInfo" group="Labels">
+		<message>Question #{qIndex} of #{qCount}</message>
+		<description>Question N of M label</description>
+	</item>
+	<item id="Label.YouChoose" group="Labels">
+		<message>You Choose</message>
+		<description>You choose label</description>
+	</item>
+	<item id="Label.CorrectAnswerIs" group="Labels">
+		<message>The correct answer is</message>
+		<description>The correct answer is label</description>
+	</item>
+	<item id="Error.QuizAttemptCount" group="Message">
+		<message>You can not take the quiz because attempt count exhausted</message>
+		<description>Quiz warning message</description>
+	</item>
+	<item id="Error.QuizLagTime" group="Message">
+		<message>You can not take the quiz because lag time has not been elapsed</message>
+		<description>Quiz warning message</description>
+	</item>
+	<item id="Error.QuizNotRegistered" group="Message">
+		<message>Only registered users can take this quiz</message>
+		<description>Quiz error message</description>
+	</item>
+	<item id="Error.QuizNotHavePermissions" group="Message">
+		<message>You do not have persmissions to take this quiz</message>
+		<description>Quiz error message</description>
+	</item>
+	<item id="Error.QuizNotHaveQuestions" group="Message">
+		<message>You can not take the quiz because it does not contain questions</message>
+		<description>Quiz error message</description>
+	</item>
+	<item id="FrontEnd.QuizNotAvailable" group="Message">
+		<message>Selected Quiz not available, contact with Administrator</message>
+		<description>Message for quiz not available</description>
+	</item>
+
+	<item id="Validator.QuestionEmptyAnswer" group="Validators">
+		<message>No answer entered. Are you sure you want to continue?</message>
+		<description>Freetext validator message</description>
+	</item>
+	<item id="Validator.HotspotNotSelected" group="Validators">
+		<message>No answer selected. Are you sure you want to continue?</message>
+		<description>Hotspot validator message</description>
+	</item>
+	<item id="Validator.QuestionNotSelected" group="Validators">
+		<message>No answer selected. Are you sure you want to continue?</message>
+		<description>Validator message</description>
+	</item>
+
+	<item id="Ajax.Loading" group="AJAX">
+		<message>Loading... Please wait</message>
+		<description>Loading message</description>
+	</item>
+	<item id="Ajax.ServerError" group="AJAX">
+		<message>Problem connecting to the server. Please try again. If the problem still appears please contact administrator.</message>
+		<description>Server error message</description>
+	</item>
+
+	<!-- Controls -->
+	<item id="Controls.DTFirstPage" group="Controls">
+		<message>&lt;&lt; first</message>
+		<description>Data Grid: first page link label</description>
+	</item>
+	<item id="Controls.DTLastPage" group="Controls">
+		<message>last &gt;&gt;</message>
+		<description>Data Grid: last page link label</description>
+	</item>
+	<item id="Controls.DTNextPage" group="Controls">
+		<message>next &gt;</message>
+		<description>Data Grid: next page link label</description>
+	</item>
+	<item id="Controls.DTPrevPage" group="Controls">
+		<message>&lt;&lt; prev</message>
+		<description>Data Grid: previous page link label</description>
+	</item>
+	<item id="Controls.DTPageReportTemplate" group="Controls">
+		<message>({currentPage} of {totalPages})</message>
+		<description>Data Grid: page report template</description>
+	</item>
+	<item id="Controls.DTTemplate" group="Controls">
+		<message>Display#: {RowsPerPageDropdown} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {CurrentPageReport}</message>
+		<description>Data Grid: template</description>
+	</item>
+	<item id="Controls.DTNoRecords" group="Controls">
+		<message>No records found.</message>
+		<description>Data Grid: No records found</description>
+	</item>
+</resource>

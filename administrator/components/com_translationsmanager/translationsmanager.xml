@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<install version="1.5.0" type="component">
+
+	<name>Translations Manager</name>
+	<creationDate>January 208</creationDate>
+	<author>Ifan Evans</author>
+	<copyright>(C) 2008 Ifan Evans</copyright>
+	<authorEmail>post@ffenest.co.uk</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.5.2</version>
+
+	<description>
+<![CDATA[
+<br />
+<h5> 欢迎通过“<a href="http://www.joomlagate.com/forum/topic-15442/" target="_blank" title="Donate to joomlagate.com">支付宝</a>”（Alipay）捐款支持 <a href="http://www.joomlagate.com" target="_blank">Joomla! 之门</a> 发布更多 Joomla! 扩展套件汉化版本，谢谢！</h5>
+<table>
+<tr>
+<td width=50px></td>
+<td></td>
+<td width=50px></td>
+<td><a href="http://www.joomlagate.com/forum/topic-15442/" target="_blank" title="Donate to joomlagate.com"><img src="http://www.joomlagate.com/images/logo-green.gif" alt="用支付宝向 joomlagate.com 捐款" border="0" /></a></td>
+</tr>
+</table>
+<br /><br />
+<strong><font color=red>软件说明</font></strong>	<br /><br />
+		<h2>Translations Manager 安装成功</h2>
+		此组件可以帮助你管理语言文件及翻译文件。<br/>
+		<ul>
+		<li>可管理前台、后台及安装程序的语言文件</li>
+		<li>可创建、修改、删除语言；</li>
+		<li>可创建、修改、删除、发布、取消发布、回存、检出翻译文件；</li>
+		<li>显示每一个文件及语言的翻译进度；</li>
+		<li>自动创建丢失的翻译文件；</li>
+		<li>创建语言文件的安装包；</li>
+		</ul>
+		<p>此组件只针对你的 Joomla 1.5 中安装的语言文件生效，如果语言目录及文件没有读取、写入及重命名权限，就无法工作。</p>
+		<p><b>你最好备份好你的语言文件</b></p>
+		<p></p>
+		<p>如果发现 bug 请发邮件到 post@ffenest.co.uk</p>
+		<p></p>
+		<p>如果您喜欢这个软件，欢迎向我 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=ifan%40rhiannon%2eco%2euk&item_name=Donation - Translation Manager - Thank You&no_shipping=2&no_note=1&tax=0&currency_code=GBP&lc=GB&bn=PP%2dDonationsBF&charset=UTF%2d8">捐款</a></p>
+		<p>谢谢！</p>
+<p>简体中文版翻译：<a href="http://www.baijianpeng.com" target="_blank">白建鹏</a> </p>
+<p>有关中文版使用教程，请前往<a href="http://www.joomlagate.com"  target="_blank">Joomla!之门网站</a>查找。</p>		]]>
+	</description>
+
+	<administration>
+		<menu img="class:language">Translation Manager</menu>
+		<files>
+			<filename>css/translationsmanager.css</filename>
+			<filename>css/index.html</filename>
+			<filename>elements/fflanguages.php</filename>
+			<filename>elements/index.html</filename>
+			<filename>images/index.html</filename>
+			<filename>images/default.png</filename>
+			<filename>images/reset9.png</filename>
+			<filename>images/warning.png</filename>
+			<filename>images/xml.png</filename>
+			<filename>js/translationsmanager.js</filename>
+			<filename>js/index.html</filename>
+			<filename>views/index.html</filename>
+			<filename>views/translations/index.html</filename>
+			<filename>views/translations/view.html.php</filename>
+			<filename>views/translations/tmpl/credits.php</filename>
+			<filename>views/translations/tmpl/edit.php</filename>
+			<filename>views/translations/tmpl/editxml.php</filename>
+			<filename>views/translations/tmpl/files.php</filename>
+			<filename>views/translations/tmpl/index.html</filename>
+			<filename>views/translations/tmpl/languages.php</filename>
+			<filename>admin.translationsmanager.php</filename>
+			<filename>CHANGELOG.php</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>helper.php</filename>
+			<filename>index.html</filename>
+		</files>
+		<languages>
+			<language tag="bg-BG">bg-BG.com_translationsmanager.ini</language>
+			<language tag="ca-AD">ca-AD.com_translationsmanager.ini</language>
+			<language tag="cy-GB">cy-GB.com_translationsmanager.ini</language>
+			<language tag="cy-GB">cy-GB.com_translationsmanager.menu.ini</language>
+			<language tag="da-DK">da-DK.com_translationsmanager.ini</language>
+			<language tag="de-DE">de-DE.com_translationsmanager.ini</language>
+			<language tag="de-DE">de-DE.com_translationsmanager.menu.ini</language>
+			<language tag="en-GB">en-GB.com_translationsmanager.ini</language>
+			<language tag="es-ES">es-ES.com_translationsmanager.ini</language>
+			<language tag="hu-HU">hu-HU.com_translationsmanager.ini</language>
+			<language tag="nb-NO">nb-NO.com_translationsmanager.ini</language>
+			<language tag="nl-NL">nl-NL.com_translationsmanager.ini</language>
+			<language tag="sv-SE">sv-SE.com_translationsmanager.ini</language>
+			<language tag="zh-CN">zh-CN.com_translationsmanager.ini</language>
+			<language tag="zh-CN">zh-CN.com_translationsmanager.menu.ini</language>
+			<language tag="zh-TW">zh-TW.com_translationsmanager.ini</language>
+			<language tag="zh-TW">zh-TW.com_translationsmanager.menu.ini</language>
+		</languages>
+	</administration>
+
+</install>

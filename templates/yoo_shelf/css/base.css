@@ -1,0 +1,35 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/base.css);
+
+
+/* New style-related Base Values
+----------------------------------------------------------------------------------------------------*/
+
+body {
+	font: normal 14px/20px Arial, Helvetica, sans-serif;
+	color: #777;
+}
+
+h1, h2, h3, h4, h5, h6 { color: #505050; }
+
+a:hover { color: #1d110b; }
+
+em, code { 
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+}
+
+ins, mark { background-color: #ffa; }
+mark { color: #444; }
+
+hr { border-top-color: #ddd; }
+
+pre {
+	border: 1px solid #ddd;
+	background: #fefefe;
+}
+
+::-moz-selection { background: #414243; color: #fff; }
+::selection { background: #414243; color: #fff; }
+

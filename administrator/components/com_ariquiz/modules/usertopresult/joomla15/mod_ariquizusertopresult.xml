@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install version="1.5.0" type="module">
+	<name>ARI Quiz user results</name>
+	<creationDate>Apr 2008</creationDate>
+	<author>2008 ARI Soft</author>
+	<authorEmail>info@ari-soft.com</authorEmail>
+	<authorUrl>www.ari-soft.com</authorUrl>
+	<version>1.0</version>
+	<description>Shows top quizzes results for logged user</description>
+	<files>
+		<filename module="mod_ariquizusertopresult">mod_ariquizusertopresult.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="label" type="text" default="My Top Results" label="Label" description="Header text" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="count" type="text" default="5" label="Count" description="The number of items to display (default 5)" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="pointUnit" type="list" default="percent" label="Result measure unit" description="Result measure unit (default percent)">
+			<option value="percent">Percent</option> 
+			<option value="point">Point</option> 
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="emptyMessage" type="textarea" rows="3" cols="45" default="" label="Empty message" description="This message will be shown if no quiz results" />
+	</params>
+</install>

@@ -1,0 +1,219 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/rtl.css);
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#search { 
+	margin-left: 0;
+	margin-right: 15px;
+}
+
+#logo {
+	left: auto;
+	right: -5px;
+}
+
+#menu { float: left; }
+
+#footer { text-align: right; }
+
+#footer > div { float: right; }
+
+#logo-footer { 
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+#totop-scroller {
+	right: auto;
+	left: 0;
+}
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Mega Drop-Down Menu */
+.menu-dropdown li.level1 {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.menu-dropdown:last-child > li.level1:last-child {
+	margin-right: 10px;
+	margin-left: 0;
+}
+
+.menu-dropdown .dropdown { 
+	left: auto;
+	right: -6px;
+}
+
+.menu-dropdown .dropdown-bg > div {
+	-moz-border-radius-topleft: 7px;
+	border-top-left-radius: 7px;
+	-moz-border-radius-topright: 0;
+	border-top-right-radius: 0;
+}
+
+.menu-dropdown ul.level2 { 
+	padding-left: 0;
+	padding-right: 1px;
+	background-position: 100% 0;
+}
+
+.menu-dropdown div.column:first-child ul.level2 { padding-right: 0px; }
+
+.menu-dropdown a.level3 {
+	padding-left: 0;
+	padding-right: 16px;
+	background-position: 100% 0;
+}
+
+.menu-dropdown a.level3:hover {	background-position: 100% -100px; }
+
+.menu-dropdown .level1 .level1 span.icon {
+	margin-left: 0;
+	margin-right: -5px;
+}
+.menu-dropdown .level1 .level1 span.icon + span,
+.menu-dropdown .level1 .level1 span.icon + span + span {
+	margin-left: 0;
+	margin-right: 25px;
+}
+
+.menu-dropdown li.level2 .level2 span.icon {
+	margin-right: 0;
+	margin-left: 4px;
+}
+
+.menu-dropdown li.level2 .level2 span.icon + span,
+.menu-dropdown li.level2 .level2 span.icon + span + span {
+	margin-left: 0;
+	margin-right: 39px;
+}
+
+/* Sidebar/Accordion Menu */
+.menu-sidebar li.parent .level1 > span { 
+	background-image: url(../images/rtl/menu_sidebar_parent.png);
+	background-position: 0 0;
+}
+.menu-sidebar li.parent.active .level1 > span { background-position: 0 -150px; }
+
+.menu-sidebar .level2 a > span {
+	padding-left: 0;
+	padding-right: 16px;
+	background-position: 100% 0;
+}
+
+.menu-sidebar .level2 a:hover > span { background-position: 100% -100px; }
+
+.menu-sidebar ul.level2 ul {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.menu-sidebar span.icon {
+	margin-right: 0;
+	margin-left: 4px;
+}
+
+/* Line Menu */
+.menu-line li {
+	margin-left: 0;
+	padding-left: 0;
+	margin-right: 7px;
+	padding-right: 8px;
+	background-position: 100% 50%;
+}
+
+.menu-line li:first-child {
+	margin-right: 0;
+	padding-right: 0;
+}
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box .badge {
+	right: auto;
+	left: 10px;
+}
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/* Check List */
+ul.check > li {
+	padding-left: 0;
+	padding-right: 30px;
+	background-position: 100% 0;
+}
+
+/* Definition Lists */
+dl.separator dd { border-width: 0 1px 0 0; }
+
+dl.separator dt:before {
+	right: auto;
+	left: -15px;
+}
+
+dl.separator dt:after {
+	right: auto;
+	left: -3px;
+}
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Item */
+
+#system .item > header time {
+	margin-left: 15px;
+	margin-right: 0;
+	border-left: 1px solid #AFAFB0;
+	border-right: none;
+	float: right;
+}
+
+#system .item > .links a {
+	padding-left: 0;
+	padding-right: 20px;
+	background-position: 100% 0;
+}
+
+/* Search Box */
+#searchbox { background: url(../images/rtl/searchbox.png) 0 50% no-repeat; }
+
+#searchbox .results {
+	right: auto;
+	left: 0;
+}
+
+/* Breadcrumbs */
+.breadcrumbs a,
+.breadcrumbs > span {
+	padding-right: 0;
+	padding-left: 15px;
+	background-image: url(../images/rtl/breadcrumbs.png);
+	background-position: 0 50%;
+}
+
+/* Extensions
+----------------------------------------------------------------------------------------------------*/
+
+#top-a .wk-slideset-default .nav.icon li,
+#top-a .wk-slideshow-default .nav.icon li {
+	margin-left: 0;
+	margin-right: 8px;
+}
+
+#top-a .wk-slideset-default .nav.icon li:first-child,
+#top-a .wk-slideshow-default .nav.icon li:first-child { margin-right: 0; }

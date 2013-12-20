@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource>
+	<item id="Label.QuizStopped" group="Labels">
+		<message>Test dvs. a fost salvat şi a oprit. Puteţi relua mai târziu.</message>
+		<description>Test dvs. a fost salvat şi a oprit. Puteţi relua mai târziu.</description>
+	</item>
+	<item id="Label.QuizSaveExit" group="Labels">
+		<message>Salvaţi şi ieşiţi</message>
+		<description>Salvaţi şi ieşiţi</description>
+	</item>
+	<item groups="Labels" id="Label.SelectAnswer">
+		<message>- Selectaţi răspunsul -</message>
+		<description>Eticheta selectati raspunsul</description>
+	</item>
+	<item groups="Labels" id="Label.QuestionNote">
+		<message>Notă</message>
+		<description>Eticheta notitele intrebarii</description>
+	</item>
+	<item group="Labels" id="Label.TextboxWatermarkText">
+		<message>Introduceţi textul aici</message>
+		<description>Eticheta pentru watermark</description>
+	</item>
+	<item group="Labels" id="Label.CorrectCorrelation">
+		<message>Corelaţie corectă</message>
+		<description>Eticheta Corelaţie corectă</description>
+	</item>
+	<item group="Labels" id="Label.UserCorrelation">
+		<message>Corelaţia utilizatorului</message>
+		<description>Eticheta Corelaţia utilizatorului</description>
+	</item>
+	<item group="Labels" id="Label.QuestionCategory">
+		<message>Categorie Întrebare</message>
+		<description>Eticheta Categorie Întrebare</description>
+	</item>
+	<item group="Labels" id="Label.QuestionType">
+		<message>Tip Întrebare</message>
+		<description>Eticheta Tip Întrebare</description>
+	</item>
+	<item group="Labels" id="Label.TotalTime">
+		<message>Timp Total</message>
+		<description>Eticheta Timp Total</description>
+	</item>
+	<item group="Labels" id="Label.TextCI">
+		<message>Nu contează majusculele</message>
+		<description>Insensibil la majuscule</description>
+	</item>
+	<item group="Labels" id="Label.QuizStatistics">
+		<message>Statisticile testului</message>
+		<description>Eticheta Statisticile testului</description>
+	</item>
+	<item group="Labels" id="Label.Answer">
+		<message>Răspuns</message>
+		<description>Eticheta Răspuns</description>
+	</item>
+	<item group="Labels" id="Label.User">
+		<message>Utilizator</message>
+		<description>Eticheta Utilizator</description>
+	</item>
+	<item group="Labels" id="Label.Correct">
+		<message>Corect</message>
+		<description>Eticheta Corect</description>
+	</item>
+	<item group="Labels" id="Label.Incorrect">
+		<message>Incorect</message>
+		<description>Eticheta Incorect</description>
+	</item>
+	<item group="Labels" id="Category.Uncategory">
+		<message>Comun</message>
+		<description>Numele categoriei comune</description>
+	</item>
+	<item group="Labels" id="Label.RemainingTime">
+		<message>Timp rămas</message>
+		<description>Eticheta Timp rămas</description>
+	</item>
+	<item group="Labels" id="Label.Completed">
+		<message>Grad finalizare</message>
+		<description>Eticheta Grad finalizare</description>
+	</item>
+	<item group="Labels" id="Label.Print">
+		<message>Printare</message>
+		<description>Eticheta Printare</description>
+	</item>
+	<item group="Labels" id="Label.Continue">
+		<message>Continuaţi</message>
+		<description>Eticheta Continuaţi</description>
+	</item>
+	<item group="Labels" id="Label.Email">
+		<message>E-mail</message>
+		<description>Eticheta E-mail</description>
+	</item>
+	<item group="Labels" id="Title.QuizResultList">
+		<message>Rezultatele Testului</message>
+		<description>Eticheta Rezultatele Testului</description>
+	</item>
+	<item group="Labels" id="Label.Quiz">
+		<message>Test</message>
+		<description>Test</description>
+	</item>
+	<item group="Labels" id="Label.NumberPos">
+		<message>#</message>
+		<description>Eticheta numarul pozitiei</description>
+	</item>
+	<item group="Labels" id="Label.StartDate">
+		<message>Dată Start</message>
+		<description>Dată Start</description>
+	</item>
+	<item group="Labels" id="Label.EndDate">
+		<message>Dată Finalizare</message>
+		<description>Dată Finalizare</description>
+	</item>
+	<item group="Labels" id="Label.Score">
+		<message>Scor</message>
+		<description>Scor</description>
+	</item>
+	<item group="Labels" id="Label.Details">
+		<message>Detalii</message>
+		<description>Detalii</description>
+	</item>
+	<item group="Labels" id="Label.Passed">
+		<message>Trecut</message>
+		<description>Trecut</description>
+	</item>
+	<item group="Labels" id="Label.NoPassed">
+		<message>Picat</message>
+		<description>Picat</description>
+	</item>
+	<item group="Labels" id="Label.View">
+		<message>Vizualizare</message>
+		<description>Vizualizare</description>
+	</item>
+	<item group="Labels" id="Label.Question">
+		<message>Întrebare</message>
+		<description>Eticheta Întrebare</description>
+	</item>
+	<item group="Labels" id="Label.Choice">
+		<message>Variantă</message>
+		<description>Eticheta Variantă</description>
+	</item>
+	<item group="Labels" id="Label.Save">
+		<message>Salvare</message>
+		<description>Eticheta Salvare</description>
+	</item>
+	<item group="Labels" id="Label.Skip">
+		<message>Săriţi</message>
+		<description>Eticheta Săriţi</description>
+	</item>
+	<item group="Labels" id="Label.Calculator">
+		<message>Calculator</message>
+		<description>Eticheta Calculator</description>
+	</item>
+	<item group="Labels" id="Label.Guest">
+		<message>Oaspete</message>
+		<description>Eticheta Oaspete</description>
+	</item>
+	<item group="Labels" id="Label.EmailQuizResult">
+		<message>Rezultat Test</message>
+		<description>Eticheta Rezultat Test - subiectul mailului</description>
+	</item>
+	<item group="Labels" id="Label.EmailSend">
+		<message>Email-ul a fost trimis</message>
+		<description>EtichetaEmail-ul a fost trimis</description>
+	</item>
+	<item group="Labels" id="Label.EmailNotSend">
+		<message>Email-ul nu a fost trimis</message>
+		<description>Eticheta Email-ul nu a fost trimis</description>
+	</item>
+	<item group="Labels" id="Label.NotItemsFound">
+		<message>Nimic de afisat</message>
+		<description>Eticheta Nimic de afisat</description>
+	</item>
+	<item group="Labels" id="Date.DayShort">
+		<message>z</message>
+		<description>Eticheta prescurtare Zi</description>
+	</item>
+	<item group="Labels" id="Date.HourShort">
+		<message>h</message>
+		<description>Eticheta prescurtare Ora</description>
+	</item>
+	<item group="Labels" id="Date.MinuteShort">
+		<message>min</message>
+		<description>Eticheta prescurtare minut</description>
+	</item>
+	<item group="Labels" id="Date.SecondShort">
+		<message>sec</message>
+		<description>Eticheta prescurtare secunda</description>
+	</item>
+	<item group="Labels" id="Label.QuestionInfo">
+		<message>Întrebarea %d din %d</message>
+		<description>Eticheta Intrebarea N din M </description>
+	</item>
+	<item group="Labels" id="Label.JSQuestionInfo">
+		<message>Întrebarea #{qIndex} din #{qCount}</message>
+		<description>Eticheta Intrebarea N din M </description>
+	</item>
+	<item group="Labels" id="Label.YouChoose">
+		<message>Ai ales</message>
+		<description>Eticheta ai ales</description>
+	</item>
+	<item group="Labels" id="Label.CorrectAnswerIs">
+		<message>Răspunsul corect este</message>
+		<description>Eticheta raspuns corect</description>
+	</item>
+	<item group="Message" id="Error.QuizAttemptCount">
+		<message>Nu puteţi da testul acum pentru că numărul de încercări a fost epuizat.</message>
+		<description>Mesaj avertisment test</description>
+	</item>
+	<item group="Message" id="Error.QuizLagTime">
+		<message>Nu puteţi da testul pentru că nu a trecut suficient timp.</message>
+		<description>Mesaj avertisment test</description>
+	</item>
+	<item group="Message" id="Error.QuizNotRegistered">
+		<message>Numai utilizatorii înregistraţi pot da acest test.</message>
+		<description>Mesaj eroare test</description>
+	</item>
+	<item group="Message" id="Error.QuizNotHavePermissions">
+		<message>Nu aveţi permisiunile necesare pentru a da acest test.</message>
+		<description>Mesaj eroare test</description>
+	</item>
+	<item group="Message" id="Error.QuizNotHaveQuestions">
+		<message>Nu puteţi da testul fiindcă deocamdată nu are întrebări.</message>
+		<description>Mesaj eroare test</description>
+	</item>
+	<item group="Message" id="FrontEnd.QuizNotAvailable">
+		<message>Testul selectat nu este disponibil, contactaţi-ne</message>
+		<description>Message pentru cand testul nu este disponibil</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionEmptyAnswer">
+		<message>Nu a fost introdus niciun răspuns. Sigur vreţi să continuaţi?</message>
+		<description>Mesaj validare raspuns liber</description>
+	</item>
+	<item group="Validators" id="Validator.HotspotNotSelected">
+		<message>Nu a fost selectat niciun răspuns. Sigur vreţi să continuaţi?</message>
+		<description>Mesaj validare Hotspot</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionNotSelected">
+		<message>Nu a fost selectat niciun răspuns. Sigur vreţi să continuaţi?</message>
+		<description>Mesaj validare </description>
+	</item>
+	<item group="AJAX" id="Ajax.Loading">
+		<message>Se încărca... Aşteptaţi.</message>
+		<description>Mesaj incarcare</description>
+	</item>
+	<item group="AJAX" id="Ajax.ServerError">
+		<message>Nu am putut contacta serverul. Vă rugăm încercaţi din nou. Dacă problema persistă vă rugăm să ne contactaţi. </message>
+		<description>Mesaj eroare server</description>
+	</item>
+	<item group="Controls" id="Controls.DTFirstPage">
+		<message> prima</message>
+		<description>Data Grid: eticheta link prima pagina</description>
+	</item>
+	<item group="Controls" id="Controls.DTLastPage">
+		<message>ultima</message>
+		<description>Data Grid: eticheta link ultima pagina</description>
+	</item>
+	<item group="Controls" id="Controls.DTNextPage">
+		<message>urm. </message>
+		<description>Data Grid: eticheta link urmatoarea pagina</description>
+	</item>
+	<item group="Controls" id="Controls.DTPrevPage">
+		<message> prec.</message>
+		<description>Data Grid: eticheta link pagina precedenta</description>
+	</item>
+	<item group="Controls" id="Controls.DTPageReportTemplate">
+		<message>({currentPage} din {totalPages})</message>
+		<description>Data Grid: template raport pagina</description>
+	</item>
+	<item group="Controls" id="Controls.DTTemplate">
+		<message>Display#: {RowsPerPageDropdown} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {CurrentPageReport}</message>
+		<description>Data Grid: template</description>
+	</item>
+</resource>

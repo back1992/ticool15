@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resource>
+	<item id="Label.Note" group="Labels">
+		<message>Die Anmerkung</message>
+		<description>Die Anmerkung</description>
+	</item>
+	<item id="Label.RandomOrder" group="Labels">
+		<message>Die Zufällige Ordnung</message>
+		<description>Die Zufällige Ordnung</description>
+	</item>
+	<item id="Label.ViewType.Radio" group="Labels">
+		<message>Radio</message>
+		<description>Der Abbildung: radio</description>
+	</item>
+	<item id="Label.ViewType.DropDown" group="Labels">
+		<message>Die Ausfallende Liste</message>
+		<description>Der Abbildung: die ausfallende Liste</description>
+	</item>
+	<item id="Label.ViewType" group="Labels">
+		<message>Der Abbildung</message>
+		<description>Der Abbildung</description>
+	</item>
+	<item id="Label.PercentScore" group="Labels">
+		<message>% der Punkte</message>
+		<description>Die Zahl der Prozente von der allgemeinen Zahl der Punkte</description>
+	</item>
+	<item id="Label.QuestionCategory" group="Labels">
+		<message>Die Kategorie der Fragen</message>
+		<description>Die Kategorie der Fragen</description>
+	</item>
+	<item id="Label.ParsePluginTag" group="Labels">
+		<message>Mambot (plugin) durcharbeiten</message>
+		<description>Mambot (plugin) durcharbeiten</description>
+	</item>
+	<item id="Label.StartPoint" group="Labels">
+		<message>Anfangs Zahl der Punkte</message>
+		<description>Anfangs Zahl der Punkte</description>
+	</item>
+	<item id="Label.EndPoint" group="Labels">
+		<message>Endlich Zahl der Punkte</message>
+		<description>Endlich Zahl der Punkte</description>
+	</item>
+	<item id="Label.ChooseScale" group="Labels">
+		<message>- Wählen Sie die Skala der Ergebnisse -</message>
+		<description>Wählen Sie die Skala der Ergebnisse</description>
+	</item>
+	<item id="Label.TextTemplate" group="Labels">
+		<message>Die Textschablone</message>
+		<description>Die Textschablone</description>
+	</item>
+	<item id="Label.PrintTemplate" group="Labels">
+		<message>Die Schablone für die Druck</message>
+		<description>Die Schablone für die Druck</description>
+	</item>
+	<item id="Label.Percent" group="Labels">
+		<message>%</message>
+		<description>Prozente</description>
+	</item>
+	<item id="Title.ResultScale" group="Labels">
+		<message>Die Skala der Ergebnisse</message>
+		<description>Die Skala der Ergebnisse</description>
+	</item>
+	<item id="Title.ResultScaleList" group="Labels">
+		<message>Die Liste der Skalen der Ergebnisse</message>
+		<description>Die Liste der Skalen der Ergebnisse</description>
+	</item>
+	<item id="Label.MailTemplates" group="Labels">
+		<message>Die Liste der Schablonen für die Briefe</message>
+		<description>Die Liste der Schablonen für die Briefe</description>
+	</item>
+	<item id="Label.MailTemplate" group="Labels">
+		<message>Die Schablone des Briefes</message>
+		<description>Die Schablone des Briefes</description>
+	</item>
+	<item id="Label.FromName" group="Labels">
+		<message>Der Absender (der Name)</message>
+		<description>Der Absender</description>
+	</item>
+	<item id="Label.From" group="Labels">
+		<message>Von (e-mail)</message>
+		<description>Von</description>
+	</item>
+	<item id="Label.Subject" group="Labels">
+		<message>Das Thema</message>
+		<description>Das Thema</description>
+	</item>
+	<item id="Label.QuestionNote" group="Labels">
+		<message>Die Anmerkung</message>
+		<description>Die Anmerkung</description>
+	</item>
+	<item id="Ajax.Loading" group="Labels">
+		<message>Geht die Auslastung... Bitte, erwarten Sie</message>
+		<description>Geht die Auslastung... Bitte, erwarten Sie</description>
+	</item>
+	<item id="Category.Uncategory" group="Labels">
+		<message>- Ohne Kategorie -</message>
+		<description>Ohne Kategorie</description>
+	</item>
+	<item id="Label.Change" group="Labels">
+		<message>Zu ändern</message>
+		<description>Zu ändern</description>
+	</item>
+	<item id="Label.BankCategory" group="Labels">
+		<message>Die Kategorie für die Fragen aus der Bank</message>
+		<description>Die Kategorie für die Fragen aus der Bank</description>
+	</item>
+	<item id="Title.BankCategoryList" group="Labels">
+		<message>Die Liste der Kategorien für Fragen aus der Bank</message>
+		<description>Die Liste der Kategorien</description>
+	</item>
+	<item id="Label.QuizStatistics" group="Labels">
+		<message>Der Statistiker der Prüfung</message>
+		<description>Der Statistiker der Prüfung</description>
+	</item>
+	<item group="Labels" id="Label.Override">
+		<message>Zu umdefinieren</message>
+		<description>Zu umdefinieren</description>
+	</item>
+	<item group="Labels" id="Label.QuestionReference">
+		<message>Der Frage ist aus der Bank</message>
+		<description>Der Frage ist aus der Bank</description>
+	</item>
+	<item group="Labels" id="Title.Bank">
+		<message>Die Bank der Fragen</message>
+		<description>Die Bank der Fragen</description>
+	</item>
+	<item group="Labels" id="Title.BLangResource">
+		<message>Die Sprachliche File für back-end</message>
+		<description>Die Sprachliche File für back-end</description>
+	</item>
+	<item group="Labels" id="Title.FLangResource">
+		<message>Die Sprachliche File für front-end</message>
+		<description>Die Sprachliche File für front-end</description>
+	</item>
+	<item group="Labels" id="Label.MainSettings">
+		<message>Die Hauptabstimmungen</message>
+		<description>Die Hauptabstimmungen</description>
+	</item>
+	<item group="Labels" id="Label.Name">
+		<message>Der Name</message>
+		<description>Der Name</description>
+	</item>
+	<item group="Labels" id="Label.CorrectCorrelation">
+		<message>Die Richtige Übereinstimmung</message>
+		<description>Die Richtige Übereinstimmung</description>
+	</item>
+	<item group="Labels" id="Label.UserCorrelation">
+		<message>Die Übereinstimmung angegeben vom Benutzer</message>
+		<description>Die Übereinstimmung angegeben vom Benutzer</description>
+	</item>
+	<item group="Labels" id="Label.Email">
+		<message>Email</message>
+		<description>Email</description>
+	</item>
+	<item group="Labels" id="Label.Category">
+		<message>Die Kategorie</message>
+		<description>Die Kategorie</description>
+	</item>
+	<item group="Labels" id="Label.Description">
+		<message>Die Beschreibung</message>
+		<description>Die Beschreibung </description>
+	</item>
+	<item group="Labels" id="Title.CategoryList">
+		<message>Die Liste der Kategorien für die Prüfungen</message>
+		<description>Die Liste der Kategorien für die Prüfungen </description>
+	</item>
+	<item group="Labels" id="Title.FAQ">
+		<message>F.A.Q.</message>
+		<description>F.A.Q.</description>
+	</item>
+	<item group="Labels" id="Title.Help">
+		<message>Die Hilfe</message>
+		<description>Die Hilfe</description>
+	</item>
+	<item group="Labels" id="Title.TemplateList">
+		<message>Die Liste der Schablonen</message>
+		<description>Die Liste der Schablonen</description>
+	</item>
+	<item group="Labels" id="Title.License">
+		<message>Die Lizenz</message>
+		<description>Die Lizenz</description>
+	</item>
+	<item group="Labels" id="Label.NewLicense">
+		<message>Die Neue Lizenz</message>
+		<description>Die Neue Lizenz</description>
+	</item>
+	<item group="Labels" id="Label.Domain">
+		<message>Die Domäne</message>
+		<description>Die Domäne</description>
+	</item>
+	<item group="Labels" id="Label.LicenseKey">
+		<message>Den Lizenzschlüssel</message>
+		<description>Den Lizenzschlüssel</description>
+	</item>
+	<item group="Labels" id="Label.StartDate">
+		<message>Das Anfangsdatum</message>
+		<description>Das Anfangsdatum</description>
+	</item>
+	<item group="Labels" id="Label.EndDate">
+		<message>Das Datum der Vollendung</message>
+		<description>Das Datum der Vollendung</description>
+	</item>
+	<item group="Labels" id="Label.Expired">
+		<message>ist abgelaufen</message>
+		<description>ist abgelaufen</description>
+	</item>
+	<item group="Labels" id="Label.NotExpired">
+		<message>ist nicht abgelaufen</message>
+		<description>ist nicht abgelaufen</description>
+	</item>
+	<item group="Labels" id="Label.NotItemsFound">
+		<message>Keine Daten</message>
+		<description>Keine Daten</description>
+	</item>
+	<item group="Labels" id="Label.NumberPos">
+		<message>#</message>
+		<description>Die laufende Nummer</description>
+	</item>
+	<item group="Labels" id="Label.Apply">
+		<message>Zu verwenden</message>
+		<description>Zu verwenden</description>
+	</item>
+	<item group="Labels" id="Title.QuestionTemplate">
+		<message>Die Schablone für die Fragen</message>
+		<description>Die Schablone für die Fragen</description>
+	</item>
+	<item group="Labels" id="Label.QuestionType">
+		<message>Der Typ der Frage</message>
+		<description>Der Typ der Frage</description>
+	</item>
+	<item group="Labels" id="Label.DisableQueValidation">
+		<message>Die Prüfung der Frage auszuschalten</message>
+		<description>Die Prüfung der Frage auszuschalten</description>
+	</item>
+	<item group="Labels" id="Label.Question">
+		<message>Die Frage</message>
+		<description>Die Frage</description>
+	</item>
+	<item group="Labels" id="Label.Quiz">
+		<message>Die Prüfung</message>
+		<description>Die Prüfung</description>
+	</item>
+	<item group="Labels" id="Label.Score">
+		<message>Die Zahl der Punkte</message>
+		<description>Die Zahl der Punkte</description>
+	</item>
+	<item group="Labels" id="Label.AdditionalSettings">
+		<message>Die Zusätzlichen Abstimmungen</message>
+		<description>Die Zusätzlichen Abstimmungen</description>
+	</item>
+	<item id="Label.AdditionalProperties" group="Labels">
+		<message>Die Zusätzlichen Eigenschaften</message>
+		<description>Die Zusätzlichen Eigenschaften</description>
+	</item>
+	<item group="Labels" id="Title.QuestionList">
+		<message>Die Liste der Fragen</message>
+		<description>Die Liste der Fragen</description>
+	</item>
+	<item group="Labels" id="Label.Reorder">
+		<message>Von neuem zu regeln</message>
+		<description>Von neuem zu regeln</description>
+	</item>
+	<item group="Labels" id="Title.QuestionResultView">
+		<message>Die Frage durchzusehen</message>
+		<description>Die Frage durchzusehen</description>
+	</item>
+	<item group="Labels" id="Title.QuestionCategory">
+		<message>Die Kategorie der Fragen</message>
+		<description>Die Kategorie der Fragen</description>
+	</item>
+	<item group="Labels" id="Label.QuestionCount">
+		<message>Die Zahl der Fragen</message>
+		<description>Die Zahl der Fragen</description>
+	</item>
+	<item group="Labels" id="Label.QuestionTime">
+		<message>Die Zeit abgeführt für die Antwort auf die Frage</message>
+		<description>Die Zeit abgeführt für die Antwort auf die Frage</description>
+	</item>
+	<item group="Labels" id="Label.UseCalculator">
+		<message>Der Rechner zu verwenden</message>
+		<description>Der Rechner zu verwenden</description>
+	</item>
+	<item group="Labels" id="Title.QuestionCategoryList">
+		<message>Die Liste der Kategorien für die Fragen</message>
+		<description>Die Liste der Kategorien für die Fragen</description>
+	</item>
+	<item group="Labels" id="Label.TextTemplates">
+		<message>Die Textschablonen</message>
+		<description>Die Textschablonen</description>
+	</item>
+	<item group="Labels" id="Label.SucEmailTemplate">
+		<message>Die Schablone für den Brief bei der erfolgreichen Aufgabe der Prüfung</message>
+		<description>Die Schablone für den Brief bei der erfolgreichen Aufgabe der Prüfung</description>
+	</item>
+	<item group="Labels" id="Label.FailedEmailTemplate">
+		<message>Die Schablone für den Brief bei der nicht erfolgreichen Aufgabe der Prüfung</message>
+		<description>Die Schablone für den Brief bei der nicht erfolgreichen Aufgabe der Prüfung</description>
+	</item>
+	<item group="Labels" id="Label.SucPrintTemplate">
+		<message>Die Schablone für die Druck bei der erfolgreichen Aufgabe der Prüfung</message>
+		<description>Die Schablone für die Druck bei der erfolgreichen Aufgabe der Prüfung</description>
+	</item>
+	<item group="Labels" id="Label.FailedPrintTemplate">
+		<message>Die Schablone für die Druck bei der nicht erfolgreichen Aufgabe der Prüfung</message>
+		<description>Die Schablone für die Druck bei der nicht erfolgreichen Aufgabe der Prüfung</description>
+	</item>
+	<item group="Labels" id="Label.SucTemplate">
+		<message>Die Textschablone bei der erfolgreichen Aufgabe der Prüfung</message>
+		<description>Die Textschablone bei der erfolgreichen Aufgabe der Prüfung</description>
+	</item>
+	<item group="Labels" id="Label.FailedTemplate">
+		<message>Die Textschablone bei der nicht erfolgreichen Aufgabe der Prüfung</message>
+		<description>Die Textschablone bei der nicht erfolgreichen Aufgabe der Prüfung</description>
+	</item>
+	<item group="Labels" id="Title.QuizList">
+		<message>Die Liste der Prüfungen</message>
+		<description>Die Liste der Prüfungen</description>
+	</item>
+	<item group="Labels" id="Title.Result">
+		<message>Das Ergebnis</message>
+		<description>Das Ergebnis</description>
+	</item>
+	<item group="Labels" id="Label.Details">
+		<message>Detailliert</message>
+		<description>Detailliert</description>
+	</item>
+	<item group="Labels" id="Label.PreviewTemplate">
+		<message>Die Durchsicht der Schablone</message>
+		<description>Die Durchsicht der Schablone</description>
+	</item>
+	<item group="Labels" id="Label.User">
+		<message>Der Benutzer</message>
+		<description>Der Benutzer</description>
+	</item>
+	<item group="Labels" id="Label.Passed">
+		<message>Abgegeben</message>
+		<description>Abgegeben</description>
+	</item>
+	<item group="Labels" id="Label.NoPassed">
+		<message>Nicht abgegeben</message>
+		<description>Nicht abgegeben</description>
+	</item>
+	<item group="Labels" id="Title.QuizResultList">
+		<message>Die Liste der Ergebnisse</message>
+		<description>Die Liste der Ergebnisse</description>
+	</item>
+	<item group="Labels" id="Title.CSSTemplate">
+		<message>Die CSS Schablone</message>
+		<description>Die CSS Schablone</description>
+	</item>
+	<item group="Labels" id="Label.Params">
+		<message>Die Parameter</message>
+		<description>Die Parameter</description>
+	</item>
+	<item group="Labels" id="Label.Actions">
+		<message>Die Handlungen</message>
+		<description>Die Handlungen</description>
+	</item>
+	<item group="Labels" id="Label.CorrectAnswers">
+		<message>Die Richtigen Antworten</message>
+		<description>Die Richtigen Antworten</description>
+	</item>
+	<item group="Labels" id="Label.Correct">
+		<message>Richtig</message>
+		<description>Richtig</description>
+	</item>
+	<item group="Labels" id="Label.TextCI">
+		<message>Case Insensitive</message>
+		<description>Case Insensitive</description>
+	</item>
+	<item group="Labels" id="Label.Image">
+		<message>Die Darstellung</message>
+		<description>Die Darstellung</description>
+	</item>
+	<item group="Labels" id="Label.Clear">
+		<message>Zu reinigen</message>
+		<description>Zu reinigen</description>
+	</item>
+	<item group="Labels" id="Label.Answer">
+		<message>Die Antwort</message>
+		<description>Die Antwort</description>
+	</item>
+	<item group="Labels" id="Label.Access">
+		<message>Den Zugriff (die Gruppe des Benutzers)</message>
+		<description>Den Zugriff (die Gruppe des Benutzers)</description>
+	</item>
+	<item group="Labels" id="Label.Active">
+		<message>Aktiv</message>
+		<description>Aktiv</description>
+	</item>
+	<item group="Labels" id="Label.Inactive">
+		<message>Inaktiv</message>
+		<description>Inaktiv</description>
+	</item>
+	<item group="Labels" id="Label.TotalTime">
+		<message>Die Allgemeine Zeit</message>
+		<description>Die Allgemeine Zeit</description>
+	</item>
+	<item group="Labels" id="Label.PassedScore">
+		<message>Die Zahl der Punkte für die Aufgabe</message>
+		<description>Die Zahl der Punkte für die Aufgabe</description>
+	</item>
+	<item group="Labels" id="Label.Skip">
+		<message>Erlaubt zu versäumen</message>
+		<description>Erlaubt zu versäumen</description>
+	</item>
+	<item group="Labels" id="Label.RandomQuestion">
+		<message>Die Zufälligen Fragen</message>
+		<description>Die Zufälligen Fragen</description>
+	</item>
+	<item group="Labels" id="Label.Questions">
+		<message>Die Liste der Fragen</message>
+		<description>Die Liste der Fragen</description>
+	</item>
+	<item group="Labels" id="Label.Results">
+		<message>Die Ergebnisse</message>
+		<description>Die Ergebnisse</description>
+	</item>
+	<item group="Labels" id="Label.NotSelectedItem">
+		<message>-</message>
+		<description>-</description>
+	</item>
+	<item group="Labels" id="Label.Template">
+		<message>Die Schablone</message>
+		<description>Die Schablone</description>
+	</item>
+	<item group="Labels" id="Label.Tooltip">
+		<message>Das Vorsagen</message>
+		<description>Das Vorsagen</description>
+	</item>
+	<item group="Labels" id="Label.Filter">
+		<message>Der Filter</message>
+		<description>Der Filter</description>
+	</item>
+	<item group="Labels" id="Label.View">
+		<message>Die Durchsicht</message>
+		<description>Die Durchsicht</description>
+	</item>
+	<item group="Labels" id="Label.Status">
+		<message>Der Status</message>
+		<description>Der Status</description>
+	</item>
+	<item group="Labels" id="Label.QCategories">
+		<message>Die Liste der Kategorien für die Fragen</message>
+		<description>Die Liste der Kategorien für die Fragen</description>
+	</item>
+	<item group="Labels" id="Text.EmptyAnswerIgnored">
+		<message>Die Aufmerksamkeit: die leeren Antworten werden  ignoriert sein</message>
+		<description>Die Aufmerksamkeit: die leeren Antworten werden  ignoriert sein</description>
+	</item>
+	<item group="Labels" id="Label.SendResultTo">
+		<message>Das Ergebnis abzusenden</message>
+		<description>Das Ergebnis abzusenden</description>
+	</item>
+	<item group="Labels" id="Label.AddItem">
+		<message>Zu ergänzen</message>
+		<description>Zu ergänzen</description>
+	</item>
+	<item group="Labels" id="Label.UpdateItem">
+		<message>Zu erneuern</message>
+		<description>Zu erneuern</description>
+	</item>
+	<item group="Labels" id="Label.Text">
+		<message>Der Text</message>
+		<description>Der Text</description>
+	</item>
+	<item group="Labels" id="Label.LagTime">
+		<message>Den Zeitraum zwischen der nächsten Aufgabe der Prüfung</message>
+		<description>Den Zeitraum zwischen der nächsten Aufgabe der Prüfung</description>
+	</item>
+	<item group="Labels" id="Label.AttemptCount">
+		<message>Die Zahl der Versuche</message>
+		<description>Die Zahl der Versuche</description>
+	</item>
+	<item group="Labels" id="Label.Guest">
+		<message>Der Gast</message>
+		<description>Der Gast</description>
+	</item>
+	<item group="Labels" id="Label.Default">
+		<message>Als Voreinstellung</message>
+		<description>Als Voreinstellung</description>
+	</item>
+	<item group="Labels" id="Label.Message">
+		<message>Die Mitteilung</message>
+		<description>Die Mitteilung</description>
+	</item>
+	<item group="Labels" id="Label.File">
+		<message>File</message>
+		<description>File</description>
+	</item>
+	<item group="Labels" id="Title.LangList">
+		<message>Die Liste der Sprachen File</message>
+		<description>Die Liste der Sprachen File</description>
+	</item>
+	<item group="Labels" id="Label.AllCategory">
+		<message>- Alle Kategorien -</message>
+		<description>Alle Kategorien</description>
+	</item>
+	<item group="Labels" id="Label.AllStatus">
+		<message>- Alle Status -</message>
+		<description>Alle Status</description>
+	</item>
+	<item group="Labels" id="Label.AllQuiz">
+		<message>- Alle Prüfungen -</message>
+		<description>Alle Prüfungen</description>
+	</item>
+	<item group="Labels" id="Label.AllUser">
+		<message>- Aller der Benutzer -</message>
+		<description>Aller der Benutzer</description>
+	</item>
+	<item group="Labels" id="Date.DayShort">
+		<message>t</message>
+		<description>Der kurz Bedeutung für die Tage</description>
+	</item>
+	<item group="Labels" id="Date.HourShort">
+		<message>st</message>
+		<description>Der kurz Bedeutung für die Stunden</description>
+	</item>
+	<item group="Labels" id="Date.MinuteShort">
+		<message>m</message>
+		<description>Der kurz Bedeutung für die Minuten</description>
+	</item>
+	<item group="Labels" id="Date.SecondShort">
+		<message>sek</message>
+		<description>Der kurz Bedeutung für die Sekunden</description>
+	</item>
+
+	<!--  Validators -->
+	<item id="Validator.QuestionNoSetPercentScore" group="Validators">
+		<message>Kann die Bedeutung der Prozente von den Punkten die ganze Zahl aus dem Abstand von 0 bis zu 100 sein</message>
+		<description>Kann die Bedeutung der Prozente von den Punkten die ganze Zahl aus dem Abstand von 0 bis zu 100 sein</description>
+	</item>
+	<item id="Validator.RSOverlapPoint" group="Validators">
+		<message>Werden Einige Umfänge der Punkte überquert</message>
+		<description>Werden Einige Umfänge der Punkte überquert</description>
+	</item>
+	<item id="Validator.RSNotCoveredPoint" group="Validators">
+		<message>Sind Einige Umfänge der Punkte nicht erfasst</message>
+		<description>Sind Einige Umfänge der Punkte nicht erfasst</description>
+	</item>
+	<item id="Validator.RSEmptySection" group="Validators">
+		<message>Keinen Umfang der Punkte ist nicht bestimmt</message>
+		<description>Keinen Umfang der Punkte ist nicht bestimmt</description>
+	</item>
+	<item id="Validator.RSRangePoint" group="Validators">
+		<message>Kann die Bedeutung der Prozente von den Punkten die ganze Zahl aus dem Abstand von 0 bis zu 100 sein</message>
+		<description>Kann die Bedeutung der Prozente von den Punkten die ganze Zahl aus dem Abstand von 0 bis zu 100 sein</description>
+	</item>
+	<item group="Validators" id="Validator.EmailIncorrect">
+		<message>Nicht die richtige Email</message>
+		<description>Nicht die richtige Email</description>
+	</item>
+	<item group="Validators" id="Validator.InvalidLicense">
+		<message>Führen Sie den richtigen Lizenzschlüssel ein</message>
+		<description>Führen Sie den richtigen Lizenzschlüssel ein</description>
+	</item>
+	<item group="Validators" id="Validator.NameRequired">
+		<message>Führen Sie den Namen</message> ein
+		<description>Führen Sie den Namen</description>
+	</item>
+	<item group="Validators" id="Validator.NameNotUnique">
+		<message>Solcher Name schon existiert</message>
+		<description> Solcher Name existiert schon</description>
+	</item>
+	<item id="Validator.ConfirmNameNotUnique" group="Validators">
+		<message>Solcher Name schon existiert . Sie sind überzeugt dass Sie fortzusetzen wollen?</message>
+		<description>Solcher Name schon existiert . Sie sind überzeugt dass Sie fortzusetzen wollen?</description>
+	</item>
+	<item group="Validators" id="Validator.NotSelectImage">
+		<message>Wählen Sie die Darstellung</message>
+		<description>Wählen Sie die Darstellung</description>
+	</item>
+	<item group="Validators" id="Validator.NotSelectArea">
+		<message>Wählen Sie das Grundstück der Darstellung</message>
+		<description>Wählen Sie das Grundstück der Darstellung</description>
+	</item>
+	<item group="Validators" id="Validator.TotalTime">
+		<message>Soll die Bedeutung der allgemeinen Zeit gleich oder grösser 0 sein</message>
+		<description>Soll die Bedeutung der allgemeinen Zeit gleich oder grösser 0 sein</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionTime">
+		<message>Soll die Bedeutung der Zeit für die Antwort auf die Frage gleich oder grösser 0 sein</message>
+		<description>Soll die Bedeutung der Zeit für die Antwort auf die Frage gleich oder grösser 0 sein</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionScore">
+		<message>Die Zahl der Punkte für die Frage soll gleich oder grösser 0 sein</message>
+		<description>Die Zahl der Punkte für die Frage soll gleich oder grösser 0 sein</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionScoreRequired">
+		<message>Führen Sie die Zahl der Punkte für die Frage ein</message>
+		<description> Führen Sie die Zahl der Punkte für die Frage ein</description>
+	</item>
+	<item group="Validators" id="Validator.PassedScore">
+		<message>Die Zahl der Punkte für die Aufgabe der Prüfung soll zwischen 0 und 100 sein</message>
+		<description>Die Zahl der Punkte für die Aufgabe der Prüfung soll zwischen 0 und 100 sein</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionCount">
+		<message>Die Zahl der Fragen soll gleich oder grösser 0 sein</message>
+		<description>Validator message</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionRequired">
+		<message>Führen Sie die Frage ein</message>
+		<description>Führen Sie die Frage</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionNotAnswer">
+		<message>Führen Sie einer oder mehrerer Antworten ein</message>
+		<description>Führen Sie einer oder mehrerer Antworten ein</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionNotCorrect">
+		<message>Bezeichnen Sie die korrekte Antwort</message>
+		<description>Bezeichnen Sie die korrekte Antwort</description>
+	</item>
+	<item group="Validators" id="Validator.LagTime">
+		<message>Soll die Zeit des Verzuges gleich oder grösser 0 sein</message>
+		<description>Soll die Zeit des Verzuges gleich oder grösser 0 sein</description>
+	</item>
+	<item group="Validators" id="Validator.AttemptCount">
+		<message>Die Zahl der Versuche soll gleich oder grösser 0 sein</message>
+		<description>Die Zahl der Versuche soll gleich oder grösser 0 sein</description>
+	</item>
+	<item group="Validators" id="Validator.TextRequired">
+		<message>Führen Sie den Text ein</message>
+		<description>Führen Sie den Text ein</description>
+	</item>
+	<item group="Validators" id="Validator.TemplateRequired">
+		<message>Wählen Sie die Schablone</message>
+		<description>Wählen Sie die Schablone</description>
+	</item>
+	<item group="Validators" id="Validator.FileRequired">
+		<message>Wählen Sie die File</message>
+		<description>Wählen Sie die File</description>
+	</item>
+	<item group="Validators" id="Validator.FileIncorrectFormat">
+		<message>Das Falsche Format der File</message>
+		<description>Das Falsche Format der File</description>
+	</item>
+
+	<!-- Completed messages -->
+	<item id="Complete.ScaleSave" group="Complete">
+		<message>Die Skala der Ergebnisse ist aufgespart</message>
+		<description>Die Skala der Ergebnisse ist aufgespart</description>
+	</item>
+	<item id="Complete.ScaleDelete" group="Complete">
+		<message>Die Skala der Ergebnisse ist entfernt</message>
+		<description>Die Skala der Ergebnisse ist entfernt</description>
+	</item>
+	<item id="Complete.TemplateDelete" group="Complete">
+		<message>Das Muster ist entfernt</message>
+		<description>Das Muster ist entfernt</description>
+	</item>
+	<item group="Complete" id="Complete.QuizSave">
+		<message>Die Prüfung ist aufgespart</message>
+		<description>Die Prüfung ist aufgespart</description>
+	</item>
+	<item group="Complete" id="Complete.QuestionSave">
+		<message>Die Frage ist aufgespart</message>
+		<description>Die Frage ist aufgespart</description>
+	</item>
+	<item group="Complete" id="Complete.CategorySave">
+		<message>Die Kategorie ist aufgespart</message>
+		<description>Die Kategorie ist aufgespart</description>
+	</item>
+	<item group="Complete" id="Complete.QCategorySave">
+		<message>Die Kategorie der Fragen ist aufgespart</message>
+		<description>Die Kategorie der Fragen ist aufgespart</description>
+	</item>
+	<item group="Complete" id="Complete.QuestionDelete">
+		<message>Die Frage ist entfernt</message>
+		<description>Die Frage ist entfernt</description>
+	</item>
+	<item group="Complete" id="Complete.QuestionCategoryDelete">
+		<message>Die Kategorie der Fragen ist entfernt</message>
+		<description>Die Kategorie der Fragen ist entfernt</description>
+	</item>
+	<item group="Complete" id="Complete.QuizDelete">
+		<message>Die Prüfung ist entfernt</message>
+		<description>Die Prüfung ist entfernt</description>
+	</item>
+	<item id="Complete.ResultDelete" group="Complete">
+		<message>Die Ergebnisse der Prüfungen sind entfernt</message>
+		<description>Die Ergebnisse der Prüfungen sind entfernt</description>
+	</item>
+	<item group="Complete" id="Complete.QuizActivate">
+		<message>Die Prüfung ist aktiviert</message>
+		<description>Die Prüfung ist aktiviert</description>
+	</item>
+	<item group="Complete" id="Complete.QuizDeactivate">
+		<message>Die Prüfung ist inaktiv gemacht</message>
+		<description>Die Prüfung ist inaktiv gemacht</description>
+	</item>
+	<item group="Complete" id="Complete.ChangeQuestionOrder">
+		<message>Die Ordnung der Fragen ist geändert</message>
+		<description>Die Ordnung der Fragen ist geändert</description>
+	</item>
+	<item group="Complete" id="Complete.CategoryDelete">
+		<message>Die Kategorie ist entfernt</message>
+		<description>Die Kategorie ist entfernt</description>
+	</item>
+	<item group="Complete" id="Complete.QTemplateSave">
+		<message>Die Schablone für die Fragen ist aufgespart</message>
+		<description>Die Schablone für die Fragen ist aufgespart</description>
+	</item>
+	<item group="Complete" id="Complete.DeleteQTemplate">
+		<message>Die Schablone ist entfernt</message>
+		<description>Die Schablone ist entfernt</description>
+	</item>
+	<item group="Complete" id="Complete.TemplateSave">
+		<message>Die Schablone ist aufgespart</message>
+		<description> Die Schablone ist aufgespart</description>
+	</item>
+	<item group="Complete" id="License.AddLicense">
+		<message>Der Lizenzschlüssel ist beigefügt</message>
+		<description>Der Lizenzschlüssel ist beigefügt</description>
+	</item>
+	<item group="Complete" id="License.BeforeUseSpecifyKey">
+		<message>Bitte, führen Sie den Lizenzschlüssel vor der Nutzung der Komponente ein</message>
+		<description>Bitte, führen Sie den Lizenzschlüssel vor der Nutzung der Komponente ein</description>
+	</item>
+	<item group="Complete" id="License.IncorrectLicense">
+		<message>Der falsche Lizenzschlüssel ist eingeführt</message>
+		<description>Der falsche Lizenzschlüssel ist eingeführt</description>
+	</item>
+	<item group="Complete" id="License.SpecifyKey">
+		<message>Bitte, führen Sie den Lizenzschlüssel ein</message>
+		<description>Bitte, führen Sie den Lizenzschlüssel ein</description>
+	</item>
+	<item group="Complete" id="License.LicenseExists">
+		<message>Der Eingeführte Lizenzschlüssel schon existiert</message>
+		<description>Der Eingeführte Lizenzschlüssel schon existiert</description>
+	</item>
+	<item group="Complete" id="Complete.LangSave">
+		<message>Die Sprachliche File ist aufgespart</message>
+		<description>Die Sprachliche File ist aufgespart</description>
+	</item>
+	<item group="Complete" id="Complete.SetLangDefault">
+		<message>Die gewählte Sprache ist bestimmt</message>
+		<description>Die gewählte Sprache ist bestimmt</description>
+	</item>
+	<item group="Complete" id="Complete.LangDelete">
+		<message>Die Sprachliche File ist entfernt</message>
+		<description>Die Sprachliche File ist entfernt</description>
+	</item>
+	<item group="Complete" id="Complete.FileImport">
+		<message>Der Import der File erfolgreich beendet</message>
+		<description>Der Import der File erfolgreich beendet</description>
+	</item>
+
+	<!-- Toolbar -->
+	<item group="Toolbar" id="Button.Back">
+		<message>rückwärts</message>
+		<description>rückwärts</description>
+	</item>
+	<item group="Toolbar" id="Button.Add">
+		<message>ergänzen</message>
+		<description>ergänzen</description>
+	</item>
+	<item group="Toolbar" id="Button.Edit">
+		<message>ändern</message>
+		<description>ändern</description>
+	</item>
+	<item group="Toolbar" id="Button.Remove">
+		<message>entfernen</message>
+		<description>entfernen</description>
+	</item>
+	<item group="Toolbar" id="Button.Activate">
+		<message>aufzunehmen</message>
+		<description>aufzunehmen</description>
+	</item>
+	<item group="Toolbar" id="Button.Deactivate">
+		<message>auszuschalten</message>
+		<description>auszuschalten</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.Import">
+		<message>Import</message>
+		<description>Import</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.Export">
+		<message>Export</message>
+		<description>Export</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.ExportToCSV">
+		<message>CSV</message>
+		<description>To CSV button</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.ExportToExcel">
+		<message>Excel</message>
+		<description>Excel</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.ExportToWord">
+		<message>Word</message>
+		<description>Word</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.ExportToHTML">
+		<message>HTML</message>
+		<description>HTML</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.Filters">
+		<message>Filter</message>
+		<description>Filters</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.Apply">
+		<message>übernehmen</message>
+		<description>übernehmen</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.Cancel">
+		<message>abzulehnen</message>
+		<description>abzulehnen</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.Save">
+		<message>aufzusparen</message>
+		<description>aufzusparen</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.QuizList">
+		<message>Die Prüfungen</message>
+		<description>Die Prüfungen</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.ResultList">
+		<message>Die Ergebnisse</message>
+		<description>Die Ergebnisse</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.Results">
+		<message>Die Ergebnisse</message>
+		<description>Die Ergebnisse</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.Default">
+		<message>Als Voreinstellung</message>
+		<description>Als Voreinstellung</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.Preview">
+		<message>Die Durchsicht</message>
+		<description> Die Durchsicht</description>
+	</item>
+
+	<!-- Warning messages -->
+	<item id="Warning.QuestionNoSetScore" group="Warning">
+		<message>Sie haben der Zahl der Punkte für die Frage nicht bezeichnet. Sie sind überzeugt, was Sie fortsetzen wollen?</message>
+		<description>Sie haben der Zahl der Punkte für die Frage nicht bezeichnet. Sie sind überzeugt, was Sie fortsetzen wollen?</description>
+	</item>
+	<item id="Warning.RSNotCoveredPoint" group="Warning">
+		<message>Einige Umfänge der Punkte sind nicht aufgegeben. Sie sind überzeugt, was Sie fortsetzen wollen?</message>
+		<description>Einige Umfänge der Punkte sind nicht aufgegeben. Sie sind überzeugt, was Sie fortsetzen wollen?</description>
+	</item>
+	<item id="Warning.ResultScaleRemove" group="Warning">
+		<message>Wollen Sie die gewählten Skalen der Ergebnisse entfernen?</message>
+		<description>Wollen Sie die gewählten Skalen der Ergebnisse entfernen?</description>
+	</item>
+	<item id="Warning.ResultRemove" group="Warning">
+		<message>Wollen Sie die gewählten Ergebnisse entfernen?</message>
+		<description>Wollen Sie die gewählten Ergebnisse entfernen?</description>
+	</item>
+	<item group="Warning" id="Warning.QuizRemove">
+		<message>Wollen Sie die gewählten Prüfungen entfernen?</message>
+		<description>Wollen Sie die gewählten Prüfungen entfernen?</description>
+	</item>
+	<item group="Warning" id="Warning.CategoryRemove">
+		<message>Wollen Sie die gewählten Kategorien entfernen?</message>
+		<description>Wollen Sie die gewählten Kategorien entfernen?</description>
+	</item>
+	<item group="Warning" id="Warning.QTemplateRemove">
+		<message>Wollen Sie die gewählten Schablonen entfernen?</message>
+		<description>Wollen Sie die gewählten Schablonen entfernen?</description>
+	</item>
+	<item group="Warning" id="Warning.QuestionAnswerRemove">
+		<message>Sind Sie überzeugt?</message>
+		<description>Sind Sie überzeugt?</description>
+	</item>
+	<item group="Warning" id="Warning.BankQuestionRemove">
+		<message>Wollen Sie die gewählten Fragen entfernen? \r\n n (die Aufmerksamkeit: die Fragen aus der Bank werden nicht entfernt sein, wenn auf der Grundlage sie die Fragen in den Prüfungen verwendet werden)</message>
+		<description>Wollen Sie die gewählten Fragen entfernen?</description>
+	</item>
+	<item group="Warning" id="Warning.QuestionRemove">
+		<message>Wollen Sie die gewählten Fragen entfernen?</message>
+		<description>Wollen Sie die gewählten Fragen entfernen?</description>
+	</item>
+	<item group="Warning" id="Warning.QCategoryRemove">
+		<message>Wollen Sie die gewählten Kategorien entfernen?</message>
+		<description>Wollen Sie die gewählten Kategorien entfernen?</description>
+	</item>
+	<item group="Warning" id="Warning.DeleteQueFromQCategory">
+		<message>Wollen Sie die Fragen aus der vorliegenden Kategorie entfernen?</message>
+		<description>Wollen Sie die Fragen aus der vorliegenden Kategorie entfernen?</description>
+	</item>
+	<item group="Warning" id="Warning.QCategoryCreateQuiz">
+		<message>Zunächst schaffen Sie die Prüfung</message>
+		<description> Zunächst schaffen Sie die Prüfung</description>
+	</item>
+
+	<!-- Text messages -->
+	<item id="Text.SQNote" group="Text">
+		<message>Bezeichnen Sie einige Varianten der Antwort auf die Frage. Wenn Sie verschiedene Zahl der Punkte für die Antworten aufgeben wollen, so bezeichnen Sie im Feld % Score die Zahl der Prozente von den Punkten für die vorliegende Frage, das dem Benutzer angerechnet sein wird, bei der Auswahl der gegebenen Antwort(Die Bedeutung soll im Umfang von 0 bis zu 100 sein. Wenn die Bedeutung nicht angewiesen wird, so werden die Punkte dem Benutzer für die vorliegende Antwort nicht angerechnet werden). Die leeren Antworten werden ignoriert sein.</message>
+		<description>Die Anmerkung für die einzelne Frage</description>
+	</item>
+	<item id="Text.MQNote" group="Text">
+		<message>Bezeichnen Sie die Varianten der Antwort und die richtige Gesamtheit der Varianten der Antwort. Wenn Sie verschiedene Zahl der Punkte für die Antworten aufgeben wollen, so bei der Hilfe ' [+] ' geben Sie die geforderte Kombination der Antworten und die Zahl der Prozente von auf der Punkte für die vorliegende Frage, das dem Benutzer angerechnet sein wird, bei der Auswahl der Daten Varianten der Antworten (Die Bedeutung soll im Umfang von 0 bis zu 100 sein. Wenn die Bedeutung nicht angewiesen wird, so werden die Punkte dem Benutzer für die vorliegende Antwort nicht angerechnet werden). Die leeren Antworten werden ignoriert sein.</message>
+		<description>Die Anmerkung für die plurale Frage</description>
+	</item>
+	<item id="Text.FTQNote" group="Text">
+		<message>Bezeichnen Sie die Variante der Antwort auf die Frage. Wenn Sie verschiedene Zahl der Punkte für die Antworten aufgeben wollen, so bezeichnen Sie im Feld % Score die Zahl der Prozente von der Punkte für die vorliegende Frage, das dem Benutzer angerechnet sein wird, bei die Auswahl der gegebenen Antwort (Die Bedeutung soll im Umfang von 0 bis zu 100 sein. Wenn die Bedeutung nicht angewiesen wird, so wird der Benutzer das Maximum der Punkte für die vorliegende Antwort bekommen). Die leeren Antworten werden ignoriert sein.</message>
+		<description>Die Anmerkung für die Frage mit der freien Variante der Antwort</description>
+	</item>
+	<item id="Tooltip.ParsePluginTag" group="Text">
+		<message>Wenn ist diese Abstimmung aufgenommen, dann werden mambot (plugin) tags eingesetzt sein</message>
+		<description>Das Vorsagen: plugin tags</description>
+	</item>
+	<item id="Tooltip.QuestionNote" group="Text">
+		<message>Dieses Feld ist für die Einführung der zusätzlichen Informationen über die Frage vorbestimmt. Diese Informationen werden dem Benutzer bei der Abbildung der Ergebnisse der Prüfung gezeigt sein. Zum Beispiel, man kann den Grund bezeichnen, nach dem einige Antworten richtig sind, und einige sind nicht richtig.</message>
+		<description>Das Vorsagen für die Frage</description>
+	</item>
+	<item group="Text" id="Tooltip.QuizCanSkip">
+		<message>Wenn ist diese Eigenschaft aktiv, so kann der Benutzer die Fragen versäumen und, zur Antwort auf sie später zurückkehren</message>
+		<description>Eigenschaft aktiv</description>
+	</item>
+	<item group="Text" id="Tooltip.QuizRandomQuestion">
+		<message>Wenn ist diese Eigenschaft aktiv, so wird die Prüfung aus den Fragen gehend in der zufälligen Ordnung gebildet sein, ihre Ordnung ignorierend</message>
+		<description>Eigenschaft aktiv</description>
+	</item>
+	<item group="Text" id="Tooltip.QuizCalculator">
+		<message>Wenn ist diese Eigenschaft aktiv, so kann der Benutzer den Rechner während der Aufgabe der Prüfung verwenden</message>
+		<description>Eigenschaft aktiv</description>
+	</item>
+
+	<!-- F.A.Q. -->
+	<item group="F.A.Q." type="WYSIWYG" id="RichText.FAQ">
+		<message>   1. &lt;strong&gt;Wie die Erneuerungen für die Komponente festzustellen?&lt;/strong&gt;&lt;br /&gt;      Zuerst, entfernen Sie die Komponente. Die Entfernung wird nur die Dateien, die sich zur Komponente verhalten berühren, alle Daten bewahrte in der Datenbank werden aufgespart sein. Danach stellen Sie die neue Version der Komponente.&lt;br /&gt;&lt;br /&gt;   2. &lt;strong&gt;Ob man die Sprache ausgezeichnet von der englischen Sprache während der Bildung der Prüfungen verwenden kann?&lt;/strong&gt;&lt;br /&gt;      Ja, ARI Quiz unterstützt unicode, was die vielsprachige Unterstützung gewährleistet.&lt;br /&gt;&lt;br /&gt;   3. &lt;strong&gt;Wie der Punkt des Menüs zu ergänzen, der auf die Seite mit der Liste der Prüfungen verweisen wird?&lt;/strong&gt;&lt;br /&gt;      Verwenden Sie Joomla Menu Manager:&lt;br /&gt;      - Drücken Sie &quot;New&quot;.&lt;br /&gt;      - Wählen Sie &quot;Component&quot; aus der Abteilung &quot;Components&quot;.&lt;br /&gt;      - Wählen Sie ARI Quiz.&lt;br /&gt;      - Drücken Sie &quot;Save&quot;.&lt;br /&gt;&lt;br /&gt;   4. &lt;strong&gt;Wie ID der Prüfung zu erkennen?&lt;/strong&gt;&lt;br /&gt;      Sie können es auf der Seite mit der Liste der Prüfungen oder während der Editierung der Prüfung sehen.&lt;br /&gt;&lt;br /&gt;   5. &lt;strong&gt;Wie den Punkt des Menüs, der verweist auf die konkrete Prüfung zu ergänzen?&lt;/strong&gt;&lt;br /&gt;      Die Verbannung wird auf folgende Weise aussehen: index.php? option=com_ariquiz&amp;quiz_id=QUIZ_ID&lt;br /&gt;&lt;br /&gt;   6. &lt;strong&gt;Ob der Benutzer die Statistik der vorbeigekommenen Prüfungen sehen kann?&lt;/strong&gt;&lt;br /&gt;      Ja, solche Möglichkeit ist den registrierten Benutzern nach der Verbannung index.php zugänglich? option=com_ariquiz&amp;task=quiz_stat. Für die Bequemlichkeit,  Sie können der Punkt des Menüs für die Durchsicht der Statistik schaffen. &lt;br /&gt;</message>
+		<description>F.A.Q. text</description>
+	</item>
+	<!-- Help  -->
+	<item group="Help" type="WYSIWYG" id="RichText.Help">
+		<message>&lt;ol&gt;&lt;li&gt;&lt;strong&gt;Der Kategorie für die Prüfungen&lt;/strong&gt;&lt;br /&gt;Die Kategorien für die Prüfungen werden verwendet um die Prüfungen nach den Thematiken zu zerschlagen.&lt;br /&gt;&lt;br /&gt; 					&lt;ol style=&quot;list-style-type: lower-alpha; list-style-image: none; list-style-position: outside&quot;&gt;&lt;li&gt;&lt;strong&gt;Die Ergänzung/Editierung der Kategorien&lt;/strong&gt;&lt;br /&gt;Für die Ergänzung der Kategorie drücken Sie &quot;ergänzen&quot; auf der Seite mit der Liste der Kategorien. Für die Editierung drücken Sie auf den Namen der Kategorie auf der Seite mit der Liste der Kategorien. Während der Ergänzung/Editierung können Sie die folgenden Eigenschaften aufgeben:&lt;br /&gt;      - Den Namen der Kategorie;&lt;br /&gt;      - Die Beschreibung der Kategorie;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Die Liste der Kategorien&lt;/strong&gt;&lt;br /&gt;Die Liste der Kategorien ist gezeigt auf dieser Seite.Es gibt die Möglichkeit die gewählten Kategorien zu entfernen.&lt;/li&gt;&lt;/ol&gt; 					&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Der Kategorie für die Fragen&lt;/strong&gt;&lt;br /&gt;Es wird verwendet wenn Sie die Prüfung berührend verschiedene Thematiken schaffen wollen. In diesem Fall Sie ergänzen die Kategorie für jedes Thema und bezeichnen welche Frage zu welcher Kategorie wird gehören.&lt;br /&gt;&lt;br /&gt; 					&lt;ol style=&quot;list-style-type: lower-alpha; list-style-image: none; list-style-position: outside&quot;&gt;&lt;li&gt;&lt;strong&gt;Die Ergänzung/Editierung der Kategorie für die Fragen&lt;/strong&gt;&lt;br /&gt;Für die Ergänzung der Kategorie drücken Sie &quot;ergänzen&quot; auf der Seite mit der Liste der Kategorien für die Fragen. Für die Editierung drücken Sie auf den Namen der Kategorie auf der Seite mit der Liste der Kategorien. Während der Ergänzung/Editierung können Sie die folgenden Eigenschaften aufgeben:&lt;br /&gt;      - Die Prüfung zu wählen, der die vorliegende Kategorie gehören wird. (Wenn schaffen Sie die neue Kategorie);&lt;br /&gt;      - Den Namen der Kategorie;&lt;br /&gt;      - Die Zahl der Fragen aufzugeben aus der vorliegenden Kategorie der Fragen bei der Zusammenstellung der Prüfung gewählt wird. Wenn &quot;0&quot; oder nichts aufgegeben ist so werden alle Fragen gewählt sein;&lt;br /&gt;      - Die Zahl der Zeit aufzugeben, die für die Antwort auf die Frage aus der vorliegenden Kategorie gewählt wird;&lt;br /&gt;      - Die Beschreibung der Kategorie;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Die Liste der Kategorien für die Fragen&lt;/strong&gt;&lt;br /&gt;Die Liste der Kategorien für die Fragen auf dieser Seite ist gezeigt. Sie können entfernen die gewählten Kategorien für die Fragen. Bei der Entfernung Sie können bezeichnen, ob man die Fragen die entfernen muss verhalten sich zur entfernten Kategorie.&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Die Schablonen der Fragen&lt;/strong&gt;&lt;br /&gt;Sie können in dieser Abteilung die Schablone schaffen, was Ihnen zulassen wird die Fragen aufgrund dieser Schablone zu schaffen. Kann für die wirksamere Bildung der häufig wiederholten Fragen, zum Beispiel verwendet werden: &quot;Ja/Nein&quot;.&lt;br /&gt;&lt;br /&gt; 					&lt;ol style=&quot;list-style-type: lower-alpha; list-style-image: none; list-style-position: outside&quot;&gt;&lt;li&gt;&lt;strong&gt;Die Ergänzung/Editierung der Schablone der Frage&lt;/strong&gt;&lt;br /&gt;Für die Ergänzung der Schablone drücken Sie &quot;ergänzen&quot; auf der Seite mit der Liste der Schablonen. Für die Editierung drücken Sie auf den Namen der Schablone auf der Seite mit der Liste der Schablonen. Während der Ergänzung/Editierung können Sie die folgenden Eigenschaften aufgeben:&lt;br /&gt;       - Den Namen der Schablone;&lt;br /&gt;       - Den Typ der Frage (sehen Sie die Abteilung 10.c);&lt;br /&gt;       - Die Prüfung während der Erhaltung der Schablone aufzunehmen / Auszuschalten;&lt;br /&gt;       - Die Parameter für den gewählten Typ der Frage zu bestimmen;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Die Liste der Schablonen der Fragen&lt;/strong&gt;&lt;br /&gt;Die Liste der Schablonen ist gezeigt auf dieser Seite. Es gibt die Möglichkeit die gewählten Schablonen zu entfernen.&lt;/li&gt;&lt;/ol&gt; 					&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Die Textschablonen&lt;/strong&gt;&lt;br /&gt;Sie können in dieser Abteilung die Textschablonen verwalten die für die Abbildung der Ergebnisse der Aufgabe der Prüfung verwendet sein können.&lt;br /&gt;&lt;br /&gt; 					&lt;ol style=&quot;list-style-type: lower-alpha; list-style-image: none; list-style-position: outside&quot;&gt;&lt;li&gt;&lt;strong&gt;Die Ergänzung/Editierung der Textschablone&lt;/strong&gt;&lt;br /&gt;Für die Ergänzung der Schablone drücken Sie &quot;ergänzen&quot; auf der Seite mit der Liste der Schablonen. Für die Editierung drücken Sie auf den Namen der Schablone auf der Seite mit der Liste der Schablonen. Während der Ergänzung/Editierung können Sie die folgenden Eigenschaften aufgeben:&lt;br /&gt;       - Den Namen der Schablone;&lt;br /&gt;       - Den Text der Schablone;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Die Liste der Textschablonen&lt;/strong&gt;&lt;br /&gt;Die Liste der Schablonen ist auf dieser Seite gezeigt. Es gibt die Möglichkeit die gewählten Schablonen zu entfernen.&lt;/li&gt;&lt;/ol&gt; 					&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Die Ergebnisse der Aufgabe der Prüfungen&lt;/strong&gt;&lt;br /&gt;Sie können die Ergebnisse der Aufgabe der Prüfungen in dieser Abteilung durchsehen. Für die Bequemlichkeit können Sie die Suchfilter verwenden, um nach der nötigen Prüfung und dem Sie interessierenden Benutzer zu suchen. Ebenso ist die Möglichkeit des Exportes der Ergebnisse in die folgenden Formate vorgesehen: CSV, HTML, MS Word, MS Excel. Die Ergebnisse in CSV und MS Excel die Formate werden in der vereinfachten Form, in HTML und MS Word die Formate in der entfalteten Form dargestellt sein.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Die Sprachlichen Abstimmungen (Backend / Frontend)&lt;/strong&gt;&lt;br /&gt;In dieser Abteilung können Sie die verwendete sprachliche File für die Komponente wählen oder die sprachliche File zu schaffen. Ebenso, Sie können die sprachlichen File exportieren oder importieren.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Die Schablonen&lt;/strong&gt;&lt;br /&gt;In dieser Sektion können Sie die CSS Schablonen verwalten. Sie bei der Abbildung der Prüfungen den Benutzern verwendet werden.&lt;br /&gt;&lt;br /&gt; 					&lt;ol style=&quot;list-style-type: lower-alpha; list-style-image: none; list-style-position: outside&quot;&gt;&lt;li&gt;&lt;strong&gt;Die Ergänzung/Editierung der &lt;/strong&gt;&lt;strong&gt;CSS &lt;/strong&gt;&lt;strong&gt;Schablone&lt;/strong&gt;&lt;br /&gt;Für die Ergänzung der Schablone drücken Sie &quot;ergänzen&quot; auf der Seite mit der Liste der Schablonen. Für die Editierung drücken Sie auf den Namen der Schablone auf der Seite mit der Liste der Schablonen. Während der Ergänzung/Editierung können Sie die folgenden Eigenschaften aufgeben:&lt;br /&gt;       - Den Namen der Schablone;&lt;br /&gt;       - Den Text der Schablone;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Die Liste der &lt;/strong&gt;&lt;strong&gt;CSS &lt;/strong&gt;&lt;strong&gt;Schablonen&lt;/strong&gt;&lt;br /&gt;Die Liste der Schablonen ist auf dieser Seite gezeigt. Es gibt die Möglichkeit, die gewählten Schablonen zu entfernen.&lt;/li&gt;&lt;/ol&gt; 					&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Der Lizenz&lt;/strong&gt;&lt;br /&gt;In dieser Abteilung können Sie die Lizenzen für die Komponente verwalten. Wenn die Laufzeit Ihrer Lizenz abgelaufen ist, können Sie fortsetzen die Komponente zu verwenden, aber können Sie die Erneuerungen und die kostenlose technische Unterstützung nicht bekommen. Für die Verlängerung der Lizenz besuchen Sie www.ari-soft.com und bestellen Sie die Lizenz auf die Ihnen nötige Periode. Für die Anlage der Lizenz führen Sie im Feld &quot;den Hochofennamen&quot;, den Hochofennamen Ihrer Webseite, und im Feld &quot;den Lizenzschlüssel&quot;, Ihren Lizenzschlüssel ein.&lt;br /&gt; &lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Die Liste der Prüfungen&lt;/strong&gt;&lt;br /&gt;Sie können in dieser Sektion die Prüfungen verwalten.&lt;br /&gt;&lt;br /&gt; 					&lt;ol style=&quot;list-style-type: lower-alpha; list-style-image: none; list-style-position: outside&quot;&gt;&lt;li&gt;&lt;strong&gt;Die Ergänzung/Editierung der Prüfung&lt;/strong&gt;&lt;br /&gt;Für die Ergänzung der Prüfung drücken Sie &quot;ergänzen&quot; auf der Seite mit der Liste der Prüfungen. Für die Editierung drücken Sie auf den Namen der Prüfung in der Seite mit der Liste der Prüfungen. Während der Ergänzung/Editierung können Sie die folgenden Eigenschaften aufgeben:&lt;br /&gt;       - Den Namen der Prüfung;&lt;br /&gt;       - Die Kategorie zu der die Prüfung verhalten wird. (sehen Sie die Abteilung 1);&lt;br /&gt;       - Die Gruppe der Benutzer, die den Zugriff auf die Aufgabe der Prüfung haben wird. Wenn die Gruppe &quot;Gast&quot; gewählt ist, so können alle Benutzer die vorliegende Prüfung abgeben;&lt;br /&gt;       - Prüfung aktiv oder inaktiv zu machen;&lt;br /&gt;       - Die Zeit, die auf die Aufgabe der Prüfung gegeben wird;&lt;br /&gt;       - Die Zahl der Punkte (prozentual), das notwendig ist, dass die Prüfung vom Abgegebenen galt;&lt;br /&gt;       - Maximal Zahl der Fragen in der Prüfung;&lt;br /&gt;       - Die Zeit, die für die Antwort auf die Frage in der Prüfung abgeführt wird;&lt;br /&gt;       - Die Beschreibung der Prüfung;&lt;br /&gt;       - Die Textschablone, die nach Email im Falle der erfolgreichen Aufgabe der Prüfung abgesendet wird;&lt;br /&gt;       - Die Textschablone, die nach Email im Falle der nicht erfolgreichen Aufgabe der Prüfung abgesendet wird;&lt;br /&gt;       - Die Textschablone, die auf die Druck im Falle der erfolgreichen Aufgabe der Prüfung herausgeführt wird;&lt;br /&gt;       - Die Textschablone, die auf die Druck im Falle der nicht erfolgreichen Aufgabe der Prüfung herausgeführt wird;&lt;br /&gt;       - Die Textschablone, die dem Benutzer im Falle der erfolgreichen Aufgabe der Prüfung gezeigt wird;&lt;br /&gt;       - Die Textschablone, die dem Benutzer im Falle der nicht erfolgreichen Aufgabe der Prüfung gezeigt wird;;&lt;br /&gt;       - CSS die Schablone, die für die gegebene Prüfung verwendet wird;&lt;br /&gt;       - Die Möglichkeit  die Fragen während der Prüfung zu versäumen;&lt;br /&gt;       - Die Fragen in einer willkürlichen Ordnung zu zeigen;&lt;br /&gt;       - Die Möglichkeit den Rechner während der Prüfung zu verwenden;&lt;br /&gt;       - Die Periode, in dessen Strömung, der Benutzer die Prüfung wiederholt nicht abgeben kann. (Gilt nur für die registrierten Benutzer).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Die Liste der Prüfungen&lt;/strong&gt;&lt;br /&gt;Die Liste der Prüfungen ist auf dieser Seite gezeigt. Es gibt die Möglichkeit, die gewählten Schablonen zu entfernen oder ihre aktiv oder inaktiv zu machen.&lt;/li&gt;&lt;/ol&gt; 					&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Die Verwaltung der Fragen&lt;/strong&gt;&lt;br /&gt; 					&lt;ol style=&quot;list-style-type: lower-alpha; list-style-image: none; list-style-position: outside&quot;&gt;&lt;li&gt;&lt;strong&gt;Die Ergänzung/Editierung der Frage&lt;/strong&gt;&lt;br /&gt;Für die Ergänzung der Frage drücken Sie &quot;ergänzen&quot; auf der Seite mit der Liste der Fragen. Für die Editierung drücken Sie auf den Namen der Frage auf der Seite mit der Liste der Fragen. Während der Ergänzung/Editierung können Sie die folgenden Eigenschaften aufgeben:&lt;br /&gt;       - Zu welcher Kategorie der Fragen zu gehören. (sehen Sie die Abteilung 2);&lt;br /&gt;       - Auf dessen Grundlage der Schablone der Fragen ist die Frage geschaffen. (sehen Sie die Abteilung 3);&lt;br /&gt;       - Der Typ der Frage zu wählen. (Sie sehen die Abteilung 10.c)&lt;br /&gt;       - Die Zahl der Punkte für die richtige Antwort auf die Frage zu stellen;&lt;br /&gt;       - Den Text der Frage aufzugeben;&lt;br /&gt;       - Die Parameter für den gewählten der Frage aufzugeben.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Die Liste der Fragen&lt;/strong&gt;&lt;br /&gt;Um auf diese Seite zu geraten müssen Sie auf der Seite mit der Liste der Prüfungen auf die Verbannung drücken, die Fragen durchzusehen (sehen Sie die Abteilung 9.b). Auf dieser Seite ist die Liste der Fragen gezeigt. Es gibt die Möglichkeit die Ordnung der Fragen zu umdefinieren oder die gewählten Fragen zu entfernen.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Die Typen der Fragen&lt;/strong&gt;&lt;br /&gt;- Single Question: es wird für die Fragen mit zwei oder mehreren Varianten der Antworten aus denen nur ein Richtiger verwendet;&lt;br /&gt; - Multiple Question: wird für die Fragen mit zwei oder mehreren Varianten der Antworten aus denen richtig verwendet es sind sofort etwas Varianten;&lt;br /&gt; - FreeText Question: wird für die Fragen verwendet, wo der Benutzer die Antwort ins Textfeld einführen soll;&lt;br /&gt; - HotSpot Question: wird für die Fragen verwendet, wo der Benutzer für die Antwort den Teil der Darstellung drücken soll.&lt;br /&gt; - Correlation Question: wird für die Fragen verwendet, wo der Benutzer die Übereinstimmung zwischen den Termini aufstellen soll.&lt;/li&gt;&lt;/ol&gt; 					&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Die Bank der Fragen&lt;/strong&gt;&lt;br /&gt;Die Bank der Fragen enthält die Fragen, die in die Prüfungen beigefügt können. Wenn sich die Frage in der Bank ändert, so ändert er sich in den Prüfungen automatisch, in die er beigefügt ist.&lt;br /&gt;&lt;/li&gt;&lt;/ol&gt;</message>
+		<description>Hilfe</description>
+	</item>
+
+	<!-- Controls -->
+	<item id="Controls.DTFirstPage" group="Controls">
+		<message>&lt; &lt; den Anfang</message>
+		<description>Die Tabelle der Daten: das Zeichen für die Verbannung des Übergangs auf die erste Seite</description>
+	</item>
+	<item id="Controls.DTLastPage" group="Controls">
+		<message>das Ende &gt; &gt;</message>
+		<description>Die Tabelle der Daten: das Zeichen für die Verbannung des Übergangs auf die letzte Seite</description>
+	</item>
+	<item id="Controls.DTNextPage" group="Controls">
+		<message>der Folgende &gt;</message>
+		<description>Die Tabelle der Daten: das Zeichen für die Verbannung des Übergangs auf die nächste Seite</description>
+	</item>
+	<item id="Controls.DTPrevPage" group="Controls">
+		<message> &lt; &lt; den Vorhergehenden</message>
+		<description>Die Tabelle der Daten: das Zeichen für die Verbannung des Übergangs auf die vorhergehende Seite</description>
+	</item>
+	<item id="Controls.DTPageReportTemplate" group="Controls">
+		<message>({currentPage} aus {totalPages})</message>
+		<description>ie Tabelle der Daten: das Zeichen für die Abbildung der Zahl der Seiten</description>
+	</item>
+	<item id="Controls.DTTemplate" group="Controls">
+		<message>Zu zeigen#: {RowsPerPageDropdown} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {CurrentPageReport}</message>
+		<description>Die Tabelle der Daten: die Schablone</description>
+	</item>
+
+	<!--  Extra Properties -->
+	<item id="Quiz.ShowFullStatistics" group="Properties">
+		<message>Die volle Statistik zu zeigen</message>
+		<description>Die volle Statistik zu zeigen</description>
+	</item>
+</resource>

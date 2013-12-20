@@ -1,0 +1,54 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Slideset + Slideshow
+----------------------------------------------------------------------------------------------------*/
+
+#top-a .wk-slideset-default,
+#top-a .wk-slideshow-default { margin: 0 -10px -59px -10px; }
+
+#top-a .wk-slideset-default > div,
+#top-a .wk-slideshow-default > div { margin-bottom: 35px; }
+
+#top-a .wk-slideset-default .nav.text { overflow: hidden; }
+
+#top-a .wk-slideset-default .nav.text li { margin-bottom: 3px; }
+
+#top-a .wk-slideset-default .nav.icon li,
+#top-a .wk-slideshow-default .nav.icon li { margin-left: 8px; }
+
+#top-a .wk-slideset-default .nav.icon li:first-child,
+#top-a .wk-slideshow-default .nav.icon li:first-child { margin-left: 0; }
+
+#top-a .wk-slideset-default .nav.icon span,
+#top-a .wk-slideshow-default .nav span { height: 17px; }
+
+#top-a .wk-slideset-default .nav.icon span:hover,
+#top-a .wk-slideshow-default .nav span:hover { background-position: 0 -20px; }
+
+#top-a .wk-slideset-default .nav.icon span:active,
+#top-a .wk-slideshow-default .nav span:active,
+#top-a .wk-slideset-default .nav.icon .active span,
+#top-a .wk-slideshow-default .nav .active span { background-position: 0 -40px; }
+
+
+/* ZOO
+----------------------------------------------------------------------------------------------------*/
+
+/* ZOO List */
+#page ul.zoo-list > li {
+	padding-top: 7px;
+	border: none;
+	background: url(../images/tools/list_line.png) 50% 0 repeat-x;
+}
+
+#page ul.zoo-list > li:first-child { background: none; }
+
+/* ZOO Comments List */
+#page .zoo-comments-list > article {
+	padding-top: 7px;
+	border: none;
+	background: url(../images/tools/list_line.png) 50% 0 repeat-x;
+}
+#page .zoo-comments-list > article:first-child { background: none; }
+
+#page .zoo-comments-list .meta { color: #999; }

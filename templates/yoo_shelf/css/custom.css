@@ -1,0 +1,91 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+ 
+/* Logo */
+
+#logo .custom-logo {
+	width: 84px;
+	height: 125px;
+}
+
+/* Teaser Font */
+@font-face {
+	font-family: 'ArvoRegular';
+	src: url('../fonts/Arvo-Regular-webfont.eot?') format('eot'),
+		 url('../fonts/Arvo-Regular-webfont.woff') format('woff'),
+		 url('../fonts/Arvo-Regular-webfont.ttf') format('truetype'),
+		 url('../fonts/Arvo-Regular-webfont.svg#ArvoRegular') format('svg');
+}
+
+.webfont-arvo { font-family: 'ArvoRegular'; }
+
+#page .demoteaser {
+	margin: 0 -20px 0 -20px;
+	overflow: hidden;
+}
+
+#page .demoteaser h1 {
+	margin-bottom: 0px;
+	font-size: 64px;
+	line-height: 70px;
+}
+
+#page .demoteaser p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.frontpage-slider { margin-bottom: -50px; }
+
+/* Social Bookmarks */
+#custombookmarks {
+	margin: -20px;
+	padding-left: 20px;
+	overflow: hidden;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	line-height: 0px;
+}
+
+#custombookmarks h3 {
+	display: inline-block;
+	margin: 0;
+	color: #fff;
+	font-size: 30px;
+	line-height: 60px;	
+	text-shadow: 0 1px 1px rgba(0,0,0,0.8);
+}
+
+#custombookmarks .icons-social {
+	padding: 5px;
+	border-left: 1px solid #4E4F50;
+	background: #373738;
+	background: rgba(0,0,0,0.2);
+	-moz-box-shadow: 3px 0 3px rgba(0,0,0,0.3) inset;
+	-webkit-box-shadow: 3px 0 3px rgba(0,0,0,0.3) inset;
+	box-shadow: 3px 0 3px rgba(0,0,0,0.3) inset;
+	float: right;
+}
+
+.icons-social { overflow: hidden; }
+ 
+.icons-social > a {
+	display: block;
+	height: 50px;
+	width: 50px;
+	margin: 0 10px;
+	background: url(../images/icons_socialbookmarks.png) 0 0 no-repeat;
+	float: left;
+}
+
+.icons-social > a.twitter:hover { background-position: 0 -60px; }
+.icons-social > a.facebook { background-position: 0 -120px; }
+.icons-social > a.facebook:hover { background-position: 0 -180px; }
+.icons-social > a.dribbble { background-position: 0 -240px; }
+.icons-social > a.dribbble:hover { background-position: 0 -300px; }
+.icons-social > a.rss { background-position: 0 -360px; }
+.icons-social > a.rss:hover { background-position: 0 -420px; }

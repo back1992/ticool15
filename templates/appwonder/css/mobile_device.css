@@ -1,0 +1,129 @@
+/* Adjust colors for mobile_top_1, mobile_bottom_2, and footer wraps */
+
+#s5_md_mobile_top_1_wrap, #s5_md_mobile_bottom_2_wrap, #s5_md_footer_wrap {
+border:1px solid #1D1D1D;
+background:#111111;
+padding:12px;
+padding-bottom:0px;
+color:#FFFFFF;
+}
+
+/* Separate A colors for mobile_top_1, mobile_bottom_2, and footer wraps  */
+
+#s5_md_mobile_top_1_wrap a, #s5_md_mobile_bottom_2_wrap a, #s5_md_footer_wrap a {
+color:#959494;
+}
+
+/* Adjust colors for mobile_top_2, mobile_bottom_1, and main content wraps */
+
+#s5_md_mobile_top_2_wrap, #s5_md_mobile_bottom_1_wrap, #s5_md_main_content_wrap {
+border:1px solid #CCCCCC;
+background:#FFFFFF;
+padding:12px;
+padding-bottom:0px;
+}
+
+/* Adjust colors for login and register buttons */
+
+#s5_md_register, #s5_md_login {
+margin:0px;
+margin-left:4px;
+margin-top:1px;
+padding:3px;
+display:block;
+color:#FFFFFF;
+border:solid 1px #000000;
+}
+
+/* The two bars that contain menu, login buttons and search, create a gradient that matches the theme */
+
+#s5_md_menu_login_wrap, #s5_md_search_wrap {
+background:url(../images/s5_top_bars.png) repeat-x top left;
+padding-left:9px;
+padding-right:9px;
+padding-top:12px;
+}
+
+#s5_md_search_wrap {
+padding-top:9px;
+}
+
+/* Ensures that both bars are the same height */
+
+#s5_md_menu_login_wrap_inner, #s5_md_search_wrap_inner {
+height:40px;
+overflow:hidden;
+}
+
+
+
+
+
+
+/* No need to edit below here */
+
+#s5_md_menu_login_wrap .inputbox, #s5_md_search_wrap .inputbox {
+background:#FFFFFF;
+border:none;
+}
+
+#s5_md_search_wrap .button {
+display:none;
+}
+
+#s5_md_search_wrap .inputbox {
+width:70%;
+}
+
+#s5_mobile_menu {
+width:140px;
+}
+
+#s5_md_main_content_wrap {
+padding-bottom:12px;
+}
+
+#s5_md_switch {
+background:url(../images/mobile/s5_md_pc_icon.png) no-repeat top left;
+height:18px;
+padding-left:34px;
+display:block;
+padding-top:6px;
+}
+
+
+#s5_md_menu_login_wrap, #s5_md_search_wrap, #s5_md_mobile_top_1_wrap, #s5_md_mobile_top_2_wrap, #s5_md_mobile_bottom_1_wrap, #s5_md_mobile_bottom_2_wrap, #s5_md_main_content_wrap, #s5_md_breadcrumb_wrap {
+margin-bottom:12px;
+}
+
+#s5_md_padding_wrap {
+padding:8px;
+}
+
+#s5_md_footer_wrap {
+padding:12px;
+}
+
+#s5_md_mobile_top_1_wrap .moduletable, #s5_md_mobile_top_2_wrap .moduletable, #s5_md_mobile_bottom_1_wrap .moduletable, #s5_md_mobile_bottom_2_wrap .moduletable {
+padding:0px;
+padding-bottom:12px;
+}
+
+#s5_md_mobile_top_1_wrap .moduletable h3, #s5_md_mobile_top_2_wrap .moduletable h3, #s5_md_mobile_bottom_1_wrap .moduletable h3, #s5_md_mobile_bottom_2_wrap .moduletable h3 {
+padding:0px;
+margin:0px;
+margin-bottom:9px;
+}
+
+#s5_md_register_wrap, #s5_md_login_wrap {
+float:right;
+}
+
+#s5_md_menu_wrap {
+float:left;
+}
+
+#s5_md_main_content_wrap .inputbox {
+width:90%;
+}
+

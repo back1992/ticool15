@@ -1,0 +1,163 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/modules.css);
+
+
+/* Module Badges
+----------------------------------------------------------------------------------------------------*/
+
+.module .badge {
+	top: -24px;
+	right: 10px;
+	width: 53px;
+	height: 24px;
+	background: url(../images/module_badges.png) 0 0 no-repeat;
+}
+ 
+.module .badge-hot { background-position: 0 0; }
+.module .badge-top { background-position: 0 -25px; }
+.module .badge-free { background-position: 0 -50px; }
+.module .badge-new { background-position: 0 -75px; }
+
+
+/* Module Icons
+----------------------------------------------------------------------------------------------------*/
+
+.module .module-title .icon { background: url(../images/module_icons.png) 0 0 no-repeat; }
+
+.module .module-title .icon-download { background-position: 0 0; }
+.module .module-title .icon-twitter { background-position: 0 -30px; }
+.module .module-title .icon-mail { background-position: 0 -60px; }
+.module .module-title .icon-bubble { background-position: 0 -90px; }
+.module .module-title .icon-login { background-position: 0 -120px; }
+.module .module-title .icon-cart { background-position: 0 -150px; }
+.module .module-title .icon-comment { background-position: 0 -180px; }
+
+
+/* Module Type: Box
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box {
+	padding: 20px;
+	background: #FCFDFE;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	-moz-box-shadow: 
+		0 0 3px rgba(0,0,0,0.3),
+		1px 1px 0 #fff inset,
+		-1px -1px 0 #fff inset;
+	-webkit-box-shadow:
+		0 0 3px rgba(0,0,0,0.3),
+		1px 1px 0 #fff inset,
+		-1px -1px 0 #fff inset;
+	box-shadow:
+		0 0 3px rgba(0,0,0,0.3),
+		1px 1px 0 #fff inset,
+		-1px -1px 0 #fff inset;
+}
+
+/* Sidebar/Accordion Menu */
+.mod-box .menu-sidebar { 
+	margin: -20px -20px -20px -20px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	overflow: hidden;
+}
+.mod-box h3.module-title + .menu-sidebar { 
+	margin-top: 0px;
+	-moz-border-radius-topleft: 0;
+	border-top-left-radius: 0;
+	-moz-border-radius-topright: 0;
+	border-top-right-radius: 0;
+}
+.mod-box h3.module-title + .menu-sidebar li.level1:first-child { 
+	background-image: url(../images/menu_sidebar_level1.png);
+	background-position: 0 0;
+	background-repeat: repeat-x;
+}
+
+.mod-box .menu-sidebar li.level1:hover { background-color: #F8F9FA; }
+
+.mod-box .menu-sidebar li.level1 > a,
+.mod-box .menu-sidebar li.level1 > span,
+.mod-box .menu-sidebar li.level1 > div,
+.mod-box .menu-sidebar li.level1 > ul { padding-left: 20px; padding-right: 20px; }
+
+.mod-box .menu-sidebar li.level1:last-child ul.level2 { padding-bottom: 15px; }
+
+/* Color: Black */
+.mod-box-black {
+	border: 1px solid #000;
+	background: #3C3D3E url(../images/module_box_black.jpg) 0 0 repeat-x;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #E1E2E3;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+}
+
+.mod-box-black h3.module-title,
+.mod-box-black em,
+.mod-box-black code,
+.mod-box-black a:hover { color: #ffffff; }
+
+.mod-box-black code { text-shadow: 0 1px 0 rgba(0,0,0,1); }
+
+.mod-box-black pre {
+	border-color: #222;
+	background: #323334
+}
+
+.mod-box-black .badge {	top: -25px; }
+
+.mod-box-black ul.line > li,
+.mod-box-black .comments-list > article { background-image: url(../images/tools/list_line_black.png); }
+
+.mod-box-black::-moz-selection { background: #FCFDFE; color: #666; }
+.mod-box-black::selection { background: #FCFDFE; color: #666; }
+
+
+/* Module Type: Inverted
+----------------------------------------------------------------------------------------------------*/
+
+.mod-inverted {
+	padding: 20px;
+	border: 1px solid #D1D2D3;
+	background: #F4F5F6;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	-moz-box-shadow: 
+		0 0 3px rgba(0,0,0,0.2) inset,
+		0 1px 0 #fff;
+	-webkit-box-shadow:
+		0 0 3px rgba(0,0,0,0.2) inset,
+		0 1px 0 #fff;
+	box-shadow: 
+		0 0 3px rgba(0,0,0,0.2) inset,
+		0 1px 0 #fff;
+}
+
+
+/* Module Type: Line
+----------------------------------------------------------------------------------------------------*/
+
+/* Vertical (Stack) */
+.grid-v .mod-line {
+	padding: 40px 0 0 0;
+	background: url(../images/module_line_v.png) 0 0 repeat-x;
+}
+
+#page .grid-v:first-child .mod-line {
+	padding-top: 0;
+	background: none;
+}
+
+/* Horizontal (Equal/Double) */
+.grid-h .mod-line {
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0 20px 0 20px;
+	background: url(../images/module_line_h.png) 0 0 repeat-y;
+}
+
+#page .grid-h:first-child .mod-line { background: none; }

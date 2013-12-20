@@ -1,0 +1,244 @@
+/* Globals */
+.leftPos
+{
+	float: left;
+}
+
+.rightPos
+{
+	float: right;
+}
+
+.clearRight
+{
+	clear: right;
+}
+
+.clearBoth
+{
+	clear: both;
+}
+
+.textLeft
+{
+	test-align: left;
+}
+
+.textRight
+{
+	text-align: right;
+}
+
+.noWrap
+{
+	white-space: nowrap; 
+	overflow: visible;
+}
+
+/* AJAX Loading Message */
+.ariLoadingMessage
+{
+	display: none;
+}
+
+.ariLoadingProcess .ariLoadingMessage
+{
+	display: block;
+}
+
+.ariLoadingProcess .ariHideLoading
+{
+	display: none;
+}
+
+/* Results Grid */
+TABLE.ariQuizResults
+{
+	width: 100%;
+	border: solid 1px gray !important;
+}
+
+TABLE.ariQuizResults, TABLE.ariQuizResults TABLE
+{
+	border-collapse: collapse !important;
+}
+
+TABLE.ariQuizResults TD, 
+TABLE.ariQuizResults TABLE, 
+TABLE.ariQuizResults TABLE TD,
+TABLE.ariQuizResults TABLE TH
+{
+	border-width: 0px !important;
+}
+
+TABLE.ariQuizResults TD, 
+TABLE.ariQuizResults TABLE TD,
+TABLE.ariQuizResults TABLE TH
+{
+	padding: 3px 3px 3px 3px !important;
+}
+
+TABLE.ariQuizResults TD.ariCenter, 
+TABLE.ariQuizResults TABLE TD.ariCenter,
+TABLE.ariQuizResults TABLE TH.ariCenter
+{
+	text-align: center !important;
+}
+
+TABLE.ariQuizResults TD.ariLeft, 
+TABLE.ariQuizResults TABLE TD.ariLeft,
+TABLE.ariQuizResults TABLE TH.ariLeft
+{
+	text-align: left !important;
+}
+
+.ariQuizResults TR
+{
+	vertical-align: top;
+}
+
+.ariQuizResults TD.ariStatTdLabel
+{
+	width: 1%;
+	white-space: nowrap;
+	font-weight: bold;
+}
+
+.ariQuizResults TD.ariStatTdPos
+{
+	padding-left: 2px !important;
+	padding-right: 2px !important;
+	width: 1%;
+}
+
+.ariQuizResults TD.ariStatTdStat
+{
+	padding-top: 15px !important;
+}
+
+/* Icons */
+.addItemIcon, .deleteItemIcon, .upItemIcon, .downItemIcon
+{
+	background: transparent no-repeat top center;
+	width: 14px;
+	height: 12px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.addItemIcon
+{
+	background-image: url(../images/plus.gif);
+}
+
+.deleteItemIcon
+{
+	background-image: url(../images/publish_x.png);
+}
+
+.upItemIcon
+{
+	background-image: url(../images/uparrow.png);
+}
+
+.downItemIcon
+{
+	background-image: url(../images/downarrow.png);
+}
+
+/* Extra Data Table */
+TABLE.ariExtraData
+{
+	width: 100%;
+}
+
+TABLE.ariExtraData TR
+{
+	vertical-align: top;
+}
+
+/* Common Question Styles */
+TABLE.questionNote
+{
+	width: 100%;
+	border: 0px;
+}
+
+TABLE.questionNote TR
+{
+	vertical-align: top !important;
+}
+
+TABLE.questionContainer
+{
+	width: 100%;
+}
+
+TABLE.questionContainer TH,
+TABLE.questionContainer TD
+{
+	text-align: center;
+	white-space: nowrap;
+}
+
+TABLE.questionContainer TD.left
+{
+	text-align: left;
+}
+
+TABLE.questionContainer TD.right
+{
+	text-align: right;
+}
+
+TABLE TD.colMin,
+TABLE TH.colMin
+{
+	width: 1%;
+}
+
+TABLE.questionContainer .hidSwitcher
+{
+	display: none !important;
+}
+
+/* Multiple Question */
+.multipleQuestionContainer .colScoreTemplate
+{
+	display: none;
+}
+
+/* Export */
+.aq-export-result-menu
+{
+	background: transparent url(../images/advanced.png) top center no-repeat;
+	width: 16px;
+	height: 16px;
+	float: right;
+	cursor: pointer;
+}
+
+.ari-dashed-line
+{
+	border-bottom: dashed 1px gray;
+}
+
+.ari-disabled
+{
+	color: #C0C0C0;
+}
+
+/* Widgets */
+.ari-calendar .button-group button
+{
+	font-size: 100%;
+}
+
+.yui-overlay-hidden table
+{
+	*display: none;
+}
+
+.ari-calendar .bd form {
+	clear:left;
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<view title="All on one page">
+		<message>This view shows all the questions on one page. Conditional branching and CAPTCHA will not work for this view.</message>
+	</view>
+</metadata>

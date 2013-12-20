@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource>
+	<item id="Label.QuizStopped" group="Labels">
+		<message>Ihr Quiz wurde gespeichert und beendet. Sie können es später wieder.</message>
+		<description>Ihr Quiz wurde gespeichert und beendet. Sie können es später wieder.</description>
+	</item>
+	<item id="Label.QuizSaveExit" group="Labels">
+		<message>Speichern und Beenden</message>
+		<description>Speichern und Beenden</description>
+	</item>
+	<item id="Label.SelectAnswer" group="Labels">
+		<message>- Bitte, wählen Sie eine Antwort -</message>
+		<description>Bitte, wählen Sie eine Antwort</description>
+	</item>
+	<item id="Label.QuestionNote" group="Labels">
+		<message>Hinweis</message>
+		<description>Hinweisfeld für Frage</description>
+	</item>
+	<item id="Label.TextboxWatermarkText" group="Labels">
+		<message>Geben Sie hier bitte Ihre Antwort ein</message>
+		<description>Eingabefeld für Bilderkennung</description>
+	</item>
+	<item id="Label.CorrectCorrelation" group="Labels">
+		<message>Ihre Antwort ist korrekt</message>
+		<description>Ihre Antwort ist korrekt</description>
+	</item>
+	<item id="Label.UserCorrelation" group="Labels">
+		<message>Korrekte Benutzereingaben</message>
+		<description>Korrekte Benutzereingaben</description>
+	</item>
+	<item id="Label.QuestionCategory" group="Labels">
+		<message>Fragenkategorie</message>
+		<description>Fragenkategorie</description>
+	</item>
+	<item id="Label.QuestionType" group="Labels">
+		<message>Art der Frage</message>
+		<description>Art der Frage</description>
+	</item>
+	<item id="Label.TotalTime" group="Labels">
+		<message>Gesamtdauer</message>
+		<description>Gesamtdauer</description>
+	</item>
+	<item id="Label.TextCI" group="Labels">
+		<message>Gross- und Kleinschreibung beachten</message>
+		<description>Gross- und Kleinschreibung beachten</description>
+	</item>
+	<item id="Label.QuizStatistics" group="Labels">
+		<message>Quiz Auswertung</message>
+		<description>Quiz Auswertung</description>
+	</item>
+	<item id="Label.Answer" group="Labels">
+		<message>Antwort</message>
+		<description>Antwort</description>
+	</item>
+	<item id="Label.User" group="Labels">
+		<message>Benutzer</message>
+		<description>Benutzer</description>
+	</item>
+	<item group="Labels" id="Label.Correct">
+		<message>Richtig</message>
+		<description>Richtig</description>
+	</item>
+	<item group="Labels" id="Label.Incorrect">
+		<message>Falsch</message>
+		<description>Falsch</description>
+	</item>
+	<item group="Labels" id="Category.Uncategory">
+		<message>Unspezifizierter Bereich</message>
+		<description>Unspezifizierte Kategorie</description>
+	</item>
+	<item group="Labels" id="Label.RemainingTime">
+		<message>Verbleibende Zeit</message>
+		<description>Verbleibende Zeit</description>
+	</item>
+	<item group="Labels" id="Label.Completed">
+		<message>Erfüllt</message>
+		<description>Erfüllt</description>
+	</item>
+	<item group="Labels" id="Label.Print">
+		<message>Drucken</message>
+		<description>Drucken</description>
+	</item>
+	<item group="Labels" id="Label.Continue">
+		<message>Fortsetzen</message>
+		<description>Fortsetzen</description>
+	</item>
+	<item group="Labels" id="Label.Email">
+		<message>Abschicken</message>
+		<description>Abschicken</description>
+	</item>
+	<item group="Labels" id="Title.QuizResultList">
+		<message>Aufgabenauswertung</message>
+		<description>Liste mit der Aufgabenauswertung</description>
+	</item>
+	<item group="Labels" id="Label.Quiz">
+		<message>Prüfung</message>
+		<description>Prüfung</description>
+	</item>
+	<item group="Labels" id="Label.NumberPos">
+		<message>#</message>
+		<description>Positionsnummer</description>
+	</item>
+	<item group="Labels" id="Label.StartDate">
+		<message>Anfangsdatum</message>
+		<description>Anfangsdatum</description>
+	</item>
+	<item group="Labels" id="Label.EndDate">
+		<message>Enddatum</message>
+		<description>Enddatum</description>
+	</item>
+	<item group="Labels" id="Label.Score">
+		<message>Punktzahl</message>
+		<description>Punktzahl</description>
+	</item>
+	<item group="Labels" id="Label.Details">
+		<message>Ausführlicher</message>
+		<description>Ausführlicher</description>
+	</item>
+	<item group="Labels" id="Label.Passed">
+		<message>Abgegeben</message>
+		<description>Abgegeben</description>
+	</item>
+	<item group="Labels" id="Label.NoPassed">
+		<message>Nicht abgegeben</message>
+		<description>Nicht abgegeben</description>
+	</item>
+	<item group="Labels" id="Label.View">
+		<message>Übersicht</message>
+		<description>Übersicht</description>
+	</item>
+	<item group="Labels" id="Label.Question">
+		<message>Frage</message>
+		<description>Frage</description>
+	</item>
+	<item group="Labels" id="Label.Choice">
+		<message>Auswahl</message>
+		<description>Antwortmöglichkeiten</description>
+	</item>
+	<item group="Labels" id="Label.Save">
+		<message>Später beantworten</message>
+		<description>Später beantworten</description>
+	</item>
+	<item group="Labels" id="Label.Skip">
+		<message>Auslassen</message>
+		<description>Auslassen</description>
+	</item>
+	<item group="Labels" id="Label.Calculator">
+		<message>Berechnung</message>
+		<description>Berechnung</description>
+	</item>
+	<item group="Labels" id="Label.Guest">
+		<message>Gast</message>
+		<description>Gast</description>
+	</item>
+	<item group="Labels" id="Label.EmailQuizResult">
+		<message>Die Prüfungsergebnisse</message>
+		<description>Kopfzeile der eMail mit Ihren Prüfungsergebnissen</description>
+	</item>
+	<item group="Labels" id="Label.EmailSend">
+		<message>Die eMail wurde verschickt</message>
+		<description>Die eMail wurde verschickt</description>
+	</item>
+	<item group="Labels" id="Label.EmailNotSend">
+		<message>Die eMail konnte leider nicht verschickt werden</message>
+		<description>Die eMail konnte leider nicht verschickt werden</description>
+	</item>
+	<item group="Labels" id="Label.NotItemsFound">
+		<message>Es sind keine Daten vorhanden</message>
+		<description>Es sind keine Daten vorhanden</description>
+	</item>
+	<item group="Labels" id="Date.DayShort">
+		<message>t</message>
+		<description>Der Inhalt des Feld Tag ist zu kurz</description>
+	</item>
+	<item group="Labels" id="Date.HourShort">
+		<message>st</message>
+		<description>Der Inhalt des Feld Stunde ist zu kurz</description>
+	</item>
+	<item group="Labels" id="Date.MinuteShort">
+		<message>m</message>
+		<description>Der Inhalt des Feld Minute ist zu kurz</description>
+	</item>
+	<item group="Labels" id="Date.SecondShort">
+		<message>sek</message>
+		<description>Der Inhalt des Feld Sekunde ist zu kurz</description>
+	</item>
+	<item group="Labels" id="Label.QuestionInfo">
+		<message>Frage %d von %d</message>
+		<description>Frage 1 von 5</description>
+	</item>
+	<item group="Labels" id="Label.JSQuestionInfo">
+		<message>Frage # {qIndex} aus # {qCount}</message>
+		<description>Frage 1 von 5</description>
+	</item>
+	<item group="Labels" id="Label.YouChoose">
+		<message>Ihre Auswahl</message>
+		<description>Ihre Auswahl</description>
+	</item>
+	<item group="Labels" id="Label.CorrectAnswerIs">
+		<message>Die Richtige Antwort</message>
+		<description>Die korrekte Antwort lautet</description>
+	</item>
+	<item id="Error.QuizAttemptCount" group="Message">
+		<message>Prüfungsabgabe leider nicht möglich. Sie haben die maximale Versuchsanzahl erreicht.</message>
+		<description>Hinweis</description>
+	</item>
+	<item id="Error.QuizLagTime" group="Message">
+		<message>Prüfungsabgabe leider noch nicht möglich. Die Wartezeit ist noch nicht abgelaufen</message>
+		<description>Hinweis</description>
+	</item>
+	<item id="Error.QuizNotRegistered" group="Message">
+		<message>Nur registrierten Benutzer können diese Prüfung abgeben</message>
+		<description>Hinweis</description>
+	</item>
+	<item id="Error.QuizNotHavePermissions" group="Message">
+		<message>Sie haben nicht die Berechtigungsstufe, um diese Prüfung abzugeben</message>
+		<description>Hinweis</description>
+	</item>
+	<item id="Error.QuizNotHaveQuestions" group="Message">
+		<message>Sie können die gewählte Prüfung nicht abgeben. Es fehlen leider fehlen Fragen</message>
+		<description>Hinweis</description>
+	</item>
+	<item group="Message" id="FrontEnd.QuizNotAvailable">
+		<message>Gewählte Prüfung ist leider nicht vorhanden</message>
+		<description>Gewählte Prüfung ist leider nicht vorhanden</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionEmptyAnswer">
+		<message>Sie haben diese Frage nicht beantwortet. Wollten Sie wirklich weitermachen?</message>
+		<description>Keine Antwort ausgefüllt - Solls weitergehen?</description>
+	</item>
+	<item group="Validators" id="Validator.HotspotNotSelected">
+		<message>Sie haben keine Auswahl vorgenommen. Wollten Sie wirklich weitermachen?</message>
+		<description>Bitte, bezeichnen Sie die Antwort</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionNotSelected">
+		<message>Sie haben keine Antwort gewählt. Wollten Sie wirklich weitermachen?</message>
+		<description>Bitte, wählen Sie die Antwort</description>
+	</item>
+	<item group="AJAX" id="Ajax.Loading">
+		<message>Lade ... Bitte warten!</message>
+		<description>Lade ... Bitte warten!</description>
+	</item>
+	<item group="AJAX" id="Ajax.ServerError">
+		<message>Der Server ist nicht erreichbar.Bitte versuchen Sie es später nocheinmal. Sollte das Problem weiterhin bestehen nehmen Sie bitte kontakt mit dem Administrator auf.</message>
+		<description>Fehlermeldung des Servers</description>
+	</item>
+	<!-- Controls -->
+	<item id="Controls.DTFirstPage" group="Controls">
+		<message>&lt; &lt;  Anfang</message>
+		<description>Datenbankmeldung: Weiter zur Startseite</description>
+	</item>
+	<item id="Controls.DTLastPage" group="Controls">
+		<message>Ende &gt; &gt;</message>
+		<description>Datenbankmeldung: Weiter zur letzten Seite</description>
+	</item>
+	<item id="Controls.DTNextPage" group="Controls">
+		<message>vor &gt;</message>
+		<description>Datenbankmeldung: Weiter zur nächsten Seite</description>
+	</item>
+	<item id="Controls.DTPrevPage" group="Controls">
+		<message>&lt; &lt; zurück </message>
+		<description>Datenbankmeldung: Weiter zur vorherigen Seite</description>
+	</item>
+	<item id="Controls.DTPageReportTemplate" group="Controls">
+		<message>({currentPage} von {totalPages})</message>
+		<description>Datenbankmeldung: Ausgabevorlage</description>
+	</item>
+	<item id="Controls.DTTemplate" group="Controls">
+		<message>Anzeigen#: {RowsPerPageDropdown} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {CurrentPageReport}</message>
+		<description>Datenbankmeldung: Vorlage</description>
+	</item>
+</resource>

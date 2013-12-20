@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+	<item groups="Labels" id="Label.SelectAnswer">
+		<message>- 请选择答案 -</message>
+		<description>Select answer label</description>
+	</item>
+	<item groups="Labels" id="Label.QuestionNote">
+		<message>备注</message>
+		<description>Question note label</description>
+	</item>
+	<item group="Labels" id="Label.TextboxWatermarkText">
+		<message>输入您的文字</message>
+		<description>Label for watermark text</description>
+	</item>
+	<item group="Labels" id="Label.CorrectCorrelation">
+		<message>正确相关性</message>
+		<description>Correct correlation Label</description>
+	</item>
+	<item group="Labels" id="Label.UserCorrelation">
+		<message>用户相关性</message>
+		<description>User correlation Label</description>
+	</item>
+	<item group="Labels" id="Label.QuestionCategory">
+		<message>题目目录</message>
+		<description>Question Category Label</description>
+	</item>
+	<item group="Labels" id="Label.QuestionType">
+		<message>题目类型</message>
+		<description>Question Type Label</description>
+	</item>
+	<item group="Labels" id="Label.TotalTime">
+		<message>总时间</message>
+		<description>Total Time Label</description>
+	</item>
+	<item group="Labels" id="Label.TextCI">
+		<message>忽略大小写</message>
+		<description>Case Insensitive</description>
+	</item>
+	<item group="Labels" id="Label.QuizStatistics">
+		<message>测验统计</message>
+		<description>Label for quiz statistics</description>
+	</item>
+	<item group="Labels" id="Label.Answer">
+		<message>答案</message>
+		<description>Label for answer</description>
+	</item>
+	<item group="Labels" id="Label.User">
+		<message>用户</message>
+		<description>Label for user</description>
+	</item>
+	<item group="Labels" id="Label.Correct">
+		<message>正确</message>
+		<description>Label for correct</description>
+	</item>
+	<item group="Labels" id="Label.Incorrect">
+		<message>不正确</message>
+		<description>Label for incorrect</description>
+	</item>
+	<item group="Labels" id="Category.Uncategory">
+		<message>普通</message>
+		<description>Name for common category</description>
+	</item>
+	<item group="Labels" id="Label.RemainingTime">
+		<message>剩余时间</message>
+		<description>Label for remaining time</description>
+	</item>
+	<item group="Labels" id="Label.Completed">
+		<message>完成</message>
+		<description>Label completed</description>
+	</item>
+	<item group="Labels" id="Label.Print">
+		<message>打印</message>
+		<description>Label print</description>
+	</item>
+	<item group="Labels" id="Label.Continue">
+		<message>开始测验</message>
+		<description>Label continue</description>
+	</item>
+	<item group="Labels" id="Label.Email">
+		<message>E-mail</message>
+		<description>Label e-mail</description>
+	</item>
+	<item group="Labels" id="Title.QuizResultList">
+		<message>测验结果列表</message>
+		<description>Label quiz result list</description>
+	</item>
+	<item group="Labels" id="Label.Quiz">
+		<message>测验</message>
+		<description>Quiz</description>
+	</item>
+	<item group="Labels" id="Label.NumberPos">
+		<message>#</message>
+		<description>Position number label</description>
+	</item>
+	<item group="Labels" id="Label.StartDate">
+		<message>开始日期</message>
+		<description>Start Date label</description>
+	</item>
+	<item group="Labels" id="Label.EndDate">
+		<message>结束日期</message>
+		<description>End Date label</description>
+	</item>
+	<item group="Labels" id="Label.Score">
+		<message>分数</message>
+		<description>Score</description>
+	</item>
+	<item group="Labels" id="Label.Details">
+		<message>详情</message>
+		<description>Details</description>
+	</item>
+	<item group="Labels" id="Label.Passed">
+		<message>通过</message>
+		<description>Passed</description>
+	</item>
+	<item group="Labels" id="Label.NoPassed">
+		<message>未通过</message>
+		<description>Not Passed</description>
+	</item>
+	<item group="Labels" id="Label.View">
+		<message>查看</message>
+		<description>View</description>
+	</item>
+	<item group="Labels" id="Label.Question">
+		<message>题目</message>
+		<description>Question label</description>
+	</item>
+	<item group="Labels" id="Label.Choice">
+		<message>选择</message>
+		<description>Choice label</description>
+	</item>
+	<item group="Labels" id="Label.Save">
+		<message>保存</message>
+		<description>Save label</description>
+	</item>
+	<item group="Labels" id="Label.Skip">
+		<message>跳过</message>
+		<description>Skip label</description>
+	</item>
+	<item group="Labels" id="Label.Calculator">
+		<message>计算器</message>
+		<description>Calculator label</description>
+	</item>
+	<item group="Labels" id="Label.Guest">
+		<message>访客</message>
+		<description>Guest label</description>
+	</item>
+	<item group="Labels" id="Label.EmailQuizResult">
+		<message>测验结果</message>
+		<description>Quiz result email subject</description>
+	</item>
+	<item group="Labels" id="Label.EmailSend">
+		<message>Email 已经发出</message>
+		<description>Email has been sent label</description>
+	</item>
+	<item group="Labels" id="Label.EmailNotSend">
+		<message>Email 未发出</message>
+		<description>Email has not been sent label</description>
+	</item>
+	<item group="Labels" id="Label.NotItemsFound">
+		<message>没有项目可显示</message>
+		<description>No items to display label</description>
+	</item>
+	<item group="Labels" id="Date.DayShort">
+		<message>日</message>
+		<description>Day short label</description>
+	</item>
+	<item group="Labels" id="Date.HourShort">
+		<message>时</message>
+		<description>Hour short label</description>
+	</item>
+	<item group="Labels" id="Date.MinuteShort">
+		<message>分</message>
+		<description>Minute short label</description>
+	</item>
+	<item group="Labels" id="Date.SecondShort">
+		<message>秒</message>
+		<description>Second short label</description>
+	</item>
+	<item group="Labels" id="Label.QuestionInfo">
+		<message>题目 %d of %d</message>
+		<description>Question N of M label</description>
+	</item>
+	<item group="Labels" id="Label.JSQuestionInfo">
+		<message>题目 #{qIndex} of #{qCount}</message>
+		<description>Question N of M label</description>
+	</item>
+	<item group="Labels" id="Label.YouChoose">
+		<message>你选择</message>
+		<description>You choose label</description>
+	</item>
+	<item group="Labels" id="Label.CorrectAnswerIs">
+		<message>正确答案是</message>
+		<description>The correct answer is label</description>
+	</item>
+	<item group="Message" id="Error.QuizAttemptCount">
+		<message>尝试次数到，您不能再答题</message>
+		<description>Quiz warning message</description>
+	</item>
+	<item group="Message" id="Error.QuizLagTime">
+		<message>滞后时间没过，您不能参加此次测验</message>
+		<description>Quiz warning message</description>
+	</item>
+	<item group="Message" id="Error.QuizNotRegistered">
+		<message>只有注册用户才能参加此次测验</message>
+		<description>Quiz error message</description>
+	</item>
+	<item group="Message" id="Error.QuizNotHavePermissions">
+		<message>您没有权限参加这次考试</message>
+		<description>Quiz error message</description>
+	</item>
+	<item group="Message" id="Error.QuizNotHaveQuestions">
+		<message>您无法参加此次测验，因为测验里面没有题目</message>
+		<description>Quiz error message</description>
+	</item>
+	<item group="Message" id="FrontEnd.QuizNotAvailable">
+		<message>选择的测验无效，请联系管理员</message>
+		<description>Message for quiz not available</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionEmptyAnswer">
+		<message>没有输入答案，您确认要继续答题?</message>
+		<description>Freetext validator message</description>
+	</item>
+	<item group="Validators" id="Validator.HotspotNotSelected">
+		<message>未选择答案，您确认要继续答题？</message>
+		<description>Hotspot validator message</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionNotSelected">
+		<message>未选择答案，您确认要继续答题？</message>
+		<description>Validator message</description>
+	</item>
+	<item group="AJAX" id="Ajax.Loading">
+		<message>下载中...请稍候</message>
+		<description>Loading message</description>
+	</item>
+	<item group="AJAX" id="Ajax.ServerError">
+		<message>连接服务器出错，请重试。如果还有问题，请联系管理员。</message>
+		<description>Server error message</description>
+	</item>
+	<item group="Controls" id="Controls.DTFirstPage">
+		<message>&lt;&lt; 首页</message>
+		<description>Data Grid: first page link label</description>
+	</item>
+	<item group="Controls" id="Controls.DTLastPage">
+		<message>尾页 &gt;&gt;</message>
+		<description>Data Grid: last page link label</description>
+	</item>
+	<item group="Controls" id="Controls.DTNextPage">
+		<message>下一页 &gt;</message>
+		<description>Data Grid: next page link label</description>
+	</item>
+	<item group="Controls" id="Controls.DTPrevPage">
+		<message>&lt;&lt; 上一页</message>
+		<description>Data Grid: previous page link label</description>
+	</item>
+	<item group="Controls" id="Controls.DTPageReportTemplate">
+		<message>({currentPage} of {totalPages})</message>
+		<description>Data Grid: page report template</description>
+	</item>
+	<item group="Controls" id="Controls.DTTemplate">
+		<message>显示#: {RowsPerPageDropdown} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {CurrentPageReport}</message>
+		<description>Data Grid: template</description>
+	</item>
+</resource>

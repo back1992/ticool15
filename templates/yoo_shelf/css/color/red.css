@@ -1,0 +1,78 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+a { color: #EB3500; }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+.menu-dropdown a.level3 { background-image: url(../../images/color/red/menu_dropdown_level3.png); }
+
+.menu-dropdown a.level3:hover,
+.menu-dropdown a.current.level3:hover,
+.menu-sidebar a:hover,
+.menu-sidebar li > span:hover { color: #EB3500; }
+
+.menu-sidebar .level2 a > span { background-image: url(../../images/color/red/menu_sidebar_level2.png); }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+a.button-more:hover,
+a.button-more:active {
+	border-color: #8C0E00;
+	background: #DB2E10;
+	background: -moz-linear-gradient(
+					50% 0%,
+					#DB2E10 0%,
+					#C2140C 100%
+				);
+				
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #DB2E10),
+					color-stop(100%, #C2140C)
+				);
+	-moz-box-shadow: 0 1px 0 #E04428 inset;
+	-webkit-box-shadow:	0 1px 0 #E04428 inset;
+	box-shadow:	0 1px 0 #E04428 inset;
+}
+
+a.button-more:active {
+	background: #C2140C;
+	background: -moz-linear-gradient(
+					50% 0%,
+					#C2140C 0%,
+					#DB2E10 100%
+				);
+				
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #C2140C),
+					color-stop(100%, #DB2E10)
+				);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3) inset;
+	-webkit-box-shadow:	0 1px 1px rgba(0,0,0,0.3) inset;
+	box-shadow:	0 1px 1px rgba(0,0,0,0.3) inset;
+}
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+#system .item > .links a { background-image: url(../../images/color/red/item_links.png); }
+
+#system .pagination strong { color: #EB3500; }
+
+/* Custom
+----------------------------------------------------------------------------------------------------*/
+
+#logo .custom-logo { background: url(../../../../images/yootheme/logo_red.png) 0 0 no-repeat; }

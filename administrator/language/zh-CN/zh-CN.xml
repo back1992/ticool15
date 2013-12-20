@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: zh-CN.xml 100 2008-03-16 12:10:15Z protege $ -->
+<metafile version="1.5" client="administrator">
+	<name>简体中文</name>
+	<version>1.5.20</version>
+	<creationDate>2008-09-10</creationDate>
+	<author>joomlagate.com</author>
+	<authorEmail>joomlagate@gmail.com</authorEmail>
+	<authorUrl>www.joomlagate.com</authorUrl>
+	<copyright>Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>Chinese language for Joomla 1.5.x Back-end. Translated by Joe Cai, Genous, Zhous, and baijianpeng.</description>
+	<metadata>
+		<name>简体中文（中国）</name>
+		<tag>zh-CN</tag>
+		<rtl>0</rtl>
+		<locale>zh_CN.utf8, zh, zho, zhi, zh_CN, zho_CN, zhi_CN, simplified_chinese</locale>
+		<winCodePage>cp936</winCodePage>
+		<backwardLang>simplified_chinese</backwardLang>
+	</metadata>
+	<params />
+</metafile>

@@ -1,0 +1,100 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#block-header { background: #070d19 url(../images/header_bg.png) 50% 100%; }
+
+#block-header > div { background: url(../images/header.jpg) 50% 100% repeat-x; }
+
+.notop #block-header > div {
+	border-bottom: 1px solid #204362;
+	background-position: 50% -400px;
+}
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 {
+	color: #fff;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.menu-dropdown li.active .level1 { background-image: url(../images/menu_dropdown_active.png); }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+#top-a .mod-line {
+	color: #fff;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	background-image: url(../images/module_line_v_topa.png);
+}
+
+#top-a .grid-h .mod-line { background-image: url(../images/module_line_h_topa.png); }
+
+#top-a .mod-line h3.module-title,
+#top-a .mod-line a,
+#top-a .mod-blank a { color: #fff; }
+
+#top-a .mod-line a:hover,
+#top-a .mod-blank a:hover { 
+	color: #000;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+
+#top-a .mod-line code { text-shadow: 0 1px 0 rgba(255,255,255,0.5); }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Extensions
+----------------------------------------------------------------------------------------------------*/
+
+#top-a .wk-slideset-default .nav.icon li,
+#top-a .wk-slideshow-default .nav.icon li { margin-left: 5px; }
+
+#top-a .wk-slideset-default .nav.icon li:first-child,
+#top-a .wk-slideshow-default .nav.icon li:first-child { margin-left: 0; }
+
+#top-a .wk-slideset-default .nav.icon span,
+#top-a .wk-slideshow-default .nav span { 
+	height: 20px;
+	width: 20px;
+}
+
+#top-a .wk-slideset-default .text span { 
+	color: #5a7a8e;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+}
+
+#top-a .wk-slideset-default .text .active span { color: #182e43; }
+
+#top-a .wk-slideset-default .nav.icon span,
+#top-a .wk-slideshow-default .nav span { background-image: url(../images/widgetkit/slideset/nav.png); }
+
+
+/* Custom
+----------------------------------------------------------------------------------------------------*/
+
+#page .demoteaser h1 {
+	color: #EEEEEE;
+	text-shadow: 0 -1px 0 #fff, 0 3px 2px rgba(0,0,0,0.3);
+}
+
+#page .demoteaser p { 
+	color: #E5E5E5;
+	text-shadow: 0 2px 1px rgba(0,0,0,0.3);
+}

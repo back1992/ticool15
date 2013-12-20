@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+ <params>
+ 
+      <param name="@spacer" type="spacer" default="" label="" description="" />
+ 
+     <param name="showResults" type="radio" default="1" label="Show Results" description="At end of quiz, do you want to display the results?">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+     </param>
+     
+     <param name="showIncorrect" type="radio" default="1" label="Show Incorrect" description="At end of quiz, do you want to display incorrect answers?">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+     </param>  
+     
+     <param name="scoringMethod" type="radio" default="0" label="Scoring Method" description="Choose which scoring method the Quiz will use.">
+                <option value="0">Default (no matrix)</option>
+                <option value="1">ABCD Answer Matrix</option>
+                <option value="2">Score Range Matrix</option>
+     </param>        
+ 
+      <param name="timedQuiz" type="radio" default="0" label="Timed Quiz" description="This allows you to set a time limit on the quiz, after which it will automatically submit.">
+                 <option value="1">Yes</option>
+                 <option value="0">No</option>
+     </param>       
+     <param name="timeLimit" type="text" size="4" default="10" label="Time Limit (mins)" description="Time limit of Quiz in minutes"/>
+
+      <param name="randomOptions" type="radio" default="0" label="Random Options" description="This will randomly change the order of the options to make the quiz different each time you take it.">
+                 <option value="1">Yes</option>
+                 <option value="0">No</option>
+     </param>   
+ 
+     <param name="@spacer" type="spacer" default="" label="" description="" />
+     <param name="allowEmail" type="radio" default="0" label="Send email notification" description="To turn on/off email notification when quiz is completed.">
+              <option value="1">Yes</option>
+              <option value="0">No</option>
+     </param>
+     <param name="sendEmailTo" type="text" size="100" default="insertemail@youremailaddress.com" label="Email" description="This is the email address you would like quiz responses sent to."/>
+     <param name="emailSubject" type="text" size="100" default="BF Quiz Automated Notification" label="Subject" description="This is the subject of the automated email."/>
+     <param name="emailBody" type="text" size="100" default="A new quiz has been completed." label="Body" description="This text is shown at top of automated email."/>
+     <param name="authorEmail" type="radio" default="0" label="Send Author Email" description="To turn on/off email notification to author when quiz is completed.">
+              <option value="1">Yes</option>
+              <option value="0">No</option>
+     </param>        
+     
+     <param name="@spacer" type="spacer" default="" label="" description="" />
+     <param name="anonymous" type="radio" default="0" label="Enable Anonymous Responses" description="Anonymous responses do not capture customers name and email address.">
+         <option value="1">Yes</option>
+         <option value="0">No</option>
+     </param>
+     <param name="anonymousText" type="text" size="100" default="I prefer to respond anonymously:" label="Anonymous Text" description="Text asking if you would like to respond anonymously."/>
+     <param name="anonymousYes" type="text" size="100" default="Yes" label="Yes option text" description="Yes option"/>
+     <param name="anonymousNo" type="text" size="100" default="No" label="No option text" description="No option"/>
+     
+     <param name="@spacer" type="spacer" default="" label="" description="" />
+     <param name="showName" type="radio" default="1" label="Show Name Input" description="Shows or hides the name input field.">
+              <option value="1">Yes</option>
+              <option value="0">No</option>
+     </param>
+     <param name="showEmail" type="radio" default="1" label="Show Email Input" description="Shows or hides the email input field.">
+                   <option value="1">Yes</option>
+                   <option value="0">No</option>
+     </param>
+     
+     
+     <param name="@spacer" type="spacer" default="" label="" description="" />
+     <param name="nameText" type="text" size="100" default="Name" label="Name Text" description="Text describing name field."/>
+     <param name="emailText" type="text" size="100" default="Email" label="Email Text" description="Text describing email field."/>
+  
+     <param name="@spacer" type="spacer" default="" label="" description="" />
+     <param name="quizTitle" type="text" size="100" default="BF Quiz" label="Title" description="This is the title of your quiz."/>
+     <param name="introText" type="textarea" rows="5" cols="60" default="Please take a moment to complete this quiz." label="Introduction Text" description="Introduction text that will be shown before quiz."/>
+     <param name="@spacer" type="spacer" default="" label="" description="" />
+     <param name="thankyouText" type="textarea" rows="5" cols="60" default="Thank you again for completing this quiz." label="Thank you text" description="Thank you text that will be shown once quiz is complete."/>
+     <param name="@spacer" type="spacer" default="" label="" description="" />
+     <param name="submitText" type="text" size="100" default="Next" label="Submit button Text" description="Text describing submit button."/>
+     <param name="errorText" type="text" size="100" default="Some values are not acceptable. Please retry." label="Field validation error" description="Text that pops up when mandatory fields are not completed."/>
+     <param name="@spacer" type="spacer" default="" label="" description="" />
+     <param name="timerText" type="text" size="100" default="Time Remaining" label="Timer Text" description="Text before countdown timer."/>
+     <param name="timerCompleteText" type="text" size="100" default="The time is up. Your quiz has now been submitted automatically." label="Timer Complete Text" description="Text that pops up when a timed quiz has finished."/>
+
+     <param name="@spacer" type="spacer" default="" label="" description="" />
+
+     <param name="use_captcha" type="radio" default="1" label="Use Captcha" description="Enable Captcha verification">
+	<option value="0">No</option>
+	<option value="1">Yes</option>
+     </param>
+
+     <param name="@spacer" type="spacer" default="" label="" description="" />
+     <param name="useCSS" type="radio" default="1" label="Use BF Quiz CSS" description="Set to no to use your template's CSS.">
+         <option value="1">Yes</option>
+         <option value="0">No</option>
+     </param>
+     
+     <param name="@spacer" type="spacer" default="" label="" description="" />
+     <param name="registeredUsers" type="radio" default="0" label="Registered Users Only" description="If set to yes, user must log in before they can access quiz.">
+     	 <option value="1">Yes</option>
+      	 <option value="0">No</option>
+     </param>
+     <param name="preventMultiple" type="radio" default="0" label="Prevent multiple entries (IP Address)" description="If set to yes, users IP address will be checked to see if they have already completed the quiz.">
+       	 <option value="1">Yes</option>
+       	 <option value="0">No</option>
+     </param>
+     <param name="preventMultipleEmail" type="radio" default="0" label="Prevent multiple entries (Email)" description="If set to yes, users email address will be checked to see if they have already completed the quiz.">
+       	 <option value="1">Yes</option>
+       	 <option value="0">No</option>
+     </param>
+     <param name="preventMultipleUID" type="radio" default="0" label="Prevent multiple entries (UID)" description="If set to yes, users Joomla user id (UID) will be checked to see if they have already completed the quiz.">
+       	 <option value="1">Yes</option>
+       	 <option value="0">No</option>
+     </param>     
+ </params>
+</config>

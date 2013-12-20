@@ -1,0 +1,13 @@
+<?php defined('ARI_FRAMEWORK_LOADED') or die('Direct Access to this location is not allowed.'); $option = $processPage->getVar('option'); $licenseList = $processPage->getVar('licenseList');
+$mosConfig_live_site = $processPage->getVar('mosConfig_live_site'); $jsPath = $mosConfig_live_site . '/components/' . $option . '/js/'; $jsYuiPath = $jsPath . 'yui/'; ?>
+<script type="text/javascript" src="<?php echo $jsYuiPath; ?>build/yahoo-dom-event/yahoo-dom-event.js"></script> <table class="adminform" style="width: 100%;"> <tbody> <tr>
+<th colspan="2"><?php AriWebHelper::displayResValue('Label.NewLicense'); ?></th> </tr> <tr> <td> <?php AriWebHelper::displayResValue('Label.Domain'); ?> : </td> <td>
+<input type="text" class="text_area" size="90" name="tbxDomain" id="tbxDomain" value="<?php echo AriRequest::getCurrentDomain(); ?>" /> </td> </tr> <tr> <td> <?php AriWebHelper::displayResValue('Label.LicenseKey'); ?> : </td>
+<td> <input type="text" class="text_area" size="90" name="tbxLicenseKey" id="tbxLicenseKey" />
+<input type="button" class="button" value="<?php AriWebHelper::displayResValue('Label.Apply'); ?>" onclick="var key = YAHOO.ARISoft.DOM.$('tbxLicenseKey').value; if (key.length < 32) { alert('<?php AriWebHelper::displayResValue('Validator.InvalidLicense'); ?>'); return false;}; submitbutton('license$newLicense')" />
+</td> </tr> </tbody> </table> <table class="adminform" style="width: 100%;"> <tbody> <tr> <th><?php AriWebHelper::displayResValue('Label.NumberPos'); ?></th> <th><?php AriWebHelper::displayResValue('Label.LicenseKey'); ?></th>
+<th><?php AriWebHelper::displayResValue('Label.Domain'); ?></th> <th><?php AriWebHelper::displayResValue('Label.EndDate'); ?></th> <th><?php AriWebHelper::displayResValue('Label.Expired'); ?></th> </tr> <?php
+if (!empty($licenseList)) { $i = 0; foreach ($licenseList as $license) { ?> <tr class="<?php echo 'row' . ($i % 2); ?>"> <td><?php echo ($i + 1); ?></td> <td><?php echo $license->License; ?></td>
+<td><?php echo $license->Domain; ?></td> <td><?php echo $license->EndDate; ?></td> <td> <span style="color: <?php echo $license->IsExpired ? 'red' : 'green'; ?>;">
+<?php AriWebHelper::displayResValue($license->IsExpired ? 'Label.Expired' : 'Label.NotExpired'); ?> </span> </td> </tr> <?php ++$i; } } else { ?> <tr>
+<td colspan="5"><?php AriWebHelper::displayResValue('Label.NotItemsFound'); ?></td> </tr> <?php } ?> </tbody> </table>

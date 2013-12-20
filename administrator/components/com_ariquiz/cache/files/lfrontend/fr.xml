@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource>
+	<item id="Label.QuizStopped" group="Labels">
+		<message>Votre test a été sauvé et s'est arrêté. Vous pouvez la reprendre plus tard.</message>
+		<description>Your quiz was saved and stopped. You can resume it later.</description>
+	</item>
+	<item id="Label.QuizSaveExit" group="Labels">
+		<message>Enregistrer &amp; Exit</message>
+		<description>Save &amp; Exit label</description>
+	</item>
+	<item groups="Labels" id="Label.SelectAnswer">
+		<message>- Veuillez sélectionner une réponse -</message>
+		<description>Select answer label</description>
+	</item>
+	<item groups="Labels" id="Label.QuestionNote">
+		<message>Note</message>
+		<description>Question note label</description>
+	</item>
+	<item group="Labels" id="Label.TextboxWatermarkText">
+		<message>Entrer votre texte ici</message>
+		<description>Label for watermark text</description>
+	</item>
+	<item group="Labels" id="Label.CorrectCorrelation">
+		<message>Corrélation correcte</message>
+		<description>Correct correlation Label</description>
+	</item>
+	<item group="Labels" id="Label.UserCorrelation">
+		<message>Corrélation utilisateur</message>
+		<description>User correlation Label</description>
+	</item>
+	<item group="Labels" id="Label.QuestionCategory">
+		<message>Catégorie de question</message>
+		<description>Question Category Label</description>
+	</item>
+	<item group="Labels" id="Label.QuestionType">
+		<message>Type de question</message>
+		<description>Question Type Label</description>
+	</item>
+	<item group="Labels" id="Label.TotalTime">
+		<message>Durée totale</message>
+		<description>Total Time Label</description>
+	</item>
+	<item group="Labels" id="Label.TextCI">
+		<message>Insensible à la casse</message>
+		<description>Case Insensitive</description>
+	</item>
+	<item group="Labels" id="Label.QuizStatistics">
+		<message>Détails du questionnaire</message>
+		<description>Label for quiz statistics</description>
+	</item>
+	<item group="Labels" id="Label.Answer">
+		<message>Réponse</message>
+		<description>Label for answer</description>
+	</item>
+	<item group="Labels" id="Label.User">
+		<message>Utilisateur</message>
+		<description>Label for user</description>
+	</item>
+	<item group="Labels" id="Label.Correct">
+		<message>Correct</message>
+		<description>Label for correct</description>
+	</item>
+	<item group="Labels" id="Label.Incorrect">
+		<message>Incorrect</message>
+		<description>Label for incorrect</description>
+	</item>
+	<item group="Labels" id="Category.Uncategory">
+		<message>Commun</message>
+		<description>Name for common category</description>
+	</item>
+	<item group="Labels" id="Label.RemainingTime">
+		<message>Durée restante</message>
+		<description>Label for remaining time</description>
+	</item>
+	<item group="Labels" id="Label.Completed">
+		<message>Terminé</message>
+		<description>Label completed</description>
+	</item>
+	<item group="Labels" id="Label.Print">
+		<message>Imprimer</message>
+		<description>Label print</description>
+	</item>
+	<item group="Labels" id="Label.Continue">
+		<message>Continuer</message>
+		<description>Label continue</description>
+	</item>
+	<item group="Labels" id="Label.Email">
+		<message>E-mail</message>
+		<description>Label e-mail</description>
+	</item>
+	<item group="Labels" id="Title.QuizResultList">
+		<message>Liste des résultats des questionnaires</message>
+		<description>Label quiz result list</description>
+	</item>
+	<item group="Labels" id="Label.Quiz">
+		<message>Questionnaire</message>
+		<description>Quiz</description>
+	</item>
+	<item group="Labels" id="Label.NumberPos">
+		<message>#</message>
+		<description>Position number label</description>
+	</item>
+	<item group="Labels" id="Label.StartDate">
+		<message>Date de début</message>
+		<description>Start Date label</description>
+	</item>
+	<item group="Labels" id="Label.EndDate">
+		<message>Date de fin</message>
+		<description>End Date label</description>
+	</item>
+	<item group="Labels" id="Label.Score">
+		<message>Résultat</message>
+		<description>Score</description>
+	</item>
+	<item group="Labels" id="Label.Details">
+		<message>Détails</message>
+		<description>Details</description>
+	</item>
+	<item group="Labels" id="Label.Passed">
+		<message>Réussi</message>
+		<description>Passed</description>
+	</item>
+	<item group="Labels" id="Label.NoPassed">
+		<message>Raté</message>
+		<description>Not Passed</description>
+	</item>
+	<item group="Labels" id="Label.View">
+		<message>Voir</message>
+		<description>View</description>
+	</item>
+	<item group="Labels" id="Label.Question">
+		<message>Question</message>
+		<description>Question label</description>
+	</item>
+	<item group="Labels" id="Label.Choice">
+		<message>Choix</message>
+		<description>Choice label</description>
+	</item>
+	<item group="Labels" id="Label.Save">
+		<message>Enregistrer</message>
+		<description>Save label</description>
+	</item>
+	<item group="Labels" id="Label.Skip">
+		<message>Passer</message>
+		<description>Skip label</description>
+	</item>
+	<item group="Labels" id="Label.Calculator">
+		<message>Calculatrice</message>
+		<description>Calculator label</description>
+	</item>
+	<item group="Labels" id="Label.Guest">
+		<message>Invité</message>
+		<description>Guest label</description>
+	</item>
+	<item group="Labels" id="Label.EmailQuizResult">
+		<message>Résultat du questionnaire</message>
+		<description>Quiz result email subject</description>
+	</item>
+	<item group="Labels" id="Label.EmailSend">
+		<message>L'email a été envoyé</message>
+		<description>Email has been sent label</description>
+	</item>
+	<item group="Labels" id="Label.EmailNotSend">
+		<message>L'email n'a pas été envoyé</message>
+		<description>Email has not been sent label</description>
+	</item>
+	<item group="Labels" id="Label.NotItemsFound">
+		<message>Aucun item à afficher</message>
+		<description>No items to display label</description>
+	</item>
+	<item group="Labels" id="Date.DayShort">
+		<message>j</message>
+		<description>Day short label</description>
+	</item>
+	<item group="Labels" id="Date.HourShort">
+		<message>h</message>
+		<description>Hour short label</description>
+	</item>
+	<item group="Labels" id="Date.MinuteShort">
+		<message>min</message>
+		<description>Minute short label</description>
+	</item>
+	<item group="Labels" id="Date.SecondShort">
+		<message>sec</message>
+		<description>Second short label</description>
+	</item>
+	<item group="Labels" id="Label.QuestionInfo">
+		<message>Question %d de %d</message>
+		<description>Question N of M label</description>
+	</item>
+	<item group="Labels" id="Label.JSQuestionInfo">
+		<message>Question #{qIndex} de #{qCount}</message>
+		<description>Question N of M label</description>
+	</item>
+	<item group="Labels" id="Label.YouChoose">
+		<message>Vous choisissez</message>
+		<description>You choose label</description>
+	</item>
+	<item group="Labels" id="Label.CorrectAnswerIs">
+		<message>La réponse correcte est</message>
+		<description>The correct answer is label</description>
+	</item>
+	<item group="Message" id="Error.QuizAttemptCount">
+		<message>Vous ne pouvez pas répondre à ce questionnaire parce que votre nombre de tentatives est épuisé</message>
+		<description>Quiz warning message</description>
+	</item>
+	<item group="Message" id="Error.QuizLagTime">
+		<message>Vous ne pouvez pas répondre à ce questionnaire parce que le temps d'attente n'est pas écoulé</message>
+		<description>Quiz warning message</description>
+	</item>
+	<item group="Message" id="Error.QuizNotRegistered">
+		<message>Seuls les utilisateurs enregistrés peuvent répondre à ce questionnaire</message>
+		<description>Quiz error message</description>
+	</item>
+	<item group="Message" id="Error.QuizNotHavePermissions">
+		<message>Vous n'avez pas les permissions pour répondre à ce questionnaire</message>
+		<description>Quiz error message</description>
+	</item>
+	<item group="Message" id="Error.QuizNotHaveQuestions">
+		<message>Vous ne pouvez pas répondre à ce questionnaire parce qu'il ne contient pas de questions</message>
+		<description>Quiz error message</description>
+	</item>
+	<item group="Message" id="FrontEnd.QuizNotAvailable">
+		<message>Le questionnaire sélectionné n'est pas disponible, veuillez contacter le Webmaster</message>
+		<description>Message for quiz not available</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionEmptyAnswer">
+		<message>Aucune réponse fournie. Etes-vous sûr(e) de vouloir continuer ?</message>
+		<description>Freetext validator message</description>
+	</item>
+	<item group="Validators" id="Validator.HotspotNotSelected">
+		<message>Aucune réponse sélectionnée. Etes-vous sûr(e) de vouloir continuer ?</message>
+		<description>Hotspot validator message</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionNotSelected">
+		<message>Aucune réponse sélectionnée. Etes-vous sûr(e) de vouloir continuer ?</message>
+		<description>Validator message</description>
+	</item>
+	<item group="AJAX" id="Ajax.Loading">
+		<message>Chargement... Veuillez patienter</message>
+		<description>Loading message</description>
+	</item>
+	<item group="AJAX" id="Ajax.ServerError">
+		<message>Problème de connexion au serveur. Veuillez essayer à nouveau. Si le problème persiste veuillez contacter le Webmaster.</message>
+		<description>Server error message</description>
+	</item>
+	<item group="Controls" id="Controls.DTFirstPage">
+		<message>&lt;&lt; première</message>
+		<description>Data Grid: first page link label</description>
+	</item>
+	<item group="Controls" id="Controls.DTLastPage">
+		<message>dernière &gt;&gt;</message>
+		<description>Data Grid: last page link label</description>
+	</item>
+	<item group="Controls" id="Controls.DTNextPage">
+		<message>suivante &gt;</message>
+		<description>Data Grid: next page link label</description>
+	</item>
+	<item group="Controls" id="Controls.DTPrevPage">
+		<message>&lt; précédente</message>
+		<description>Data Grid: previous page link label</description>
+	</item>
+	<item group="Controls" id="Controls.DTPageReportTemplate">
+		<message>({currentPage} de {totalPages})</message>
+		<description>Data Grid: page report template</description>
+	</item>
+	<item group="Controls" id="Controls.DTTemplate">
+		<message> Montrer: {RowsPerPageDropdown} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {CurrentPageReport}</message>
+		<description>Data Grid: template</description>
+	</item>
+</resource>

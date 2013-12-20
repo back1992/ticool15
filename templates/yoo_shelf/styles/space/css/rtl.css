@@ -1,0 +1,9 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/rtl.css);
+
+/* Extensions
+----------------------------------------------------------------------------------------------------*/
+
+#top-a .wk-slideset-default .nav.icon li,
+#top-a .wk-slideshow-default .nav.icon li {	margin-right: 5px; }

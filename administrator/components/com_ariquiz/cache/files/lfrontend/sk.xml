@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource>
+	<item group="Validators" id="Validator.Name">
+		<message>Meno je povinné</message>
+		<description>Validátor mena</description>
+	</item>
+	<item group="Validators" id="Validator.Email">
+		<message>Email je povinný</message>
+		<description>Validátor emailu</description>
+	</item>
+	<item group="Validators" id="Validator.EmailFormat">
+		<message>Email má nesprávny formát.</message>
+		<description>Validátor formátu emailu</description>
+	</item>
+	<item group="Labels" id="Label.ShowCorrectAnswer">
+		<message>Ukáž správnu odpoveď</message>
+		<description>Ukáž správnu odpoveď</description>
+	</item>
+	<item group="Labels" id="Label.Name">
+		<message>Meno</message>
+		<description>Meno</description>
+	</item>
+	<item group="Labels" id="Label.Information">
+		<message>Vaše údaje:</message>
+		<description>Vaše údaje:</description>
+	</item>
+	<item group="Labels" id="Label.QuizStopped">
+		<message>Váš test bol uložený. Môžete sa k nemu neskôr vrátiť..</message>
+		<description>Váš test bol uložený a zastavený. Môžete sa k nemu neskôr vrátiť.</description>
+	</item>
+	<item group="Labels" id="Label.QuizSaveExit">
+		<message>Uložiť &amp; Ukončiť</message>
+		<description>Uložiť &amp; Ukončiť popis</description>
+	</item>
+	<item group="Labels" id="Label.SelectAnswer">
+		<message>- Vyberte odpoveď prosím -</message>
+		<description>Popis výberu odpovedi</description>
+	</item>
+	<item group="Labels" id="Label.QuestionNote">
+		<message>Poznámka</message>
+		<description>Popis poznámky k otázke</description>
+	</item>
+	<item group="Labels" id="Label.TextboxWatermarkText">
+		<message>Sem zadajte váš text</message>
+		<description>Popis pre text vodoznaku</description>
+	</item>
+	<item group="Labels" id="Label.CorrectCorrelation">
+		<message>Správna kombinácia</message>
+		<description>Popis správneho vzťahu</description>
+	</item>
+	<item group="Labels" id="Label.UserCorrelation">
+		<message>Kombinácia vybraná užívateľom</message>
+		<description>Popis vzťahu užívateľa</description>
+	</item>
+	<item group="Labels" id="Label.QuestionCategory">
+		<message>Kategória otázok</message>
+		<description>Popis kategórie otázok</description>
+	</item>
+	<item group="Labels" id="Label.QuestionType">
+		<message>Druh otázky</message>
+		<description>Popis druhu otázky</description>
+	</item>
+	<item group="Labels" id="Label.TotalTime">
+		<message>Celkový čas</message>
+		<description>Popis celkového času</description>
+	</item>
+	<item group="Labels" id="Label.TextCI">
+		<message>Nerozlišovať veľké písmena</message>
+		<description>Nerozlišovať veľké písmena</description>
+	</item>
+	<item group="Labels" id="Label.QuizStatistics">
+		<message>Štatistika testov</message>
+		<description>Popis pre štatistiku testov</description>
+	</item>
+	<item group="Labels" id="Label.Answer">
+		<message>Odpověď</message>
+		<description>Popis pre odpoveď</description>
+	</item>
+	<item group="Labels" id="Label.User">
+		<message>Užívateľ</message>
+		<description>Popis užívateľa</description>
+	</item>
+	<item group="Labels" id="Label.Correct">
+		<message>Správne</message>
+		<description>Popis pre správnu odpoveď</description>
+	</item>
+	<item group="Labels" id="Label.Incorrect">
+		<message>Zle</message>
+		<description>Popis pre zlú odpoveď</description>
+	</item>
+	<item group="Labels" id="Category.Uncategory">
+		<message>Všeobecný</message>
+		<description>Meno všeobecnej kategórie</description>
+	</item>
+	<item group="Labels" id="Label.RemainingTime">
+		<message>Zostávajúci čas</message>
+		<description>Popis pre zostávajúci čas</description>
+	</item>
+	<item group="Labels" id="Label.Completed">
+		<message>Hotovo</message>
+		<description>Popis ukončenia</description>
+	</item>
+	<item group="Labels" id="Label.Print">
+		<message>Tlač</message>
+		<description>Popis tlače</description>
+	</item>
+	<item group="Labels" id="Label.Continue">
+		<message>Pokračovať</message>
+		<description>Popis pokračovania</description>
+	</item>
+	<item group="Labels" id="Label.Email">
+		<message>E-mail</message>
+		<description>Popis e-mailu</description>
+	</item>
+	<item group="Labels" id="Title.QuizResultList">
+		<message>Zoznam výsledkov testov</message>
+		<description>Popis zoznamu výsledkov testov</description>
+	</item>
+	<item group="Labels" id="Label.Quiz">
+		<message>Test</message>
+		<description>Test</description>
+	</item>
+	<item group="Labels" id="Label.NumberPos">
+		<message>#</message>
+		<description>Popis číselnej pozície</description>
+	</item>
+	<item group="Labels" id="Label.StartDate">
+		<message>Dátum a čas začiatku</message>
+		<description>Popis dátumu začiatku</description>
+	</item>
+	<item group="Labels" id="Label.EndDate">
+		<message>Dátum a čas ukončenia</message>
+		<description>Popis dátumu konca</description>
+	</item>
+	<item group="Labels" id="Label.Score">
+		<message>Skóre</message>
+		<description>Skóre</description>
+	</item>
+	<item group="Labels" id="Label.Details">
+		<message>Detaily</message>
+		<description>Detaily</description>
+	</item>
+	<item group="Labels" id="Label.Passed">
+		<message>Prešiel</message>
+		<description>Prešiel</description>
+	</item>
+	<item group="Labels" id="Label.NoPassed">
+		<message>Neprešiel</message>
+		<description>Neprešiel</description>
+	</item>
+	<item group="Labels" id="Label.View">
+		<message>Zobraziť</message>
+		<description>Zobraziť</description>
+	</item>
+	<item group="Labels" id="Label.Question">
+		<message>Otázka</message>
+		<description>Popis otázky</description>
+	</item>
+	<item group="Labels" id="Label.Choice">
+		<message>Výber</message>
+		<description>Popis voľby</description>
+	</item>
+	<item group="Labels" id="Label.Save">
+		<message>Uložiť</message>
+		<description>Popis uloženia</description>
+	</item>
+	<item group="Labels" id="Label.Skip">
+		<message>Preskočit</message>
+		<description>Popis preskočenia</description>
+	</item>
+	<item group="Labels" id="Label.Calculator">
+		<message>Kalkulačka</message>
+		<description>Popis kalkulačky</description>
+	</item>
+	<item group="Labels" id="Label.Guest">
+		<message>Hosť</message>
+		<description>Popis hosťa</description>
+	</item>
+	<item group="Labels" id="Label.EmailQuizResult">
+		<message>Výsledok testu</message>
+		<description>Predmet emailu s výsledkom testu</description>
+	</item>
+	<item group="Labels" id="Label.EmailSend">
+		<message>Email bol odeslaný</message>
+		<description>Popis odoslaného emailu</description>
+	</item>
+	<item group="Labels" id="Label.EmailNotSend">
+		<message>Email nebol odeslaný</message>
+		<description>Popis neodoslaného emailu</description>
+	</item>
+	<item group="Labels" id="Label.NotItemsFound">
+		<message>Niesú žiadne položky k zobrazeniu</message>
+		<description>Popis prázdneho zoznamu položiek</description>
+	</item>
+	<item group="Labels" id="Date.DayShort">
+		<message>d</message>
+		<description>Popis skratky dňa</description>
+	</item>
+	<item group="Labels" id="Date.HourShort">
+		<message>h</message>
+		<description>Popis skratky hodiny</description>
+	</item>
+	<item group="Labels" id="Date.MinuteShort">
+		<message>min</message>
+		<description>Popis shratky minúty</description>
+	</item>
+	<item group="Labels" id="Date.SecondShort">
+		<message>sec</message>
+		<description>Popis skratky sekundy</description>
+	</item>
+	<item group="Labels" id="Label.QuestionInfo">
+		<message>Otázka %d z %d</message>
+		<description>Popis otázky N z M</description>
+	</item>
+	<item group="Labels" id="Label.JSQuestionInfo">
+		<message>Otázka #{qIndex} z #{qCount}</message>
+		<description>Popis otázky N z M</description>
+	</item>
+	<item group="Labels" id="Label.YouChoose">
+		<message>Vaša odpoveď</message>
+		<description>Popis vašej odpovede</description>
+	</item>
+	<item group="Labels" id="Label.CorrectAnswerIs">
+		<message>Správna odpoveď je</message>
+		<description>Popis správnej odpovede</description>
+	</item>
+	<item group="Message" id="Error.QuizAttemptCount">
+		<message>Už sa nemôžte znovu zúčastniť testu, pretože ste vyčerpali počet platných pokusov</message>
+		<description>Varovná správa</description>
+	</item>
+	<item group="Message" id="Error.QuizLagTime">
+		<message>Nemôžte sa zúčastniť testu, lebo ešte nevypršal čas intervalu medzi jednotlivými pokusmi</message>
+		<description>Varovná správa</description>
+	</item>
+	<item group="Message" id="Error.QuizNotRegistered">
+		<message>Iba registrovaní užívatelia môžu vypĺňať tento test</message>
+		<description>Chybová správa</description>
+	</item>
+	<item group="Message" id="Error.QuizNotHavePermissions">
+		<message>Nemáte potrebné oprávnenia pre vypĺňanie tohto testu</message>
+		<description>Chybová správa</description>
+	</item>
+	<item group="Message" id="Error.QuizNotHaveQuestions">
+		<message>Nedá sa zúčastniť testu, pretože neobsahuje žiadne otázky</message>
+		<description>Chybová zpráva</description>
+	</item>
+	<item group="Message" id="FrontEnd.QuizNotAvailable">
+		<message>Vybraný test je nedostupný. Kontaktujte prosím administrátora</message>
+		<description>Správa nedostupného testu</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionEmptyAnswer">
+		<message>Neodpovedali ste. Naozaj chcete pokračovať?</message>
+		<description>Validátor prázdnej odpovede</description>
+	</item>
+	<item group="Validators" id="Validator.HotspotNotSelected">
+		<message>Bebol označený žiadny bod. Naozaj chcete pokračovať?</message>
+		<description>Správa výberového validátoru</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionNotSelected">
+		<message>Nebola zvolená odpoveď. Naozaj chcete pokračovať?</message>
+		<description>Správa validátoru</description>
+	</item>
+	<item group="AJAX" id="Ajax.Loading">
+		<message>Načítavám... Prosím o chviľku strpenia</message>
+		<description>Správa načítánia</description>
+	</item>
+	<item group="AJAX" id="Ajax.ServerError">
+		<message>Problém spojenia so servrom. Prosím, opakujte pokus. Pokiaľ problém pretrváva, kontaktujte administrátora.</message>
+		<description>Chybová správa serveru</description>
+	</item>
+	<item group="Controls" id="Controls.DTFirstPage">
+		<message>&lt;&lt; prvná</message>
+		<description>Dátová mriežka: popis prvej stránky</description>
+	</item>
+	<item group="Controls" id="Controls.DTLastPage">
+		<message>posledná &gt;&gt;</message>
+		<description>Dátová mriežka: popis poslednej stránky</description>
+	</item>
+	<item group="Controls" id="Controls.DTNextPage">
+		<message>následujúca &gt;</message>
+		<description>Dátová mriežka: popis následujúcej stránky</description>
+	</item>
+	<item group="Controls" id="Controls.DTPrevPage">
+		<message>&lt; predchádzajúca</message>
+		<description>Dátová mriežka: popis predchádzajúcej stránky</description>
+	</item>
+	<item group="Controls" id="Controls.DTPageReportTemplate">
+		<message>({currentPage} z {totalPages})</message>
+		<description>Dátová mriežka: šablona hlásenia stránok</description>
+	</item>
+	<item group="Controls" id="Controls.DTTemplate">
+		<message>Zobraz: {RowsPerPageDropdown} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {CurrentPageReport}</message>
+		<description>Dátová mriežka: šablona</description>
+	</item>
+	<item group="Controls" id="Controls.DTNoRecords">
+		<message>Nenájdené žiadne údaje.</message>
+		<description>Dátová mriežka: Nenájdené žiadne údaje</description>
+	</item>
+</resource>

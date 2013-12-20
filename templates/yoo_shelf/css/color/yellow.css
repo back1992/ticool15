@@ -1,0 +1,78 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+a { color: #FBA900; }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+.menu-dropdown a.level3 { background-image: url(../../images/color/yellow/menu_dropdown_level3.png); }
+
+.menu-dropdown a.level3:hover,
+.menu-dropdown a.current.level3:hover,
+.menu-sidebar a:hover,
+.menu-sidebar li > span:hover { color: #FBA900; }
+
+.menu-sidebar .level2 a > span { background-image: url(../../images/color/yellow/menu_sidebar_level2.png); }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+a.button-more:hover,
+a.button-more:active {
+	border-color: #B17401;
+	background: #FDA706;
+	background: -moz-linear-gradient(
+					50% 0%,
+					#FFBA3C 0%,
+					#FDA706 100%
+				);
+				
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #FFBA3C),
+					color-stop(100%, #FDA706)
+				);
+	-moz-box-shadow: 0 1px 0 #FFC966 inset;
+	-webkit-box-shadow:	0 1px 0 #FFC966 inset;
+	box-shadow:	0 1px 0 #FFC966 inset;
+}
+
+a.button-more:active {
+	background: #C2140C;
+	background: -moz-linear-gradient(
+					50% 0%,
+					#FDA706 0%,
+					#FFBA3C 100%
+				);
+				
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #FDA706),
+					color-stop(100%, #FFBA3C)
+				);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3) inset;
+	-webkit-box-shadow:	0 1px 1px rgba(0,0,0,0.3) inset;
+	box-shadow:	0 1px 1px rgba(0,0,0,0.3) inset;
+}
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+#system .item > .links a { background-image: url(../../images/color/yellow/item_links.png); }
+
+#system .pagination strong { color: #FBA900; }
+
+/* Custom
+----------------------------------------------------------------------------------------------------*/
+
+#logo .custom-logo { background: url(../../../../images/yootheme/logo_yellow.png) 0 0 no-repeat; }

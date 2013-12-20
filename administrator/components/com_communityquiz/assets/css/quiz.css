@@ -1,0 +1,22 @@
+.icon-48-quiz{background-image: url(../images/icon-48-quiz.png); background-repeat: no-repeat;}
+.category_tree{list-style: none; list-style-type: none;}
+.category_tree li{padding: 0 0 10px 0; font: normal 110%/130% Arial, helvetica, sans-serif;}
+.icon-32-refresh{background-image: url(../images/cnr-update.png); background-repeat: no-repeat;}
+.page_title {font: bold large Arial, helvetica, sans-serif;}
+.page-header{font: bold 18px/20px arial,sans-serif,helvetica; border-bottom: 1px solid #ccc; margin-bottom: 10px;}
+.quiz-description {border: 1px solid #ddd; -moz-border-radius: 2px;-webkit-border-radius: 2px;border-radius:2px; padding: 10px; margin-bottom: 5px; background-color: #f9f9f9;}
+
+#quiz-results {margin-left: auto;margin-right: auto; margin-top: 10px; border: 1px solid #e5e5e5; padding: 10px;}
+#quiz-results .quiz-question{-moz-border-radius: 2px;-webkit-border-radius: 2px;border-radius:2px; border: 1px solid #ddd; padding: 10px; margin-bottom: 5px;}
+#quiz-results .question_title{font: bold 14px/16px arial,sans-serif,helvetica; margin-bottom: 10px;}
+#quiz-results .alt{background-color: #f9f9f9;}
+#quiz-results .grid tbody th{padding: 5px 25px 5px 5px;}
+#quiz-results .grid thead th{padding: 5px 10px 5px 5px;}
+#quiz-results .grid tbody td{padding: 5px; text-align: center;}
+#quiz-results .noanswer{background: url(../images/noanswer.png) no-repeat left center; padding: 5px 0 5px 25px;}
+#quiz-results .correctanswer{background: url(../images/correct.png) no-repeat left center; padding: 5px 0 5px 25px;}
+#quiz-results .wronganswer{background: url(../images/wrong.png) no-repeat left center; padding: 5px 0 5px 25px;}
+#quiz-results .answer{font: normal 12px/14px arial,sans-serif,helvetica; padding: 5px;}
+#quiz-results .quiz-details{font: bold 90%/100% arial,sans-serif,helvetica; margin:10px 0; padding: 5px; border: 1px solid #ccc; background-color: #fed}
+#quiz-results .question_explanation {padding: 5px 0;}
+#quiz-results .question_explanation .explanation_title {font: bold 12px/14px arial,sans-serif,helvetica; margin-bottom: 5px;}

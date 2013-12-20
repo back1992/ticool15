@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jomsocial>
+    <component>com_communityquiz</component>
+    <rules>
+        <rule>
+            <name>Community Quiz - New Quiz</name>
+            <description>Points awarded for submitting quiz.</description>
+            <action_string>com_communityquiz.new_quiz</action_string>
+            <publish>true</publish>
+            <points>0</points>
+            <access_level>1</access_level>
+        </rule>
+        <rule>
+            <name>Community Quiz - New Response</name>
+            <description>Points awarded for responding to quiz.</description>
+            <action_string>com_communityquiz.quiz_response</action_string>
+            <publish>true</publish>
+            <points>0</points>
+            <access_level>1</access_level>
+        </rule>
+    </rules>
+</jomsocial>

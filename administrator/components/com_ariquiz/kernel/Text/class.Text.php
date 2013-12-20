@@ -1,0 +1,6 @@
+<?php defined('ARI_FRAMEWORK_LOADED') or die('Direct Access to this location is not allowed.'); class ArisText { function html_strlen($str) { $chars = preg_split('/(&[^;\s]+;)|/', $str, -1, PREG_SPLIT_NO_EMPTY | PREG_SPLIT_DELIM_CAPTURE);
+return count($chars); } function html_substr($str, $start = 0, $length = null) { if ($length === 0) return ""; if (strpos($str, '&') === false) { if ($length === NULL) return substr($str, $start); else return substr($str, $start, $length); }
+$chars = preg_split('/(&[^;\s]+;)|/', $str, -1, PREG_SPLIT_NO_EMPTY | PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_OFFSET_CAPTURE); $html_length = count($chars); if ( ($html_length === 0) or ($start >= $html_length) or
+(isset($length) and ($length <= -$html_length)) ) { return ""; } if ($start >= 0) { $real_start = $chars[$start][1]; } else { $start = max($start,-$html_length); $real_start = $chars[$html_length+$start][1]; } if (!isset($length))
+return substr($str, $real_start); else if ($length > 0) { if ($start+$length >= $html_length) { return substr($str, $real_start); } else { return substr($str, $real_start, $chars[max($start,0)+$length][1] - $real_start); } } else {
+return substr($str, $real_start, $chars[$html_length+$length][1] - $real_start); } } } ?>

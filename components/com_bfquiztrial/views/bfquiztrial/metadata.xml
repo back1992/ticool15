@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<view title="Default">
+		<message>Multi page view. This view can have conditional branching, and integrates with Bigo CAPTCHA.</message>
+	</view>
+</metadata>

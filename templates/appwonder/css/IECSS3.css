@@ -1,0 +1,85 @@
+
+/* ie only */	
+	
+.MultiBoxContainer, .s5_datewrapper, .module_round_box-opacity, .module_round_box, .s5_horiztonalbar, .inputbox, .inputbox:hover  {
+	behavior: url(templates/appwonder/css/PIE.htc);
+	z-index: 0;
+	position:relative;}
+	
+#s5_navv ul li ul	{
+	border-radius: 11px 11px 11px 11px;
+	behavior: url(templates/appwonder/css/PIE.htc);}
+	
+
+/* accordion menu */		
+#s5_accordion_menu h3.s5_am_toggler  {
+	behavior: url(templates/appwonder/css/PIE.htc);
+	-pie-background:linear-gradient(#FFFFFF, #A6A6A6); }
+	
+	
+	
+	
+	
+
+		
+	
+#s5_navv ul li ul li a.parent {
+    background: url(../images/Shape5_Appwonder_menuarrow.png) no-repeat scroll 186px 7px transparent;    }	
+	
+.button, a.readon {
+	behavior: url(templates/appwonder/css/PIE.htc);
+	-pie-background:linear-gradient(#FFFFFF, #A6A6A6); /*PIE*/
+	position:relative;}
+	
+.button:hover, a.readon:hover {
+	behavior: url(templates/appwonder/css/PIE.htc);
+	-pie-background:#ffffff; /*PIE*/
+	position:relative;}
+	
+	
+/* standard output menu */	
+	
+.module_round_box ul.menu li#current a {
+	behavior: url(templates/appwonder/css/PIE.htc);
+	border-radius: 4px;
+	 -pie-background: url(templates/appwonder/images/Shape5_Appwonder_arrows.png) no-repeat right 9px, linear-gradient(#FFF, #A6A6A6); 
+	position:relative;}
+	
+	
+	/* hides gradient for subs */
+	.module_round_box ul.menu li:hover li a, .module_round_box ul.menu li#current li a {
+		behavior: url(templates/appwonder/css/PIE.htc);
+		-pie-background: url(templates/appwonder/images/Shape5_Appwonder_arrows.png) no-repeat right 9px, linear-gradient(transparent); }	
+		
+	
+	.module_round_box ul.menu li a {
+		behavior: url(templates/appwonder/css/PIE.htc);
+		border-radius: 4px;
+		background:none;
+		 -pie-background: url(templates/appwonder/images/Shape5_Appwonder_arrows.png) no-repeat right 9px, linear-gradient(transparent);  
+		position:relative;	}
+		
+		.module_round_box ul.menu li:hover a {
+		behavior: url(templates/appwonder/css/PIE.htc);
+		border-radius: 4px;
+		background:none;
+		 -pie-background: url(templates/appwonder/images/Shape5_Appwonder_arrows.png) no-repeat right 9px, linear-gradient(#FFF, #A6A6A6);  
+		position:relative;	}	
+
+
+/* editor */	
+
+.blue_box, .red_box, .green_box, .orange_box, .yellow_box, .gray_box, .black_box, .s5_greenbox, .s5_graybox, .s5_bluebox, .s5_redbox {
+	behavior: url(templates/appwonder/css/PIE.htc);
+	position:relative;}
+	
+.download {
+	behavior: url(templates/appwonder/css/PIE.htc);
+	-pie-background:linear-gradient(#80c2ff, #4275a4); /*PIE*/
+	position:relative;}
+	
+.download:hover {
+	behavior: url(templates/appwonder/css/PIE.htc);
+	-pie-background:linear-gradient(#4275a4, #80c2ff); /*PIE*/
+	position:relative;}	
+	

@@ -1,0 +1,235 @@
+#s5_navv li, #s5_search_wrap, #s5_top_row1_wrap, #s5_top_row2_wrap, #s5_top_row3_wrap, #s5_center_column_wrap, #s5_left_column_wrap, #s5_right_column_wrap, #s5_bottom_row1_wrap, #s5_bottom_row2_wrap, #s5_bottom_row3_wrap, .s5_vm_name, .s5_vm_image, .s5_vm_price, .s5_vm_add_to_cart  {
+direction:rtl;
+text-align:right;
+}
+
+#s5_logo {float:right;}
+
+#s5_loginreg {float: left;}
+
+#accordion_inner{
+direction:ltr;
+}
+
+
+.jcomments-links {
+	text-align:right;
+	direction:ltr;
+	}
+
+.article_column .contentpaneopen {
+padding-right:0px;
+}
+
+.s5_mod_h3 {
+text-align:right;
+}
+
+.s5_h3_tag_wrap {
+float:left;
+}
+
+.button, a.readon {
+float:right;}
+
+#s5_search_wrap .inputbox {
+width:155px;
+}
+
+.img  {
+margin-right:-16px;
+}
+
+#s5_width_wrap {
+overflow:hidden;
+padding-left:17px;
+padding-right:17px;
+}
+
+#s5_top_menu ul.menu li, #s5_login_register_wrap, #s5_header_r_wrap, #s5_top_menu {
+float:left;
+}
+
+#loading_img {
+visibility:hidden;
+}
+
+#s5_navv {float: left;}
+
+#s5_navv ul li {float: right;}
+
+#s5_navv li li a{
+	padding-left:0px;
+}
+
+#s5_navv ul li {
+margin-right:5px;
+}
+
+#s5_navv ul li ul li {
+    margin-right: 5px;}
+	
+#s5_navv ul ul ul {
+	 margin-right: -22px;}	
+	
+#s5_navv ul li ul li a.parent {
+   margin-left: 12px;}
+   
+#s5_navv ul li ul li span {
+	margin-left: 0px;} 
+	
+#s5_navv ul li ul li a.parent {
+    background: url(../images/Shape5_Appwonder_menuarrow_rtl.png) no-repeat -6px 9px;}	
+	
+#s5_navv ul li ul li:hover a.parent {
+    background: url(../images/Shape5_Appwonder_menuarrow_rtl.png)no-repeat 6px -22px;	}
+	
+#s5_navv ul li ul li a {
+    width: 201px;}
+
+#s5_navv ul li ul li ul li a.parent {
+background:url(../images/Shape5_Appwonder_menuarrow_rtl.png) no-repeat -6px 9px;	}
+
+#s5_navv ul li ul li:hover ul li a.parent {
+background:url(../images/Shape5_Appwonder_menuarrow_rtl.png)no-repeat 6px 9px;}
+	
+#s5_navv ul li ul li ul li:hover  a.parent {
+background:url(../images/Shape5_Appwonder_menuarrow_rtl.png) no-repeat 6px -22px;}	
+	
+	
+	
+	
+#s5_navv ul li ul li:hover span { 
+	margin-left:0px;}
+	
+#s5_navv ul li ul li:hover a.parent {
+    width: 201px;}
+
+#s5_navv li ul:hover {
+right:-999em;
+}
+
+#s5_navv li:hover ul ul, 
+#s5_navv li:hover ul ul ul,
+#s5_navv li:hover ul ul ul ul {
+right:-999em;
+}
+
+#s5_navv li:hover ul{
+right:-5px;
+}
+
+#s5_navv li li:hover ul,
+#s5_navv li li li:hover ul{
+right:216px;
+}
+
+.latestnews li, .mostread li, .sections li, .s5_module_box ul.menu a {
+background-position:center right;
+}
+.contentheading {    float: right;}
+
+.s5_contentwrapper {
+    margin-right: 108px;}
+
+	
+.s5_scrolltotop {float:left;}
+	
+/* Accordion Menu
+----------------------------------------------------------- */
+
+
+#login li, #form-login li {
+background-position:center right;}
+
+
+#s5box_login, #s5box_register {
+    direction:rtl;}
+
+
+	
+	
+#s5_accordion_menu h3.s5_am_parent span {
+    background: url(../images/Shape5_Appwonder_arrows.png) no-repeat scroll left 9px transparent;
+    cursor: pointer;
+    padding-right: 8px;
+    position: relative;}
+	
+	
+#s5_accordion_menu h3.s5_am_parent.s5_am_open span {
+    background: url(../images/Shape5_Appwonder_arrows.png) no-repeat scroll left -73px transparent;
+    cursor: pointer;
+    padding-right: 8px;
+    position: relative;}
+		
+#s5_accordion_menu h3.s5_am_toggler a.mainlevel {
+    float: right;	}
+	
+	
+
+/* Column Menu
+----------------------------------------------------------- */	
+
+.module_round_box ul.menu li a {
+	background: url(../images/Shape5_Appwonder_arrows_rtl.png) no-repeat scroll left -29px transparent;
+    color: #191919;
+	text-decoration:none;
+    display: block;
+    padding: 6px 14px;}
+
+.module_round_box ul.menu li:hover a,  .module_round_box ul.menu li#current a {
+	background: #FFFFFF; /* Old browsers */
+	background: url(../images/Shape5_Appwonder_arrows_rtl.png) no-repeat left 9px, -moz-linear-gradient(top, #FFFFFF 22%, #D3D3D3 60%, #A6A6A6 91%); /* FF3.6+ */
+	background: url(../images/Shape5_Appwonder_arrows_rtl.png) no-repeat left 9px,  -webkit-gradient(linear, left top, left bottom, color-stop(22%,#FFFFFF), color-stop(60%,#D3D3D3), color-stop(91%,#A6A6A6)); /* Chrome,Safari4+ */
+	background: url(../images/Shape5_Appwonder_arrows_rtl.png) no-repeat left 9px,  -webkit-linear-gradient(top, #FFFFFF 22%,#D3D3D3 60%,#A6A6A6 91%); /* Chrome10+,Safari5.1+ */
+	background: url(../images/Shape5_Appwonder_arrows_rtl.png) no-repeat left 9px,  -o-linear-gradient(top, #FFFFFF 22%,#D3D3D3 60%,#A6A6A6 91%); /* Opera11.10+ */
+	background: url(../images/Shape5_Appwonder_arrows_rtl.png) no-repeat left 9px,  -ms-linear-gradient(top, #FFFFFF 22%,#D3D3D3 60%,#A6A6A6 91%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#A6A6A6',GradientType=0 ); /* IE6-9 */
+	background: url(../images/Shape5_Appwonder_arrows_rtl.png) no-repeat left 9px,  linear-gradient(top, #FFFFFF 22%,#D3D3D3 60%,#A6A6A6 91%); /* W3C */
+	}	
+	
+
+/* Template Specific
+----------------------------------------------------------- */
+.s5_daydate { padding-right: 6px;float: right;}
+.s5_first {  }
+.s5_datewrapper {    float: right;    margin-right: 1px !important;}
+.s5_articlespacer {display:block;}
+.product_addtocart {direction:ltr;}
+.s5_addtocartdropdown { direction: rtl;}
+
+.s5_pagetitlewrap {
+    float: right;
+    margin-right: 14px;}
+
+/* Template Defaults
+----------------------------------------------------------- */
+#s5_breadcrumb_wrap {float: right;}
+.buttonheading {float: left;}
+.breadcrumbs { background: url(../images/con_address.png) no-repeat scroll right top transparent;
+    padding-right: 28px;}
+	
+
+
+
+
+/* Jcomments
+----------------------------------------------------------- */
+#jc {padding-right:11px; }
+#jc h4 { text-align:right;}
+#comments-form, #comments-form p, #comments-report-form, #comments-report-form p, #comments-form span, #comments-form .counter {
+text-align:right;}
+#comments-form .btn, #comments-report-form .btn {
+float:right;margin-right:22px;}
+
+#jc .rbox div, #comments {
+text-align:right;
+}
+
+
+/* Tienda
+----------------------------------------------------------- */
+
+div#tienda_products div.product_thumb {
+float:none;
+}

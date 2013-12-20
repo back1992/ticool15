@@ -1,0 +1,550 @@
+<?xml version="1.0"?>
+<install type="component" version="1.5.0">
+	<name>ARI Quiz</name>
+	<creationDate>March 2010</creationDate>
+	<author>ARI Soft</author>
+	<copyright>2008 ARI Soft</copyright>
+	<authorEmail>info@ari-soft.com</authorEmail>
+	<authorUrl>www.ari-soft.com</authorUrl>
+	<version>2.9.3</version>
+	<description>ARI Quiz component provides ability to create various tests to evaluate respondent's level of knowledge.</description>
+	<license>http://www.ari-soft.com/license.html</license>
+	<params>
+	</params>
+	<installfile>install.ariquiz.php</installfile>
+	<uninstallfile>uninstall.ariquiz.php</uninstallfile>
+	<install>
+		<queries>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__arigenerictemplate` (
+					`TemplateId` int(10) unsigned NOT NULL auto_increment,
+					`BaseTemplateId` int(11) NOT NULL,
+					`TemplateName` varchar(255) NOT NULL,
+					`Value` text,
+					`Created` datetime NOT NULL,
+					`CreatedBy` int(10) unsigned NOT NULL default '0',
+					`Modified` datetime default NULL,
+					`ModifiedBy` int(10) unsigned NOT NULL default '0',
+					PRIMARY KEY  (`TemplateId`),
+					KEY `BaseTemplateId` (`BaseTemplateId`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__arigenerictemplatebase` (
+					`BaseTemplateId` int(10) unsigned NOT NULL auto_increment,
+					`DefaultValue` text,
+					`TemplateDescription` text,
+					`Group` varchar(255) NOT NULL,
+					PRIMARY KEY  (`BaseTemplateId`),
+					KEY `Group` (`Group`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__arigenerictemplateentitymap` (
+					`TemplateId` int(11) NOT NULL,
+					`EntityName` varchar(255) NOT NULL,
+					`TemplateType` varchar(255) NOT NULL,
+					`EntityId` int(11) NOT NULL,
+					UNIQUE KEY `TemplateEntityMap` (`EntityName`(50),`EntityId`,`TemplateType`(50)),
+					KEY `TemplateId` (`TemplateId`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__arigenerictemplateparam` (
+					`ParamId` int(10) unsigned NOT NULL auto_increment,
+					`BaseTemplateId` int(11) NOT NULL,
+					`ParamName` varchar(255) NOT NULL,
+					`ParamDescription` text,
+					`ParamType` varchar(255) default NULL,
+					PRIMARY KEY  (`ParamId`),
+					KEY `BaseTemplateId` (`BaseTemplateId`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquizmailtemplate` (
+				    `MailTemplateId` int(10) unsigned NOT NULL auto_increment,
+				    `TextTemplateId` int(10) unsigned NOT NULL,
+				    `Subject` varchar(255) default NULL,
+				    `From` varchar(255) default NULL,
+				    `FromName` varchar(255) default NULL,
+  					`AllowHtml` tinyint(1) unsigned NOT NULL default '1',
+				    PRIMARY KEY  (`MailTemplateId`),
+				    KEY `TextTemplateId` (`TextTemplateId`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquiz` (
+				  `QuizId` int(10) unsigned NOT NULL auto_increment,
+				  `QuizName` varchar(255) NOT NULL,
+				  `CreatedBy` int(10) unsigned NOT NULL,
+				  `Created` datetime NOT NULL,
+				  `ModifiedBy` int(10) unsigned NOT NULL default '0',
+				  `Modified` datetime default NULL,
+				  `AccessType` int(10) unsigned default NULL,
+				  `Status` int(10) unsigned NOT NULL,
+				  `TotalTime` int(10) unsigned default NULL,
+				  `PassedScore` int(10) unsigned NOT NULL default '0',				  
+				  `QuestionCount` int(10) unsigned NOT NULL default '0',
+				  `QuestionTime` int(10) unsigned NOT NULL default '0',
+				  `Description` longtext,
+				  `CanSkip` tinyint(1) unsigned NOT NULL default '0',
+				  `CanStop` tinyint(1) unsigned NOT NULL default '0',
+				  `RandomQuestion` tinyint(1) unsigned NOT NULL default '0',
+				  `UseCalculator` tinyint(1) unsigned NOT NULL default '0',
+				  `LagTime` int(11) unsigned NOT NULL default '0',
+				  `AttemptCount` int(11) unsigned NOT NULL default '0',
+				  `CssTemplateId` int(11) unsigned NOT NULL default '0',
+				  `AdminEmail` text,
+				  `ResultScaleId` int(11) unsigned NOT NULL default '0',
+				  `ParsePluginTag` tinyint(1) unsigned NOT NULL default '1',
+				  `ShowCorrectAnswer` tinyint(1) unsigned NOT NULL default '0',
+				  `ShowExplanation` tinyint(1) unsigned NOT NULL default '0',
+				  `QuestionOrderType` set('Numeric','AlphaLower','AlphaUpper') NOT NULL default 'Numeric',
+				  `Anonymous` SET('Yes','No','ByUser') NOT NULL default 'Yes',
+				  `FullStatistics` SET('Never','Always','OnLastAttempt') NOT NULL default 'Never',
+				  PRIMARY KEY  (`QuizId`),
+				  KEY `CssTemplateId` (`CssTemplateId`),
+				  KEY `Status` (`Status`),
+				  KEY `ResultScaleId` (`ResultScaleId`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquizaccess` (
+					`QuizId` int(10) unsigned NOT NULL,
+					`GroupId` int(10) unsigned NOT NULL,
+					PRIMARY KEY  (`QuizId`,`GroupId`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquizcategory` (
+					`CategoryId` int(10) unsigned NOT NULL auto_increment,
+					`CategoryName` varchar(255) NOT NULL,
+					`Description` text NOT NULL,
+					`Created` datetime NOT NULL,
+					`CreatedBy` int(10) unsigned NOT NULL,
+					`Modified` datetime default NULL,
+					`ModifiedBy` int(10) unsigned NOT NULL default '0',
+					PRIMARY KEY  (`CategoryId`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquizconfig` (
+					`ParamName` varchar(100) NOT NULL,
+					`ParamValue` varchar(255) NOT NULL,
+					PRIMARY KEY  (`ParamName`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquizquestion` (
+					`QuestionId` int(10) unsigned NOT NULL auto_increment,
+					`QuizId` int(10) unsigned NOT NULL,
+					`QuestionVersionId` bigint(20) default NULL,
+					`Created` datetime NOT NULL,
+					`CreatedBy` int(10) unsigned NOT NULL,
+					`Modified` datetime default NULL,
+					`ModifiedBy` int(10) unsigned NOT NULL default '0',
+					`Status` int(11) unsigned NOT NULL,
+					`QuestionIndex` int(11) unsigned NOT NULL default '0',
+				    `BankQuestionId` int(10) unsigned NOT NULL default '0',
+  					`QuestionTypeId` int(11) unsigned NOT NULL,
+  					`QuestionCategoryId` int(10) unsigned NOT NULL default '0',
+					PRIMARY KEY  (`QuestionId`),
+					UNIQUE KEY `QuestionVersionId` (`QuestionVersionId`),
+					KEY `Sorting_QuestionIndex` (`QuizId`,`Status`,`QuestionIndex`),
+					KEY `Status` (`Status`),
+					KEY `BankQuestionId` (`BankQuestionId`),
+					KEY `QuestionTypeId` (`QuestionTypeId`),
+					KEY `QuestionCategoryId` (`QuestionCategoryId`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquizquestioncategory` (
+					`QuestionCategoryId` int(10) unsigned NOT NULL auto_increment,
+					`QuizId` int(10) unsigned NOT NULL,
+					`CategoryName` varchar(255) NOT NULL,
+					`Description` text,
+					`Created` datetime NOT NULL,
+					`CreatedBy` int(10) unsigned NOT NULL,
+					`Modified` datetime default NULL,
+					`ModifiedBy` int(10) unsigned NOT NULL default '0',
+					`QuestionCount` int(10) unsigned NOT NULL default '0',
+					`QuestionTime` int(10) unsigned NOT NULL default '0',
+					`RandomQuestion` tinyint(1) unsigned NOT NULL default '0',
+					`Status` int(11) unsigned NOT NULL default '1',
+					PRIMARY KEY  (`QuestionCategoryId`),
+					KEY `QuizId` (`QuizId`),
+  					KEY `Status` (`Status`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquizbankcategory` (
+					`CategoryId` int(10) unsigned NOT NULL auto_increment,
+					`CategoryName` varchar(255) NOT NULL,
+					`Description` text NOT NULL,
+					`Created` datetime NOT NULL,
+					`CreatedBy` int(10) unsigned NOT NULL,
+					`Modified` datetime default NULL,
+					`ModifiedBy` int(10) unsigned NOT NULL default '0',
+					PRIMARY KEY  (`CategoryId`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquizquestiontemplate` (
+				  `TemplateId` int(10) unsigned NOT NULL auto_increment,
+				  `TemplateName` varchar(255) NOT NULL,
+				  `QuestionTypeId` int(11) NOT NULL,
+				  `Data` longtext,
+				  `Created` datetime NOT NULL,
+				  `CreatedBy` int(11) unsigned NOT NULL,
+				  `Modified` datetime default NULL,
+				  `ModifiedBy` int(10) unsigned NOT NULL default '0',
+				  `DisableValidation` tinyint(1) unsigned NOT NULL default '0',
+				  PRIMARY KEY  (`TemplateId`),
+				  KEY `QuestionTypeId` (`QuestionTypeId`),
+				  KEY `TemplateName` (`TemplateName`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;				
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquizquestiontype` (
+				  `QuestionTypeId` int(10) unsigned NOT NULL auto_increment,
+				  `QuestionType` varchar(255) NOT NULL,
+				  `ClassName` varchar(255) NOT NULL,
+				  `Default` tinyint(1) unsigned NOT NULL,
+				  `CanHaveTemplate` tinyint(1) unsigned NOT NULL default '1',
+				  `TypeOrder` int(11) unsigned NOT NULL default '0',
+				  PRIMARY KEY  (`QuestionTypeId`),
+				  UNIQUE KEY `QuestionType` (`QuestionType`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;				
+			</query>
+			<query>
+				<![CDATA[
+				CREATE TABLE IF NOT EXISTS `#__ariquizquestionversion` (
+				  `QuestionVersionId` bigint(20) unsigned NOT NULL auto_increment,
+				  `QuestionId` int(10) unsigned NOT NULL,
+				  `QuestionCategoryId` int(10) unsigned NOT NULL default '0',
+				  `QuestionTime` int(10) unsigned NOT NULL default '0',
+				  `QuestionTypeId` int(11) unsigned NOT NULL,
+				  `Question` text NOT NULL,
+				  `HashCode` char(32) NOT NULL,
+				  `Created` datetime NOT NULL,
+				  `CreatedBy` int(10) unsigned NOT NULL,
+				  `Data` longtext NOT NULL,
+				  `Score` int(11) unsigned NOT NULL,
+				  `BankQuestionId` int(10) unsigned NOT NULL default '0',
+				  `Note` text default NULL,
+				  PRIMARY KEY  (`QuestionVersionId`),
+				  KEY `QuestionId` (`QuestionId`),
+				  KEY `QuestionCategoryId` (`QuestionCategoryId`),
+				  KEY `QuestionTypeId` (`QuestionTypeId`),
+				  KEY `BankQuestionId` (`BankQuestionId`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+				]]>
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquizquizcategory` (
+					`QuizId` int(10) unsigned NOT NULL,
+					`CategoryId` int(10) unsigned NOT NULL,
+					PRIMARY KEY  (`QuizId`,`CategoryId`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquizstatistics` (
+					`StatisticsId` bigint(20) unsigned NOT NULL auto_increment,
+					`QuestionId` int(10) unsigned NOT NULL,
+					`QuestionVersionId` bigint(20) unsigned NOT NULL,
+					`StatisticsInfoId` bigint(20) NOT NULL,
+					`Data` longtext,
+					`StartDate` datetime default NULL,
+					`EndDate` datetime default NULL,
+					`SkipDate` datetime default NULL,
+					`SkipCount` int(11) unsigned NOT NULL default '0',
+					`UsedTime` int(11) unsigned NOT NULL default '0',
+					`QuestionIndex` int(10) unsigned NOT NULL,
+					`Score` int(10) unsigned default NULL,
+					`QuestionTime` int(10) unsigned NOT NULL default '0',
+					`QuestionCategoryId` int(10) unsigned NOT NULL,
+					`IpAddress` int(10) unsigned default NULL,
+					`BankQuestionId` int(10) unsigned NOT NULL default '0',
+					`BankVersionId` bigint(20) unsigned NOT NULL default '0',
+					`InitData` longtext,
+					`AttemptCount` int(11) unsigned NOT NULL default '0',
+					PRIMARY KEY  (`StatisticsId`),
+					KEY `QuestionVersionId` (`QuestionVersionId`),
+					KEY `StatisticsInfoId` (`StatisticsInfoId`),
+					KEY `QuestionCategoryId` (`QuestionCategoryId`),
+					KEY `BankVersionId` (`BankVersionId`)					
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquizstatistics_attempt` (
+					`StatisticsId` bigint(20) unsigned NOT NULL,
+					`Data` longtext,
+					`CreatedDate` datetime NOT NULL,
+					KEY `StatisticsId` (`StatisticsId`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquizstatisticsinfo` (
+					`StatisticsInfoId` bigint(20) unsigned NOT NULL auto_increment,
+					`QuizId` int(10) unsigned NOT NULL,
+					`UserId` int(10) unsigned NOT NULL default '0',
+					`Status` set('Prepare','Process','Finished','Pause') NOT NULL default 'Process',
+					`TicketId` char(32) NOT NULL,
+					`StartDate` datetime default NULL,
+					`EndDate` datetime default NULL,
+					`PassedScore` int(11) unsigned NOT NULL default '0',
+					`UserScore` int(11) unsigned NOT NULL default '0',
+					`MaxScore` int(11) unsigned NOT NULL default '0',
+					`Passed` tinyint(1) unsigned NOT NULL default '0',
+					`CreatedDate` datetime NOT NULL,
+					`QuestionCount` int(11) unsigned NOT NULL default '0',
+					`TotalTime` int(10) unsigned NOT NULL default '0',
+					`ResultEmailed` tinyint(1) unsigned NOT NULL default '0',
+					`ExtraData` text,
+					`CurrentStatisticsId` bigint(20) unsigned default NULL,
+					`UsedTime` int(11) unsigned NOT NULL default '0',
+					`ResumeDate` datetime default NULL,
+					`ModifiedDate` datetime default NULL,
+					PRIMARY KEY  (`StatisticsInfoId`),
+					KEY `QuizId` (`QuizId`),
+					KEY `UserId` (`UserId`),
+					KEY `Status` (`Status`),
+				    UNIQUE KEY `TicketId` (`TicketId`),
+  					UNIQUE KEY `CurrentStatisticsId` (`CurrentStatisticsId`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquizfile` (
+				  `FileId` int(11) unsigned NOT NULL auto_increment,
+				  `Content` longblob NOT NULL,
+				  `FileName` varchar(255) NOT NULL,
+				  `Group` varchar(255) NOT NULL,
+				  `Size` int(11) unsigned NOT NULL,
+				  `Description` varchar(255) default NULL,
+				  `ShortDescription` varchar(255) default NULL,
+				  `Created` datetime NOT NULL,
+				  `CreatedBy` int(11) unsigned NOT NULL default '0',
+				  `Modified` datetime default NULL,
+				  `ModifiedBy` int(11) unsigned NOT NULL default '0',
+				  `Extension` varchar(255) NOT NULL,
+				  `Height` int(11) unsigned NOT NULL default '0',
+				  `Width` int(11) unsigned NOT NULL default '0',
+				  `Flags` int(11) unsigned NOT NULL default '0',
+				  PRIMARY KEY  (`FileId`),
+				  KEY `Group` (`Group`),
+				  KEY `Sorting_ShortDescription` (`Group`(20),`ShortDescription`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__arilicense` (
+				  `LicenseId` int(11) unsigned NOT NULL auto_increment,
+				  `Domain` varchar(255) NOT NULL,
+				  `License` varchar(255) NOT NULL,
+				  `Component` varchar(255) NOT NULL,
+				  `EndDate` datetime NOT NULL,
+				  PRIMARY KEY  (`LicenseId`),
+				  KEY `Domain` (`Domain`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquiz_persistance` (
+				  `OwnerKey` varchar(80) NOT NULL,
+				  `UserId` int(11) default NULL,
+				  `Key` varchar(80) NOT NULL,
+				  `Name` varchar(80) NOT NULL,
+				  `Value` text NOT NULL,
+				  UNIQUE KEY `OwnerKey` (`OwnerKey`,`Key`,`UserId`,`Name`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				<![CDATA[
+				CREATE TABLE IF NOT EXISTS `#__ariquiz_property` (
+				  `PropertyId` int(10) unsigned NOT NULL auto_increment,
+				  `PropertyName` varchar(255) NOT NULL default '',
+				  `DefaultValue` text,
+				  `Entity` varchar(255) NOT NULL default '',
+				  `PropertyType` int(10) unsigned NOT NULL default '0',
+				  `ResourceKey` varchar(255) NOT NULL default '',
+				  `ControlType` varchar(255) NOT NULL default '',
+				  PRIMARY KEY  (`PropertyId`),
+				  KEY `Entity` (`Entity`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+				]]>
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquiz_result_scale` (
+				  `ScaleId` int(10) unsigned NOT NULL auto_increment,
+				  `ScaleName` varchar(255) NOT NULL,
+				  `Created` datetime NOT NULL,
+				  `CreatedBy` int(10) unsigned NOT NULL,
+				  `Modified` datetime default NULL,
+				  `ModifiedBy` int(10) unsigned NOT NULL default '0',
+				  PRIMARY KEY  (`ScaleId`),
+				  KEY `ScaleName` (`ScaleName`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquiz_result_scale_item` (
+				  `ScaleItemId` int(10) unsigned NOT NULL auto_increment,
+				  `ScaleId` int(10) unsigned NOT NULL,
+				  `BeginPoint` int(10) unsigned NOT NULL,
+				  `EndPoint` int(10) unsigned NOT NULL,
+				  `TextTemplateId` int(11) unsigned default NULL,
+				  `MailTemplateId` int(11) unsigned default NULL,
+				  `PrintTemplateId` int(11) unsigned default NULL,
+				  PRIMARY KEY  (`ScaleItemId`),
+				  KEY `ScaleId` (`ScaleId`),
+				  KEY `TextTemplateId` (`TextTemplateId`),
+				  KEY `MailTemplateId` (`MailTemplateId`),
+				  KEY `PrintTemplateId` (`PrintTemplateId`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquiz_property_value` (
+			      `PropertyId` int(10) unsigned NOT NULL default '0',
+				  `PropertyValue` text,
+				  `EntityKey` int(10) unsigned NOT NULL default '0',
+				  UNIQUE KEY `EntityKey` (`EntityKey`,`PropertyId`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquiz_export_quiz` (
+				  `QuizId` int(11) unsigned NOT NULL,
+				  `ExportResults` tinyint(1) unsigned NOT NULL default '0',
+				  `ProfileId` int(11) unsigned NOT NULL,
+				  UNIQUE KEY `QuizId` (`QuizId`,`ProfileId`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquiz_export_bankquestion` (
+			      `QuestionId` int(11) unsigned NOT NULL,
+				  `ProfileId` int(11) unsigned NOT NULL,
+				  UNIQUE KEY `QuestionId` (`QuestionId`,`ProfileId`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquiz_export` (
+				  `ProfileId` int(11) NOT NULL auto_increment,
+				  `ProfileName` varchar(255) NOT NULL default '',
+				  `ProfileAlias` varchar(30) default NULL,
+				  `ExportAllQuizzes` tinyint(1) unsigned NOT NULL default '1',
+				  `ExportAllBankQuestions` tinyint(1) unsigned NOT NULL default '1',
+				  `ExportQuizzes` tinyint(1) unsigned NOT NULL default '1',
+				  `ExportBankQuestions` tinyint(1) unsigned NOT NULL default '1',
+				  `ExportQuizResults` tinyint(1) unsigned NOT NULL default '1',
+				  `Created` datetime NOT NULL default '0000-00-00 00:00:00',
+				  `CreatedBy` int(11) unsigned NOT NULL default '0',
+				  `Modified` datetime default NULL,
+				  `ModifiedBy` int(11) unsigned default NULL,
+				  PRIMARY KEY  (`ProfileId`),
+				  UNIQUE KEY `ProfileAlias` (`ProfileAlias`)
+  				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				CREATE TABLE IF NOT EXISTS `#__ariquiz_question_version_files` (
+				  `FileId` int(11) unsigned NOT NULL,
+				  `QuestionVersionId` int(11) unsigned NOT NULL,
+				  `Alias` varchar(85) NOT NULL default '',
+				  `QuestionId` int(11) unsigned NOT NULL,
+				  UNIQUE KEY `Alias` (`Alias`,`QuestionVersionId`),
+				  KEY `QuestionId` (`QuestionId`),
+                  KEY `FileId` (`FileId`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+				<![CDATA[
+				INSERT INTO `#__ariquiz_export` (`ProfileId`,`ProfileName`,`ProfileAlias`,`ExportAllQuizzes`,`ExportAllBankQuestions`,`ExportQuizzes`,`ExportBankQuestions`,`ExportQuizResults`,`Created`, `CreatedBy`, `Modified`, `ModifiedBy`) VALUES(NULL,'Default','default',1,1,1,1,1,NOW(),0,NULL,NULL)
+					ON DUPLICATE KEY UPDATE `ProfileAlias`=`ProfileAlias`;
+				]]>
+			</query>
+			<query>
+				<![CDATA[
+				INSERT INTO `#__arigenerictemplate` (`TemplateId`, `BaseTemplateId`, `TemplateName`, `Value`, `Created`, `CreatedBy`, `Modified`, `ModifiedBy`) VALUES  (1,1,'Base Template','<div align=\"center\"><p>Dear, {$UserName}! You have <span style=\"text-transform: lowercase;\">{$Passed}</span> quiz \'{$QuizName}\'. </p></div> <table border=\"0\" style=\"border: 1px solid #cccccc; width: 100%\"> \t<tbody><tr> \t\t<th class=\"sectiontableheader\" colspan=\"2\" style=\"text-align: center\">Quiz Result</th> \t</tr> \t<tr> \t\t<td style=\"text-align: left; width: 50%; white-space: nowrap\">Result :</td> \t\t<td style=\"text-align: left\">{$UserScore} / {$MaxScore}</td> \t</tr> \t<tr> \t\t<td style=\"text-align: left; white-space: nowrap\">Percentage :</td> \t\t<td style=\"text-align: left\">{$PercentScore} %</td> \t</tr> \t<tr> \t\t<td style=\"text-align: left; white-space: nowrap\">Passed :</td> \t\t<td style=\"text-align: left\">{$Passed}</td> \t</tr> \t<tr> \t\t<td style=\"text-align: left; white-space: nowrap\">Start Date :</td> \t\t<td style=\"text-align: left\">{$StartDate}</td> \t</tr> \t<tr> \t\t<td style=\"text-align: left; white-space: nowrap\">End Date :</td> \t\t<td style=\"text-align: left\">{$EndDate}</td> \t</tr> \t<tr> \t\t<td style=\"text-align: left; white-space: nowrap\">Spent Time :</td> \t\t<td style=\"text-align: left\">{$SpentTime}</td> \t</tr> <tr><td>Passed Percentage :<br /></td><td>{$PassedScore} %<br /></td></tr></tbody></table>','2008-02-10 10:52:47',62,'2008-02-12 09:58:18',62)
+					ON DUPLICATE KEY UPDATE BaseTemplateId=BaseTemplateId;
+				]]>
+			</query>
+			<query>
+				INSERT INTO `#__arigenerictemplatebase` (`BaseTemplateId`, `DefaultValue`, `TemplateDescription`, `Group`) VALUES 
+  					(1,NULL,'Using for','QuizResult'),
+  					(2,NULL,'Using for','QuizMailResult')
+  					ON DUPLICATE KEY UPDATE BaseTemplateId=BaseTemplateId;
+			</query>
+			<query>
+				INSERT INTO `#__arigenerictemplateparam` (`ParamId`, `BaseTemplateId`, `ParamName`, `ParamDescription`, `ParamType`) VALUES 
+					(1,1,'UserName','Display user name',NULL),
+					(2,1,'SpentTime','Display spent time',NULL),
+					(3,1,'StartDate','Display start date',NULL),
+					(5,1,'QuizName','Display quiz name',NULL),
+					(6,1,'MaxScore','Display max score',NULL),
+					(7,1,'UserScore','Display user score',NULL),
+					(8,1,'PercentScore','Display percent score',NULL),
+					(9,1,'PassedScore','Display passed score',NULL),
+					(10,1,'Passed','Display passed',NULL),
+					(11,1,'EndDate','Display end date',NULL),
+					(12,2,'UserName','Display user name',NULL),
+					(13,2,'SpentTime','Display spent time',NULL),
+					(14,2,'StartDate','Display start date',NULL),
+					(15,2,'QuizName','Display quiz name',NULL),
+					(16,2,'MaxScore','Display max score',NULL),
+					(17,2,'UserScore','Display user score',NULL),
+					(18,2,'PercentScore','Display percent score',NULL),
+					(19,2,'PassedScore','Display passed score',NULL),
+					(20,2,'Passed','Display passed',NULL),
+					(21,2,'EndDate','Display end date',NULL),
+					(22,1,'Email','Display user email',NULL),
+					(23,2,'Email','Display user email',NULL),
+					(24,1,'ResultsLink','Display link to results page',NULL),
+					(25,2,'ResultsLink','Display link to results page',NULL)
+					ON DUPLICATE KEY UPDATE BaseTemplateId=BaseTemplateId;
+			</query>
+			<query>
+				<![CDATA[
+				INSERT INTO `#__ariquizquestiontemplate` (`TemplateId`, `TemplateName`, `QuestionTypeId`, `Data`, `Created`, `CreatedBy`, `Modified`, `ModifiedBy`, `DisableValidation`) VALUES 
+  					(1,'Yes / No',1,'\n<answers>\n\t<answer id=\"4772579e93e2e8.32874767\">Yes</answer>\n\t<answer id=\"4772579e93e5f1.02150736\" correct=\"true\">No</answer>\n</answers>','2007-12-26 13:14:25',62,'2008-02-02 10:39:13',62,1)
+  					ON DUPLICATE KEY UPDATE TemplateId=TemplateId;
+  				]]>
+			</query>
+			<query>
+				<![CDATA[
+				INSERT INTO `#__ariquizquestiontype` (`QuestionTypeId`, `QuestionType`, `ClassName`, `Default`, `CanHaveTemplate`, `TypeOrder`) VALUES 
+					  (1,'Single Question','SingleQuestion',1,1,0),
+					  (2,'Multiple Question','MultipleQuestion',0,1,0),
+					  (3,'Correlation Question','CorrelationQuestion',0,1,0),
+					  (4,'Free Text Question','FreeTextQuestion',0,1,0),
+					  (5,'HotSpot Question','HotSpotQuestion',0,0,0),
+					  (6,'D&D Correlation Question','CorrelationDDQuestion',0,1,0),
+					  (7,'Multiple Summing Question','MultipleSummingQuestion',0,0,0)
+					ON DUPLICATE KEY UPDATE QuestionType=QuestionType;
+				]]>
+			</query>
+		</queries>
+	</install>
+	<uninstall>
+	</uninstall>
+	<administration>
+		<languages folder="languages/admin">
+			<language tag="en-GB">en-GB.com_ariquiz.ini</language>
+		</languages>
+	    <menu task="quiz_list">ARI Quiz</menu>
+	    <submenu>
+	    	<menu task="quiz_list">Quizzes</menu>
+			<menu task="category_list">Quiz Categories</menu>
+			<menu task="bankcategory_list">Bank Categories</menu>
+			<menu task="questioncategory_list">Question Categories</menu>
+			<menu task="bank">Question Bank</menu>
+			<menu task="resultscale_list">Result Scale</menu>
+			<menu task="qtemplate_list">Question Templates</menu>
+			<menu task="texttemplate_list">Text Templates</menu>
+			<menu task="mail_templates">Mail Templates</menu>
+			<menu task="results">Quiz Results</menu>
+			<menu task="lang_backend">Languages</menu>
+			<menu task="lang_frontend">Languages Frontend</menu>
+			<menu task="templates">Templates</menu>
+			<menu task="export">Export Data</menu>
+			<menu task="import">Import Data</menu>
+			<menu task="help">Help</menu>
+			<menu task="faq">F.A.Q.</menu>
+			<menu task="license">License</menu>
+	    </submenu>
+	<files><filename>admin.ariquiz.php</filename><filename>ajax/getMessages.php</filename><filename>ajax/index.html</filename><filename>cache/files/hotspot/index.html</filename><filename>cache/files/i18n/lbackend/index.html</filename><filename>cache/files/i18n/lfrontend/index.html</filename><filename>cache/files/index.html</filename><filename>cache/files/lbackend/cz.xml</filename><filename>cache/files/lbackend/de.xml</filename><filename>cache/files/lbackend/en.xml</filename><filename>cache/files/lbackend/index.html</filename><filename>cache/files/lbackend/nl.xml</filename><filename>cache/files/lbackend/ru.xml</filename><filename>cache/files/lfrontend/cz.xml</filename><filename>cache/files/lfrontend/de.xml</filename><filename>cache/files/lfrontend/en.xml</filename><filename>cache/files/lfrontend/fr.xml</filename><filename>cache/files/lfrontend/index.html</filename><filename>cache/files/lfrontend/nl.xml</filename><filename>cache/files/lfrontend/ro.xml</filename><filename>cache/files/lfrontend/ru.xml</filename><filename>cache/files/lfrontend/sk.xml</filename><filename>cache/index.html</filename><filename>config/data.xml</filename><filename>config/index.html</filename><filename>css/core.css</filename><filename>css/index.html</filename><filename>elements/category.php</filename><filename>elements/group.php</filename><filename>elements/groups.css</filename><filename>elements/groups.js</filename><filename>elements/groups.php</filename><filename>elements/header.php</filename><filename>elements/index.html</filename><filename>elements/quiz.php</filename><filename>images/advanced.png</filename><filename>images/arisoft_icon.png</filename><filename>images/circle.gif</filename><filename>images/downarrow.png</filename><filename>images/index.html</filename><filename>images/loading.gif</filename><filename>images/plus.gif</filename><filename>images/publish_x.png</filename><filename>images/tick.png</filename><filename>images/uparrow.png</filename><filename>images/x.gif</filename><filename>index.html</filename><filename>install/css/index.html</filename><filename>install/css/standard.css</filename><filename>install/description.xml</filename><filename>install/index.html</filename><filename>install.ariquiz.php</filename><filename>kernel/Cache/class.FileCache.php</filename><filename>kernel/Cache/index.html</filename><filename>kernel/class.AriKernel.php</filename><filename>kernel/Components/AriQuiz/class.AriQuiz.php</filename><filename>kernel/Components/AriQuiz/class.CDHelper.php</filename><filename>kernel/Components/AriQuiz/class.Toolbar.php</filename><filename>kernel/Components/AriQuiz/class.Util.php</filename><filename>kernel/Components/AriQuiz/index.html</filename><filename>kernel/Components/class.Constants.php</filename><filename>kernel/Components/index.html</filename><filename>kernel/Config/class.ConfigWrapper.php</filename><filename>kernel/Config/index.html</filename><filename>kernel/Config/_Templates/class.ConfigTemplates.php</filename><filename>kernel/Config/_Templates/index.html</filename><filename>kernel/Constants/class.ClassConstants.php</filename><filename>kernel/Constants/class.ConstantsManager.php</filename><filename>kernel/Constants/index.html</filename><filename>kernel/Controllers/AriQuiz/class.CategoryController.php</filename><filename>kernel/Controllers/AriQuiz/class.CategoryControllerBase.php</filename><filename>kernel/Controllers/AriQuiz/class.CSVQuestionImportController.php</filename><filename>kernel/Controllers/AriQuiz/class.ExportController.php</filename><filename>kernel/Controllers/AriQuiz/class.LMSImportController.php</filename><filename>kernel/Controllers/AriQuiz/class.PropertyController.php</filename><filename>kernel/Controllers/AriQuiz/class.QuestionBankCategoryController.php</filename><filename>kernel/Controllers/AriQuiz/class.QuestionBankController.php</filename><filename>kernel/Controllers/AriQuiz/class.QuestionCategoryController.php</filename><filename>kernel/Controllers/AriQuiz/class.QuestionController.php</filename><filename>kernel/Controllers/AriQuiz/class.QuizController.php</filename><filename>kernel/Controllers/AriQuiz/class.ResultController.php</filename><filename>kernel/Controllers/AriQuiz/class.ResultScaleController.php</filename><filename>kernel/Controllers/AriQuiz/class.UserQuizController.php</filename><filename>kernel/Controllers/AriQuiz/CSVImport/class.QuestionLoader.php</filename><filename>kernel/Controllers/AriQuiz/CSVImport/Questions/class.CorrelationDDQuestion.php</filename><filename>kernel/Controllers/AriQuiz/CSVImport/Questions/class.CorrelationQuestion.php</filename><filename>kernel/Controllers/AriQuiz/CSVImport/Questions/class.FreeTextQuestion.php</filename><filename>kernel/Controllers/AriQuiz/CSVImport/Questions/class.MultipleQuestion.php</filename><filename>kernel/Controllers/AriQuiz/CSVImport/Questions/class.MultipleSummingQuestion.php</filename><filename>kernel/Controllers/AriQuiz/CSVImport/Questions/class.QuestionBase.php</filename><filename>kernel/Controllers/AriQuiz/CSVImport/Questions/class.SingleQuestion.php</filename><filename>kernel/Controllers/AriQuiz/index.html</filename><filename>kernel/Controllers/AriQuiz/LMSImport/class.QuestionLoader.php</filename><filename>kernel/Controllers/AriQuiz/LMSImport/Questions/class.MultipleQuestion.php</filename><filename>kernel/Controllers/AriQuiz/LMSImport/Questions/class.QuestionBase.php</filename><filename>kernel/Controllers/AriQuiz/_Templates/class.ExportTemplates.php</filename><filename>kernel/Controllers/AriQuiz/_Templates/class.ResultTemplates.php</filename><filename>kernel/Controllers/AriQuiz/_Templates/index.html</filename><filename>kernel/Controllers/class.ConfigController.php</filename><filename>kernel/Controllers/class.ControllerBase.php</filename><filename>kernel/Controllers/class.FileController.php</filename><filename>kernel/Controllers/class.LicenseController.php</filename><filename>kernel/Controllers/index.html</filename><filename>kernel/Core/class.Error.php</filename><filename>kernel/Core/class.Object.php</filename><filename>kernel/Core/index.html</filename><filename>kernel/CSV/class.CSVParser.php</filename><filename>kernel/CSV/index.html</filename><filename>kernel/Data/class.DataFilter.php</filename><filename>kernel/Data/class.DDLManager.php</filename><filename>kernel/Data/Export/class.ExportController.php</filename><filename>kernel/Data/Export/index.html</filename><filename>kernel/Data/Export/_Templates/class.ExportTemplates.php</filename><filename>kernel/Data/Export/_Templates/index.html</filename><filename>kernel/Data/Import/class.ImportController.php</filename><filename>kernel/Data/Import/index.html</filename><filename>kernel/Data/index.html</filename><filename>kernel/Date/class.Date.php</filename><filename>kernel/Date/index.html</filename><filename>kernel/Entity/class.AriDBTable.php</filename><filename>kernel/Entity/class.EntityFactory.php</filename><filename>kernel/Entity/index.html</filename><filename>kernel/Entity/_AriQuizEntity/Base/class.AriQuizCategoryEntityBase.php</filename><filename>kernel/Entity/_AriQuizEntity/Base/index.html</filename><filename>kernel/Entity/_AriQuizEntity/class.ariquizbankcategoryentity.php</filename><filename>kernel/Entity/_AriQuizEntity/class.ariquizcategoryentity.php</filename><filename>kernel/Entity/_AriQuizEntity/class.ariquizentity.php</filename><filename>kernel/Entity/_AriQuizEntity/class.ariquizexportprofileentity.php</filename><filename>kernel/Entity/_AriQuizEntity/class.ariquizquestioncategoryentity.php</filename><filename>kernel/Entity/_AriQuizEntity/class.ariquizquestionentity.php</filename><filename>kernel/Entity/_AriQuizEntity/class.ariquizquestiontemplateentity.php</filename><filename>kernel/Entity/_AriQuizEntity/class.ariquizquestiontypeentity.php</filename><filename>kernel/Entity/_AriQuizEntity/class.ariquizquestionversionentity.php</filename><filename>kernel/Entity/_AriQuizEntity/class.ariquizscaleentity.php</filename><filename>kernel/Entity/_AriQuizEntity/class.ariquizscaleitementity.php</filename><filename>kernel/Entity/_AriQuizEntity/class.ariquizsecuritycategoryentity.php</filename><filename>kernel/Entity/_AriQuizEntity/class.ariquizstatisticsentity.php</filename><filename>kernel/Entity/_AriQuizEntity/class.ariquizstatisticsinfoentity.php</filename><filename>kernel/Entity/_AriQuizEntity/class.ariquizstorageentity.php</filename><filename>kernel/Entity/_AriQuizEntity/index.html</filename><filename>kernel/Entity/_AriQuizQuestionEntity/class.correlationddquestion.php</filename><filename>kernel/Entity/_AriQuizQuestionEntity/class.correlationquestion.php</filename><filename>kernel/Entity/_AriQuizQuestionEntity/class.freetextquestion.php</filename><filename>kernel/Entity/_AriQuizQuestionEntity/class.hotspotquestion.php</filename><filename>kernel/Entity/_AriQuizQuestionEntity/class.multiplequestion.php</filename><filename>kernel/Entity/_AriQuizQuestionEntity/class.multiplesummingquestion.php</filename><filename>kernel/Entity/_AriQuizQuestionEntity/class.QuestionBase.php</filename><filename>kernel/Entity/_AriQuizQuestionEntity/class.singlequestion.php</filename><filename>kernel/Entity/_AriQuizQuestionEntity/index.html</filename><filename>kernel/Entity/_AriQuizQuestionEntity/_Templates/class.QuestionTemplates.php</filename><filename>kernel/Entity/_AriQuizQuestionEntity/_Templates/index.html</filename><filename>kernel/Entity/_CommonEntity/class.arifileentity.php</filename><filename>kernel/Entity/_CommonEntity/class.arimailtemplateentity.php</filename><filename>kernel/Entity/_CommonEntity/class.aritexttemplatebaseentity.php</filename><filename>kernel/Entity/_CommonEntity/class.aritexttemplateentity.php</filename><filename>kernel/Entity/_CommonEntity/index.html</filename><filename>kernel/Event/class.EventController.php</filename><filename>kernel/Event/index.html</filename><filename>kernel/File/class.FileManager.php</filename><filename>kernel/File/FileManagerInterfaces/class.FileManagerBase.php</filename><filename>kernel/File/FileManagerInterfaces/class.J15FileManager.php</filename><filename>kernel/File/FileManagerInterfaces/index.html</filename><filename>kernel/File/index.html</filename><filename>kernel/GlobalPrefs/class.GlobalPrefs.php</filename><filename>kernel/GlobalPrefs/index.html</filename><filename>kernel/I18N/class.I18N.php</filename><filename>kernel/I18N/index.html</filename><filename>kernel/I18N/_Templates/class.I18NTemplates.php</filename><filename>kernel/I18N/_Templates/index.html</filename><filename>kernel/index.html</filename><filename>kernel/Install/class.Installer.php</filename><filename>kernel/Install/class.XmlInstaller.php</filename><filename>kernel/Install/index.html</filename><filename>kernel/Joomla/class.JoomlaBridge.php</filename><filename>kernel/Joomla/class.JoomlaHelper.php</filename><filename>kernel/Joomla/index.html</filename><filename>kernel/MailTemplates/class.MailTemplatesController.php</filename><filename>kernel/MailTemplates/index.html</filename><filename>kernel/Mambot/class.MambotProcessHelper.php</filename><filename>kernel/Mambot/index.html</filename><filename>kernel/Persistance/class.PersistanceController.php</filename><filename>kernel/Persistance/index.html</filename><filename>kernel/PHPCompat/class.CompatPHP50x.php</filename><filename>kernel/PHPCompat/CompatPHP50x.php</filename><filename>kernel/PHPCompat/index.html</filename><filename>kernel/Remote/class.Remote.php</filename><filename>kernel/Remote/class.Snoopy.php</filename><filename>kernel/Remote/index.html</filename><filename>kernel/Remote/Snoopy.php</filename><filename>kernel/Security/class.License.php</filename><filename>kernel/Security/class.LicenseUtils.php</filename><filename>kernel/Security/class.Security.php</filename><filename>kernel/Security/class.UserController.php</filename><filename>kernel/Security/index.html</filename><filename>kernel/SecurityRules/class.SecurityRulesController.php</filename><filename>kernel/SecurityRules/index.html</filename><filename>kernel/SimpleTemplate/class.SimpleTemplate.php</filename><filename>kernel/SimpleTemplate/Filters/class.FilterBase.php</filename><filename>kernel/SimpleTemplate/Filters/class.LoadAll.php</filename><filename>kernel/SimpleTemplate/Filters/class.LowerCase.php</filename><filename>kernel/SimpleTemplate/Filters/class.StripTags.php</filename><filename>kernel/SimpleTemplate/Filters/class.Truncate.php</filename><filename>kernel/SimpleTemplate/Filters/class.UpperCase.php</filename><filename>kernel/SimpleTemplate/Filters/index.html</filename><filename>kernel/SimpleTemplate/index.html</filename><filename>kernel/String/class.String.php</filename><filename>kernel/String/convertTable.php</filename><filename>kernel/String/index.html</filename><filename>kernel/String/utf8/index.html</filename><filename>kernel/String/utf8/utf8/index.html</filename><filename>kernel/String/utf8/utf8/LICENSE</filename><filename>kernel/String/utf8/utf8/mbstring/case.php</filename><filename>kernel/String/utf8/utf8/mbstring/core.php</filename><filename>kernel/String/utf8/utf8/mbstring/index.html</filename><filename>kernel/String/utf8/utf8/mbstring/strlen.php</filename><filename>kernel/String/utf8/utf8/native/case.php</filename><filename>kernel/String/utf8/utf8/native/core.php</filename><filename>kernel/String/utf8/utf8/native/index.html</filename><filename>kernel/String/utf8/utf8/native/strlen.php</filename><filename>kernel/String/utf8/utf8/strcasecmp.php</filename><filename>kernel/String/utf8/utf8/strcspn.php</filename><filename>kernel/String/utf8/utf8/stristr.php</filename><filename>kernel/String/utf8/utf8/strrev.php</filename><filename>kernel/String/utf8/utf8/strspn.php</filename><filename>kernel/String/utf8/utf8/str_ireplace.php</filename><filename>kernel/String/utf8/utf8/str_split.php</filename><filename>kernel/String/utf8/utf8/substr_replace.php</filename><filename>kernel/String/utf8/utf8/trim.php</filename><filename>kernel/String/utf8/utf8/ucfirst.php</filename><filename>kernel/String/utf8/utf8/ucwords.php</filename><filename>kernel/String/utf8/utf8/utf8.php</filename><filename>kernel/String/utf8/utf8/utils/ascii.php</filename><filename>kernel/String/utf8/utf8/utils/bad.php</filename><filename>kernel/String/utf8/utf8/utils/index.html</filename><filename>kernel/String/utf8/utf8/utils/patterns.php</filename><filename>kernel/String/utf8/utf8/utils/specials.php</filename><filename>kernel/String/utf8/utf8/utils/unicode.php</filename><filename>kernel/String/utf8/utf8/utils/validation.php</filename><filename>kernel/System/class.System.php</filename><filename>kernel/System/index.html</filename><filename>kernel/Text/class.Text.php</filename><filename>kernel/Text/index.html</filename><filename>kernel/TextTemplates/class.TextTemplateController.php</filename><filename>kernel/TextTemplates/index.html</filename><filename>kernel/Utils/class.Utils.php</filename><filename>kernel/Utils/index.html</filename><filename>kernel/Web/class.HtmlHelper.php</filename><filename>kernel/Web/class.Request.php</filename><filename>kernel/Web/class.Response.php</filename><filename>kernel/Web/class.TaskManager.php</filename><filename>kernel/Web/Controls/Advanced/class.MultiplierControls.php</filename><filename>kernel/Web/Controls/Advanced/class.MultiplierControls2.php</filename><filename>kernel/Web/Controls/Advanced/index.html</filename><filename>kernel/Web/Controls/class.CheckBox.php</filename><filename>kernel/Web/Controls/class.ControlFactory.php</filename><filename>kernel/Web/Controls/class.Editor.php</filename><filename>kernel/Web/Controls/class.ListBox.php</filename><filename>kernel/Web/Controls/class.TextBox.php</filename><filename>kernel/Web/Controls/class.WebControl.php</filename><filename>kernel/Web/Controls/Data/class.DataSource.php</filename><filename>kernel/Web/Controls/Data/class.DataTable.php</filename><filename>kernel/Web/Controls/Data/class.DataTableColumn.php</filename><filename>kernel/Web/Controls/Data/class.DataTableSortOptions.php</filename><filename>kernel/Web/Controls/Data/class.MultiPageDataTable.php</filename><filename>kernel/Web/Controls/Data/class.Paginator.php</filename><filename>kernel/Web/Controls/Data/index.html</filename><filename>kernel/Web/Controls/Data/_Templates/class.DataSourceTemplates.php</filename><filename>kernel/Web/Controls/Data/_Templates/class.DataTableTemplates.php</filename><filename>kernel/Web/Controls/Data/_Templates/index.html</filename><filename>kernel/Web/Controls/index.html</filename><filename>kernel/Web/Controls/Toolbar/class.JToolbar10.php</filename><filename>kernel/Web/Controls/Toolbar/class.JToolbar15.php</filename><filename>kernel/Web/Controls/Toolbar/class.Toolbar.php</filename><filename>kernel/Web/Controls/Toolbar/class.ToolbarAbstract.php</filename><filename>kernel/Web/Controls/Toolbar/class.ToolbarFactory.php</filename><filename>kernel/Web/Controls/Toolbar/index.html</filename><filename>kernel/Web/Controls/Validators/class.AlertSummaryValidator.php</filename><filename>kernel/Web/Controls/Validators/class.CustomValidator.php</filename><filename>kernel/Web/Controls/Validators/class.RangeValidator.php</filename><filename>kernel/Web/Controls/Validators/class.RegExValidator.php</filename><filename>kernel/Web/Controls/Validators/class.RequiredValidator.php</filename><filename>kernel/Web/Controls/Validators/class.Validator.php</filename><filename>kernel/Web/Controls/Validators/index.html</filename><filename>kernel/Web/index.html</filename><filename>kernel/Web/JSON/class.JSON.php</filename><filename>kernel/Web/JSON/class.JSONHelper.php</filename><filename>kernel/Web/JSON/index.html</filename><filename>kernel/Web/JSON/JSON.php</filename><filename>kernel/Web/Page/class.AjaxPageBase.php</filename><filename>kernel/Web/Page/class.PageBase.php</filename><filename>kernel/Web/Page/class.PageHelper.php</filename><filename>kernel/Web/Page/index.html</filename><filename>kernel/Web/Page/Specific/class.AdminPageBase.php</filename><filename>kernel/Web/Page/Specific/class.AdminSecurePageBase.php</filename><filename>kernel/Web/Page/Specific/class.GetCacheFile.php</filename><filename>kernel/Web/Page/Specific/class.LangAddPageBase.php</filename><filename>kernel/Web/Page/Specific/class.LangListPageBase.php</filename><filename>kernel/Web/Page/Specific/index.html</filename><filename>kernel/Web/Page/Specific/_Templates/AdminPageFooter.html.php</filename><filename>kernel/Web/Page/Specific/_Templates/AdminPageHeader.html.php</filename><filename>kernel/Web/Page/Specific/_Templates/index.html</filename><filename>kernel/Web/Utils/class.WebHelper.php</filename><filename>kernel/Web/Utils/index.html</filename><filename>kernel/Xml/class.SimpleXml.php</filename><filename>kernel/Xml/class.SimpleXmlHelper.php</filename><filename>kernel/Xml/index.html</filename><filename>kernel/Xml/_Templates/class.SimpleXmlTemplates.php</filename><filename>kernel/Xml/_Templates/index.html</filename><filename>languages/admin/en-GB.com_ariquiz.ini</filename><filename>license.txt</filename><filename>modules/result/joomla10/mod_ariquizresult.xml</filename><filename>modules/result/joomla15/mod_ariquizresult.xml</filename><filename>modules/result/mod_ariquizresult.php</filename><filename>modules/topresult/joomla10/mod_ariquiztopresult.xml</filename><filename>modules/topresult/joomla15/mod_ariquiztopresult.xml</filename><filename>modules/topresult/mod_ariquiztopresult.php</filename><filename>modules/userresult/joomla10/mod_ariquizuserresult.xml</filename><filename>modules/userresult/joomla15/mod_ariquizuserresult.xml</filename><filename>modules/userresult/mod_ariquizuserresult.php</filename><filename>modules/usertopresult/joomla10/mod_ariquizusertopresult.xml</filename><filename>modules/usertopresult/joomla15/mod_ariquizusertopresult.xml</filename><filename>modules/usertopresult/mod_ariquizusertopresult.php</filename><filename>pages/bank.php</filename><filename>pages/bankcategory_add.php</filename><filename>pages/bankcategory_list.php</filename><filename>pages/bank_add.php</filename><filename>pages/base/categoryAddPageBase.php</filename><filename>pages/base/categoryListPageBase.php</filename><filename>pages/base/index.html</filename><filename>pages/base/mailTemplate.base.php</filename><filename>pages/base/mailTemplateList.base.php</filename><filename>pages/base/questionAddPageBase.php</filename><filename>pages/base/quizMailTemplate.base.php</filename><filename>pages/base/resultScale.base.php</filename><filename>pages/blang_add.php</filename><filename>pages/category_add.php</filename><filename>pages/category_list.php</filename><filename>pages/debug.php</filename><filename>pages/export.php</filename><filename>pages/faq.php</filename><filename>pages/flang_add.php</filename><filename>pages/help.php</filename><filename>pages/import.php</filename><filename>pages/index.html</filename><filename>pages/lang_backend.php</filename><filename>pages/lang_frontend.php</filename><filename>pages/license.php</filename><filename>pages/mailtemplate_add.php</filename><filename>pages/mailtemplate_update.php</filename><filename>pages/mail_templates.php</filename><filename>pages/qtemplate_add.php</filename><filename>pages/qtemplate_list.php</filename><filename>pages/questioncategory_add.php</filename><filename>pages/questioncategory_list.php</filename><filename>pages/question_add.php</filename><filename>pages/question_list.php</filename><filename>pages/quiz_add.php</filename><filename>pages/quiz_list.php</filename><filename>pages/result.php</filename><filename>pages/results.php</filename><filename>pages/resultscale_add.php</filename><filename>pages/resultscale_list.php</filename><filename>pages/resultscale_update.php</filename><filename>pages/templates.php</filename><filename>pages/template_add.php</filename><filename>pages/texttemplate_add.php</filename><filename>pages/texttemplate_list.php</filename><filename>pages/texttemplate_preview.php</filename><filename>questions_import.csv</filename><filename>templates/bank.html.php</filename><filename>templates/bankcategory_add.html.php</filename><filename>templates/bankcategory_list.html.php</filename><filename>templates/bank_add.html.php</filename><filename>templates/base/category_add.base.html.php</filename><filename>templates/base/category_list.base.html.php</filename><filename>templates/base/index.html</filename><filename>templates/base/mailTemplate.base.html.php</filename><filename>templates/base/mailTemplateList.base.html.php</filename><filename>templates/base/resultScale.base.html.php</filename><filename>templates/blang_add.html.php</filename><filename>templates/category_add.html.php</filename><filename>templates/category_list.html.php</filename><filename>templates/debug.html.php</filename><filename>templates/export.html.php</filename><filename>templates/faq.html.php</filename><filename>templates/flang_add.html.php</filename><filename>templates/help.html.php</filename><filename>templates/import.html.php</filename><filename>templates/index.html</filename><filename>templates/lang_backend.html.php</filename><filename>templates/lang_frontend.html.php</filename><filename>templates/license.html.php</filename><filename>templates/mailtemplate_add.html.php</filename><filename>templates/mailtemplate_update.html.php</filename><filename>templates/mail_templates.html.php</filename><filename>templates/populate.html.php</filename><filename>templates/qtemplate_add.html.php</filename><filename>templates/qtemplate_list.html.php</filename><filename>templates/questioncategory_add.html.php</filename><filename>templates/questioncategory_list.html.php</filename><filename>templates/questions/correlationddquestion.html.php</filename><filename>templates/questions/correlationquestion.html.php</filename><filename>templates/questions/freetextquestion.html.php</filename><filename>templates/questions/hotspotquestion.html.php</filename><filename>templates/questions/index.html</filename><filename>templates/questions/multiplequestion.html.php</filename><filename>templates/questions/multiplesummingquestion.html.php</filename><filename>templates/questions/singlequestion.html.php</filename><filename>templates/question_add.html.php</filename><filename>templates/question_list.html.php</filename><filename>templates/quiz_add.html.php</filename><filename>templates/quiz_list.html.php</filename><filename>templates/result.html.php</filename><filename>templates/results.html.php</filename><filename>templates/resultscale_add.html.php</filename><filename>templates/resultscale_list.html.php</filename><filename>templates/resultscale_update.html.php</filename><filename>templates/templates.html.php</filename><filename>templates/template_add.html.php</filename><filename>templates/texttemplate_add.html.php</filename><filename>templates/texttemplate_list.html.php</filename><filename>toolbar.ariquiz.php</filename><filename>uninstall.ariquiz.php</filename></files></administration>
+<files><filename>ariquiz.php</filename><filename>cache/files/css/index.html</filename><filename>cache/files/index.html</filename><filename>cache/index.html</filename><filename>css/calculator.css</filename><filename>css/default.css</filename><filename>css/index.html</filename><filename>frontend_pages/cat_quiz_list.php</filename><filename>frontend_pages/get_ticket.php</filename><filename>frontend_pages/index.html</filename><filename>frontend_pages/question.php</filename><filename>frontend_pages/quiz.php</filename><filename>frontend_pages/quiz_finished.php</filename><filename>frontend_pages/quiz_info.php</filename><filename>frontend_pages/quiz_list.php</filename><filename>frontend_pages/quiz_stat.php</filename><filename>frontend_pages/resume_quiz.php</filename><filename>frontend_pages/scripts/index.html</filename><filename>frontend_pages/scripts/messages.php</filename><filename>frontend_pages/scripts/showHotspot.php</filename><filename>frontend_pages/showHotSpot.php</filename><filename>frontend_pages/take_quiz.php</filename><filename>images/circle.gif</filename><filename>images/index.html</filename><filename>images/loading.gif</filename><filename>images/publish_x.png</filename><filename>images/tick.png</filename><filename>images/x.gif</filename><filename>index.html</filename><filename>js/ari.all.js</filename><filename>js/ari.calculator.js</filename><filename>js/ari.multiplierControls.js</filename><filename>js/ari.pageController.js</filename><filename>js/ari.quiz.js</filename><filename>js/date.js</filename><filename>js/edit_area/edit_area.css</filename><filename>js/edit_area/edit_area_full_with_plugins.js</filename><filename>js/edit_area/images/autocompletion.gif</filename><filename>js/edit_area/images/close.gif</filename><filename>js/edit_area/images/fullscreen.gif</filename><filename>js/edit_area/images/go_to_line.gif</filename><filename>js/edit_area/images/help.gif</filename><filename>js/edit_area/images/highlight.gif</filename><filename>js/edit_area/images/index.html</filename><filename>js/edit_area/images/load.gif</filename><filename>js/edit_area/images/move.gif</filename><filename>js/edit_area/images/newdocument.gif</filename><filename>js/edit_area/images/opacity.png</filename><filename>js/edit_area/images/processing.gif</filename><filename>js/edit_area/images/redo.gif</filename><filename>js/edit_area/images/reset_highlight.gif</filename><filename>js/edit_area/images/save.gif</filename><filename>js/edit_area/images/search.gif</filename><filename>js/edit_area/images/smooth_selection.gif</filename><filename>js/edit_area/images/spacer.gif</filename><filename>js/edit_area/images/statusbar_resize.gif</filename><filename>js/edit_area/images/undo.gif</filename><filename>js/edit_area/index.html</filename><filename>js/edit_area/langs/en.js</filename><filename>js/edit_area/langs/index.html</filename><filename>js/edit_area/reg_syntax/css.js</filename><filename>js/edit_area/reg_syntax/index.html</filename><filename>js/edit_area/reg_syntax/sql.js</filename><filename>js/index.html</filename><filename>js/MooCrop.js</filename><filename>js/mootools.js</filename><filename>js/questions.js</filename><filename>js/widgets/ari.calendar.js</filename><filename>js/widgets/ari.watermarktext.widget.js</filename><filename>js/widgets/index.html</filename><filename>js/yui/assets/bg_hd.gif</filename><filename>js/yui/assets/example-hd-bg.gif</filename><filename>js/yui/assets/index.html</filename><filename>js/yui/assets/title_h_bg.gif</filename><filename>js/yui/assets/yui.css</filename><filename>js/yui/build/assets/index.html</filename><filename>js/yui/build/assets/skins/index.html</filename><filename>js/yui/build/assets/skins/sam/asc.gif</filename><filename>js/yui/build/assets/skins/sam/container.css</filename><filename>js/yui/build/assets/skins/sam/datatable.css</filename><filename>js/yui/build/assets/skins/sam/desc.gif</filename><filename>js/yui/build/assets/skins/sam/dt-arrow-dn.png</filename><filename>js/yui/build/assets/skins/sam/dt-arrow-up.png</filename><filename>js/yui/build/assets/skins/sam/index.html</filename><filename>js/yui/build/assets/skins/sam/sprite.png</filename><filename>js/yui/build/assets/skins/sam/tabview.css</filename><filename>js/yui/build/calendar/assets/calendar-core.css</filename><filename>js/yui/build/calendar/assets/calendar.css</filename><filename>js/yui/build/calendar/assets/calgrad.png</filename><filename>js/yui/build/calendar/assets/callt.gif</filename><filename>js/yui/build/calendar/assets/calrt.gif</filename><filename>js/yui/build/calendar/assets/calx.gif</filename><filename>js/yui/build/calendar/assets/skins/sam/calendar-skin.css</filename><filename>js/yui/build/calendar/assets/skins/sam/calendar.css</filename><filename>js/yui/build/calendar/calendar-min.js</filename><filename>js/yui/build/container/assets/alrt16_1.gif</filename><filename>js/yui/build/container/assets/blck16_1.gif</filename><filename>js/yui/build/container/assets/close12_1.gif</filename><filename>js/yui/build/container/assets/container-core.css</filename><filename>js/yui/build/container/assets/container.css</filename><filename>js/yui/build/container/assets/hlp16_1.gif</filename><filename>js/yui/build/container/assets/index.html</filename><filename>js/yui/build/container/assets/info16_1.gif</filename><filename>js/yui/build/container/assets/skins/index.html</filename><filename>js/yui/build/container/assets/skins/sam/container-skin.css</filename><filename>js/yui/build/container/assets/skins/sam/container.css</filename><filename>js/yui/build/container/assets/skins/sam/index.html</filename><filename>js/yui/build/container/assets/tip16_1.gif</filename><filename>js/yui/build/container/assets/warn16_1.gif</filename><filename>js/yui/build/container/container-min.js</filename><filename>js/yui/build/container/container_core-min.js</filename><filename>js/yui/build/container/index.html</filename><filename>js/yui/build/datasource/datasource-min.js</filename><filename>js/yui/build/datasource/index.html</filename><filename>js/yui/build/datatable/assets/datatable-core.css</filename><filename>js/yui/build/datatable/assets/datatable.css</filename><filename>js/yui/build/datatable/assets/index.html</filename><filename>js/yui/build/datatable/assets/skins/index.html</filename><filename>js/yui/build/datatable/assets/skins/joomla/datatable-skin.css</filename><filename>js/yui/build/datatable/assets/skins/joomla/datatable.css</filename><filename>js/yui/build/datatable/assets/skins/joomla/dt-arrow-dn.png</filename><filename>js/yui/build/datatable/assets/skins/joomla/dt-arrow-up.png</filename><filename>js/yui/build/datatable/assets/skins/joomla/index.html</filename><filename>js/yui/build/datatable/assets/skins/joomla/transparent.gif</filename><filename>js/yui/build/datatable/assets/skins/sam/datatable-skin.css</filename><filename>js/yui/build/datatable/assets/skins/sam/datatable.css</filename><filename>js/yui/build/datatable/assets/skins/sam/dt-arrow-dn.png</filename><filename>js/yui/build/datatable/assets/skins/sam/dt-arrow-up.png</filename><filename>js/yui/build/datatable/assets/skins/sam/index.html</filename><filename>js/yui/build/datatable/datatable-min.js</filename><filename>js/yui/build/datatable/index.html</filename><filename>js/yui/build/element/element-min.js</filename><filename>js/yui/build/element/index.html</filename><filename>js/yui/build/index.html</filename><filename>js/yui/build/json/index.html</filename><filename>js/yui/build/json/json-min.js</filename><filename>js/yui/build/menu/assets/index.html</filename><filename>js/yui/build/menu/assets/menu-core.css</filename><filename>js/yui/build/menu/assets/menu.css</filename><filename>js/yui/build/menu/assets/menubaritem_submenuindicator.png</filename><filename>js/yui/build/menu/assets/menubaritem_submenuindicator_disabled.png</filename><filename>js/yui/build/menu/assets/menubaritem_submenuindicator_selected.png</filename><filename>js/yui/build/menu/assets/menuitem_checkbox.png</filename><filename>js/yui/build/menu/assets/menuitem_checkbox_disabled.png</filename><filename>js/yui/build/menu/assets/menuitem_checkbox_selected.png</filename><filename>js/yui/build/menu/assets/menuitem_submenuindicator.png</filename><filename>js/yui/build/menu/assets/menuitem_submenuindicator_disabled.png</filename><filename>js/yui/build/menu/assets/menuitem_submenuindicator_selected.png</filename><filename>js/yui/build/menu/assets/menu_down_arrow.png</filename><filename>js/yui/build/menu/assets/menu_down_arrow_disabled.png</filename><filename>js/yui/build/menu/assets/menu_up_arrow.png</filename><filename>js/yui/build/menu/assets/menu_up_arrow_disabled.png</filename><filename>js/yui/build/menu/assets/skins/index.html</filename><filename>js/yui/build/menu/assets/skins/sam/index.html</filename><filename>js/yui/build/menu/assets/skins/sam/menu-skin.css</filename><filename>js/yui/build/menu/assets/skins/sam/menu.css</filename><filename>js/yui/build/menu/assets/skins/sam/menubaritem_submenuindicator.png</filename><filename>js/yui/build/menu/assets/skins/sam/menubaritem_submenuindicator_disabled.png</filename><filename>js/yui/build/menu/assets/skins/sam/menuitem_checkbox.png</filename><filename>js/yui/build/menu/assets/skins/sam/menuitem_checkbox_disabled.png</filename><filename>js/yui/build/menu/assets/skins/sam/menuitem_submenuindicator.png</filename><filename>js/yui/build/menu/assets/skins/sam/menuitem_submenuindicator_disabled.png</filename><filename>js/yui/build/menu/index.html</filename><filename>js/yui/build/menu/menu-min.js</filename><filename>js/yui/build/paginator/assets/index.html</filename><filename>js/yui/build/paginator/assets/paginator-core.css</filename><filename>js/yui/build/paginator/assets/skins/index.html</filename><filename>js/yui/build/paginator/assets/skins/sam/index.html</filename><filename>js/yui/build/paginator/assets/skins/sam/paginator-skin.css</filename><filename>js/yui/build/paginator/assets/skins/sam/paginator.css</filename><filename>js/yui/build/paginator/index.html</filename><filename>js/yui/build/paginator/paginator-min.js</filename><filename>js/yui/build/selector/index.html</filename><filename>js/yui/build/selector/selector-min.js</filename><filename>js/yui/build/tabview/assets/border_tabs.css</filename><filename>js/yui/build/tabview/assets/index.html</filename><filename>js/yui/build/tabview/assets/loading.gif</filename><filename>js/yui/build/tabview/assets/skin-sam.css</filename><filename>js/yui/build/tabview/assets/skins/index.html</filename><filename>js/yui/build/tabview/assets/skins/sam/index.html</filename><filename>js/yui/build/tabview/assets/skins/sam/tabview-skin.css</filename><filename>js/yui/build/tabview/assets/skins/sam/tabview.css</filename><filename>js/yui/build/tabview/assets/tabview-core.css</filename><filename>js/yui/build/tabview/assets/tabview.css</filename><filename>js/yui/build/tabview/index.html</filename><filename>js/yui/build/tabview/tabview-min.js</filename><filename>js/yui/build/utilities/index.html</filename><filename>js/yui/build/utilities/utilities.js</filename><filename>js/yui/build/yahoo/index.html</filename><filename>js/yui/build/yahoo/yahoo-min.js</filename><filename>js/yui/build/yahoo-dom-event/index.html</filename><filename>js/yui/build/yahoo-dom-event/yahoo-dom-event.js</filename><filename>js/yui/index.html</filename><filename>license.txt</filename><filename>view/cat_quiz_list.html.php</filename><filename>view/get_ticket.html.php</filename><filename>view/index.html</filename><filename>view/question.html.php</filename><filename>view/quiz.html.php</filename><filename>view/quiz_finished.html.php</filename><filename>view/quiz_info.html.php</filename><filename>view/quiz_list.html.php</filename><filename>view/quiz_stat.html.php</filename><filename>view/stats/index.html</filename><filename>view/stats/stats1/correlationquestion.html.php</filename><filename>view/stats/stats1/freetextquestion.html.php</filename><filename>view/stats/stats1/full_result.html.php</filename><filename>view/stats/stats1/hotspotquestion.html.php</filename><filename>view/stats/stats1/index.html</filename><filename>view/stats/stats1/multiplequestion.html.php</filename><filename>view/stats/stats1/singlequestion.html.php</filename><filename>views/category/index.html</filename><filename>views/category/tmpl/default.php</filename><filename>views/category/tmpl/default.xml</filename><filename>views/category/tmpl/index.html</filename><filename>views/index.html</filename><filename>views/quiz/index.html</filename><filename>views/quiz/tmpl/default.php</filename><filename>views/quiz/tmpl/default.xml</filename><filename>views/quiz/tmpl/index.html</filename><filename>views/quizzes/index.html</filename><filename>views/quizzes/tmpl/default.php</filename><filename>views/quizzes/tmpl/default.xml</filename><filename>views/quizzes/tmpl/index.html</filename></files></install>

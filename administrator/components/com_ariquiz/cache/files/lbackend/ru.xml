@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource>
+	<!-- v 2.8.0 -->
+	<item id="Tooltip.FullStatistics" group="Text">
+		<message>Если этот параметр установлен в 'Никогда', то пользователь не сможет просматривать детальную статистику. Если этот параметр установлен в 'Всегда', пользователь сможет просматривать детальную статистику после сдачи теста. Если параметр установлен в 'При последней попытке', то зарегестрированные пользователи будут видеть детальную статистику, если это была их последняя попытка сдачи теста, гости будут видеть статистику всегда.</message>
+		<description>Подсказка</description>
+	</item>
+	<item id="Label.FST.Never" group="Labels">
+		<message>Никогда</message>
+		<description>Типа детальной статистики: Никогда</description>
+	</item>
+	<item id="Label.FST.Always" group="Labels">
+		<message>Всегда</message>
+		<description>Типа детальной статистики: Всегда</description>
+	</item>
+	<item id="Label.FST.OnLastAttempt" group="Labels">
+		<message>При последней попытке</message>
+		<description>Типа детальной статистики: При последней попытке</description>
+	</item>
+	<item id="Label.AnonStatus" group="Labels">
+		<message>Анонимность</message>
+		<description>Анонимность</description>
+	</item>
+	<item id="Label.AnonStatus.Yes" group="Labels">
+		<message>Да</message>
+		<description>Тип аноннимности: Да</description>
+	</item>
+	<item id="Label.AnonStatus.No" group="Labels">
+		<message>Нет</message>
+		<description>Тип аноннимности: Нет</description>
+	</item>
+	<item id="Label.AnonStatus.ByUser" group="Labels">
+		<message>По желанию пользователя</message>
+		<description>Тип аноннимности: По желанию пользователя</description>
+	</item>
+	<item id="Tooltip.Anomymous" group="Text">
+		<message>Если параметр установлен в 'Да', то гости смогут сдавать тест анонимно. Если параметр установлен в 'Нет', то гости должны будут указать своё имя и почтовый ящик. Если параметр установлен в 'По желанию пользователя', то гости могут при желании указать своё имя и(или) почтовый ящик.</message>
+		<description>Подсказка</description>
+	</item>
+	<item id="Tooltip.ShowCorrectAnswer" group="Text">
+		<message>Если этот параметр включён, то пользователи смогут видеть правильный ответ на вопрос, во время сдачи теста</message>
+		<description>Подсказка</description>
+	</item>
+	<item id="Tooltip.ShowExplanation" group="Text">
+		<message>Если этот параметр включён, то пользователи будут видеть правильный ответ, после ответа на вопрос.</message>
+		<description>Подсказка</description>
+	</item>
+	<item id="Label.ShowCorrectAnswer" group="Labels">
+		<message>Показывать верный ответ</message>
+		<description>Показывать верный ответ</description>
+	</item>
+	<item id="Label.ShowExplanation" group="Labels">
+		<message>Показывать объяснение</message>
+		<description>Показывать объяснение</description>
+	</item>
+	<!-- v 2.7.4 -->
+	<item id="Toolbar.RemoveAll" group="Toolbar">
+		<message>Удалить Всё</message>
+		<description>Удалить Всё</description>
+	</item>
+	<item id="Warning.RemoveAllQuizResults" group="Warning">
+		<message>Вы действительно хотите удалить все результаты?</message>
+		<description>Вы действительно хотите удалить все результаты?</description>
+	</item>
+	<!-- v 2.7.3 -->
+	<item id="Text.MSQNote" group="Text">
+		<message>Укажите варианты ответов и количество очков за ответы. Если пользователь выберет несколько ответов, то кол-во балов за вопрос будет составлять сумму очков за каждый из ответов. Пустые ответы будут проигнорированы.</message>
+		<description>Примечание для multiple summing question</description>
+	</item>
+	<!-- v 2.6.0 -->
+	<item id="Toolbar.FromBank" group="Toolbar">
+		<message>Из банка</message>
+		<description>Из банка</description>
+	</item>	
+	<item id="Validator.SelectQuiz" group="Validators">
+		<message>Пожалуйста, выберите опрос</message>
+		<description>Пожалуйста, выберите опрос</description>
+	</item>
+	<item id="Label.BasedOnBank" group="Labels">
+		<message>Заменить вопросом из банка</message>
+		<description>Заменить вопросом из банка</description>
+	</item>
+	<item id="Complete.QuestionCopy" group="Labels">
+		<message>Вопросы были успешно скопированы</message>
+		<description>Вопросы были успешно скопированы</description>
+	</item>
+	<item id="Complete.QuestionMove" group="Labels">
+		<message>Вопросы были успешно перемещены</message>
+		<description>Вопросы были успешно перемещены</description>
+	</item>
+	<item id="Complete.QuizCopy" group="Labels">
+		<message>Опросы были успешно скопированы</message>
+		<description>Опросы были успешно скопированы</description>
+	</item>
+	<item id="Complete.QuestionBankCopy" group="Labels">
+		<message>Вопросы были успешно скопированы в банк</message>
+		<description>Вопросы были успешно скопированы в банк</description>
+	</item>
+	<item id="Label.CopyToBank" group="Labels">
+		<message>Копировать вопросы в банк</message>
+		<description>Копировать вопросы в банк</description>
+	</item>
+	<item id="Toolbar.ToBank" group="Toolbar">
+		<message>В банк</message>
+		<description>В банк</description>
+	</item>
+	<item id="Complete.MassEdit" group="Complete">
+		<message>Настройки были успешно сохранены</message>
+		<description>Настройки были успешно сохранены</description>
+	</item>
+	<item id="Text.CopyQuiz" group="Text">
+		<message>Вы можете использовать предопределённую переменную {$QuizName} в поле 'Имя'. Она будет заменена на название опроса.</message>
+		<description>Вы можете использовать предопределённую переменную {$QuizName} в поле 'Имя'. Она будет заменена на название опроса</description>
+	</item>
+	<item id="Text.CopyQuestion" group="Text">
+		<message>Вы можете использовать предопределённую переменную {$Question} в поле 'Имя'. Она будет заменена на текст вопроса.</message>
+		<description>Вы можете использовать предопределённую переменную {$Question} в поле 'Имя'. Она будет заменена на текст вопроса</description>
+	</item>
+	<item id="Text.MassEditNote" group="Text">
+		<message>Если вы не хотите редактировать какие-то параметры, Вы можете отключить их, нажав на соответствующую ему метку.</message>
+		<description>Если вы не хотите редактировать какие-то параметры, Вы можете отключить их, нажав на соответствующую ему метку</description>
+	</item>
+	<item id="Validator.SelectAtLeastOneItem" group="Validators">
+		<message>Выберите как минимум один элемент из таблицы</message>
+		<description>Выберите как минимум один элемент из таблицы</description>
+	</item>
+	<item id="Validator.MassEditSettingsRequired" group="Validators">
+		<message>Выберите как минимум один параметр для редактирования</message>
+		<description>Выберите как минимум один параметр для редактирования</description>
+	</item>
+	<item id="Toolbar.Copy" group="Toolbar">
+		<message>Копировать</message>
+		<description>Копировать</description>
+	</item>
+	<item id="Toolbar.Move" group="Toolbar">
+		<message>Переместить</message>
+		<description>Переместить</description>
+	</item>
+	<item id="Label.CopySettings" group="Labels">
+		<message>Настройки</message>
+		<description>Настройки копирования</description>
+	</item>
+	<item id="Label.MoveSettings" group="Labels">
+		<message>Настройки</message>
+		<description>Настройки перемещения</description>
+	</item>
+	<item id="Label.MassEdit" group="Labels">
+		<message>Настройки</message>
+		<description>Настройки редактирования</description>
+	</item>
+	<item id="Toolbar.MassEdit" group="Toolbar">
+		<message>Редактировать</message>
+		<description>Редактировать</description>
+	</item>
+	<item id="Label.Settings" group="Labels">
+		<message>Настройки</message>
+		<description>Настройки</description>
+	</item>
+	<item id="Label.SecurityCategory" group="Labels">
+		<message>Security Category</message>
+		<description>Label for security category</description>
+	</item>
+	<item id="Title.SecurityCategoryList" group="Labels">
+		<message>Security Category List</message>
+		<description>Label for security category list</description>
+	</item>
+	<!-- v 2.5.3 -->
+	<item id="Label.Alias" group="Labels">
+		<message>Псевдоним</message>
+		<description>Псевдоним</description>
+	</item>
+	<item id="Label.SaveSettings" group="Labels">
+		<message>Сохранить настройки</message>
+		<description>Сохранить настройки</description>
+	</item>
+	<item id="Label.QOT" group="Labels">
+		<message>Тип сортировки ответов</message>
+		<description>Тип сортировки ответов</description>
+	</item>
+	<item id="Label.QOT.AlphaUpper" group="Labels">
+		<message>Буквы в верхнем регистре</message>
+		<description>Буквы в верхнем регистре</description>
+	</item>
+	<item id="Label.QOT.AlphaLower" group="Labels">
+		<message>Буквы в нижнем регистре</message>
+		<description>Буквы в нижнем регистре</description>
+	</item>
+	<item id="Label.QOT.Numeric" group="Labels">
+		<message>Число</message>
+		<description>Число</description>
+	</item>
+	<!--  Previous -->
+	<item id="Label.ExportQuestionsNote" group="Labels">
+		<message>Если эта закладка выбрана, то будут экспортированы все вопросы из банка вопросов</message>
+		<description>Если эта закладка выбрана, то будут экспортированы все вопросы из банка вопросов</description>
+	</item>
+	<item id="Label.UploadExportFile" group="Labels">
+		<message>Загрузить файл</message>
+		<description>Загрузить файл</description>
+	</item>
+	<item id="Label.ImportExportFileFromDir" group="Labels">
+		<message>Импортировать данные из директории</message>
+		<description>Импортировать данные из директории</description>
+	</item>
+	<item id="Label.ExportResults" group="Labels">
+		<message>Экспортировать результаты</message>
+		<description>Экспортировать результаты</description>
+	</item>
+	<item id="Label.Login" group="Labels">
+		<message>Логин</message>
+		<description>Логин</description>
+	</item>
+	<item id="Label.ID" group="Labels">
+		<message>ID</message>
+		<description>ID label</description>
+	</item>
+	<item id="Label.LoadUsedQuestions" group="Labels">
+		<message>Загружать использованные вопросы</message>
+		<description>Загружать использованные вопросы</description>
+	</item>
+	<item id="Label.ImportFromBank" group="Labels">
+		<message>Импортировать вопросы из банка</message>
+		<description>Импортировать вопросы из банка</description>
+	</item>
+	<item id="Label.QuizCanStop" group="Labels">
+		<message>Можно откладывать тест</message>
+		<description>Можно откладывать тест</description>
+	</item>
+	<item id="Label.ExportAllQue" group="Labels">
+		<message>Экспортировать все вопросы</message>
+		<description>Экспортировать все вопросы</description>
+	</item>
+	<item id="Label.ExportSpecQue" group="Labels">
+		<message>Экспортировать выбранные вопросы</message>
+		<description>Экспортировать выбранные вопросы</description>
+	</item>
+	<item id="Label.ExportAllQuiz" group="Labels">
+		<message>Экспортировать все тесты</message>
+		<description>Экспортировать все тесты</description>
+	</item>
+	<item id="Label.ExportSpecQuiz" group="Labels">
+		<message>Экспортировать выбранные тесты</message>
+		<description>Экспортировать выбранные тесты</description>
+	</item>
+	<item id="Title.ImportData" group="Labels">
+		<message>Импорт данных</message>
+		<description>Импорт данных</description>
+	</item>
+	<item id="Title.ExportData" group="Labels">
+		<message>Экспорт данных</message>
+		<description>Экспорт данных</description>
+	</item>
+	<item id="Label.Yes" group="Labels">
+		<message>Да</message>
+		<description>Да</description>
+	</item>
+	<item id="Label.No" group="Labels">
+		<message>Нет</message>
+		<description>Нет</description>
+	</item>
+	<item id="Label.ActionFailure" group="Labels">
+		<message>Обработка вашего запроса завершилась неудачей</message>
+		<description>Обработка вашего запроса завершилась неудачей</description>
+	</item>
+	<item id="Label.Loading" group="Labels">
+		<message>Идёт загрузка... Пожалуйста, подождите</message>
+		<description>Идёт загрузка... Пожалуйста, подождите</description>
+	</item>
+	<item id="Label.Note" group="Labels">
+		<message>Примечание</message>
+		<description>Примечание</description>
+	</item>
+	<item id="Label.RandomOrder" group="Labels">
+		<message>Случайный порядок</message>
+		<description>Случайный порядок</description>
+	</item>
+	<item id="Label.ViewType.Radio" group="Labels">
+		<message>Radio кнопки</message>
+		<description>Вид отображения: radio кнопки</description>
+	</item>
+	<item id="Label.ViewType.DropDown" group="Labels">
+		<message>Выпадающий список</message>
+		<description>Вид отображения: выпадающий список</description>
+	</item>
+	<item id="Label.ViewType" group="Labels">
+		<message>Вид отображения</message>
+		<description>Вид отображения</description>
+	</item>
+	<item id="Label.PercentScore" group="Labels">
+		<message>% Очков</message>
+		<description>Кол-во процентов от общего числа очков</description>
+	</item>
+	<item id="Label.QuestionCategory" group="Labels">
+		<message>Категория вопросов</message>
+		<description>Категория вопросов</description>
+	</item>
+	<item id="Label.ParsePluginTag" group="Labels">
+		<message>Выполять мамботов(плагины)</message>
+		<description>Выполять мамботов(плагины)</description>
+	</item>
+	<item id="Label.StartPoint" group="Labels">
+		<message>Начальное кол-во очков</message>
+		<description>Начальное кол-во очков</description>
+	</item>
+	<item id="Label.EndPoint" group="Labels">
+		<message>Конечное кол-во очков</message>
+		<description>Конечное кол-во очков</description>
+	</item>
+	<item id="Label.ChooseScale" group="Labels">
+		<message>- Выберите шкалу результатов -</message>
+		<description>Выберите шкалу результатов</description>
+	</item>
+	<item id="Label.TextTemplate" group="Labels">
+		<message>Текстовый шаблон</message>
+		<description>Текстовый шаблон</description>
+	</item>
+	<item id="Label.PrintTemplate" group="Labels">
+		<message>Шаблон для печати</message>
+		<description>Шаблон для печати</description>
+	</item>
+	<item id="Label.Percent" group="Labels">
+		<message>%</message>
+		<description>Проценты</description>
+	</item>
+	<item id="Title.ResultScale" group="Labels">
+		<message>Шкала результатов</message>
+		<description>Шкала результатов</description>
+	</item>
+	<item id="Title.ResultScaleList" group="Labels">
+		<message>Список шкал результатов</message>
+		<description>Список шкал результатов</description>
+	</item>
+	<item id="Label.MailTemplates" group="Labels">
+		<message>Список шаблонов для писем</message>
+		<description>Список шаблонов для писем</description>
+	</item>
+	<item id="Label.MailTemplate" group="Labels">
+		<message>Шаблон письма</message>
+		<description>Шаблон письма</description>
+	</item>
+	<item id="Label.FromName" group="Labels">
+		<message>Отправитель (Имя)</message>
+		<description>Отправитель</description>
+	</item>
+	<item id="Label.From" group="Labels">
+		<message>От (электронный ящик)</message>
+		<description>От</description>
+	</item>
+	<item id="Label.Subject" group="Labels">
+		<message>Тема</message>
+		<description>Тема</description>
+	</item>
+	<item id="Label.QuestionNote" group="Labels">
+		<message>Примечание</message>
+		<description>Примечание</description>
+	</item>
+	<item id="Ajax.Loading" group="Labels">
+		<message>Идёт загрузка... Пожалуйста, подождите</message>
+		<description>Идёт загрузка... Пожалуйста, подождите</description>
+	</item>
+	<item id="Category.Uncategory" group="Labels">
+		<message>- Без категории -</message>
+		<description>Без категории</description>
+	</item>
+	<item id="Label.Change" group="Labels">
+		<message>Изменить</message>
+		<description>Изменить</description>
+	</item>
+	<item id="Label.BankCategory" group="Labels">
+		<message>Категория для вопросов из банка</message>
+		<description>Категория для вопросов из банка</description>
+	</item>
+	<item id="Title.BankCategoryList" group="Labels">
+		<message>Список категорий для вопрсоов из банка</message>
+		<description>Label for bank category list</description>
+	</item>
+	<item id="Label.QuizStatistics" group="Labels">
+		<message>Статистика теста</message>
+		<description>Статистика теста</description>
+	</item>
+
+	<item group="Labels" id="Label.Override">
+		<message>Переопределить</message>
+		<description>Переопределить</description>
+	</item>
+	<item group="Labels" id="Label.QuestionReference">
+		<message>Основан на вопросе из банка</message>
+		<description>Основан на вопросе из банка</description>
+	</item>
+	<item group="Labels" id="Title.Bank">
+		<message>Банк вопросов</message>
+		<description>Банк вопросов</description>
+	</item>
+	<item group="Labels" id="Title.BLangResource">
+		<message>Языковой файл для бэкенда</message>
+		<description>Языковой файл для бэкенда</description>
+	</item>
+	<item group="Labels" id="Title.FLangResource">
+		<message>Языковой файл для фронтенда</message>
+		<description>Языковой файл для фронтенда</description>
+	</item>
+	<item group="Labels" id="Label.MainSettings">
+		<message>Основные настройки</message>
+		<description>Основные настройки</description>
+	</item>
+	<item group="Labels" id="Label.Name">
+		<message>Имя</message>
+		<description>Имя</description>
+	</item>
+	<item group="Labels" id="Label.CorrectCorrelation">
+		<message>Верное соответствие</message>
+		<description>Верное соответствие</description>
+	</item>
+	<item group="Labels" id="Label.UserCorrelation">
+		<message>Соответствие указанное пользователем</message>
+		<description>Соответствие указанное пользователем</description>
+	</item>
+	<item group="Labels" id="Label.Email">
+		<message>Электронная почта</message>
+		<description>Электронная почта</description>
+	</item>
+	<item group="Labels" id="Label.Category">
+		<message>Категория</message>
+		<description>Категория</description>
+	</item>
+	<item group="Labels" id="Label.Description">
+		<message>Описание</message>
+		<description>Описание</description>
+	</item>
+	<item group="Labels" id="Title.CategoryList">
+		<message>Список категорий для тестов</message>
+		<description>Список категорий для тестов</description>
+	</item>
+	<item group="Labels" id="Title.FAQ">
+		<message>ЧаВо</message>
+		<description>ЧаВо</description>
+	</item>
+	<item group="Labels" id="Title.Help">
+		<message>Помощь</message>
+		<description>Помощь</description>
+	</item>
+	<item group="Labels" id="Title.TemplateList">
+		<message>Список шаблонов</message>
+		<description>Список шаблонов</description>
+	</item>
+	<item group="Labels" id="Title.License">
+		<message>Лицензия</message>
+		<description>Лицензия</description>
+	</item>
+	<item group="Labels" id="Label.NewLicense">
+		<message>Новая лицензия</message>
+		<description>Новая лицензия</description>
+	</item>
+	<item group="Labels" id="Label.Domain">
+		<message>Домен</message>
+		<description>Домен</description>
+	</item>
+	<item group="Labels" id="Label.LicenseKey">
+		<message>Лицензионный ключ</message>
+		<description>Лицензионный ключ</description>
+	</item>
+	<item group="Labels" id="Label.StartDate">
+		<message>Нач. дата</message>
+		<description>Нач. дата</description>
+	</item>
+	<item group="Labels" id="Label.EndDate">
+		<message>Кон. дата</message>
+		<description>Кон. дата</description>
+	</item>
+	<item group="Labels" id="Label.Expired">
+		<message>Истек</message>
+		<description>Истек</description>
+	</item>
+	<item group="Labels" id="Label.NotExpired">
+		<message>Не истёк</message>
+		<description>Не истёк</description>
+	</item>
+	<item group="Labels" id="Label.NotItemsFound">
+		<message>Данные отсутствуют</message>
+		<description>Данные отсутствуют</description>
+	</item>
+	<item group="Labels" id="Label.NumberPos">
+		<message>#</message>
+		<description>#</description>
+	</item>
+	<item group="Labels" id="Label.Apply">
+		<message>Применить</message>
+		<description>Применить</description>
+	</item>
+	<item group="Labels" id="Title.QuestionTemplate">
+		<message>Шаблон для вопросов</message>
+		<description>Шаблон для вопросов</description>
+	</item>
+	<item group="Labels" id="Label.QuestionType">
+		<message>Тип вопроса</message>
+		<description>Тип вопроса</description>
+	</item>
+	<item group="Labels" id="Label.DisableQueValidation">
+		<message>Выключить валидацию вопроса</message>
+		<description>Выключить валидацию вопроса</description>
+	</item>
+	<item group="Labels" id="Label.Question">
+		<message>Вопрос</message>
+		<description>Вопрос</description>
+	</item>
+	<item group="Labels" id="Label.Quiz">
+		<message>Тест</message>
+		<description>Тест</description>
+	</item>
+	<item group="Labels" id="Label.Score">
+		<message>Кол-во очков</message>
+		<description>Кол-во очков</description>
+	</item>
+	<item group="Labels" id="Label.AdditionalSettings">
+		<message>Дополнительные настройки</message>
+		<description>Дополнительные настройки</description>
+	</item>
+	<item id="Label.AdditionalProperties" group="Labels">
+		<message>Дополнительные свойства</message>
+		<description>Дополнительные свойства</description>
+	</item>
+	<item group="Labels" id="Title.QuestionList">
+		<message>Список вопросов</message>
+		<description>Список вопросов</description>
+	</item>
+	<item group="Labels" id="Label.Reorder">
+		<message>Переупорядочить</message>
+		<description>Переупорядочить</description>
+	</item>
+	<item group="Labels" id="Title.QuestionResultView">
+		<message>Просмотреть вопрос</message>
+		<description>Просмотреть вопрос</description>
+	</item>
+	<item group="Labels" id="Title.QuestionCategory">
+		<message>Категория вопросов</message>
+		<description>Категория вопросов</description>
+	</item>
+	<item group="Labels" id="Label.QuestionCount">
+		<message>Кол-во вопросов</message>
+		<description>Кол-во вопросов</description>
+	</item>
+	<item group="Labels" id="Label.QuestionTime">
+		<message>Время отведённое для ответа на вопрос</message>
+		<description>Время отведённое для ответа на вопрос</description>
+	</item>
+	<item group="Labels" id="Label.UseCalculator">
+		<message>Использовать калькулятор</message>
+		<description>Использовать калькулятор</description>
+	</item>
+	<item group="Labels" id="Title.QuestionCategoryList">
+		<message>Список категорий для вопросов</message>
+		<description>Список категорий для вопросов</description>
+	</item>
+	<item group="Labels" id="Label.TextTemplates">
+		<message>Текстовые шаблоны</message>
+		<description>Текстовые шаблоны</description>
+	</item>
+	<item group="Labels" id="Label.SucEmailTemplate">
+		<message>Шаблон для письма при успешной сдаче теста</message>
+		<description>Шаблон для письма при успешной сдаче теста</description>
+	</item>
+	<item group="Labels" id="Label.FailedEmailTemplate">
+		<message>Шаблон для письма при неуспешной сдаче теста</message>
+		<description>Шаблон для письма при неуспешной сдаче теста</description>
+	</item>
+	<item group="Labels" id="Label.SucPrintTemplate">
+		<message>Шаблон для печати при успешной сдаче теста</message>
+		<description>Шаблон для печати при успешной сдаче теста</description>
+	</item>
+	<item group="Labels" id="Label.FailedPrintTemplate">
+		<message>Шаблон для печати при неуспешной сдаче теста</message>
+		<description>Шаблон для печати при неуспешной сдаче теста</description>
+	</item>
+	<item group="Labels" id="Label.SucTemplate">
+		<message>Текстовый шаблон при успешной сдаче теста</message>
+		<description>Текстовый шаблон при успешной сдаче теста</description>
+	</item>
+	<item group="Labels" id="Label.FailedTemplate">
+		<message>Текстовый шаблон при неуспешной сдаче теста</message>
+		<description>Текстовый шаблон при неуспешной сдаче теста</description>
+	</item>
+	<item group="Labels" id="Title.QuizList">
+		<message>Список тестов</message>
+		<description>Список тестов</description>
+	</item>
+	<item group="Labels" id="Title.Result">
+		<message>Результат</message>
+		<description>Результат</description>
+	</item>
+	<item group="Labels" id="Label.Details">
+		<message>Подробнее</message>
+		<description>Подробнее</description>
+	</item>
+	<item group="Labels" id="Label.PreviewTemplate">
+		<message>Просмотр шаблона</message>
+		<description>Просмотр шаблона</description>
+	</item>
+	<item group="Labels" id="Label.User">
+		<message>Пользователь</message>
+		<description>Пользователь</description>
+	</item>
+	<item group="Labels" id="Label.Passed">
+		<message>Сдал</message>
+		<description>Сдал</description>
+	</item>
+	<item group="Labels" id="Label.NoPassed">
+		<message>Не сдал</message>
+		<description>Не сдал</description>
+	</item>
+	<item group="Labels" id="Title.QuizResultList">
+		<message>Список результатов</message>
+		<description>Список результатов</description>
+	</item>
+	<item group="Labels" id="Title.CSSTemplate">
+		<message>CSS Шаблон</message>
+		<description>CSS Шаблон</description>
+	</item>
+	<item group="Labels" id="Label.Params">
+		<message>Параметры</message>
+		<description>Параметры</description>
+	</item>
+	<item group="Labels" id="Label.Actions">
+		<message>Действия</message>
+		<description>Действия</description>
+	</item>
+	<item group="Labels" id="Label.CorrectAnswers">
+		<message>Верные ответы</message>
+		<description>Верные ответы</description>
+	</item>
+	<item group="Labels" id="Label.Correct">
+		<message>Верно</message>
+		<description>Верно</description>
+	</item>
+	<item group="Labels" id="Label.TextCI">
+		<message>Регистронезависимый</message>
+		<description>Регистронезависимый</description>
+	</item>
+	<item group="Labels" id="Label.Image">
+		<message>Изображение</message>
+		<description>Изображение</description>
+	</item>
+	<item group="Labels" id="Label.Clear">
+		<message>Очистить</message>
+		<description>Очистить</description>
+	</item>
+	<item group="Labels" id="Label.Answer">
+		<message>Ответ</message>
+		<description>Ответ</description>
+	</item>
+	<item group="Labels" id="Label.Access">
+		<message>Доступ (Группа пользователя)</message>
+		<description>Доступ (Группа пользователя)</description>
+	</item>
+	<item group="Labels" id="Label.Active">
+		<message>Активный</message>
+		<description>Активный</description>
+	</item>
+	<item group="Labels" id="Label.Inactive">
+		<message>Неактивный</message>
+		<description>Неактивный</description>
+	</item>
+	<item group="Labels" id="Label.TotalTime">
+		<message>Общее время</message>
+		<description>Общее время</description>
+	</item>
+	<item group="Labels" id="Label.PassedScore">
+		<message>Кол-во очков для сдачи</message>
+		<description>Кол-во очков для сдачи</description>
+	</item>
+	<item group="Labels" id="Label.Skip">
+		<message>Разрешено пропускать</message>
+		<description>Разрешено пропускать</description>
+	</item>
+	<item group="Labels" id="Label.RandomQuestion">
+		<message>Случайные вопросы</message>
+		<description>Случайные вопросы</description>
+	</item>
+	<item group="Labels" id="Label.Questions">
+		<message>Список вопросов</message>
+		<description>Список вопросов</description>
+	</item>
+	<item group="Labels" id="Label.Results">
+		<message>Результаты</message>
+		<description>Результаты</description>
+	</item>
+	<item group="Labels" id="Label.NotSelectedItem">
+		<message>-</message>
+		<description>-</description>
+	</item>
+	<item group="Labels" id="Label.Template">
+		<message>Шаблон</message>
+		<description>Шаблон</description>
+	</item>
+	<item group="Labels" id="Label.Tooltip">
+		<message>Подсказка</message>
+		<description>Подсказка</description>
+	</item>
+	<item group="Labels" id="Label.Filter">
+		<message>Фильтр</message>
+		<description>Фильтр</description>
+	</item>
+	<item group="Labels" id="Label.View">
+		<message>Просмотр</message>
+		<description>Просмотр</description>
+	</item>
+	<item group="Labels" id="Label.Status">
+		<message>Статус</message>
+		<description>Статус</description>
+	</item>
+	<item group="Labels" id="Label.QCategories">
+		<message>Список категорий для вопросов</message>
+		<description>Список категорий для вопросов</description>
+	</item>
+	<item group="Labels" id="Text.EmptyAnswerIgnored">
+		<message>Пустые ответы будут проигнорированы</message>
+		<description>Пустые ответы будут проигнорированы</description>
+	</item>
+	<item group="Labels" id="Label.SendResultTo">
+		<message>Отослать результат</message>
+		<description>Отослать результат</description>
+	</item>
+	<item group="Labels" id="Label.AddItem">
+		<message>Добавить</message>
+		<description>Добавить</description>
+	</item>
+	<item group="Labels" id="Label.UpdateItem">
+		<message>Редактирование</message>
+		<description>Редактирование</description>
+	</item>
+	<item group="Labels" id="Label.Text">
+		<message>Текст</message>
+		<description>Текст</description>
+	</item>
+	<item group="Labels" id="Label.LagTime">
+		<message>Промежуток времени между следующей сдачей теста</message>
+		<description>Промежуток времени между следующей сдачей теста</description>
+	</item>
+	<item group="Labels" id="Label.AttemptCount">
+		<message>Кол-во попыток</message>
+		<description>Кол-во попыток</description>
+	</item>
+	<item group="Labels" id="Label.Guest">
+		<message>Гость</message>
+		<description>Гость</description>
+	</item>
+	<item group="Labels" id="Label.Default">
+		<message>По умолчанию</message>
+		<description>По умолчанию</description>
+	</item>
+	<item group="Labels" id="Label.Message">
+		<message>Сообщение</message>
+		<description>Сообщение</description>
+	</item>
+	<item group="Labels" id="Label.File">
+		<message>Файл</message>
+		<description>Файл</description>
+	</item>
+	<item group="Labels" id="Title.LangList">
+		<message>Список языковых файлов</message>
+		<description>Список языковых файлов</description>
+	</item>
+	<item group="Labels" id="Label.AllCategory">
+		<message>- Все категории -</message>
+		<description>- Все категории -</description>
+	</item>
+	<item group="Labels" id="Label.AllStatus">
+		<message>- Все статусы -</message>
+		<description>- Все статусы -</description>
+	</item>
+	<item group="Labels" id="Label.AllQuiz">
+		<message>- Все тесты -</message>
+		<description>- Все тесты -</description>
+	</item>
+	<item group="Labels" id="Label.AllUser">
+		<message>- Все пользователи -</message>
+		<description>- Все пользователи -</description>
+	</item>
+	<item group="Labels" id="Date.DayShort">
+		<message>д</message>
+		<description>Короткое значения для дней</description>
+	</item>
+	<item group="Labels" id="Date.HourShort">
+		<message>ч</message>
+		<description>Короткое значения для часов</description>
+	</item>
+	<item group="Labels" id="Date.MinuteShort">
+		<message>мин</message>
+		<description>Короткое значения для минут</description>
+	</item>
+	<item group="Labels" id="Date.SecondShort">
+		<message>сек</message>
+		<description>Короткое значения для секунд</description>
+	</item>
+
+	<item id="Validator.ImportFileRequired" group="Validators">
+		<message>Пожалуйста, выберите файл для импорта.</message>
+		<description>Выберите файл для импорта</description>
+	</item>
+	<item id="Validator.ImportDirRequired" group="Validators">
+		<message>Пожалуйста, укажите директорию.</message>
+		<description>Укажите директорию</description>
+	</item>
+	<item id="Validator.ExportRemove" group="Validators">
+		<message>Пожалуйста, выберите элемент(ы) для удаления.</message>
+		<description>Выберите элемент(ы) для удаления</description>
+	</item>
+	<item id="Validator.Export" group="Validators">
+		<message>Пожалуйста, выберите элемент(ы) для экспорта.</message>
+		<description>Выберите элемент(ы) для экспорта</description>
+	</item>
+	<item id="Validator.BankImport" group="Validators">
+		<message>Пожалуйста, выберите вопрос(ы) для импорта.</message>
+		<description>Выберите вопрос(ы) для импорта</description>
+	</item>
+	<item id="Validator.QuestionNoSetPercentScore" group="Validators">
+		<message>Значение процентов от очков может быть целое число из промежутка от 0 до 100</message>
+		<description>Значение процентов от очков может быть целое число из промежутка от 0 до 100</description>
+	</item>
+	<item id="Validator.RSOverlapPoint" group="Validators">
+		<message>Некоторые диапазоны очков пересекаются</message>
+		<description>Некоторые диапазоны очков пересекаются</description>
+	</item>
+	<item id="Validator.RSNotCoveredPoint" group="Validators">
+		<message>Некоторые диапазоны очков неохвачены</message>
+		<description>Некоторые диапазоны очков неохвачены</description>
+	</item>
+	<item id="Validator.RSEmptySection" group="Validators">
+		<message>Не определён ни один диапазон очков</message>
+		<description>Не определён ни один диапазон очков</description>
+	</item>
+	<item id="Validator.RSRangePoint" group="Validators">
+		<message>Значение процентов от очков может быть целое число из промежутка от 0 до 100</message>
+		<description>Значение процентов от очков может быть целое число из промежутка от 0 до 100</description>
+	</item>
+	<item group="Validators" id="Validator.EmailIncorrect">
+		<message>Не верный электронный адрес</message>
+		<description>Не верный электронный адрес</description>
+	</item>
+	<item group="Validators" id="Validator.InvalidLicense">
+		<message>Введите правильный лицензионный ключ</message>
+		<description>Введите правильный лицензионный ключ</description>
+	</item>
+	<item group="Validators" id="Validator.NameRequired">
+		<message>Введите имя</message>
+		<description>Введите имя</description>
+	</item>
+	<item group="Validators" id="Validator.NameNotUnique">
+		<message>Такое имя уже существует</message>
+		<description>Такое имя уже существует</description>
+	</item>
+	<item id="Validator.ConfirmNameNotUnique" group="Validators">
+		<message>Такое имя уже существует. Вы уверены что хотите продолжить?</message>
+		<description>Такое имя уже существует. Вы уверены что хотите продолжить?</description>
+	</item>
+	<item group="Validators" id="Validator.NotSelectImage">
+		<message>Выберите изображние</message>
+		<description>Выберите изображние</description>
+	</item>
+	<item group="Validators" id="Validator.NotSelectArea">
+		<message>Выберите участок изображения</message>
+		<description>Выберите участок изображения</description>
+	</item>
+	<item group="Validators" id="Validator.TotalTime">
+		<message>Значение общего времени должно быть равно или больше 0</message>
+		<description>Значение общего времени должно быть равно или больше 0</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionTime">
+		<message>Значение времени для ответа на вопрос должно быть равно или больше 0</message>
+		<description>Значение времени для ответа на вопрос должно быть равно или больше 0</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionScore">
+		<message>Кол-во очков за вопрос должно быть равно или больше 0</message>
+		<description>Кол-во очков за вопрос должно быть равно или больше 0</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionScoreRequired">
+		<message>Введите кол-во очков за вопрос</message>
+		<description>Введите кол-во очков за вопрос</description>
+	</item>
+	<item group="Validators" id="Validator.PassedScore">
+		<message>Кол-во очков для сдачи теста должно быть между 0 и 100</message>
+		<description>Кол-во очков для сдачи теста должно быть между 0 и 100</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionCount">
+		<message>Кол-во вопросов должно быть равно или больше 0</message>
+		<description>Кол-во вопросов должно быть равно или больше 0</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionRequired">
+		<message>Введите вопрос</message>
+		<description>Введите вопрос</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionNotAnswer">
+		<message>Введите один или более ответов</message>
+		<description>Введите один или более ответов</description>
+	</item>
+	<item group="Validators" id="Validator.QuestionNotCorrect">
+		<message>Укажите корректный ответ</message>
+		<description>Укажите корректный ответ</description>
+	</item>
+	<item group="Validators" id="Validator.LagTime">
+		<message>Время задержки должно быть равно или больше 0</message>
+		<description>Время задержки должно быть равно или больше 0</description>
+	</item>
+	<item group="Validators" id="Validator.AttemptCount">
+		<message>Кол-во попыток должно быть равно или больше 0</message>
+		<description>Кол-во попыток должно быть равно или больше 0</description>
+	</item>
+	<item group="Validators" id="Validator.TextRequired">
+		<message>Введите текст</message>
+		<description>Введите текст</description>
+	</item>
+	<item group="Validators" id="Validator.TemplateRequired">
+		<message>Выберите шаблон</message>
+		<description>Выберите шаблон</description>
+	</item>
+	<item group="Validators" id="Validator.FileRequired">
+		<message>Выберите файл</message>
+		<description>Выберите файл</description>
+	</item>
+	<item group="Validators" id="Validator.FileIncorrectFormat">
+		<message>Неверный формат файла</message>
+		<description>Неверный формат файла</description>
+	</item>
+
+	<item id="Complete.DataImportFailed" group="Complete">
+		<message>Импорт данных завершился неудачей</message>
+		<description>Импорт данных завершился неудачей</description>
+	</item>
+	<item id="Complete.DataImport" group="Complete">
+		<message>Данные были успешно импортированы</message>
+		<description>Данные были успешно импортированы</description>
+	</item>
+	<item id="Complete.ExportSettings" group="Complete">
+		<message>Настройки экспорта были успешно сохранены</message>
+		<description>Настройки экспорта были успешно сохранены</description>
+	</item>
+	<item id="Complete.QueAddToQueue" group="Complete">
+		<message>Вопрос(ы) были успешно добавлены в очередь для экспорта</message>
+		<description>Вопрос(ы) были успешно добавлены в очередь для экспорта</description>
+	</item>
+	<item id="Complete.QuizAddToQueue" group="Complete">
+		<message>Тест(ы) были успешно добавлены в очередь для экспорта</message>
+		<description>Тест(ы) были успешно добавлены в очередь для экспорта</description>
+	</item>
+	<item id="Complete.QueRemoveFromQueue" group="Complete">
+		<message>Вопрос(ы) были успешно удалены из очереди для экспорта</message>
+		<description>Вопрос(ы) были успешно удалены из очереди для экспорта</description>
+	</item>
+	<item id="Complete.QuizRemoveFromQueue" group="Complete">
+		<message>Тест(ы) были успешно удалены из очереди для экспорта</message>
+		<description>Тест(ы) были успешно удалены из очереди для экспорта</description>
+	</item>
+	<item id="Complete.QuestionImported" group="Complete">
+		<message>Вопрос(ы) были успешно импортированы</message>
+		<description>Вопрос(ы) были успешно импортированы</description>
+	</item>
+	<item id="Complete.ScaleSave" group="Complete">
+		<message>Шкала результатов сохранена</message>
+		<description>Шкала результатов сохранена</description>
+	</item>
+	<item id="Complete.ScaleDelete" group="Complete">
+		<message>Шкала результатов удалена</message>
+		<description>Шкала результатов удалена</description>
+	</item>
+	<item id="Complete.TemplateDelete" group="Complete">
+		<message>Шаблон(ы) удалены</message>
+		<description>Шаблон(ы) удалены</description>
+	</item>
+	<item group="Complete" id="Complete.QuizSave">
+		<message>Тест сохранён</message>
+		<description>Тест сохранён</description>
+	</item>
+	<item group="Complete" id="Complete.QuestionSave">
+		<message>Вопрос сохранён</message>
+		<description>Вопрос сохранён</description>
+	</item>
+	<item group="Complete" id="Complete.CategorySave">
+		<message>Категория сохранена</message>
+		<description>Категория сохранена</description>
+	</item>
+	<item group="Complete" id="Complete.QCategorySave">
+		<message>Категория вопросов сохранена</message>
+		<description>Категория вопросов сохранена</description>
+	</item>
+	<item group="Complete" id="Complete.QuestionDelete">
+		<message>Вопрос удалён</message>
+		<description>Вопрос удалён</description>
+	</item>
+	<item group="Complete" id="Complete.QuestionCategoryDelete">
+		<message>Категория вопросов удалена</message>
+		<description>Категория вопросов удалена</description>
+	</item>
+	<item group="Complete" id="Complete.QuizDelete">
+		<message>Тест удалён</message>
+		<description>Тест удалён</description>
+	</item>
+	<item id="Complete.ResultDelete" group="Complete">
+		<message>Результаты тестов удалены</message>
+		<description>Результаты тестов удалены</description>
+	</item>
+	<item group="Complete" id="Complete.QuizActivate">
+		<message>Тест сделан активным</message>
+		<description>Тест сделан активным</description>
+	</item>
+	<item group="Complete" id="Complete.QuizDeactivate">
+		<message>Тест сделан неактивным</message>
+		<description>Тест сделан неактивным</description>
+	</item>
+	<item group="Complete" id="Complete.ChangeQuestionOrder">
+		<message>Порядок вопросов изменён</message>
+		<description>Порядок вопросов изменён</description>
+	</item>
+	<item group="Complete" id="Complete.CategoryDelete">
+		<message>Категория удалена</message>
+		<description>Категория удалена</description>
+	</item>
+	<item group="Complete" id="Complete.QTemplateSave">
+		<message>Шаблон для вопросов сохранён</message>
+		<description>Шаблон для вопросов сохранён</description>
+	</item>
+	<item group="Complete" id="Complete.DeleteQTemplate">
+		<message>Шаблон удалён</message>
+		<description>Шаблон удалён</description>
+	</item>
+	<item group="Complete" id="Complete.TemplateSave">
+		<message>Шаблон сохранён</message>
+		<description>Шаблон сохранён</description>
+	</item>
+	<item group="Complete" id="License.AddLicense">
+		<message>Лицензионный ключ добавлен</message>
+		<description>Лицензионный ключ добавлен</description>
+	</item>
+	<item group="Complete" id="License.BeforeUseSpecifyKey">
+		<message>Пожалуйста, введите лицензионный ключ перед использованием компонента</message>
+		<description>Пожалуйста, введите лицензионный ключ перед использованием компонента</description>
+	</item>
+	<item group="Complete" id="License.IncorrectLicense">
+		<message>Введён неверный лицензионный ключ</message>
+		<description>Введён неверный лицензионный ключ</description>
+	</item>
+	<item group="Complete" id="License.SpecifyKey">
+		<message>Пожалуйста, введите лицензионный ключ</message>
+		<description>Пожалуйста, введите лицензионный ключ</description>
+	</item>
+	<item group="Complete" id="License.LicenseExists">
+		<message>Введённый лицензионный ключ, который уже существует</message>
+		<description>Введённый лицензионный ключ, который уже существует</description>
+	</item>
+	<item group="Complete" id="Complete.LangSave">
+		<message>Языковой файл сохранён</message>
+		<description>Языковой файл сохранён</description>
+	</item>
+	<item group="Complete" id="Complete.SetLangDefault">
+		<message>Выбранный язык установлен по умолчанию</message>
+		<description>Выбранный язык установлен по умолчанию</description>
+	</item>
+	<item group="Complete" id="Complete.LangDelete">
+		<message>Языковой файл удалён</message>
+		<description>Языковой файл удалён</description>
+	</item>
+	<item group="Complete" id="Complete.FileImport">
+		<message>Импорт файла завершён успешно</message>
+		<description>Импорт файла завершён успешно</description>
+	</item>
+	<item group="Toolbar" id="Button.Back">
+		<message>Назад</message>
+		<description>Назад</description>
+	</item>
+	<item group="Toolbar" id="Button.Add">
+		<message>Добавить</message>
+		<description>Добавить</description>
+	</item>
+	<item group="Toolbar" id="Button.Edit">
+		<message>Изменить</message>
+		<description>Изменить</description>
+	</item>
+	<item group="Toolbar" id="Button.Remove">
+		<message>Удалить</message>
+		<description>Удалить</description>
+	</item>
+	<item group="Toolbar" id="Button.Activate">
+		<message>Вкл.</message>
+		<description>Сделать активным</description>
+	</item>
+	<item group="Toolbar" id="Button.Deactivate">
+		<message>Выкл.</message>
+		<description>Сделать неактивным</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.Import">
+		<message>Импорт</message>
+		<description>Импорт</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.Export">
+		<message>Экспорт</message>
+		<description>Экспорт</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.ExportToCSV">
+		<message>В CSV</message>
+		<description>В CSV формат</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.ExportToExcel">
+		<message>В Excel</message>
+		<description>В Excel формат</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.ExportToWord">
+		<message>В Word</message>
+		<description>В Word формат</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.ExportToHTML">
+		<message>В HTML</message>
+		<description>В HTML формат</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.Filters">
+		<message>Фильтры</message>
+		<description>Применить фильтры</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.Apply">
+		<message>Принять</message>
+		<description>Принять</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.Cancel">
+		<message>Отклонить</message>
+		<description>Отклонить</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.Save">
+		<message>Сохранить</message>
+		<description>Сохранить</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.QuizList">
+		<message>Тесты</message>
+		<description>Тесты</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.ResultList">
+		<message>Результаты</message>
+		<description>Список результатов тестов</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.Results">
+		<message>Результаты</message>
+		<description>Результаты теста</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.Default">
+		<message>По умолчанию</message>
+		<description>Установить по умолчанию</description>
+	</item>
+	<item group="Toolbar" id="Toolbar.Preview">
+		<message>Просмотр</message>
+		<description>Просмотр</description>
+	</item>
+	<item id="Warning.QuestionNoSetScore" group="Warning">
+		<message>Вы не указали кол-во очков для вопроса. Вы уверены, что хотите продолжить?</message>
+		<description>Вы не указали кол-во очков для вопроса. Вы уверены, что хотите продолжить?</description>
+	</item>
+	<item id="Warning.RSNotCoveredPoint" group="Warning">
+		<message>Некоторые диапазоны очков не заданы. Вы уверены, что хотите продолжить?</message>
+		<description>Некоторые диапазоны очков не заданы. Вы уверены, что хотите продолжить?</description>
+	</item>
+	<item id="Warning.ResultScaleRemove" group="Warning">
+		<message>Вы хотите удалить выбранные шкалы резальтатов?</message>
+		<description>Вы хотите удалить выбранные шкалы резальтатов?</description>
+	</item>
+	<item id="Warning.ResultRemove" group="Warning">
+		<message>Вы хотите удалить выбранные результаты?</message>
+		<description>Вы хотите удалить выбранные результаты?</description>
+	</item>
+	<item group="Warning" id="Warning.QuizRemove">
+		<message>Вы хотите удалить выбранные тесты?</message>
+		<description>Вы хотите удалить выбранные тесты?</description>
+	</item>
+	<item group="Warning" id="Warning.CategoryRemove">
+		<message>Вы хотите удалить выбранные категории?</message>
+		<description>Вы хотите удалить выбранные категории?</description>
+	</item>
+	<item group="Warning" id="Warning.QTemplateRemove">
+		<message>Вы хотите удалить выбранные шаблоны?</message>
+		<description>Вы хотите удалить выбранные шаблоны?</description>
+	</item>
+	<item group="Warning" id="Warning.QuestionAnswerRemove">
+		<message>Вы уверены?</message>
+		<description>Вы уверены?</description>
+	</item>
+	<item group="Warning" id="Warning.BankQuestionRemove">
+		<message>Вы хотите удалить выбранные вопросы?\r\n (Внимание: Вопросы из банка не будут удалены, если на основе них испльзуются вопросы в тестах)</message>
+		<description>Вы хотите удалить выбранные вопросы?\r\n (Внимание: Вопросы из банка не будут удалены, если на основе них испльзуются вопросы в тестах)</description>
+	</item>
+	<item group="Warning" id="Warning.QuestionRemove">
+		<message>Вы хотите удалить выбранные вопросы?</message>
+		<description>Вы хотите удалить выбранные вопросы?</description>
+	</item>
+	<item group="Warning" id="Warning.QCategoryRemove">
+		<message>Вы хотите удалить выбранные категории?</message>
+		<description>Вы хотите удалить выбранные категории?</description>
+	</item>
+	<item group="Warning" id="Warning.DeleteQueFromQCategory">
+		<message>Вы хотите удалить вопросы из данной категории?</message>
+		<description>Вы хотите удалить вопросы из данной категории?</description>
+	</item>
+	<item group="Warning" id="Warning.QCategoryCreateQuiz">
+		<message>Вначале создайте тест</message>
+		<description>Вначале создайте тест</description>
+	</item>
+	<item id="Text.ImportWarning" group="Text">
+		<message>Мы рекомендуем перед импортом данных создать резервную копию вашей базы данных. Процесс импорта является необратимым и вы сможете удалть импортированные данные только вручную.</message>
+		<description>Примечание для импорта данных</description>
+	</item>
+	<item id="Text.SQNote" group="Text">
+		<message>Укажите несколько вариантов ответа на вопрос. Если хотите задать разное кол-во очков за ответы, то в поле % Score укажите кол-во процентов от очков(значение должно быть в диапазоне от 0 до 100, если значение не указано, то очки пользователю за данный ответ начисляться не будут) за данный вопрос, которое будет начислено пользователю, при выборе данного ответа. Пустые ответы будут проигнорированы.</message>
+		<description>Примечание для single question</description>
+	</item>
+	<item id="Text.MQNote" group="Text">
+		<message>Укажите варианты ответа и верную комбинацию вариантов ответа. Если хотите задать разное кол-во очков за ответы, то при помощи линка '[+]' задайте требуемую комбинацию ответов и кол-во процентов от очков(значение должно быть в диапазоне от 0 до 100, если значение не указано, то очки пользователю за данный ответ начисляться не будут) за данный вопрос, которое будет начислено пользователю, при выборе данных вариантов ответов. Пустые ответы будут проигнорированы.</message>
+		<description>Примечание для multiple question</description>
+	</item>
+	<item id="Text.FTQNote" group="Text">
+		<message>Укажите вариант(ы) ответа на вопрос. Если хотите задать разное кол-во очков за ответы, то в поле % Score укажите кол-во процентов от очков(значение должно быть в диапазоне от 0 до 100, если значение не указано, то пользователь получит максимальное кол-во очков за данный ответ) за данный вопрос, которое будет начислено пользователю, при выборе данного ответа. Пустые ответы будут проигнорированы.</message>
+		<description>Примечание для freetext question</description>
+	</item>
+	<item id="Tooltip.ParsePluginTag" group="Text">
+		<message>Если это опция включена, то мамбот(плагин) тэги в тексте вопроса будут разобраны.</message>
+		<description>Подсказка для опции 'Выолнять мамботы(плагины)'</description>
+	</item>
+	<item id="Tooltip.QuestionNote" group="Text">
+		<message>Здесь вы можете ввести дополнительную информацию о вопросе. Эта информация будет показана при просмотре результатов теста. </message>
+		<description>Подсказка для примечания для вопроса</description>
+	</item>
+	<item group="Text" id="Tooltip.QuizCanSkip">
+		<message>Если это свойство активно, то пользователь может пропускать вопросы и возвращаться к ответу на них позже</message>
+		<description>Подсказка для возможности пропускать вопросы</description>
+	</item>
+	<item id="Tooltip.QuizCanStop" group="Text">
+		<message>Если это свойство активно, то пользователь может выйти из теста и продолжить его позже</message>
+		<description>Подсказка для возможности отложить тест</description>
+	</item>
+	<item group="Text" id="Tooltip.QuizRandomQuestion">
+		<message>Если это свойство активно, то тест будет составлен из вопросов идущих в случайном порядке, игнорируя их порядок</message>
+		<description>Подсказка для возможности показывать вопросы в случайном порядке</description>
+	</item>
+	<item group="Text" id="Tooltip.QuizCalculator">
+		<message>Если это свойство активно, то пользователь может использовать калькулятор во время сдачи теста</message>
+		<description>Подсказка для возможности использовать калькулятор</description>
+	</item>
+	<item group="F.A.Q." type="WYSIWYG" id="RichText.FAQ">
+		<message>			 				&lt;ol&gt; 					&lt;li&gt;&lt;strong&gt;Как установить обновление для компонента?&lt;/strong&gt;&lt;br /&gt;Сперва, удалите компонент. Удаление затронет только файлы, относящиеся к компоненту, все данные хранящиеся в базе данных будут сохранены. После этого установите новую версию компонента.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Можно ли использовать язык отличный от английского во время создания тестов?&lt;/strong&gt;&lt;br /&gt;Да, ARI Quiz поддерживает юникод, что обеспечивает многоязычную поддержку.	&lt;br /&gt;&lt;br /&gt; 					&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Как добавить пункт меню, который будет ссылаться на страницу со списком тестов?&lt;/strong&gt;&lt;br /&gt;Используйте Joomla Menu Manager:&lt;br /&gt; 					- Нажмите кнопку &amp;quot;New&amp;quot;.&lt;br /&gt; 					- Выберите &amp;quot;Component&amp;quot; из раздела &amp;quot;Components&amp;quot;.&lt;br /&gt; 					- Выберите ARI Quiz компонент.&lt;br /&gt; 					- Нажмите кнопку &amp;quot;Save&amp;quot;. 					&lt;br /&gt;&lt;br /&gt; 					&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Как узнать ID теста?&lt;/strong&gt;&lt;br /&gt;Вы можете увидеть его на странице со списком тестов или во время редактирования теста. 					&lt;br /&gt;&lt;br /&gt; 					&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Как добавить пункт меню, ссылающийся, на конкретный тест?&lt;/strong&gt;&lt;br /&gt; 					Ссылка будет выглядеть следующим образом: index.php?option=com_ariquiz&amp;amp;quiz_id=QUIZ_ID&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Может ли пользователь увидеть статистику пройденных тестов?&lt;/strong&gt;&lt;br /&gt; 					Да, такая возможность доступна зарегистрированным пользователям, они могут смотреть статистику по ссылке index.php?option=com_ariquiz&amp;amp;task=quiz_stat. Для удобства, Вы можете создать пункт меню для просмотра статистики.  				&lt;/li&gt;&lt;/ol&gt; 			 		</message>
+		<description>ЧаВо</description>
+	</item>
+	<item group="Help" type="WYSIWYG" id="RichText.Help">
+		<message>&lt;ol&gt; 					&lt;li&gt;&lt;strong&gt;Категории для тестов&lt;/strong&gt;&lt;br /&gt; 					Категории для тестов используются, чтобы разбить тесты по тематикам.&lt;br /&gt;&lt;br /&gt; 					&lt;ol style=&quot;list-style-type: lower-alpha; list-style-image: none; list-style-position: outside&quot;&gt; 						&lt;li&gt;&lt;strong&gt;Добавление/Редактирование категорий&lt;/strong&gt;&lt;br /&gt; 						Для добавления категории нажмите кнопку &amp;quot;Добавить&amp;quot; на странице со списком категорий. Для редактирования нажмите на имя категории на странице со списком категорий. Во время добавления/редактирования Вы можете задать следующие свойства:&lt;br /&gt; 						- Имя категории;&lt;br /&gt; 						- Описание категории;&lt;br /&gt; 						&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Список категорий&lt;/strong&gt;&lt;br /&gt; 						На этой странице показан список категорий и есть возможность удалить выбранные категории.&lt;br /&gt; 					&lt;/li&gt;&lt;/ol&gt; 					&lt;br /&gt;&lt;br /&gt;  					&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Категории для вопросов&lt;/strong&gt;&lt;br /&gt; 					Используется, если Вы хотите создать тест затрагивающий разные тематики. В этом случае, Вы добавляете категорию для каждой темы и указываете какой вопрос к какой категории будет принадлежать. 					&lt;br /&gt;&lt;br /&gt; 					&lt;ol style=&quot;list-style-type: lower-alpha; list-style-image: none; list-style-position: outside&quot;&gt; 						&lt;li&gt;&lt;strong&gt;Добавление/Редактирование категории для вопросов&lt;/strong&gt;&lt;br /&gt; 						Для добавления категории нажмите кнопку &amp;quot;Добавить&amp;quot;  на странице со списком категорий для вопросов. 						Для редактирования нажмите на имя категории на странице со списком категорий. Во время добавления/редактирования Вы можете задать следующие свойства:&lt;br /&gt; 						- Выбрать тест, которому будет принадлежать данная категория.(Если Вы создаёте новую категорию);&lt;br /&gt; 						- Имя категории;&lt;br /&gt; 						- Задать количество вопросов, которое будет выбрано из данной категории вопросов при компоновке теста. Если задано &amp;quot;0&amp;quot; или ничего, то будут выбраны все вопросы;&lt;br /&gt; 						- Задать количество времени, которое будет выделено для ответа на вопрос из данной категории;&lt;br /&gt; 						- Описание категории;&lt;br /&gt; 						&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Список категорий для вопросов&lt;/strong&gt;&lt;br /&gt; 						На этой странице показан список категорий для вопросов. Вы можете удалите выбранные категории для вопросов. При удалении, Вы можете указать 					, надо ли удалять вопросы которые относятся к удаляемой категории.&lt;br /&gt; 					&lt;/li&gt;&lt;/ol&gt; 					&lt;br /&gt;&lt;br /&gt; 					 					&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Шаблоны вопросов&lt;/strong&gt;&lt;br /&gt;В этом разделе вы можете создать шаблон, что позволит Вам создавать вопросы на основе этого шаблона. Может использоаваться для более эффективного создания часто повторяющихся вопросов, к примеру: &amp;quot;Да/Нет&amp;quot;.&lt;br /&gt;&lt;br /&gt; 					&lt;ol style=&quot;list-style-type: lower-alpha; list-style-image: none; list-style-position: outside&quot;&gt; 						&lt;li&gt;&lt;strong&gt;Добавление/Редактирование шаблона вопроса&lt;/strong&gt;&lt;br /&gt;Для добавления шаблона нажмите кнопку &amp;quot;Добавить&amp;quot; на странице со списком шаблонов. Для редактирования нажмите на имя шаблона на странице со списком шаблонов. Во время добавления/редактирования Вы можете задать следующие свойства:&lt;br /&gt; 						- Имя шаблона;&lt;br /&gt; 						- Тип вопроса (Смотрите раздел 10.c);&lt;br /&gt; 						- Включить / Выключить валидацию во время сохранения шаблона;&lt;br /&gt; 						- Определить параметры для выбранного типа вопроса;&lt;br /&gt; 						&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Список шаблонов вопросов&lt;/strong&gt;&lt;br /&gt; 						На этой странице показан список шаблонов и есть возможность удалить выбранные шаблоны.&lt;br /&gt; 					&lt;/li&gt;&lt;/ol&gt; 					&lt;br /&gt;&lt;br /&gt; 					 					&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Текстовые шаблоны&lt;/strong&gt;&lt;br /&gt;В этом разделе Вы можете управлять текстовыми шаблонами, которые могут быть использованы для отображения результатов сдачи теста.&lt;br /&gt;&lt;br /&gt; 					&lt;ol style=&quot;list-style-type: lower-alpha; list-style-image: none; list-style-position: outside&quot;&gt; 						&lt;li&gt;&lt;strong&gt;Добавление/Редактирование текстового шаблона&lt;/strong&gt;&lt;br /&gt; 						Для добавления шаблона нажмите кнопку &amp;quot;Добавить&amp;quot; на странице со списком шаблонов. Для редактирования нажмите на имя шаблона на странице со списком шаблонов. Во время добавления/редактирования Вы можете задать следующие свойства:&lt;br /&gt; 						- Имя шаблона;&lt;br /&gt; 						- Текст шаблона;&lt;br /&gt; 						&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Список текстовых шаблонов&lt;/strong&gt;&lt;br /&gt; 						 						На этой странице показан список шаблонов и есть возможность удалить выбранные шаблоны.&lt;br /&gt; 					&lt;/li&gt;&lt;/ol&gt; 					&lt;br /&gt;&lt;br /&gt; 					 					&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Результаты сдачи тестов&lt;/strong&gt;&lt;br /&gt;В этом разделе вы можете просмотреть результаты сдачи тестов. Для удобства вы можете использовать поисковые фильтры, чтобы искать по нужному тесту и интересующему Вас пользователю. Так же предусмотрена возможность экспорта результатов в следующие форматы: CSV, HTML, MS Word, MS Excel. Результаты в CSV и MS Excel форматах будут отображены в упрощённой форме, в HTML и MS Word форматах в развёрнутой форме.	&lt;br /&gt;&lt;br /&gt;&lt;br /&gt; 					 					&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Языковые настройки(Backend / Frontend)&lt;/strong&gt;&lt;br /&gt;В этом разделе Вы можете выбрать используемый языковой файл для компонента или создать свой языковой файл. Так же, Вы можете экспортировать языковые файлы или импортировать их. 					&lt;br /&gt;&lt;br /&gt;&lt;br /&gt; 					 					&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Шаблоны&lt;/strong&gt;&lt;br /&gt;В этой секции Вы можете управлять CSS шаблонами. Они будут использоваться при отображении тестов пользователям.&lt;br /&gt;&lt;br /&gt; 					&lt;ol style=&quot;list-style-type: lower-alpha; list-style-image: none; list-style-position: outside&quot;&gt; 						&lt;li&gt;&lt;strong&gt;Добавление/Редактирование CSS шаблона&lt;/strong&gt;&lt;br /&gt; 						 Для добавления шаблона нажмите кнопку &amp;quot;Добавить&amp;quot; на странице со списком шаблонов. Для редактирования нажмите на имя шаблона на странице со списком шаблонов. Во время добавления/редактирования Вы можете задать следующие свойства:&lt;br /&gt; 						- Имя шаблона;&lt;br /&gt; 						- Текст шаблона;&lt;br /&gt; 						&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Список CSS шаблонов&lt;/strong&gt;&lt;br /&gt; 						 						На этой странице показан список шаблонов и есть возможность удалить выбранные шаблоны.&lt;br /&gt; 					&lt;/li&gt;&lt;/ol&gt; 					&lt;br /&gt;&lt;br /&gt; 					 					&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Лицензии&lt;/strong&gt;&lt;br /&gt;В этом разделе Вы можете управлять лицензиями для компонента. Если срок действия Вашей лицензии истёк, то Вы сможете продолжать использовать компонент, но Вы не сможете получать обновления и бесплатную техническую поддержку. Для продления лицензии посетите www.ari-soft.com и закажите лицензию на нужный вам период. Для установки лицензии введите в поле &amp;quot;Доменное имя&amp;quot;, доменное имя вашего сайта, а в поле &amp;quot;Лицензионный ключ&amp;quot;, Ваш лицензионный ключ. 					&lt;br /&gt;&lt;br /&gt;&lt;br /&gt; 					 					&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Список тестов&lt;/strong&gt;&lt;br /&gt;В этой секции вы можете управлять тестами.&lt;br /&gt;&lt;br /&gt; 					&lt;ol style=&quot;list-style-type: lower-alpha; list-style-image: none; list-style-position: outside&quot;&gt; 						&lt;li&gt;&lt;strong&gt;Добавление/Редактирование теста&lt;/strong&gt;&lt;br /&gt;Для добавления теста нажмите кнопку &amp;quot;Добавить&amp;quot; на странице со списком тестов. Для редактирования нажмите на имя теста на странице со списком тестов. Во время добавления/редактирования Вы можете задать следующие свойства:&lt;br /&gt; 						- Имя теста;&lt;br /&gt; 						- Категорию, к которой будет относиться тест.(Смотрите раздел 1);&lt;br /&gt; 						- Группу пользователей, которая будет имять доступ к сдаче теста. Если выбрана группа &amp;quot;Гость&amp;quot;, то все пользователи смогут сдавать данный тест;&lt;br /&gt; 						- Делать тест активным или неактивным;&lt;br /&gt; 						- Время, которое даётся на сдачу теста;&lt;br /&gt; 						- Кол-во очков(в процентах), которое необходимо, чтобы тест считался сданным;&lt;br /&gt; 						- Максимальное кол-во вопросов в тесте;&lt;br /&gt; 						- Время, которое отводится для ответа на вопрос в тесте;&lt;br /&gt; 						- Описание теста;&lt;br /&gt; 						- Текстовый шаблон, который будет отослан по электронной почте в случае успешной сдачи теста;&lt;br /&gt; 						- Текстовый шаблон, который будет отослан по электронной почте в случае неуспешной сдачи теста;&lt;br /&gt; 						- Текстовый шаблон, который будет выведен на печать в случае успешной сдачи теста;&lt;br /&gt; 						- Текстовый шаблон, который будет выведен на печать в случае неуспешной сдачи теста;&lt;br /&gt; 						- Текстовый шаблон, который будет показан пользователю в случае успешной сдачи теста;&lt;br /&gt; 						- Текстовый шаблон, который будет показан пользователю в случае неуспешной сдачи теста;;&lt;br /&gt; 						- CSS шаблон, который будет использован для данного теста;&lt;br /&gt; 						- Будет ли у пользователя возможность пропускать вопросы во время теста;&lt;br /&gt; 						- Показывать вопросы в произвольном порядке;&lt;br /&gt; 						- Будет ли у пользователя возможность использовать калькулятор во время теста;&lt;br /&gt; 						- Период, в течении которого, пользователь не сможет сдать тест повторно.(Действует только для зарегистрированных пользователей).&lt;br /&gt; 						 						&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Список тестов&lt;/strong&gt;&lt;br /&gt; 						 						На этой странице показан список тестов и есть возможность удалить выбранные шаблоны или сделать их активными или неактивными.&lt;br /&gt; 					&lt;/li&gt;&lt;/ol&gt; 					&lt;br /&gt;&lt;br /&gt; 					 					&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Управление вопросами&lt;/strong&gt;&lt;br /&gt; 					&lt;ol style=&quot;list-style-type: lower-alpha; list-style-image: none; list-style-position: outside&quot;&gt; 						&lt;li&gt;&lt;strong&gt;Добавление/Редактирование вопроса&lt;/strong&gt;&lt;br /&gt;Для добавления вопроса нажмите кнопку &amp;quot;Добавить&amp;quot; на странице со списком вопросов. Для редактирования нажмите на имя вопроса на странице со списком вопросов. Во время добавления/редактирования Вы можете задать следующие свойства:&lt;br /&gt; 						- Определить к какой категории вопросов будет принадлежать вопрос.(Смотрите раздел 2);&lt;br /&gt; 						- Задать на основе какого шаблона вопросов будет создан вопрос.(Смотрите раздел 3);&lt;br /&gt; 						- Выбрать типа вопроса. (Смотрите раздел 10.c)&lt;br /&gt; 						- Задать кол-во очков за верный ответ на вопрос;&lt;br /&gt; 						- Задать текст вопроса;&lt;br /&gt; 						- Задать параметры для выбранного типа вопроса.&lt;br /&gt;  						&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Список вопросов&lt;/strong&gt;&lt;br /&gt;Чтобы попасть на эту страницу, Вам надо на странице со списком тестов нажать на ссылку просмотреть вопросы (Смотрите раздел 9.b). На этой странице показан список вопросов и есть возможность переопределить порядок следования вопросов или удалить выбранные вопросы.&lt;br /&gt; 						 						&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Типы вопросов&lt;/strong&gt;&lt;br /&gt; 						- Single Question: используется для вопросов с двумя или более вариантами ответов из которых только один верный;&lt;br /&gt; 						- Multiple Question: используется для вопросов с двумя или более вариантами ответов из которых верными являются сразу несколько вариантов;&lt;br /&gt; 						- FreeText Question: используется для вопросов, где ответ пользователь должен ввести в текстовое поле;&lt;br /&gt; 						- HotSpot Question: используется для вопросов, где пользователь для ответа должен нажать часть изображения.&lt;br /&gt; 						- Correlation Question: используется для вопросов, где пользователь должен расставить соответствие между терминами.&lt;br /&gt; 					&lt;/li&gt;&lt;/ol&gt; 					&lt;br /&gt;&lt;br /&gt; 					 					&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Банк вопросов&lt;/strong&gt;&lt;br /&gt;Банк вопросов содержит вопросы, которые могут быть добавлены в тесты. Если вопрос изменяется в банке, то он автоматически меняется в тестах, в которые он добавлен. 					&lt;br /&gt;&lt;br /&gt;&lt;br /&gt; 				&lt;/li&gt;&lt;/ol&gt;</message>
+		<description>Помощь</description>
+	</item>
+
+	<!-- Controls -->
+	<item id="Controls.DTFirstPage" group="Controls">
+		<message>&lt;&lt; начало</message>
+		<description>Таблица данных: метка для ссылки перехода на первую страницу</description>
+	</item>
+	<item id="Controls.DTLastPage" group="Controls">
+		<message>конец &gt;&gt;</message>
+		<description>Таблица данных: метка для ссылки перехода на последнюю страницу</description>
+	</item>
+	<item id="Controls.DTNextPage" group="Controls">
+		<message>след. &gt;</message>
+		<description>Таблица данных: метка для ссылки перехода на следующую страницу</description>
+	</item>
+	<item id="Controls.DTPrevPage" group="Controls">
+		<message>&lt;&lt; пред.</message>
+		<description>Таблица данных: метка для ссылки перехода на предыдущую страницу</description>
+	</item>
+	<item id="Controls.DTPageReportTemplate" group="Controls">
+		<message>({currentPage} из {totalPages})</message>
+		<description>Таблица данных: метка для отображения кол-ва страниц</description>
+	</item>
+	<item id="Controls.DTTemplate" group="Controls">
+		<message>Показать#: {RowsPerPageDropdown} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {CurrentPageReport}</message>
+		<description>Таблица данных: шаблон</description>
+	</item>
+	<item id="Controls.DTNoRecords" group="Controls">
+		<message>Записи не найдены.</message>
+		<description>Таблица данных: записи не найдены</description>
+	</item>
+
+	<!--  Extra Properties -->
+	<item id="Quiz.ShowFullStatistics" group="Properties">
+		<message>Показывать полную статистику</message>
+		<description>Показывать полную статистику</description>
+	</item>
+</resource>

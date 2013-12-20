@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="All questions on one page, no conditional branching">
+		<message>
+			<![CDATA[This view shows all question per page.]]>
+		</message>
+	</layout>
+	<state>
+		<name>BF Quiz</name>
+		<description>This view shows all questions on one page. Conditional branching is disabled. Select the appropriate category in the drop down on the right.</description>
+		<url addpath="/administrator/components/com_bfquiztrial/elements">
+			<param name="catid" type="bfquiztrial" label="Category" description="Choose a category..." />
+		</url>
+	</state>
+</metadata>

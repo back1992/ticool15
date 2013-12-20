@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource>
+	<item id="Label.SaveSettings">
+		<message>Uložit nastavení</message>
+		<description>Popisek uložení nastavení</description>
+	</item>
+	<item id="Label.QOT">
+		<message>Způsob označení odpovědí</message>
+		<description>Způsob označení odpovědí</description>
+	</item>
+	<item id="Label.QOT.AlphaUpper">
+		<message>Velká abeceda</message>
+		<description>Velká abeceda</description>
+	</item>
+	<item id="Label.QOT.AlphaLower">
+		<message>Malá abeceda</message>
+		<description>Malá abeceda</description>
+	</item>
+	<item id="Label.QOT.Numeric">
+		<message>Čísla</message>
+		<description>Čísla</description>
+	</item>
+	<item id="Label.ExportQuestionsNote" group="Labels">
+		<message>Pokud je zvolena tato možnost, všechny otázky ze zásoby budou vyexportovány</message>
+		<description>Popisek pro export všech otázek ze zásoby</description>
+	</item>
+	<item id="Label.UploadExportFile" group="Labels">
+		<message>Nahrát soubor</message>
+		<description>Popisek pro nahrání exportního souboru</description>
+	</item>
+	<item id="Label.ImportExportFileFromDir" group="Labels">
+		<message>Nahrát ze složky</message>
+		<description>Popisek pro instalaci exportního souboru ze složky</description>
+	</item>
+	<item id="Label.ExportResults" group="Labels">
+		<message>Výsledky exportu</message>
+		<description>Popisek výsledku exportu</description>
+	</item>
+	<item id="Label.Login" group="Labels">
+		<message>Login</message>
+		<description>Popisek loginu</description>
+	</item>
+	<item id="Label.ID" group="Labels">
+		<message>ID</message>
+		<description>Popisek ID</description>
+	</item>
+	<item id="Label.LoadUsedQuestions" group="Labels">
+		<message>Nahrát použité otázky</message>
+		<description>Popisek importu použitých otázek</description>
+	</item>
+	<item id="Label.ImportFromBank" group="Labels">
+		<message>Nahrát otázky ze zásobárny</message>
+		<description>Popisek importu otázek ze zásobárny</description>
+	</item>
+	<item id="Label.QuizCanStop" group="Labels">
+		<message>Umožnit zastavení</message>
+		<description>Umožnit zastavení</description>
+	</item>
+	<item id="Label.ExportAllQue" group="Labels">
+		<message>Exportovat veškeré otázky</message>
+		<description>popisek exportu veškerých otázek</description>
+	</item>
+	<item id="Label.ExportSpecQue" group="Labels">
+		<message>Exportovat vybrané otázky</message>
+		<description>Popisek exportu vybraných otázek</description>
+	</item>
+	<item id="Label.ExportAllQuiz" group="Labels">
+		<message>Exportovat všechny kvízy</message>
+		<description>Popisek exportu všech kvízů</description>
+	</item>
+	<item id="Label.ExportSpecQuiz" group="Labels">
+		<message>Exportovat vybrané kvízy</message>
+		<description>Popisek exportu vybraných kvízů</description>
+	</item>
+	<item id="Title.ImportData" group="Labels">
+		<message>Nahrát data</message>
+		<description>Popisek importu dat</description>
+	</item>
+	<item id="Title.ExportData" group="Labels">
+		<message>Exportovat data</message>
+		<description>Popisek exportu dat</description>
+	</item>
+	<item id="Label.Yes" group="Labels">
+		<message>Ano</message>
+		<description>Popisek ano</description>
+	</item>
+	<item id="Label.No" group="Labels">
+		<message>Ne</message>
+		<description>Popisek ne</description>
+	</item>
+	<item id="Label.ActionFailure" group="Labels">
+		<message>Zpracování vašeho požadavku selhalo</message>
+		<description>Zpracování vašeho požadavku selhalo</description>
+	</item>
+	<item id="Label.Loading" group="Labels">
+		<message>Nahrávám... Prosím počkejte</message>
+		<description>Popisek nahrávání</description>
+	</item>
+	<item id="Label.Note" group="Labels">
+		<message>Poznámka</message>
+		<description>Popisek poznámky</description>
+	</item>
+	<item id="Label.RandomOrder" group="Labels">
+		<message>Náhodné pořadí</message>
+		<description>Popisek náhodného pořadí</description>
+	</item>
+	<item id="Label.ViewType.Radio" group="Labels">
+		<message>Seznam radiobuttonů</message>
+		<description>Popisek zobrazení radiobuttonů</description>
+	</item>
+	<item id="Label.ViewType.DropDown" group="Labels">
+		<message>Seznam roletkových menu</message>
+		<description>Popisek zobrazení roletkových menu</description>
+	</item>
+	<item id="Label.ViewType" group="Labels">
+		<message>Druh zobrazení</message>
+		<description>Popisek druhu zobrazení</description>
+	</item>
+	<item id="Label.PercentScore" group="Labels">
+		<message>% Skóre</message>
+		<description>Popisek procent skóre</description>
+	</item>
+	<item id="Label.QuestionCategory" group="Labels">
+		<message>Kategorie otázek</message>
+		<description>Popisek skupiny otázek</description>
+	</item>
+	<item id="Label.ParsePluginTag" group="Labels">
+		<message>Zpracovávat mamboty</message>
+		<description>Popisek zpracovávání mambotů</description>
+	</item>
+	<item id="Label.StartPoint" group="Labels">
+		<message>Hodnota od</message>
+		<description>Popisek hodnoty od</description>
+	</item>
+	<item id="Label.EndPoint" group="Labels">
+		<message>Hodnota do</message>
+		<description>Popisek hodnoty do</description>
+	</item>
+	<item id="Label.ChooseScale" group="Labels">
+		<message>- Zvolte stupnici výsledků -</message>
+		<description>Popisek volby stupnice výsledků</description>
+	</item>
+	<item id="Label.TextTemplate" group="Labels">
+		<message>Šablona textu</message>
+		<description>Popisek textové šablony</description>
+	</item>
+	<item id="Label.PrintTemplate" group="Labels">
+		<message>Šablona tisku</message>
+		<description>Popisek šablony tisku</description>
+	</item>
+	<item id="Label.Percent" group="Labels">
+		<message>%</message>
+		<description>Popisek procent</description>
+	</item>
+	<item id="Title.ResultScale" group="Labels">
+		<message>Stupnice výsledků</message>
+		<description>Popisek stupnice výsledků</description>
+	</item>
+	<item id="Title.ResultScaleList" group="Labels">
+		<message>Seznam stupnice výsledků</message>
+		<description>Popisek seznamu stupnice výsledků</description>
+	</item>
+	<item id="Label.MailTemplates" group="Labels">
+		<message>Emailové šablony</message>
+		<description>Popisek šablon emailů</description>
+	</item>
+	<item id="Label.MailTemplate" group="Labels">
+		<message>Šablona emailu</message>
+		<description>Popisek šablona emailu</description>
+	</item>
+	<item id="Label.FromName" group="Labels">
+		<message>Odesílatel (Jméno)</message>
+		<description>Popisek odesílatele</description>
+	</item>
+	<item id="Label.From" group="Labels">
+		<message>Od (Email)</message>
+		<description>popisek od</description>
+	</item>
+	<item id="Label.Subject" group="Labels">
+		<message>Předmět</message>
+		<description>Popisek předmětu</description>
+	</item>
+	<item id="Label.QuestionNote" group="Labels">
+		<message>Poznámka</message>
+		<description>Popisek poznámky otázky</description>
+	</item>
+	<item id="Ajax.Loading" group="Labels">
+		<message>Nahrávám... Prosím počkejte</message>
+		<description>Zpráva nahrávání</description>
+	</item>
+	<item id="Category.Uncategory" group="Labels">
+		<message>- Obecné -</message>
+		<description>Jméno pro obecnou kategorii</description>
+	</item>
+	<item id="Label.Change" group="Labels">
+		<message>Změnit</message>
+		<description>Popisek změny</description>
+	</item>
+	<item id="Label.BankCategory" group="Labels">
+		<message>Kategorie zásobárny</message>
+		<description>Popisek kategorie zásobárny</description>
+	</item>
+	<item id="Title.BankCategoryList" group="Labels">
+		<message>Seznam kategorií zásobárny</message>
+		<description>Popisek pro seznam kategorií zásobárny</description>
+	</item>
+	<item id="Label.QuizStatistics" group="Labels">
+		<message>Statistiky kvízu</message>
+		<description>Popisek pro statistiky kvízu</description>
+	</item>
+	<item id="Label.Override" group="Labels">
+		<message>Anulovat</message>
+		<description>Popisek anulace</description>
+	</item>
+	<item id="Label.QuestionReference" group="Labels">
+		<message>Zásobárna otázek založena</message>
+		<description>Popisek založení zásobárny otázek</description>
+	</item>
+	<item id="Title.Bank" group="Labels">
+		<message>Zásobárna otázek</message>
+		<description>Popisek zásobárny otázek</description>
+	</item>
+	<item id="Title.BLangResource" group="Labels">
+		<message>Zdroje jazyka pro backend</message>
+		<description>Popisek pro editační stránku backend jazyka</description>
+	</item>
+	<item id="Title.FLangResource" group="Labels">
+		<message>Zdroje jazyka pro frontend</message>
+		<description>Popisek pro editační stránku frontend jazyka</description>
+	</item>
+	<item id="Label.MainSettings" group="Labels">
+		<message>Hlavní nastavení</message>
+		<description>Popisek hlavního nastavení</description>
+	</item>
+	<item id="Label.Name" group="Labels">
+		<message>Jméno</message>
+		<description>Popisek jména</description>
+	</item>
+	<item id="Label.CorrectCorrelation" group="Labels">
+		<message>Správný vztah</message>
+		<description>Popisek správného vztahu</description>
+	</item>
+	<item id="Label.UserCorrelation" group="Labels">
+		<message>Vztah uživatele</message>
+		<description>Popisek vztahu uživatele</description>
+	</item>
+	<item id="Label.Email" group="Labels">
+		<message>Email</message>
+		<description>Popisek emailu</description>
+	</item>
+	<item id="Label.Category" group="Labels">
+		<message>Kategorie</message>
+		<description>Popisek kategorie</description>
+	</item>
+	<item id="Label.Description" group="Labels">
+		<message>Popis</message>
+		<description>Popisek popisu</description>
+	</item>
+	<item id="Title.CategoryList" group="Labels">
+		<message>Seznam kategorií otázek</message>
+		<description>popisek seznamu kategorií otázek</description>
+	</item>
+	<item id="Title.FAQ" group="Labels">
+		<message>F.A.Q.</message>
+		<description>F.A.Q. label</description>
+	</item>
+	<item id="Title.Help" group="Labels">
+		<message>Pomoc</message>
+		<description>Popisek pomoci</description>
+	</item>
+	<item id="Title.TemplateList" group="Labels">
+		<message>Seznam šablon</message>
+		<description>Popisek seznamu šablon</description>
+	</item>
+	<item id="Title.License" group="Labels">
+		<message>Licence</message>
+		<description>Popisek licence</description>
+	</item>
+	<item id="Label.NewLicense" group="Labels">
+		<message>Nová licence</message>
+		<description>Popisek nové licence</description>
+	</item>
+	<item id="Label.Domain" group="Labels">
+		<message>Doména</message>
+		<description>Popisek domény</description>
+	</item>
+	<item id="Label.LicenseKey" group="Labels">
+		<message>Licenční klíč</message>
+		<description>Popisek licenčního klíče</description>
+	</item>
+	<item id="Label.StartDate" group="Labels">
+		<message>Počáteční datum</message>
+		<description>Popisek data začátku</description>
+	</item>
+	<item id="Label.EndDate" group="Labels">
+		<message>Datum platnosti</message>
+		<description>Popisek data platnosti</description>
+	</item>
+	<item id="Label.Expired" group="Labels">
+		<message>Vypršelo</message>
+		<description>Popisek vypršení</description>
+	</item>
+	<item id="Label.NotExpired" group="Labels">
+		<message>Nevypršeno</message>
+		<description>Popisek nevypršení</description>
+	</item>
+	<item id="Label.NotItemsFound" group="Labels">
+		<message>Nenalezeny žádné položky.</message>
+		<description>Popisek nenalezených položek</description>
+	</item>
+	<item id="Label.NumberPos" group="Labels">
+		<message>#</message>
+		<description>Popisek pozice čísla</description>
+	</item>
+	<item id="Label.Apply" group="Labels">
+		<message>Použít</message>
+		<description>Popisek použití</description>
+	</item>
+	<item id="Title.QuestionTemplate" group="Labels">
+		<message>Šablona otázky</message>
+		<description>Popisek šablony otázky</description>
+	</item>
+	<item id="Label.QuestionType" group="Labels">
+		<message>Druh otázky</message>
+		<description>Popisek druhu otázky</description>
+	</item>
+	<item id="Label.DisableQueValidation" group="Labels">
+		<message>Vypnutí validace otázek</message>
+		<description>Popisek vypnutí validace otázek</description>
+	</item>
+	<item id="Label.Question" group="Labels">
+		<message>Otázka</message>
+		<description>Otázka</description>
+	</item>
+	<item id="Label.Quiz" group="Labels">
+		<message>Kvíz</message>
+		<description>Kvíz</description>
+	</item>
+	<item id="Label.Score" group="Labels">
+		<message>Skóre</message>
+		<description>Skóre</description>
+	</item>
+	<item id="Label.AdditionalSettings" group="Labels">
+		<message>Doplňující nastavení</message>
+		<description>Doplňující nastavení</description>
+	</item>
+	<item id="Label.AdditionalProperties" group="Labels">
+		<message>Extra vlastnosti</message>
+		<description>Extra vlastnosti</description>
+	</item>
+	<item id="Title.QuestionList" group="Labels">
+		<message>Seznam otázek</message>
+		<description>Seznam otázek</description>
+	</item>
+	<item id="Label.Reorder" group="Labels">
+		<message>Přeuspořádat</message>
+		<description>Přeuspořádat</description>
+	</item>
+	<item id="Title.QuestionResultView" group="Labels">
+		<message>Zobrazení výsledku otázky</message>
+		<description>Zobrazení výsledku otázky</description>
+	</item>
+	<item id="Title.QuestionCategory" group="Labels">
+		<message>Kategorie otázky</message>
+		<description>Kategorie otázky</description>
+	</item>
+	<item id="Label.QuestionCount" group="Labels">
+		<message>Počet otázek</message>
+		<description>Popisek počtu otázek</description>
+	</item>
+	<item id="Label.QuestionTime" group="Labels">
+		<message>Čas otázky</message>
+		<description>Popisek času otázky</description>
+	</item>
+	<item id="Label.UseCalculator" group="Labels">
+		<message>Použít kalkulátor</message>
+		<description>Popisek použití kalkulátoru</description>
+	</item>
+	<item id="Title.QuestionCategoryList" group="Labels">
+		<message>Seznam kategorií otázek</message>
+		<description>Seznam kategorií otázek</description>
+	</item>
+	<item id="Label.TextTemplates" group="Labels">
+		<message>Šablony textu</message>
+		<description>Šablony textu</description>
+	</item>
+	<item id="Label.SucEmailTemplate" group="Labels">
+		<message>Šablona emailu úspěšného kvízu</message>
+		<description>Šablona emailu úspěšného kvízu</description>
+	</item>
+	<item id="Label.FailedEmailTemplate" group="Labels">
+		<message>Šablona emailu neúspěšného kvízu</message>
+		<description>Šablona emailu neúspěšného kvízu</description>
+	</item>
+	<item id="Label.SucPrintTemplate" group="Labels">
+		<message>Šablona tisku úspěšného kvízu</message>
+		<description>Šablona tisku úspěšného kvízu</description>
+	</item>
+	<item id="Label.FailedPrintTemplate" group="Labels">
+		<message>Šablona tisku neúspěšného kvízu</message>
+		<description>Šablona tisku neúspěšného kvízu</description>
+	</item>
+	<item id="Label.SucTemplate" group="Labels">
+		<message>Šablona úspěšného kvízu</message>
+		<description>Šablona úspěšného kvízu</description>
+	</item>
+	<item id="Label.FailedTemplate" group="Labels">
+		<message>Šablona neúspěšného kvízu</message>
+		<description>Šablona neúspěšného kvízu</description>
+	</item>
+	<item id="Title.QuizList" group="Labels">
+		<message>Seznam kvízů</message>
+		<description>Seznam kvízů</description>
+	</item>
+	<item id="Title.Result" group="Labels">
+		<message>Výsledek</message>
+		<description>Výsledek</description>
+	</item>
+	<item id="Label.Details" group="Labels">
+		<message>Detaily</message>
+		<description>Detaily</description>
+	</item>
+	<item id="Label.PreviewTemplate" group="Labels">
+		<message>Šablona náhledu</message>
+		<description>Šablona náhledu</description>
+	</item>
+	<item id="Label.User" group="Labels">
+		<message>Uživatel</message>
+		<description>Uživatel</description>
+	</item>
+	<item id="Label.Passed" group="Labels">
+		<message>Prošel</message>
+		<description>Prošel</description>
+	</item>
+	<item id="Label.NoPassed" group="Labels">
+		<message>Neprošel</message>
+		<description>Neprošel</description>
+	</item>
+	<item id="Title.QuizResultList" group="Labels">
+		<message>Seznam výsledků kvízu</message>
+		<description>Seznam výsledků kvízu</description>
+	</item>
+	<item id="Title.CSSTemplate" group="Labels">
+		<message>CSS šablona</message>
+		<description>CSS šablona</description>
+	</item>
+	<item id="Label.Params" group="Labels">
+		<message>Parametery</message>
+		<description>Parametery</description>
+	</item>
+	<item id="Label.Actions" group="Labels">
+		<message>Akce</message>
+		<description>Akce</description>
+	</item>
+	<item id="Label.CorrectAnswers" group="Labels">
+		<message>Správné odpovědi</message>
+		<description>Správné odpovědi</description>
+	</item>
+	<item id="Label.Correct" group="Labels">
+		<message>Správně</message>
+		<description>Popisek správnosti</description>
+	</item>
+	<item id="Label.TextCI" group="Labels">
+		<message>Nerozlišovat velikost písmen</message>
+		<description>Nerozlišovat velikost písmen</description>
+	</item>
+	<item id="Label.Image" group="Labels">
+		<message>Obrázek</message>
+		<description>Popisek obrázku</description>
+	</item>
+	<item id="Label.Clear" group="Labels">
+		<message>Vymazat</message>
+		<description>Popisek vymazání</description>
+	</item>
+	<item id="Label.Answer" group="Labels">
+		<message>Odpověď</message>
+		<description>Popisek odpovědi</description>
+	</item>
+	<item id="Label.Access" group="Labels">
+		<message>Přístup (Uživatelská skupina)</message>
+		<description>Popisek přístupovách práv</description>
+	</item>
+	<item id="Label.Active" group="Labels">
+		<message>Aktivní</message>
+		<description>Popisek aktivních</description>
+	</item>
+	<item id="Label.Inactive" group="Labels">
+		<message>Neaktivní</message>
+		<description>Popisek neaktivních</description>
+	</item>
+	<item id="Label.TotalTime" group="Labels">
+		<message>Celkový čas</message>
+		<description>Popisek celkového času</description>
+	</item>
+	<item id="Label.PassedScore" group="Labels">
+		<message>Skóre pro absolvování</message>
+		<description>Popisek skóre nutného k absolvování kvízu</description>
+	</item>
+	<item id="Label.Skip" group="Labels">
+		<message>Umožnit přeskakování</message>
+		<description>Popisek umožnění přeskakování</description>
+	</item>
+	<item id="Label.RandomQuestion" group="Labels">
+		<message>Náhodné otázky</message>
+		<description>Popisek náhodných otázek</description>
+	</item>
+	<item id="Label.Questions" group="Labels">
+		<message>Otázky</message>
+		<description>Popisek otázek</description>
+	</item>
+	<item id="Label.Results" group="Labels">
+		<message>Výsledky</message>
+		<description>Popisek výsledků</description>
+	</item>
+	<item id="Label.NotSelectedItem" group="Labels">
+		<message>žádný</message>
+		<description>Popisek pro nevybrání položky</description>
+	</item>
+	<item id="Label.Template" group="Labels">
+		<message>Šablona</message>
+		<description>Popisek šablony</description>
+	</item>
+	<item id="Label.Tooltip" group="Labels">
+		<message>Nápověda</message>
+		<description>Popisek nápovědy</description>
+	</item>
+	<item id="Label.Filter" group="Labels">
+		<message>Filtr</message>
+		<description>Popisek filtru</description>
+	</item>
+	<item id="Label.View" group="Labels">
+		<message>Zobrazení</message>
+		<description>Popisek zobrazení</description>
+	</item>
+	<item id="Label.Status" group="Labels">
+		<message>Status</message>
+		<description>Popisek statusu</description>
+	</item>
+	<item id="Label.QCategories" group="Labels">
+		<message>Kategorie otázek</message>
+		<description>Popisek kategorie otázek</description>
+	</item>
+	<item id="Text.EmptyAnswerIgnored" group="Labels">
+		<message>Prázdná odpověď je ignorována</message>
+		<description>Prázdná odpověď je ignorována</description>
+	</item>
+	<item id="Label.SendResultTo" group="Labels">
+		<message>Odeslat výsledky na</message>
+		<description>Popisek odeslání výsledků</description>
+	</item>
+	<item id="Label.AddItem" group="Labels">
+		<message>Přidat</message>
+		<description>Popisek přidání</description>
+	</item>
+	<item id="Label.UpdateItem" group="Labels">
+		<message>Aktulizovat</message>
+		<description>Popisek aktualizací</description>
+	</item>
+	<item id="Label.Text" group="Labels">
+		<message>Text</message>
+		<description>Popisek textu</description>
+	</item>
+	<item id="Label.LagTime" group="Labels">
+		<message>Časový interval</message>
+		<description>Popisek časového intervalu</description>
+	</item>
+	<item id="Label.AttemptCount" group="Labels">
+		<message>Počet pokusů</message>
+		<description>Popisek počtu pokusů</description>
+	</item>
+	<item id="Label.Guest" group="Labels">
+		<message>Host</message>
+		<description>Popisek hosta</description>
+	</item>
+	<item id="Label.Default" group="Labels">
+		<message>Výchozí</message>
+		<description>Popisek výchozího</description>
+	</item>
+	<item id="Label.Message" group="Labels">
+		<message>Zpráva</message>
+		<description>Popisek zprávy</description>
+	</item>
+	<item id="Label.File" group="Labels">
+		<message>Soubor</message>
+		<description>Popisek souboru</description>
+	</item>
+	<item id="Title.LangList" group="Labels">
+		<message>Seznam jazyků</message>
+		<description>Popisek seznamu jazyků</description>
+	</item>
+	<item id="Label.AllCategory" group="Labels">
+		<message>- Veškeré kategorie -</message>
+		<description>Popisek všech kategorií</description>
+	</item>
+	<item id="Label.AllStatus" group="Labels">
+		<message>- Veškeré statusy -</message>
+		<description>Popisek všech statusů</description>
+	</item>
+	<item id="Label.AllQuiz" group="Labels">
+		<message>- Veškeré kvízy -</message>
+		<description>Popisek všech kvízů</description>
+	</item>
+	<item id="Label.AllUser" group="Labels">
+		<message>- Všichni uživatelé -</message>
+		<description>Popisek všech uživatelů</description>
+	</item>
+	<item id="Date.DayShort" group="Labels">
+		<message>d</message>
+		<description>Popisek zkratky dne</description>
+	</item>
+	<item id="Date.HourShort" group="Labels">
+		<message>h</message>
+		<description>Popisek zkratky hodiny</description>
+	</item>
+	<item id="Date.MinuteShort" group="Labels">
+		<message>min</message>
+		<description>Popisek zkratky minuty</description>
+	</item>
+	<item id="Date.SecondShort" group="Labels">
+		<message>sec</message>
+		<description>Popisek zkratky vteřiny</description>
+	</item>
+
+	<!--  Validators -->
+	<item id="Validator.ImportFileRequired" group="Validators">
+		<message>Vyberte prosím soubor pro import.</message>
+		<description>Zpráva výběru importního souboru</description>
+	</item>
+	<item id="Validator.ImportDirRequired" group="Validators">
+		<message>Určete prosím složku importu.</message>
+		<description>Zpráva určení importní složky</description>
+	</item>
+	<item id="Validator.ExportRemove" group="Validators">
+		<message>Vyberte položky pro odstranení prosím.</message>
+		<description>Zpráva výběru položek k odstranění</description>
+	</item>
+	<item id="Validator.Export" group="Validators">
+		<message>Vyberte prosím položky pro export.</message>
+		<description>Zpráva výběru exportovaných položek</description>
+	</item>
+	<item id="Validator.BankImport" group="Validators">
+		<message>Vyberte prosím otázky, které chcete importovat.</message>
+		<description>Zrpáva výběru iportovaných otázek</description>
+	</item>
+	<item id="Validator.QuestionNoSetPercentScore" group="Validators">
+		<message>Procentuální skóre může být pouze v rozsahu 0 až 100.</message>
+		<description>Zpráva validátoru procent</description>
+	</item>
+	<item id="Validator.RSOverlapPoint" group="Validators">
+		<message>Některé hodnoty skóre přesahují. Prosím, upravte Please set correct rozsah.</message>
+		<description>Zpráva validátoru výsledkové škály</description>
+	</item>
+	<item id="Validator.RSNotCoveredPoint" group="Validators">
+		<message>Některé rozsahy skóre nejsou pokryty.</message>
+		<description>Zpráva validátoru výsledkové škály</description>
+	</item>
+	<item id="Validator.RSEmptySection" group="Validators">
+		<message>Není indikována žádná část pro výsledkovou škálu.</message>
+		<description>Zpráva validátoru výsledkové škály</description>
+	</item>
+	<item id="Validator.RSRangePoint" group="Validators">
+		<message>Hodnoty skóre mohou být pouze čísla v rozsahu 0 .. 100</message>
+		<description>Zpráva validátoru výsledkové škály</description>
+	</item>
+	<item id="Validator.EmailIncorrect" group="Validators">
+		<message>Email má nesprávný formát</message>
+		<description>Zpráva validátoru správnosti formátu emailové adresy</description>
+	</item>
+	<item id="Validator.InvalidLicense" group="Validators">
+		<message>Zadejte platný klíč prosím</message>
+		<description>Zpráva validátoru licenčního klíče</description>
+	</item>
+	<item id="Validator.NameRequired" group="Validators">
+		<message>Jméno je požadováno</message>
+		<description>Zpráva validátoru</description>
+	</item>
+	<item id="Validator.NameNotUnique" group="Validators">
+		<message>Jméno není jedinečné</message>
+		<description>Zpráva validátoru</description>
+	</item>
+	<item id="Validator.ConfirmNameNotUnique" group="Validators">
+		<message>Jméno není jedinečné. Jste si jisti, že chcete i přes to pokračovat v ukládání?</message>
+		<description>Zpráva validátoru</description>
+	</item>
+	<item id="Validator.NotSelectImage" group="Validators">
+		<message>Vyberte obrázek prosím</message>
+		<description>Zpráva validátoru</description>
+	</item>
+	<item id="Validator.NotSelectArea" group="Validators">
+		<message>Vyberte prosím oblast</message>
+		<description>Zpráva validátoru</description>
+	</item>
+	<item id="Validator.TotalTime" group="Validators">
+		<message>Celkový čas začíná od </message>
+		<description>Zpráva validátoru</description>
+	</item>
+	<item id="Validator.QuestionTime" group="Validators">
+		<message>Čas otázky začíná od 0</message>
+		<description>Zpráva validátoru</description>
+	</item>
+	<item id="Validator.QuestionScore" group="Validators">
+		<message>Skóre otázek začíná od 0</message>
+		<description>Zpráva validátoru</description>
+	</item>
+	<item id="Validator.QuestionScoreRequired" group="Validators">
+		<message>Skóre otázky je požadováno</message>
+		<description>Zpráva validátoru</description>
+	</item>
+	<item id="Validator.PassedScore" group="Validators">
+		<message>Skóre úspěšnosti od 0 do 100</message>
+		<description>Zpráva validátoru</description>
+	</item>
+	<item id="Validator.QuestionCount" group="Validators">
+		<message>Počítadlo otázek začíná od 0</message>
+		<description>Zpráva validátoru</description>
+	</item>
+	<item id="Validator.QuestionRequired" group="Validators">
+		<message>Otázka je požadována</message>
+		<description>Zpráva validátoru</description>
+	</item>
+	<item id="Validator.QuestionNotAnswer" group="Validators">
+		<message>Prosím specifikujte alespoň jednu odpověď</message>
+		<description>Zpráva validátoru</description>
+	</item>
+	<item id="Validator.QuestionNotCorrect" group="Validators">
+		<message>Prosím určete správné odpovědi</message>
+		<description>Zpráva validátoru</description>
+	</item>
+	<item id="Validator.LagTime" group="Validators">
+		<message>Čas intervalu musí být větší nebo roven 0</message>
+		<description>Zpráva validátoru</description>
+	</item>
+	<item id="Validator.AttemptCount" group="Validators">
+		<message>Počet pokusů musí být větší nebo roven 0</message>
+		<description>Zpráva validátoru</description>
+	</item>
+	<item id="Validator.TextRequired" group="Validators">
+		<message>Text je vyžadován</message>
+		<description>Zpráva validátoru</description>
+	</item>
+	<item id="Validator.TemplateRequired" group="Validators">
+		<message>Je vyžadována šablona</message>
+		<description>Zpráva validátoru</description>
+	</item>
+	<item id="Validator.FileRequired" group="Validators">
+		<message>Soubor je požadován</message>
+		<description>Zpráva validátoru</description>
+	</item>
+	<item id="Validator.FileIncorrectFormat" group="Validators">
+		<message>Soubor má neplatný formát</message>
+		<description>Zpráva validátoru</description>
+	</item>
+
+	<!-- Completed messages -->
+	<item id="Complete.DataImportFailed" group="Complete">
+		<message>Nahrání dat selhalo</message>
+		<description>Text selhaného importu dat</description>
+	</item>
+	<item id="Complete.DataImport" group="Complete">
+		<message>Nahrání dat proběhlo úspěšně</message>
+		<description>Text úspěšného importu dat</description>
+	</item>
+	<item id="Complete.ExportSettings" group="Complete">
+		<message>Export nastavení byl úspěšně uložen</message>
+		<description>Text úspěšného uložení exportu nastavení</description>
+	</item>
+	<item id="Complete.QueAddToQueue" group="Complete">
+		<message>Otázky byly úspěšně zařazeny do exportní fronty</message>
+		<description>Text úspěšného zařazení otázek do exportní fronty</description>
+	</item>
+	<item id="Complete.QuizAddToQueue" group="Complete">
+		<message>Kvízy byly úspěšně zařazeny do exportní fronty</message>
+		<description>Text úspěšného zařazení kvízů do exportní fronty</description>
+	</item>
+	<item id="Complete.QueRemoveFromQueue" group="Complete">
+		<message>Otázky byly úspěšně vyřazeny z exportní fronty</message>
+		<description>Text úspěšného vyřazení otázek z exportní fronty</description>
+	</item>
+	<item id="Complete.QuizRemoveFromQueue" group="Complete">
+		<message>Kvízy byly úspěšně vyřazeny z exportní fronty</message>
+		<description>Text úspěšného vyřazení kvízů z exportní fronty</description>
+	</item>
+	<item id="Complete.QuestionImported" group="Complete">
+		<message>Kvízy úspěšně nahrány</message>
+		<description>Text úspěšného nahrání kvízů</description>
+	</item>
+	<item id="Complete.ScaleSave" group="Complete">
+		<message>Výsledková škála uložena</message>
+		<description>Text uložení výsledkové škály</description>
+	</item>
+	<item id="Complete.ScaleDelete" group="Complete">
+		<message>Výsledková škála vymazána</message>
+		<description>Text výmazu výsledkové škály</description>
+	</item>
+	<item id="Complete.TemplateDelete" group="Complete">
+		<message>Šablona smazána</message>
+		<description>Text výmazu šablony</description>
+	</item>
+	<item id="Complete.QuizSave" group="Complete">
+		<message>Kvíz uložen</message>
+		<description>Text uloženého kvízu</description>
+	</item>
+	<item id="Complete.QuestionSave" group="Complete">
+		<message>Otázka uložena</message>
+		<description>Text uložené otázky</description>
+	</item>
+	<item id="Complete.CategorySave" group="Complete">
+		<message>Kategorie uložena</message>
+		<description>Text uložení kategorie</description>
+	</item>
+	<item id="Complete.QCategorySave" group="Complete">
+		<message>Kategorie otázek uložena</message>
+		<description>Text uložení kategorie otázek</description>
+	</item>
+	<item id="Complete.QuestionDelete" group="Complete">
+		<message>Otázka vymazána</message>
+		<description>text výmazu otázky</description>
+	</item>
+	<item id="Complete.QuestionCategoryDelete" group="Complete">
+		<message>Kategorie otázek vymazána</message>
+		<description>Text výmazu kategorie otázek</description>
+	</item>
+	<item id="Complete.QuizDelete" group="Complete">
+		<message>Kvíz vymazán</message>
+		<description>Text smazání kvízu</description>
+	</item>
+	<item id="Complete.ResultDelete" group="Complete">
+		<message>Výsledky vymazány</message>
+		<description>Text vamazání výsledků</description>
+	</item>
+	<item id="Complete.QuizActivate" group="Complete">
+		<message>Kvíz aktivován</message>
+		<description>Text aktivování kvízu</description>
+	</item>
+	<item id="Complete.QuizDeactivate" group="Complete">
+		<message>Kvíz deaktivován</message>
+		<description>Text deaktivování kvízu</description>
+	</item>
+	<item id="Complete.ChangeQuestionOrder" group="Complete">
+		<message>Pořadí otázek změněno</message>
+		<description>Text změny pořadí otázek</description>
+	</item>
+	<item id="Complete.CategoryDelete" group="Complete">
+		<message>Kategorie smazána</message>
+		<description>text výmazu kategorie</description>
+	</item>
+	<item id="Complete.QTemplateSave" group="Complete">
+		<message>Šablona uložena</message>
+		<description>Text uložení šablony otázky</description>
+	</item>
+	<item id="Complete.DeleteQTemplate" group="Complete">
+		<message>Šablona smazána</message>
+		<description>Text výmazu šablony otázky</description>
+	</item>
+	<item id="Complete.TemplateSave" group="Complete">
+		<message>Šablona uložena</message>
+		<description>Text uložení šablony</description>
+	</item>
+	<item id="License.AddLicense" group="Complete">
+		<message>Licenční klíč přidán</message>
+		<description>Text přidání licenčního klíče</description>
+	</item>
+	<item id="License.BeforeUseSpecifyKey" group="Complete">
+		<message>Prosím deklarujte licenční klíč před používáním komponenty</message>
+		<description>Text deklarace licenčního klíče před používáním komponenty</description>
+	</item>
+	<item id="License.IncorrectLicense" group="Complete">
+		<message>Zadán neplatný licenční klíč</message>
+		<description>Text špatně zadaného licenčního klíče</description>
+	</item>
+	<item id="License.SpecifyKey" group="Complete">
+		<message>Prosím určete licenční klíč</message>
+		<description>Text určení licenčního klíče</description>
+	</item>
+	<item id="License.LicenseExists" group="Complete">
+		<message>Tento licenční klíč již existuje</message>
+		<description>Text znovuzadání existujícího licenčního klíče</description>
+	</item>
+	<item id="Complete.LangSave" group="Complete">
+		<message>Šablona jazyka uložena</message>
+		<description>Text uložení jazykové šablony</description>
+	</item>
+	<item id="Complete.SetLangDefault" group="Complete">
+		<message>Vybraná jazyková šablona byla nastavena jako výchozí</message>
+		<description>Text nastavení výchozího jazyka</description>
+	</item>
+	<item id="Complete.LangDelete" group="Complete">
+		<message>Jazyková šablona smazána</message>
+		<description>Text výmazu šablony jazyka</description>
+	</item>
+	<item id="Complete.FileImport" group="Complete">
+		<message>Soubor úspěšně nahrán</message>
+		<description>Text úspěšného nahrání souboru</description>
+	</item>
+
+	<!-- Toolbar -->
+	<item id="Toolbar.FromBank" group="Toolbar">
+		<message>Ze zásobárny</message>
+		<description>Tlačítko Ze zásobárny</description>
+	</item>
+	<item id="Button.Back" group="Toolbar">
+		<message>Zpět</message>
+		<description>Tlačítko Zpět</description>
+	</item>
+	<item id="Button.Add" group="Toolbar">
+		<message>Přidat</message>
+		<description>Tlačítko Přidat</description>
+	</item>
+	<item id="Button.Edit" group="Toolbar">
+		<message>Editovat</message>
+		<description>Tlačítko Editovat</description>
+	</item>
+	<item id="Button.Remove" group="Toolbar">
+		<message>Odstranit</message>
+		<description>Tlačítko Odstranit</description>
+	</item>
+	<item id="Button.Activate" group="Toolbar">
+		<message>Aktivovat</message>
+		<description>Tlačítko Aktivovat</description>
+	</item>
+	<item id="Button.Deactivate" group="Toolbar">
+		<message>Deaktivovat</message>
+		<description>Tlačítko Deaktivovat</description>
+	</item>
+	<item id="Toolbar.Import" group="Toolbar">
+		<message>Nahrát</message>
+		<description>Tlačítko Nahrát</description>
+	</item>
+	<item id="Toolbar.Export" group="Toolbar">
+		<message>Exportovat</message>
+		<description>Tlačítko Exportovat</description>
+	</item>
+	<item id="Toolbar.ExportToCSV" group="Toolbar">
+		<message>Do CSV</message>
+		<description>Tlačítko Do CSV</description>
+	</item>
+	<item id="Toolbar.ExportToExcel" group="Toolbar">
+		<message>Do Excelu</message>
+		<description>Tlačítko Do Excelu</description>
+	</item>
+	<item id="Toolbar.ExportToWord" group="Toolbar">
+		<message>Do Wordu</message>
+		<description>tlačítko Do Wordu</description>
+	</item>
+	<item id="Toolbar.ExportToHTML" group="Toolbar">
+		<message>Do HTML</message>
+		<description>Tlačítko Do HTML</description>
+	</item>
+	<item id="Toolbar.Filters" group="Toolbar">
+		<message>Filtry</message>
+		<description>Tlačítko Filtry</description>
+	</item>
+	<item id="Toolbar.Apply" group="Toolbar">
+		<message>Použít</message>
+		<description>Tlačítko Použít</description>
+	</item>
+	<item id="Toolbar.Cancel" group="Toolbar">
+		<message>Zrušit</message>
+		<description>Tlačítko Zrušit</description>
+	</item>
+	<item id="Toolbar.Save" group="Toolbar">
+		<message>Uložit</message>
+		<description>Tlačítko Uložit</description>
+	</item>
+	<item id="Toolbar.QuizList" group="Toolbar">
+		<message>Seznam kvízů</message>
+		<description>Tlačítko Seznam kvízů</description>
+	</item>
+	<item id="Toolbar.ResultList" group="Toolbar">
+		<message>Výsledková listina</message>
+		<description>Tlačítko Výsledková listina</description>
+	</item>
+	<item id="Toolbar.Results" group="Toolbar">
+		<message>Výsledky</message>
+		<description>Tlačítko výsledky</description>
+	</item>
+	<item id="Toolbar.Default" group="Toolbar">
+		<message>Výchozí</message>
+		<description>Tlačítko Výchozí</description>
+	</item>
+	<item id="Toolbar.Preview" group="Toolbar">
+		<message>Náhled</message>
+		<description>Tlačítko Náhled</description>
+	</item>
+
+	<!-- Warning messages -->
+	<item id="Warning.QuestionNoSetScore" group="Warning">
+		<message>Nebylo upřesněno skóre otázky. Jste si jisti uložením?</message>
+		<description>Varovná zpráva nezadaného skóre za otázku</description>
+	</item>
+	<item id="Warning.RSNotCoveredPoint" group="Warning">
+		<message>Některé rozsahy skóre jsou nepokryty. Jste si jisti uložení?</message>
+		<description>Varovná zpráva výsledkové škály</description>
+	</item>
+	<item id="Warning.ResultScaleRemove" group="Warning">
+		<message>Chcete odstranit vybrané škály?</message>
+		<description>Varovná zpráva odstranění výsledkové škály</description>
+	</item>
+	<item id="Warning.ResultRemove" group="Warning">
+		<message>Opravdu chcete odstranit vybrané výsledky?</message>
+		<description>Varovná zpráva odstarnění výsledků</description>
+	</item>
+	<item id="Warning.QuizRemove" group="Warning">
+		<message>Opravdu chcete odstranit vybrané kvízy?</message>
+		<description>Varovná zpráva mazání kvízů</description>
+	</item>
+	<item id="Warning.CategoryRemove" group="Warning">
+		<message>Opravdu chcete odstranit vybrané kategorie?</message>
+		<description>Varovná zpráva odstranění kategorií</description>
+	</item>
+	<item id="Warning.QTemplateRemove" group="Warning">
+		<message>Opravdu chcete odstranit vybrané šablony?</message>
+		<description>Varovná zpráva odstranění šablon otázek</description>
+	</item>
+	<item id="Warning.QuestionAnswerRemove" group="Warning">
+		<message>Jste si jisti?</message>
+		<description>Varovná zpráva odstranění odpovědí otázky</description>
+	</item>
+	<item id="Warning.BankQuestionRemove" group="Warning">
+		<message>Opravdu chcete odstranit vybrané otázky?\r\n (Poznámka: Otázky ze zásobárny nebudou vymazány, pokud jsou základem pro otázky užité v kvízech.)</message>
+		<description>Varovná zpráva mazání otázek</description>
+	</item>
+	<item id="Warning.QuestionRemove" group="Warning">
+		<message>Opravdu chete vymazat vybrané otázky?</message>
+		<description>Varovná zpráva mazání otázek</description>
+	</item>
+	<item id="Warning.QCategoryRemove" group="Warning">
+		<message>Opravdu chcete vymazat zvolené kategorie?</message>
+		<description>Varovná zpráva mazání kategorie otázek</description>
+	</item>
+	<item id="Warning.DeleteQueFromQCategory" group="Warning">
+		<message>Opravdu chete vymazat otázky z těchto kategorií?</message>
+		<description>Varovná zpráva výmazu otázek z kategorie</description>
+	</item>
+	<item id="Warning.QCategoryCreateQuiz" group="Warning">
+		<message>Nejdříve prosím vytvořte kvíz</message>
+		<description>Varovná zpráva pro vytvoření kvízu před kategorií otázek</description>
+	</item>
+
+	<!-- Text messages -->
+	<item id="Text.ImportWarning" group="Text">
+		<message>Před nahráním dat vřele doporučujeme zazálohování Vaši databázi. Proces importu je nezvratný s vyjímkou manuálního umazávání nahraných dat.</message>
+		<description>Poznámka k importu</description>
+	</item>
+	<item id="Text.SQNote" group="Text">
+		<message>Označte vícenásobnou možnost odpovědi. Pokud chcete nastavit rozdílné body za odpovědi, pak je nutno zadat procentuální část bodů v % pole Skóre (Hodnota by měla být v rozmezí 0 až 100. Pokud nejsou hodnoty nastaveny, uživatel nedostane body za tuto odpověď) za příslušnou otázku. Tato hodnota bude narůstat pro uživatele v případě zvolení této odpovědi. Prázdné odpovědi budou ignorovány.</message>
+		<description>Poznámka jednotlivé otázky</description>
+	</item>
+	<item id="Text.MQNote" group="Text">
+		<message>Označte možnosti odpovědi a upravte celkovou sumu možností odpovědi. Pokud chcete nastavit rozdílné body za odpovědi, pak označte nutné kombinace otázek a procentuální zisk bodů za správné odpovězení otázky použitím '[+]' odkazu (Hodnota by měla být v rozmezí 0 až 100. Pokud nejsou hodnoty nastaveny, uživatel nedostane body za tuto odpověď). Tato hodnota bude narůstat pro uživatele v případě zvolení této odpovědi. Prázdné odpovědi budou ignorovány.</message>
+		<description>Poznámka násobné otázky</description>
+	</item>
+	<item id="Text.FTQNote" group="Text">
+		<message>Označte možnosti odpovědí pro otázku. Pokud chcete odlišit body získané za otázku, pak nastavte procentuální podíl v % v poli Skóre (Hodnota by měla být v rozmezí 0 až 100. Pokud nejsou hodnoty nastaveny, uživatel nedostane body za tuto odpověď) pro příslušnou otázku. Tato hodnota bude narůstat pro uživatele v případě zvolení této odpovědi. Prázdné odpovědi budou ignorovány.</message>
+		<description>Poznámka volné otázky</description>
+	</item>
+	<item id="Tooltip.ParsePluginTag" group="Text">
+		<message>Pokud je zvolena tato možnost, pak budou zpracovány tagy mambotů (zásuvných modulů)v textu otázky.</message>
+		<description>Nápověda zpracování tagů zásuvných modulů</description>
+	</item>
+	<item id="Tooltip.QuestionNote" group="Text">
+		<message>Toto pole je určeno pro zadání doplňujících informací k otázce. Tyto informace budou ukázány uživateli během zobrazení výsledků testu. Například zde můžete zdůvodnit proč jsou dané odpovědi považovány za správné a jiné nikoliv.</message>
+		<description>Nápověda k poznámce otázky</description>
+	</item>
+	<item id="Tooltip.QuizCanSkip" group="Text">
+		<message>Pokud je tato volba aktivována, může uživatel přeskakovat otázky a vrátit se k jejich vyplnění později</message>
+		<description>Nápověda přeskakování otázek</description>
+	</item>
+	<item id="Tooltip.QuizCanStop" group="Text">
+		<message>Pokud je tato volba aktivována, může uživatel zastavit vyplňování kvízu a vrátit se k němu později</message>
+		<description>nápověda pro zastavení kvízu</description>
+	</item>
+	<item id="Tooltip.QuizRandomQuestion" group="Text">
+		<message>Pokud je tato volba aktivována, je kvíz poskládán z náhodných otázek ignorujíc jejich pořadí. V druhém případě jsou otázky zobrazovány jak jsou seřazeny ve frontě</message>
+		<description>Nápověda náhodného kvízu</description>
+	</item>
+	<item id="Tooltip.QuizCalculator" group="Text">
+		<message>Pokud je tato volba aktivní, může uživatel během kvízu použít integrovaný kalkulátor</message>
+		<description>Nápověda kalkulátoru</description>
+	</item>
+
+	<!-- F.A.Q. -->
+	<item id="RichText.FAQ" group="F.A.Q." type="WYSIWYG">
+		<message>
+			<![CDATA[
+				<ol>
+					<li><b>Jak mohu nainstalovat update této komponenty?</b><br/>
+					Nejprve je nutno komponentu odinstalovat. Tím dojde k odstranění všech souborů komponenty, ale zůstanou zachována všechna data v databázi. Poté je třeba nainstalovat komponentu znova z novějšího sestavení. A to je vše, inovovaná komponenta je připravena.
+					<br /><br />
+					<li><b>Mohu použít i jiný jazyk při tvorbě kvízů?</b><br/>
+					Ano, ARI Quiz podporuje znakovou sadu unicode.
+					<br /><br />
+					<li><b>Jak mohu přidat položku menu směřující na seznam kvízů?</b><br/>
+					Použijte Joomla Menu Manager:<br />
+					- Klikněte na tlačítko "Nový".<br />
+					- Vyberte "Komponenta" ze sekce "Komponenty".<br />
+					- Vyberte ARI Quiz komponenty.<br />
+					- Klikněte na tlačítko "Uložit".
+					<br /><br />
+					<li><b>Jak mohu rozeznat ID kvízu?</b><br/>
+					ID můžete vidět na stránce se seznamem kvízů, nebo při aktualizování testu.
+					<br /><br />
+					<li><b>Jak mohu přidat do menu položku směřující na konkrétní kvíz?</b><br/>
+					Odkaz bude vypadat následovně: index.php?option=com_ariquiz&quiz_id=&amp;lt;ID kvízu&amp;gt;
+					<br /><br />
+					<li><b>Mohou se uživatelé podívat na statistiky kvízů, které absolvovali?</b><br/>
+					Ano, je to možné pro registrované uživatele pomocí odkazu index.php?option=com_ariquiz&task=quiz_stat. Pro vaše pohodlí můžete přidat příslušnou položku menu s tímto odkazem.
+					<br /><br />
+					<li><b>Přidal jsem textový zásuvný modul do textu otázky, ale ten nefunguje. Co je příčinou?</b><br/>
+					Zpracování obsahu otázky pomocí zásuvného modulu je zatím experimentální vlastností a tak nemůžeme plně zaručit její funkčnost se všemi zásuvnými moduly. Pokud zažíváte potíže, dejte nám prosím vědět jaký zásuvný modul používáte a jaký přidáváte kód do otázky
+				</ol>
+			]]>
+		</message>
+		<description>Text F.A.Q.</description>
+	</item>
+	<!-- Help  -->
+	<item id="RichText.Help" group="Help" type="WYSIWYG">
+		<message>
+			<![CDATA[
+				<ol>
+					<li><b>Kategorie kvízů (Quiz Categories)</b><br/>
+					Kategorie kvízů jsou používány pro rozčlenéní kvízů dle témat kterých se týkají.<br/><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Přidání a aktualizace kategorie</b><br/>
+						Pro přidání kategorie klikněte na tlačítko "Přidat" na stránce se seznamem kategorií. Pro aktualizaci klikněte na jméno kategorie v seznamu kategorií. Během přidávání a aktualizací můžete definovat následující vlastnosti:<br/>
+						- Jméno kategorie;<br/>
+						- Popis kategorie;<br/>
+						<li><b>Seznam kategorií</b><br/>
+						Na této stránce jsou zobrazeny seznamy kategorií a je zde možno vybrané kategorie smazat.<br/>
+					</ol>
+					<br /><br />
+					<li><b>Kategorie zásobárny otázek (Bank Categories)</b><br/>
+                     Kategorie otázek jsou použity pro rozčlenění otázek podle témat.<br/><br/>
+                     <ol style="list-style: lower-alpha;">
+                         <li><b>Přidání a aktualizace kategorie</b><br/>
+                          Pro přidání kategorie klikněte na tlačítko "Přidat" na stránce se seznamem kategorií. Pro aktualizaci klikněte na jméno kategorie v seznamu kategorií. Během přidávání a aktualizací můžete definovat následující vlastnosti:<br/>
+                          - Jméno kategorie;<br/>
+                          - Popis kategorie;<br/>
+                          <li><b>Seznam kategorií</b><br/>
+                          Na této stránce jsou zobrazeny seznamy kategorií a je zde možno vybrané kategorie smazat.<br/>
+                     </ol>
+                     <br /><br />
+
+					<li><b>Kategorie otázek (Question Categories)</b><br/>
+					Je používána pro vytvoření prohlédnutí kvízu v rozdílném tématu. V tomto případě přidáte kategorii otázek pro dané téma a dáte příslušné kategorie otázek do vytvořené otázky.
+					<br/><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Přidání a aktualizace kategorie otázek</b><br/>
+						Pro přidání kategorie otázek klikněte na tlačítko "Přidat" na stránce se seznamem kategorií otázek. Pro aktualizaci klikněte na jméno kategorie otázek v seznamu kategorií otázek. Během přidávání a aktualizací můžete definovat následující vlastnosti:<br/>
+						- Můžete vybrat kvíz, na který se odkazujete.(Pokud přidáváte novou kategorii otázek);<br/>
+						- Název kategorie;<br/>
+						- Nastavit množství otázek, které jsou voleny z kategorie otázek během absolvování kvízu. Pokud je zadáno "0", nebo je pole ponecháno prázdné, budou vybrány všechny otázky z dané kategorie<br/>
+						- Nastavit množství času, které je uživateli dáno k promyšlení odpovědí na otázky z dané kategorie. Pokud daný čas vyprší, dojde k posunu na další otázku. V tomto případě není předchozí otázka započítána. Pokud je zadáno "0", nebo je pole ponecháno prázdné, pak je uživateli dán neomezený čas k promyšlení otázek;<br/>
+						- Popis kategorie;<br/>
+						<li><b>Seznam kategorie otázek</b><br/>
+						Na této stránce je zobrazen seznam kategorií otázek a je zde možno vybrané kategorie smazat. Během mazání budete požádáni o rozhodnutí, zda budou otázky spojené s kategorií vymazány, nebo bude pouze zrušena jejich vazba k dané kategorii.<br/>
+					</ol>
+					<br /><br />
+					
+					<li><b>Šablony otázek (Question Templates)</b><br/>
+					V této části můžete přidávat šablony otázek pro vytváření nových otázek na základě základních typů otázek (Více část 10.c). Toto je používáno pro pohodlnější vytváření častěji se opakujících možností, například: "Ano/Ne", "Pravda/Lež".<br/><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Přidání a úprava šablony otázky</b><br/>
+						Pro vytvoření šablony otázky klikněte na tlačítko "Přidat" na stránce se seznamem šablon otázek. Pro aktualizaci klikněte na název šablony v seznamu šablon otázek. Během přidávání a aktualizací můžete definovat následující vlastnosti:<br/>
+						- Název šablony;<br/>
+						- Druh otázky (Více část 10.c);<br/>
+						- Zapínat a Vypínat validační parametry otázek během ukládání šablony;<br/>
+						- Nastavit parametry pro daný typ otázky;<br/>
+						<li><b>Seznam šablon otázek</b><br/>
+						Na této stránce je zobrazen seznam šablon otázek a je zde možno vybrané šablony smazat.<br/>
+					</ol>
+					<br /><br />
+					
+					<li><b>Textové šablony (Text Templates)</b><br/>
+					V této části můžete nastavovat šablony textu, které mohou být použity k zveřejnění výsledků kvízu.<br/><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Přidání a úprava šablony textu</b><br/>
+						Pro vytvoření šablony textu klikněte na tlačítko "Přidat" na stránce se seznamem šablon textu. Pro aktualizaci klikněte na název šablony v seznamu šablon textu. Během přidávání a aktualizací můžete definovat následující vlastnosti:<br/>
+						- Název šablony textu;<br/>
+						- Text šablony;<br/>
+						<li><b>Seznam šablon textu</b><br/>
+						Na této stránce je zobrazen seznam šablon textu a je zde možno vybrané šablony smazat.<br/>
+					</ol>
+					<br /><br />
+					
+					<li><b>Škály výsledků (Result Scale)</b><br/>
+					V této části můžete nastavovat šablony škál výsledků, které jsou použity pro různé zobrazení závěrečné stránky, emailové šablony v závislosti na získaných bodech uživatele během absolvování testu.<br /><br />
+					<ol style="list-style: lower-alpha;">
+						<li><b>Přidání a úprava škály výsledků</b><br/>
+						Pro vytvoření škály výsledku klikněte na tlačítko "Přidat" na stránce se seznamem škál výsledků. Pro aktualizaci klikněte na název škály v seznamu škál výsledků. Během přidávání a aktualizací můžete definovat následující vlastnosti:<br/>
+      					- Název škály výsledku;<br/>
+      					- Nastavení šablony a rozsahu bodů pro které bude daná šablona použita (obsahuje též rozpětí bodů);<br/>
+      					<li><b>Seznam škál výsledků</b><br/>
+      					Na této stránce je zobrazen seznam škál výsledků a je zde možno vybrané škály smazat.<br/>
+					</ol>
+					<br /><br />
+					
+					<li><b>Šablony emailu (Mail Templates)</b><br/>
+                    V této části můžete nastavovat šablony emailů s výsledky kvízů.<br/><br/>
+                    <ol style="list-style: lower-alpha;">
+                         <li><b>Přidání a úprava šablony emailu</b><br/>
+                         Pro vytvoření šablony emailu klikněte na tlačítko "Přidat" na stránce se seznamem šablon emailu. Pro aktualizaci klikněte na název šablony v seznamu šablon emailu. Během přidávání a aktualizací můžete definovat následující vlastnosti:<br/>
+                         - Název šablony emailu;<br/>
+                         - Text šablony;<br/>
+                         - Od (email odesílatele);<br/>
+                         - Odesílatel (jméno odesílatele);<br/>
+                         - Předmět (předmět emailu);<br/>
+                         <li><b>Seznam šablon emailu</b><br/>
+                         Na této stránce je zobrazen seznam šablon emailu a je zde možno vybrané šablony smazat.<br/>
+                    </ol>
+                    <br /><br />
+
+					<li><b>Výsledky kvízu (Quiz Results)</b><br/>
+					V této části se můžete podívat na výsledky kvízů absolvovaných uživateli. Pro pohodlnější vyhledávání v kvízech je třeba použít filtr, který umožní výběr výsledků dle určitého kvízu či uživatele. Kromě toho je zde možnost exportu výsledků které jste zvolili do následujících formátů: CSV, HTML, MS Word, MS Excel. Výsledky v CSV a MS Excel budou uvedeny v jednoduché formě, v HTML a MS Word rozvinutou formou.
+					<br /><br /><br />
+					
+					<li><b> Jazyk (Languages / Languages Frontend)</b><br/>
+					V této části máte možnost zvolit si z předdefinovaných jazyků. Mimoto si můžete přidat nový jazyk, kdy je pro vás připraven oddělený interface pro frontend a backend. Můžete také exportovat či nahrát jazykové nastavení pomocí XML souboru.
+					<br /><br /><br />
+					
+					<li><b>Šablony (Templates)</b><br/>
+					V této části můžete nastavovat CSS šablony. Tyto šablony mohou být použity při zobrazování kvízů uživatelům.<br/><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Přidání a úprava šablony</b><br/>
+						Pro vytvoření CSS šablony klikněte na tlačítko "Přidat" na stránce se seznamem CSS šablon. Pro aktualizaci klikněte na název šablony v seznamu CSS šablon. Během přidávání a aktualizací můžete definovat následující vlastnosti:<br/>
+						- Název šablony;<br/>
+						- Text šablony;<br/>
+						<li><b>Seznam CSS šablon</b><br/>
+						Na této stránce je zobrazen seznam CSS šablon a je zde možno vybrané šablony smazat.<br/>
+					</ol>
+					<br /><br />
+					
+					<li><b>Licence (License)</b><br/>
+					V této části můžete spravovat licence k této komponentě. Pokud vaše licence vypršela, můžete i nadále komponentu využívat, avšak Vám již nebude poskytována podpora a aktualizace. K prodloužení licence navštivte ari-soft.com a získejte licenci na dobu, jakou potřebujete. Tuto pak zadejte v sekci "Nová licence", do doménového pole zadejte adresu domény, pro kterou bude následující licence použita. V položce "Licenční kód" zadejte klíč, který jste obdrželi.
+					<br /><br /><br />
+					
+					<li><b>Seznam kvízů </b><br/>
+					V této části můžete spravovat své kvízy.<br/><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Přidání a úprava kvízu</b><br/>
+						Pro vytvoření kvízu klikněte na tlačítko "Přidat" na stránce se seznamem kvízů. Pro aktualizaci klikněte na název kvízu v seznamu kvízů. Během přidávání a aktualizací můžete definovat následující vlastnosti:<br/>
+						- Název kvízu;<br/>
+						- Kategorie odkazující na kvíz.(Více část 1);<br/>
+						- Nastavit skupinu uživatelů pro které bude kvíz přístupný. Pokud je zvolena skupina "Host", budou moci všichni uživatelé k danému kvízu přistupovat. Toto nastavení je hiearchické: jakmile zvolíte úroveň "Autor", pak "Autor", "Editor" a "Publikující" budou mít přístup k danému kvízu;<br/>
+						- Aktivovat či deaktivovat kvízy;<br/>
+						- Nastavení času pro absolvování kvízu. Pokud je zadáno "0" nebo je ponecháno prázdné, není uživatel nijak časem limitován, ale stále může být použito omezení času na jednotlivou otázku;<br/>
+						- Nastavit množství dosažených bodů pro absolvování kvízu (v procentech);<br/>
+						- Nastavit maximální počet otázek v kvízu. Pokud je zadáno "0" nebo je ponecháno prázdné, budou do zásobníku daného kvízu zařazeny všechny otázky;<br/>
+						- Nastavit možný čas pro promyšlení odpovědi na otázku. Pokud je zadáno "0" nebo je ponecháno prázdné, je uživateli k dispozici libovolný čas, pokud není nadefinováno časové omezení celého kvízu, kategorie otázek či úrovně otázek;<br/>
+						- popisek kvízu;<br/>
+						- Nadefinovat šablonu textu, který bude uživateli prezentován po úspěšném dokončení kvízu. Pokud není nadefinováno, nic nebude po dokončení kvízu zobrazeno;<br/>
+						- Nadefinovat šablonu textu, který bude uživateli prezentován po neúspěšném dokončení kvízu. Pokud není nadefinováno, nic nebude po dokončení kvízu zobrazeno;<br/>
+						- Nadefinovat šablonu textu pro tisk po úspěšném dokončení kvízu. Pokud není nadefinováno, nebude moci uživatel vytisknout výsledky;<br/>
+						- Nadefinovat šablonu textu pro tisk po neúspěšném dokončení kvízu. Pokud není nadefinováno, nebude moci uživatel vytisknout výsledky;<br/>
+						- Nadefinovat šablonu emailu pro odeslání emailu po úspěšném dokončení kvízu. Pokud není nic nadefinováno, uživatel si nebude moci odeslat výsledky na svůj email po dokončení kvízu;<br/>
+						- Nadefinovat šablonu emailu pro odeslání emailu po neúspěšném dokončení kvízu. Pokud není nic nadefinováno, uživatel si nebude moci odeslat výsledky na svůj email po dokončení kvízu;<br/>
+						- Nadefinovat CSS šablonu pro zobrazování kvízu uživatelům;<br/>
+						- Povolit uživateli přeskakovat otázky a vracet se k nim v pozdější fázi vyplňování;<br/>
+						- Zobrazovat otázky v náhodném pořadí;<br/>
+						- Povolit uživatelům používat integrovaný kalkulátor během testu (Užitečné v případě kvízů s matematickým obsahem na základě slovních úloh);<br/>
+						- Nastavit časový úsek, který musí uběhnout po dokončení kvízu, než je znovuzpřístupněn danému uživateli. Pokud je zadáno "0" nebo je ponecháno prázdné, je počet neomezen.(Nevztahuje se na neregistrované uživatele).<br/>
+						
+						<li><b>Seznam kvízů</b><br/>
+						V této části je zobrazen seznam dostupných kvízů a je zde možnost kvízy aktivovat, deaktivovat a mazat.<br/>
+					</ol>
+					<br /><br />
+					
+					<li><b>Správa otázek</b><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Přidání a úprava otázek</b><br/>
+						Pro vytvoření otázky klikněte na tlačítko "Přidat" na stránce se seznamem otázek. Pro aktualizaci klikněte na název otázky v seznamu otázek. Během přidávání a aktualizací můžete definovat následující vlastnosti:<br/>
+						- Nastavení kategorie otázky (Více část 2);<br/>
+						- Přidat otázku na základě šablony otázky (Více část 3);<br/>
+						- Vybrat typ otázky na základě toho jak bude otázka vytvořena (Více část 10.c);<br/>
+						- Nastavit množství bodů pro skóre u správných odpovědí;<br/>
+						- Nadefinovat text otázky (Za pomoci WYSIWYG editoru);<br/>
+						- Nadefinovat poznámku otázky (Toto pole je určeno na zadání doplňujících informací k otázce. Tato informace bude zobrazena uživateli až v rámci zobrazení výsledků kvízu. Příkladem může být zdůvodnění, proč jsou dané odpovědi považovány za správné či špatnét);<br/> 
+						- Určit parametry pro typ zvolené otázky.<br/>
+
+						<li><b>Seznam otázek</b><br/>
+						Pro přístup na stránku se seznamem otázek kvízu klikněte na zobrazení otázek kvízu na stránce seznamu kvízů (Více část 9.b). Na této stránce je možnost mazat zvolené otázky, nebo přidávat záznamy či přeorganizovat pořadí. Pořadí otázek bude bráno v potaz pokud je požadováno zobrazování podle pořadí v kvízu.<br/>
+						
+						<li><b>Typ otázky</b><br/>
+						- Single Question: je druh otázky, kdy je pouze jedna z možností správná;<br/>
+						- Multiple Question: je druh otázky, kde je možno zvolit více správných odpovědí;<br/>
+						- Free Text: je druh otázky kdy odpověď mudí být napsána do připraveného pole a není tak výběr z možností. Při tvorbě tohoto druhu otázky je třeba zadat jaké varianty odpovědi jsou považovány za správné;<br/>
+						- HotSpot Question: je druh otázky zadané pomocí obrázku, kdy uživatel musí na obrázku vybrat správný bod, na který je dotazován.<br/>
+						- Correlation Question: je druh otázky, ve které musí uživatel spárovat dvojice na základě jejich souvstažnosti pomocí rozbalovacího menu<br/>
+						- D&D Correlation Question: je druh otázky, ve které musí uživatel spárovat dvojice na základě jejich souvstažnosti napárováním obdélníků<br/>
+					</ol>
+					<br /><br />
+					
+					<li><b>Zásobárna otázek (Question Bank)</b><br/>
+					Obsahuje otázky, které lze přidat do kvízů. Pokud dojde ke změně otázky v zásobárně, promítnou se veškeré změny do kvízů, ve kterých jsou tyto otázky použity.
+					<br /><br /><br />
+				</ol>
+			]]>
+		</message>
+		<description>Text nápovědy</description>
+	</item>
+
+	<!-- Controls -->
+	<item id="Controls.DTFirstPage" group="Controls">
+		<message>&lt;&lt; první</message>
+		<description>Datová mřížka: popisek odkazu na první stránky</description>
+	</item>
+	<item id="Controls.DTLastPage" group="Controls">
+		<message>poslední &gt;&gt;</message>
+		<description>Datová mřížka: popisek odkazu na poslední stránku</description>
+	</item>
+	<item id="Controls.DTNextPage" group="Controls">
+		<message>následující &gt;</message>
+		<description>Datová mřížka: popisek odkazu na následující stránku</description>
+	</item>
+	<item id="Controls.DTPrevPage" group="Controls">
+		<message>&lt; předchozí</message>
+		<description>Datová mřížka: popisek odkazu na předchozí stránku</description>
+	</item>
+	<item id="Controls.DTPageReportTemplate" group="Controls">
+		<message>({currentPage} z {totalPages})</message>
+		<description>Datová mřížka: šablona stránky oznámení</description>
+	</item>
+	<item id="Controls.DTTemplate" group="Controls">
+		<message>Zobraz: {RowsPerPageDropdown} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {CurrentPageReport}</message>
+		<description>Datová mřížka: šablona</description>
+	</item>
+
+	<!--  Extra Properties -->
+	<item id="Quiz.ShowFullStatistics" group="Properties">
+		<message>Zobrazit plné statistiky</message>
+		<description>Zobrazit plné statistiky</description>
+	</item>
+	<!--item id="Quiz.QuestionColsCount" group="Properties">
+		<message>Počet sloupců</message>
+		<description>Počet sloupců</description>
+	</item>
+	<item id="Quiz.HistoryText" group="Properties">
+		<message>Historie</message>
+		<description>Historie</description>
+	</item-->
+</resource>

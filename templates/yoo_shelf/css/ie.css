@@ -1,0 +1,24 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/ie.css);
+
+a.button-more { behavior: url(../warp/js/css3pie.htc); }
+
+a.button-more { position: relative; }
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+.menu-dropdown li.level1:hover .level1,
+.menu-dropdown li.remain .level1 { background: #ddd; }
+
+.menu-dropdown .dropdown-bg > div { 
+	border: 1px solid #ddd;
+	border-top: none;
+}
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Search Box */
+#searchbox input { line-height: 26px; }

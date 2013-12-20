@@ -1,0 +1,31 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/mobile.css);
+
+body#page { background: #F0F1F2; }
+
+#m-top .module,
+.noblog #m-content,
+#page.isblog #system .item,
+#m-bottom .module {
+	background: #FCFDFE;
+	border: 1px solid #fff;
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.4);
+	box-shadow: 0 0 3px rgba(0,0,0,0.4);
+}
+
+#m-desktop {
+	border: 1px solid #000000;
+	background: #3D3E3E;
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #4C4D4E),
+					color-stop(100%, #3D3E3E)
+				);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.4);
+	box-shadow: 0 0 3px rgba(0,0,0,0.4);
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,1);
+}

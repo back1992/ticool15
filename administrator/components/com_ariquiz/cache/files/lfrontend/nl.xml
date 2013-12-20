@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resource>
+	<item id="Label.QuizStopped" group="Labels">
+		<message>De toets is opgeslagen en gestopt. Je kunt er later mee verdergaan.</message>
+		<description>De toest is opgeslagen en gestopt. Je kunt er later mee verdergaan.</description>
+	</item>
+	<item id="Label.QuizSaveExit" group="Labels">
+		<message>Opslaan &amp; Afsluiten</message>
+		<description>Save &amp; Afsluiten</description>
+	</item>
+	<item id="Label.SelectAnswer" group="Labels">
+		<message>- Kies een antwoord -</message>
+		<description>label kies antwoord</description>
+	</item>
+	<item id="Label.QuestionNote" group="Labels">
+		<message>Opmerking</message>
+		<description>label opmerking</description>
+	</item>
+	<item id="Label.TextboxWatermarkText" group="Labels">
+		<message>Voer de tekst in</message>
+		<description>Label invoeren tekst</description>
+	</item>
+	<item id="Label.CorrectCorrelation" group="Labels">
+		<message>Goede verbinding</message>
+		<description>Label goede verbinding</description>
+	</item>
+	<item id="Label.UserCorrelation" group="Labels">
+		<message>Gebruikers verbinding</message>
+		<description>label gebruikers verbinding</description>
+	</item>
+	<item id="Label.QuestionCategory" group="Labels">
+		<message>categorie vragen</message>
+		<description>label vragen categorie</description>
+	</item>
+	<item id="Label.QuestionType" group="Labels">
+		<message>Type vraag</message>
+		<description>label type vraag</description>
+	</item>
+	<item id="Label.TotalTime" group="Labels">
+		<message>Totale tijd</message>
+		<description>label totale tijd</description>
+	</item>
+	<item id="Label.TextCI" group="Labels">
+		<message>Hoofdletter ongevoelig</message>
+		<description>Hoofdletter ongevloelig</description>
+	</item>
+	<item id="Label.QuizStatistics" group="Labels">
+		<message>Toets statistieken</message>
+		<description>Label voor toets statistieken</description>
+	</item>
+	<item id="Label.Answer" group="Labels">
+		<message>Antwoord</message>
+		<description>Label voor antwoord</description>
+	</item>
+	<item id="Label.User" group="Labels">
+		<message>Gebruiker</message>
+		<description>Label voor gebruiker</description>
+	</item>
+	<item id="Label.Correct" group="Labels">
+		<message>Goed</message>
+		<description>Label voor goed</description>
+	</item>
+	<item id="Label.Incorrect" group="Labels">
+		<message>Jammer, niet goed</message>
+		<description>Label voor niet goed</description>
+	</item>
+	<item id="Category.Uncategory" group="Labels">
+		<message>Algemeen</message>
+		<description>Naam voor algemene categorie</description>
+	</item>
+	<item id="Label.RemainingTime" group="Labels">
+		<message>Resterende tijd</message>
+		<description>Label voor resterende tijd</description>
+	</item>
+	<item id="Label.Completed" group="Labels">
+		<message>Gereed</message>
+		<description>Label gereed</description>
+	</item>
+	<item id="Label.Print" group="Labels">
+		<message>Afdrukken</message>
+		<description>Label afdrukken</description>
+	</item>
+	<item id="Label.Continue" group="Labels">
+		<message>Doorgaan</message>
+		<description>Label doorgaan</description>
+	</item>
+	<item id="Label.Email" group="Labels">
+		<message>E-mail</message>
+		<description>Label e-mail</description>
+	</item>
+	<item id="Title.QuizResultList" group="Labels">
+		<message>Lijst toets resultaten</message>
+		<description>Label lijst toets resultaten</description>
+	</item>
+	<item id="Label.Quiz" group="Labels">
+		<message>Toets</message>
+		<description>Toets</description>
+	</item>
+	<item id="Label.NumberPos" group="Labels">
+		<message>#</message>
+		<description>label positie nummer</description>
+	</item>
+	<item id="Label.StartDate" group="Labels">
+		<message>Startdatum</message>
+		<description>Label startdatum</description>
+	</item>
+	<item id="Label.EndDate" group="Labels">
+		<message>Einddatum</message>
+		<description>label einddatum</description>
+	</item>
+	<item id="Label.Score" group="Labels">
+		<message>Score</message>
+		<description>Score</description>
+	</item>
+	<item id="Label.Details" group="Labels">
+		<message>Details</message>
+		<description>Details</description>
+	</item>
+	<item id="Label.Passed" group="Labels">
+		<message>Geslaagd</message>
+		<description>Geslaagd</description>
+	</item>
+	<item id="Label.NoPassed" group="Labels">
+		<message>Niet geslaagd</message>
+		<description>Niet geslaagd</description>
+	</item>
+	<item id="Label.View" group="Labels">
+		<message>Bekijk</message>
+		<description>Bekijk</description>
+	</item>
+	<item id="Label.Question" group="Labels">
+		<message>Vraag</message>
+		<description>label vraag</description>
+	</item>
+	<item id="Label.Choice" group="Labels">
+		<message>Keuze</message>
+		<description>label keuze</description>
+	</item>
+	<item id="Label.Save" group="Labels">
+		<message>Opslaan</message>
+		<description>Label opslaan</description>
+	</item>
+	<item id="Label.Skip" group="Labels">
+		<message>Overslaan</message>
+		<description>Label overslaan</description>
+	</item>
+	<item id="Label.Calculator" group="Labels">
+		<message>Rekenmachiner</message>
+		<description>Label rekenmachine</description>
+	</item>
+	<item id="Label.Guest" group="Labels">
+		<message>Gast</message>
+		<description>Label gast</description>
+	</item>
+	<item id="Label.EmailQuizResult" group="Labels">
+		<message>Toets resultaten</message>
+		<description>E-mail onderwerp toets resultaten</description>
+	</item>
+	<item id="Label.EmailSend" group="Labels">
+		<message>E-mail is verstuurd</message>
+		<description>Label verstuurde e-mail</description>
+	</item>
+	<item id="Label.EmailNotSend" group="Labels">
+		<message>E-mail is niet verstuurd</message>
+		<description>label e-mail is niet verstuurd</description>
+	</item>
+	<item id="Label.NotItemsFound" group="Labels">
+		<message>Geen items aanwezig om te laten zien</message>
+		<description>Label geen items om te laten zien</description>
+	</item>
+
+	<item id="Date.DayShort" group="Labels">
+		<message>dag</message>
+		<description>Afkorting dag</description>
+	</item>
+	<item id="Date.HourShort" group="Labels">
+		<message>uur</message>
+		<description>Afkorting uur</description>
+	</item>
+	<item id="Date.MinuteShort" group="Labels">
+		<message>min</message>
+		<description>Afkorting minuut</description>
+	</item>
+	<item id="Date.SecondShort" group="Labels">
+		<message>sec</message>
+		<description>Afkorting seconde</description>
+	</item>
+	<item id="Label.QuestionInfo" group="Labels">
+		<message>Vraag %d of %d</message>
+		<description>Vraag N van M label</description>
+	</item>
+	<item id="Label.JSQuestionInfo" group="Labels">
+		<message>Vraag #{qIndex} of #{qCount}</message>
+		<description>Vraag N van M label</description>
+	</item>
+	<item id="Label.YouChoose" group="Labels">
+		<message>Kies nu</message>
+		<description>label kies nu</description>
+	</item>
+	<item id="Label.CorrectAnswerIs" group="Labels">
+		<message>het goede antwoord is</message>
+		<description>label goede antwoord</description>
+	</item>
+
+	<!-- item id="Label.TGFirstName" group="Other">
+		<message>Voornaam</message>
+		<description>label voornaam</description>
+	</item>
+	<item id="Label.TGLastName" group="Other">
+		<message>Achternaam</message>
+		<description>Label achternaam</description>
+	</item>
+	<item id="Label.TGEmail" group="Other">
+		<message>E-mail</message>
+		<description>Label e-mail</description>
+	</item>
+	<item id="Validator.TGFirstName" group="Other">
+		<message>Voornaam is verplicht</message>
+		<description>Controle voornaam</description>
+	</item>
+	<item id="Validator.TGLastName" group="Other">
+		<message>Achternaam is verplicht</message>
+		<description>Marco Smit</description>
+	</item>
+	<item id="Validator.TGEmail" group="Other">
+		<message>E-mail is verplicht</message>
+		<description>E-mail controle</description>
+	</item>
+	<item id="Validator.TGEmailFormat" group="Other">
+		<message>E-mail heeft verkeerde opmaak</message>
+		<description>E-mail opmaak controle</description>
+	</item>
+	
+	<item id="Label.VAName" group="Other">
+		<message>Naam</message>
+		<description>Label naam</description>
+	</item>
+	<item id="Label.VAAddress" group="Other">
+		<message>Adres</message>
+		<description>Adres label</description>
+	</item>
+	<item id="Label.VAPhone" group="Other">
+		<message>Telefoon</message>
+		<description>Telefoon label</description>
+	</item>
+	<item id="Label.VABirthday" group="Other">
+		<message>Geboortedatumy</message>
+		<description>Label geboortedatum</description>
+	</item>
+		<item id="Label.VAEmail" group="Other">
+		<message>E-mail</message>
+		<description>E-mail label</description>
+	</item>
+	<item id="Validator.VAName" group="Other">
+		<message>Naam is verplicht</message>
+		<description>Controle naam</description>
+	</item>
+	<item id="Validator.VAAddress" group="Other">
+		<message>Adres is verplicht</message>
+		<description>Controle adres</description>
+	</item>
+	<item id="Validator.VAPhone" group="Other">
+		<message>Telefoonnummer is verplicht</message>
+		<description>Controle telefoonnummer</description>
+	</item>
+	<item id="Validator.VABirthday" group="Other">
+		<message>Geboortedatum is verplicht</message>
+		<description>Controle geboortedatum</description>
+	</item>
+	<item id="Validator.VAEmail" group="Other">
+		<message>E-mail is verplicht</message>
+		<description>Controle e-mail</description>
+	</item>
+	<item id="Validator.VAEmailFormat" group="Other">
+		<message>E-mail heeft verkeerde opmaak</message>
+		<description>Controle opmaak e-mail</description>
+	</item-->
+
+	<item id="Error.QuizAttemptCount" group="Message">
+		<message>Niet mogelijk; aantal toegestane pogingen is bereikt,</message>
+		<description>Melding</description>
+	</item>
+	<item id="Error.QuizLagTime" group="Message">
+		<message>Niet mogelijk; toegestane tijd is overschreden</message>
+		<description>Melding</description>
+	</item>
+	<item id="Error.QuizNotRegistered" group="Message">
+		<message>Alleen geregistreerde deelnemers kunnen deze toest maken</message>
+		<description>Foutmelding</description>
+	</item>
+	<item id="Error.QuizNotHavePermissions" group="Message">
+		<message>Het is niet toegestaan deel te nemen aan deze toets</message>
+		<description>Foutmelding toets</description>
+	</item>
+	<item id="Error.QuizNotHaveQuestions" group="Message">
+		<message>Niet mogelijk omdat de toest geen vragen bevat</message>
+		<description>Foutmelding</description>
+	</item>
+	<item id="FrontEnd.QuizNotAvailable" group="Message">
+		<message>Gekozen toest niet beschikbaar; neem contact op met de systeembeheerder</message>
+		<description>Melding toets niet beschikbaar</description>
+	</item>
+
+	<item id="Validator.QuestionEmptyAnswer" group="Validators">
+		<message>Geen antwoord ingegeven. Wil je doorgaan?</message>
+		<description>Melding tekst controle</description>
+	</item>
+	<item id="Validator.HotspotNotSelected" group="Validators">
+		<message>Geen gebied geselecteerd. Wil je doorgaan?</message>
+		<description>Melding hotspot controle</description>
+	</item>
+	<item id="Validator.QuestionNotSelected" group="Validators">
+		<message>Geen antwoord gekozen. Toch doorgaan?</message>
+		<description>Melding keuze controle</description>
+	</item>
+
+	<item id="Ajax.Loading" group="AJAX">
+		<message>Aan het laden... een ogenblik geduld</message>
+		<description>Melding.. bezig met laden</description>
+	</item>
+	<item id="Ajax.ServerError" group="AJAX">
+		<message>Er is een probleem met de verbinding met de server. Probeer opnieuw! Als het probleem blijft, neem dan contact op met de systeembeheer.</message>
+		<description>Melding probleem server verbinding</description>
+	</item>
+
+	<!-- Controls -->
+	<item id="Controls.DTFirstPage" group="Controls">
+		<message>&lt;&lt; eerste</message>
+		<description>Data Grid: label eerste pagina</description>
+	</item>
+	<item id="Controls.DTLastPage" group="Controls">
+		<message>laatste &gt;&gt;</message>
+		<description>Data Grid: label laatste pagina</description>
+	</item>
+	<item id="Controls.DTNextPage" group="Controls">
+		<message>volgende &gt;</message>
+		<description>Data Grid: label volgende pagina</description>
+	</item>
+	<item id="Controls.DTPrevPage" group="Controls">
+		<message>&lt;&lt; vorige</message>
+		<description>Data Grid: label vorige pagina</description>
+	</item>
+	<item id="Controls.DTPageReportTemplate" group="Controls">
+		<message>({currentPage} van {totalPages})</message>
+		<description>Data Grid: Template pagina rapport</description>
+	</item>
+	<item id="Controls.DTTemplate" group="Controls">
+		<message>Display#: {RowsPerPageDropdown} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {CurrentPageReport}</message>
+		<description>Data Grid: template</description>
+	</item>
+</resource>

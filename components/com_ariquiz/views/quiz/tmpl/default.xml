@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Quiz Layout">
+		<message>
+			<![CDATA[QUIZ LAYOUT DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>Quiz Layout</name>
+		<description>QUIZ LAYOUT DESC</description>
+		<url addpath="/administrator/components/com_ariquiz/elements">
+			<param name="quizId" type="quiz" default="0" label="SELECT QUIZ" description="QUIZ" />
+			<param name="task" type="hidden" default="quiz" label="" description="" />
+		</url>
+		<params>
+		</params>
+	</state>
+</metadata>

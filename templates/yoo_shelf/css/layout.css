@@ -1,0 +1,97 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/layout.css);
+
+
+/* Spacing
+----------------------------------------------------------------------------------------------------*/
+
+.module,
+#breadcrumbs,
+#content,
+#footer { margin: 20px; }
+
+#toolbar,
+#header { margin: 0 20px; }
+
+#search { margin-left: 15px; }
+
+#menubar { margin: 30px 0; }
+
+#footer .module { margin: 0; }
+
+
+/* Blocks
+----------------------------------------------------------------------------------------------------*/
+
+#block-toolbar { 
+	padding: 7px 0 6px 0;
+	border-bottom: 1px solid #000;
+	background: #1F2021 url(../images/toolbar.png) 0 0 repeat-x;
+}
+
+#block-header #top-a { margin: 20px 0 40px 0; }
+
+#block-main { 
+	border-top: 1px solid #fff;
+	padding: 20px 0;
+	background: #FAFBFC url(../images/main.jpg) 50% 0 no-repeat;
+}
+
+#block-footer { background: url(../images/footer.png) 50% 0 repeat-x; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+body#page { background: #323334; }
+
+#toolbar {
+	line-height: 26px;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #646666;
+	text-shadow: 0 -1px 0 rgba(0,0,0,1);
+}
+
+#logo {
+	position: absolute;
+	top: 0;
+	left: -5px;
+}
+
+#menu { float: right; }
+
+#footer {
+	font-size: 11px;
+	color: #646666;
+	text-shadow: 0 -1px 0 rgba(0,0,0,1);
+	text-align: left;
+}
+
+#toolbar a,
+#footer a { color: #646666; }
+
+#toolbar a:hover,
+#footer a:hover { color: #A0A3A4; }
+
+#footer > div { float: left; }
+
+#logo-footer { 
+	float: left;
+	margin: -20px 20px 20px 0;
+}
+
+#totop-scroller {
+	display: block;
+	position: absolute;
+	top: -4px;
+	right: -4px;
+	z-index: 1;
+	width: 27px;
+	height: 27px;
+	background: url(../images/totop_scroller.png) 0 0 no-repeat;
+	text-decoration: none;
+}
+
+#totop-scroller:hover { background-position: 0 -30px; }
